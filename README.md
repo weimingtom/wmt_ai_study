@@ -8,3 +8,6 @@ My AI study
 
 ## 人工智能 语音算法  
 * search taobao  
+* ReSpeaker  
+* seq2seq  
+* 问答机器人，聊天机器人，对话机器人  
