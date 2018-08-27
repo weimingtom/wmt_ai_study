@@ -11,3 +11,6 @@ My AI study
 * ReSpeaker  
 * seq2seq  
 * 问答机器人，聊天机器人，对话机器人  
+
+## Python 3.7  
+http://www.cnblogs.com/devilmaycry812839668/p/9274547.html  
