@@ -14,3 +14,8 @@ My AI study
 
 ## Python 3.7  
 http://www.cnblogs.com/devilmaycry812839668/p/9274547.html  
+
+## pytorch  
+GoogleNews-vectors-negative300.bin.gz  
+https://github.com/lucatosto/chatbot  
+https://github.com/nicolenair/chatbot  
