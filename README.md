@@ -19,3 +19,9 @@ http://www.cnblogs.com/devilmaycry812839668/p/9274547.html
 GoogleNews-vectors-negative300.bin.gz  
 https://github.com/lucatosto/chatbot  
 https://github.com/nicolenair/chatbot  
+
+## 自然语言处理与深度学习  
+自然言語処理と深層学習 C言語によるシミュレーション by 小高 知宏  
+http://cs.nju.edu.cn/rinc/book2017.html  
+search baidupan nlp_code_data  
+機械学習と深層学習  
