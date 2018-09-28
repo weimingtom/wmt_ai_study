@@ -25,3 +25,5 @@ https://github.com/nicolenair/chatbot
 http://cs.nju.edu.cn/rinc/book2017.html  
 search baidupan nlp_code_data  
 機械学習と深層学習  
+* https://www.ohmsha.co.jp/book/9784274220333/  
+* https://www.ohmsha.co.jp/book/9784274218873/  
