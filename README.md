@@ -27,3 +27,13 @@ search baidupan nlp_code_data
 機械学習と深層学習  
 * https://www.ohmsha.co.jp/book/9784274220333/  
 * https://www.ohmsha.co.jp/book/9784274218873/  
+
+## csdn  
+* search baidupan csdn.7z  
+* hownet词库  
+* 近40万词汇的中文分词词库  
+* 中文 分词 -- 同义词大全整理  
+* 中文同义词相近词分类词库及自然语言处理词库  
+* search cwb  
+* search EvaluationSystem  
+
