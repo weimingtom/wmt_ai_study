@@ -37,3 +37,6 @@ search baidupan nlp_code_data
 * search cwb  
 * search EvaluationSystem  
 
+## Tencent AI Lab Embedding Corpus for Chinese Words and Phrases  
+https://zhuanlan.zhihu.com/p/47133426  
+https://ai.tencent.com/ailab/nlp/embedding.html  
