@@ -40,3 +40,6 @@ search baidupan nlp_code_data
 ## Tencent AI Lab Embedding Corpus for Chinese Words and Phrases  
 https://zhuanlan.zhihu.com/p/47133426  
 https://ai.tencent.com/ailab/nlp/embedding.html  
+
+## funNLP  
+https://github.com/fighting41love/funNLP  
