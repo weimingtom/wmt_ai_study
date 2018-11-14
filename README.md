@@ -45,6 +45,7 @@ https://ai.tencent.com/ailab/nlp/embedding.html
 https://github.com/fighting41love/funNLP  
 
 ## PocketSphinx  
+https://github.com/cmusphinx/pocketsphinx  
 https://www.cnblogs.com/bhlsheji/p/4514475.html  
 https://blog.csdn.net/zouxy09/article/details/7942784  
 
