@@ -52,5 +52,5 @@ https://blog.csdn.net/zouxy09/article/details/7942784
 ## dingdang-robot  
 https://github.com/dingdang-robot/dingdang-robot  
 
-## SnowBoy  
+## snowboy  
 https://github.com/Kitt-AI/snowboy  
