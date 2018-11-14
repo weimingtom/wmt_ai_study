@@ -47,3 +47,6 @@ https://github.com/fighting41love/funNLP
 ## PocketSphinx  
 https://www.cnblogs.com/bhlsheji/p/4514475.html  
 https://blog.csdn.net/zouxy09/article/details/7942784  
+
+## dingdang-robot  
+https://github.com/dingdang-robot/dingdang-robot  
