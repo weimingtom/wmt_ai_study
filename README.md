@@ -54,3 +54,10 @@ https://github.com/dingdang-robot/dingdang-robot
 
 ## snowboy  
 https://github.com/Kitt-AI/snowboy  
+
+## 解析深度学习：语音识别实践  
+
+## CNTK  
+https://github.com/Microsoft/CNTK  
+
+
