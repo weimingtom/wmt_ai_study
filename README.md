@@ -63,3 +63,7 @@ https://github.com/Microsoft/CNTK
 ## HTK-Android  
 https://github.com/lichard49/HTK-Android  
 search HMM speech  
+
+## HMM  
+https://www.cnblogs.com/skyme/p/4651331.html  
+https://github.com/hankcs/Viterbi  
