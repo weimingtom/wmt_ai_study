@@ -60,4 +60,6 @@ https://github.com/Kitt-AI/snowboy
 ## CNTK  
 https://github.com/Microsoft/CNTK  
 
+## HTK-Android  
+https://github.com/lichard49/HTK-Android  
 
