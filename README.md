@@ -67,3 +67,6 @@ search HMM speech
 ## HMM  
 https://www.cnblogs.com/skyme/p/4651331.html  
 https://github.com/hankcs/Viterbi  
+
+## nn_speach_rec  
+https://github.com/zavarovkv/nn_speach_rec  
