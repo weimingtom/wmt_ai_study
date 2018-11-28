@@ -70,3 +70,6 @@ https://github.com/hankcs/Viterbi
 
 ## nn_speach_rec  
 https://github.com/zavarovkv/nn_speach_rec  
+
+## Keras  
+https://github.com/keras-team/keras  
