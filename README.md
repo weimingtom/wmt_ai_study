@@ -73,3 +73,6 @@ https://github.com/zavarovkv/nn_speach_rec
 
 ## Keras  
 https://github.com/keras-team/keras  
+
+## d2l-zh  
+https://github.com/diveintodeeplearning/d2l-zh  
