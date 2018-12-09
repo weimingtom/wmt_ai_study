@@ -76,3 +76,7 @@ https://github.com/keras-team/keras
 
 ## d2l-zh  
 https://github.com/diveintodeeplearning/d2l-zh  
+
+## Books 
+* Python机器学习经典实例  
+* 数字语音处理及MATLAB仿真  
