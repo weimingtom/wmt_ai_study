@@ -80,3 +80,9 @@ https://github.com/diveintodeeplearning/d2l-zh
 ## Books 
 * Python机器学习经典实例  
 * 数字语音处理及MATLAB仿真  
+
+## Python机器学习经典实例  
+https://github.com/PacktPublishing/Python-Machine-Learning-Cookbook/blob/master/Chapter07/speech_recognizer.py  
+hmm-speech-recognition  
+https://github.com/reddyb/hmm-speech-recognition  
+https://code.google.com/archive/p/hmm-speech-recognition/downloads  
