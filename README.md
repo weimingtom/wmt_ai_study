@@ -86,3 +86,10 @@ https://github.com/PacktPublishing/Python-Machine-Learning-Cookbook/blob/master/
 hmm-speech-recognition  
 https://github.com/reddyb/hmm-speech-recognition  
 https://code.google.com/archive/p/hmm-speech-recognition/downloads  
+
+## 语音识别  
+http://tieba.baidu.com/p/5971072647  
+百度  
+https://github.com/zh2209645/Sample-Raspberry-Chatbot  
+科大讯飞  
+https://github.com/wwptrdudu/Voice_Recognition_Control_Robot  
