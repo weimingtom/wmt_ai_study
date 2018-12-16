@@ -93,3 +93,12 @@ http://tieba.baidu.com/p/5971072647
 https://github.com/zh2209645/Sample-Raspberry-Chatbot  
 科大讯飞  
 https://github.com/wwptrdudu/Voice_Recognition_Control_Robot  
+
+## scikit-learn  
+https://scikit-learn.org/stable/  
+scipy  
+http://www.scipy.org  
+numpy  
+http://www.numpy.org  
+
+
