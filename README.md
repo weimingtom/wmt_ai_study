@@ -101,4 +101,11 @@ http://www.scipy.org
 numpy  
 http://www.numpy.org  
 
+## 西瓜书  
+周志华《机器学习》  
+
+## 机器学习三剑客  
+numpy（基础库）  
+Matplotlib（绘图）  
+pandas（数据处理）  
 
