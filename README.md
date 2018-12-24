@@ -120,3 +120,9 @@ https://github.com/super-1943/MCU/tree/master/sunplus/voice
 ## PyTorch_Tutorial  
 https://github.com/tensor-yu/PyTorch_Tutorial  
 
+## DQN三大改进(一)-Double DQN  
+https://www.jianshu.com/p/fae51b5fe000  
+https://github.com/MorvanZhou/Reinforcement-learning-with-tensorflow  
+https://morvanzhou.github.io/tutorials/  
+
+
