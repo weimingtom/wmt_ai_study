@@ -89,7 +89,7 @@ hmm-speech-recognition
 https://github.com/reddyb/hmm-speech-recognition  
 https://code.google.com/archive/p/hmm-speech-recognition/downloads  
 
-## 语音识别 (树莓派平台python）    
+## 语音识别 （树莓派平台python）    
 http://tieba.baidu.com/p/5971072647  
 百度  
 https://github.com/zh2209645/Sample-Raspberry-Chatbot  
