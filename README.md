@@ -125,4 +125,6 @@ https://www.jianshu.com/p/fae51b5fe000
 https://github.com/MorvanZhou/Reinforcement-learning-with-tensorflow  
 https://morvanzhou.github.io/tutorials/  
 
+## facebookresearch/wav2letter  
+https://github.com/facebookresearch/wav2letter  
 
