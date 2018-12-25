@@ -128,3 +128,8 @@ https://morvanzhou.github.io/tutorials/
 ## facebookresearch/wav2letter  
 https://github.com/facebookresearch/wav2letter  
 
+## facebookresearch/fastText  
+https://github.com/facebookresearch/fastText  
+https://fasttext.cc  
+
+
