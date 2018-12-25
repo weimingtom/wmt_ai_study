@@ -131,5 +131,5 @@ https://github.com/facebookresearch/wav2letter
 ## facebookresearch/fastText  
 https://github.com/facebookresearch/fastText  
 https://fasttext.cc  
-
-
+NLP︱高级词向量表达（二）——FastText（简述、学习笔记）  
+https://blog.csdn.net/sinat_26917383/article/details/54850933  
