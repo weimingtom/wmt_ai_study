@@ -133,3 +133,7 @@ https://github.com/facebookresearch/fastText
 https://fasttext.cc  
 NLP︱高级词向量表达（二）——FastText（简述、学习笔记）  
 https://blog.csdn.net/sinat_26917383/article/details/54850933  
+
+## Python自然语言处理实战：核心技术与算法  
+seq2seq  
+https://github.com/nlpinaction/learning-nlp/tree/master/chapter-10/seq2seq  
