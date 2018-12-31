@@ -137,3 +137,6 @@ https://blog.csdn.net/sinat_26917383/article/details/54850933
 ## Python自然语言处理实战：核心技术与算法  
 seq2seq  
 https://github.com/nlpinaction/learning-nlp/tree/master/chapter-10/seq2seq  
+
+## 语音信号处理（C++版）  
+机械工业出版社  
