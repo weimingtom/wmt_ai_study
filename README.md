@@ -143,3 +143,6 @@ https://github.com/nlpinaction/learning-nlp/tree/master/chapter-10/seq2seq
 
 ## caffe  
 https://github.com/BVLC/caffe  
+基于Caffe的深度学习实践  
+https://blog.csdn.net/san_junipero/article/details/79219730  
+
