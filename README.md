@@ -146,3 +146,7 @@ https://github.com/BVLC/caffe
 基于Caffe的深度学习实践  
 https://blog.csdn.net/san_junipero/article/details/79219730  
 
+## 深入理解TENSORFLOW架构设计与实现原理  
+http://www.ituring.com.cn/book/2397  
+https://github.com/DjangoPeng/tensorflow-in-depth  
+
