@@ -152,3 +152,8 @@ https://github.com/DjangoPeng/tensorflow-in-depth
 
 ## 大规模中文自然语言处理语料 Large Scale Chinese Corpus for NLP  
 https://github.com/brightmart/nlp_chinese_corpus  
+
+## stylegan  
+https://github.com/NVlabs/stylegan  
+https://mobile.twitter.com/roadrunning01/status/1095151658034757633  
+
