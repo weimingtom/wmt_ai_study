@@ -163,3 +163,6 @@ https://github.com/leon-ai/leon
 
 ## SC-FEGAN  
 https://github.com/JoYoungjoo/SC-FEGAN  
+
+## NeroParser  
+https://github.com/yaoguangluo/NeroParser  
