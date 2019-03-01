@@ -1,6 +1,12 @@
 # wmt_ai_study
 My AI study
 
+## 教程 / Tutorial  
+* NumPy  
+https://docs.scipy.org/doc/  
+* PyTorch  
+https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html  
+
 ## 超级大脑  
 * https://www.bilibili.com/video/av29501100/  
 * 人体植入芯片、外骨骼、脑电控制、OpenBCI、脑电干扰、情感分析  
@@ -166,13 +172,4 @@ https://github.com/JoYoungjoo/SC-FEGAN
 
 ## NeroParser  
 https://github.com/yaoguangluo/NeroParser  
-
-# 教程 / Tutorial  
-
-## NumPy  
-https://docs.scipy.org/doc/  
-
-## PyTorch  
-https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html  
-
 
