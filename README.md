@@ -167,7 +167,7 @@ https://github.com/JoYoungjoo/SC-FEGAN
 ## NeroParser  
 https://github.com/yaoguangluo/NeroParser  
 
-# Tutorial  
+# 教程 / Tutorial  
 
 ## NumPy  
 https://docs.scipy.org/doc/  
