@@ -166,3 +166,13 @@ https://github.com/JoYoungjoo/SC-FEGAN
 
 ## NeroParser  
 https://github.com/yaoguangluo/NeroParser  
+
+# Tutorial  
+
+## NumPy  
+https://docs.scipy.org/doc/  
+
+## PyTorch  
+https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html  
+
+
