@@ -115,7 +115,7 @@ http://www.numpy.org
 ## 机器学习三剑客  
 numpy（基础库）  
 Matplotlib（绘图）  
-pandas（数据处理）  
+pandas（数据处理, 读取csv）  
 
 ## OC Volume  
 http://ocvolume.sourceforge.net  
