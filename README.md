@@ -173,3 +173,6 @@ https://github.com/JoYoungjoo/SC-FEGAN
 ## NeroParser  
 https://github.com/yaoguangluo/NeroParser  
 
+## Practical Pytorch  
+https://github.com/spro/practical-pytorch  
+
