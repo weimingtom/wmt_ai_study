@@ -176,3 +176,6 @@ https://github.com/yaoguangluo/NeroParser
 ## Practical Pytorch  
 https://github.com/spro/practical-pytorch  
 
+## 深度学习入门之PyTorch  
+https://github.com/L1aoXingyu/code-of-learn-deep-learning-with-pytorch  
+
