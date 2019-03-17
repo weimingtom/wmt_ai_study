@@ -179,3 +179,5 @@ https://github.com/spro/practical-pytorch
 ## 深度学习入门之PyTorch  
 https://github.com/L1aoXingyu/code-of-learn-deep-learning-with-pytorch  
 
+## 面向自然语言处理的深度学习：用Python创建神经网络  
+https://github.com/Apress/deep-learning-for-natural-language-processing  
