@@ -183,3 +183,6 @@ https://github.com/L1aoXingyu/code-of-learn-deep-learning-with-pytorch
 https://github.com/Apress/deep-learning-for-natural-language-processing  
 https://www.apress.com/gp/book/9781484236840  
 
+## ShiqiYu/libfacedetection  
+https://github.com/ShiqiYu/libfacedetection  
+
