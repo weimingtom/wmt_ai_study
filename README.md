@@ -186,3 +186,6 @@ https://www.apress.com/gp/book/9781484236840
 ## ShiqiYu/libfacedetection  
 https://github.com/ShiqiYu/libfacedetection  
 
+## 物联网应用设计与实战 基于AVR单片机和Python  
+
+
