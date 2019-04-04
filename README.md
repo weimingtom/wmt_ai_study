@@ -11,7 +11,7 @@ http://www.waveshare.net/wiki/Music_Shield
 * 信泰微  
 VS1053模块 MP3模块开发板 解码板 板载录音功能  
 
-* AutoPiano
+* AutoPiano  
 https://github.com/WarpPrism/AutoPiano
 
 
