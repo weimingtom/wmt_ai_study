@@ -1,6 +1,17 @@
 # wmt_ai_study
 My AI study
 
+## 语音  
+* Music Shield V2.2, seeedstudio    
+http://wiki.seeedstudio.com/cn/Music_Shield_V2.2/  
+
+* Music Shield, waveshare  
+http://www.waveshare.net/wiki/Music_Shield  
+
+* 信泰微  
+VS1053模块 MP3模块开发板 解码板 板载录音功能  
+
+
 ## 教程 / Tutorial  
 * NumPy  
 https://docs.scipy.org/doc/  
@@ -187,5 +198,6 @@ https://www.apress.com/gp/book/9781484236840
 https://github.com/ShiqiYu/libfacedetection  
 
 ## 物联网应用设计与实战 基于AVR单片机和Python  
+
 
 
