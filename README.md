@@ -122,6 +122,7 @@ http://www.numpy.org
 
 ## 西瓜书  
 周志华《机器学习》  
+https://github.com/datawhalechina/pumpkin-book  
 
 ## 机器学习三剑客  
 numpy（基础库）  
