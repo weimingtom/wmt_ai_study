@@ -1,7 +1,7 @@
 # wmt_ai_study
 My AI study
 
-## 语音  
+## 音频、语音  
 * Music Shield V2.2, seeedstudio    
 http://wiki.seeedstudio.com/cn/Music_Shield_V2.2/  
 
@@ -10,6 +10,9 @@ http://www.waveshare.net/wiki/Music_Shield
 
 * 信泰微  
 VS1053模块 MP3模块开发板 解码板 板载录音功能  
+
+* AutoPiano
+https://github.com/WarpPrism/AutoPiano
 
 
 ## 教程 / Tutorial  
