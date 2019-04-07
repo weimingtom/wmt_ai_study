@@ -203,5 +203,8 @@ https://github.com/ShiqiYu/libfacedetection
 
 ## 物联网应用设计与实战 基于AVR单片机和Python  
 
+## 神经网络与深度学习  
+https://nndl.github.io/  
+https://github.com/nndl/nndl.github.io  
 
 
