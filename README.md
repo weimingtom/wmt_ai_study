@@ -4,6 +4,8 @@ My AI study
 ## 音频、语音  
 * Music Shield V2.2, seeedstudio    
 http://wiki.seeedstudio.com/cn/Music_Shield_V2.2/  
+https://github.com/jdkoftinoff/jdksmidi  
+https://github.com/Seeed-Studio/Music_Shield  
 
 * Music Shield, waveshare  
 http://www.waveshare.net/wiki/Music_Shield  
@@ -12,7 +14,7 @@ http://www.waveshare.net/wiki/Music_Shield
 VS1053模块 MP3模块开发板 解码板 板载录音功能  
 
 * AutoPiano  
-https://github.com/WarpPrism/AutoPiano
+https://github.com/WarpPrism/AutoPiano  
 
 
 ## 教程 / Tutorial  
