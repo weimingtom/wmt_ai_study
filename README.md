@@ -209,4 +209,7 @@ https://github.com/ShiqiYu/libfacedetection
 https://nndl.github.io/  
 https://github.com/nndl/nndl.github.io  
 
+## 机器学习实战  
+https://github.com/apachecn/AiLearning  
+
 
