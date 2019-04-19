@@ -215,3 +215,6 @@ https://github.com/apachecn/AiLearning
 search baidupan 机器学习实战  
 https://feisky.xyz/machine-learning/basic.html  
 
+## PyTorch机器学习从入门到实战  
+https://github.com/xiaobaoonline/pytorch-in-action  
+
