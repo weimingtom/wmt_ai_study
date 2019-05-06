@@ -218,3 +218,6 @@ https://feisky.xyz/machine-learning/basic.html
 ## PyTorch机器学习从入门到实战  
 https://github.com/xiaobaoonline/pytorch-in-action  
 
+## tensorflow2_tutorials_chinese  
+https://github.com/czy36mengfei/tensorflow2_tutorials_chinese  
+
