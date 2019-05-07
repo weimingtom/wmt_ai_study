@@ -221,3 +221,6 @@ https://github.com/xiaobaoonline/pytorch-in-action
 ## tensorflow2_tutorials_chinese  
 https://github.com/czy36mengfei/tensorflow2_tutorials_chinese  
 
+## alibaba/MNN  
+https://github.com/alibaba/MNN  
+
