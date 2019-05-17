@@ -224,3 +224,5 @@ https://github.com/czy36mengfei/tensorflow2_tutorials_chinese
 ## alibaba/MNN  
 https://github.com/alibaba/MNN  
 
+## 《程序员代码面试指南》-左程云  
+https://www.jianshu.com/p/c6b26f3a97b6  
