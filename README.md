@@ -227,3 +227,7 @@ https://github.com/alibaba/MNN
 ## 《程序员代码面试指南》-左程云  
 https://www.jianshu.com/p/c6b26f3a97b6  
 https://github.com/wutengfei/ZuoChengyun  
+
+## Python-100-Days  
+https://github.com/jackfrued/Python-100-Days  
+
