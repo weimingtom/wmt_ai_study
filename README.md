@@ -231,3 +231,5 @@ https://github.com/wutengfei/ZuoChengyun
 ## Python-100-Days  
 https://github.com/jackfrued/Python-100-Days  
 
+## 动手学深度学习  
+https://github.com/d2l-ai/d2l-zh  
