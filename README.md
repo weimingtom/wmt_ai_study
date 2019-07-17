@@ -237,3 +237,6 @@ https://github.com/d2l-ai/d2l-zh
 ## 统计学习方法  
 https://github.com/fengdu78/lihang-code  
 
+## 微软人工智能教育与学习共建社区  
+https://github.com/microsoft/ai-edu  
+
