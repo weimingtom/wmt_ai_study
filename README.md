@@ -240,3 +240,7 @@ https://github.com/fengdu78/lihang-code
 ## 微软人工智能教育与学习共建社区  
 https://github.com/microsoft/ai-edu  
 
+## 一款入门级的人脸、视频、文字检测以及识别的项目  
+https://github.com/vipstone/faceai  
+
+
