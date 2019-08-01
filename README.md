@@ -243,4 +243,7 @@ https://github.com/microsoft/ai-edu
 ## 一款入门级的人脸、视频、文字检测以及识别的项目  
 https://github.com/vipstone/faceai  
 
+## 中文预训练BERT-wwm  
+https://github.com/ymcui/Chinese-BERT-wwm  
+
 
