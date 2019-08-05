@@ -1,6 +1,9 @@
 # wmt_ai_study
 My AI study
 
+## Related Projects  
+* https://github.com/weimingtom/wmt_speech_study  
+
 ## 音频、语音  
 * Music Shield V2.2, seeedstudio    
 http://wiki.seeedstudio.com/cn/Music_Shield_V2.2/  
