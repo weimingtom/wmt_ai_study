@@ -249,4 +249,7 @@ https://github.com/vipstone/faceai
 ## 中文预训练BERT-wwm  
 https://github.com/ymcui/Chinese-BERT-wwm  
 
+## mmdetection  
+https://github.com/open-mmlab/mmdetection  
+
 
