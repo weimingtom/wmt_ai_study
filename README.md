@@ -252,4 +252,11 @@ https://github.com/ymcui/Chinese-BERT-wwm
 ## mmdetection  
 https://github.com/open-mmlab/mmdetection  
 
+## leeml-notes  
+https://github.com/datawhalechina/leeml-notes  
+
+## makcedward/nlp  
+https://github.com/makcedward/nlp  
+
+
 
