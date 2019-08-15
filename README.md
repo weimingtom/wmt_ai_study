@@ -261,4 +261,5 @@ https://github.com/makcedward/nlp
 ## 周志华《机器学习》的学习笔记  
 https://github.com/Vay-keen/Machine-learning-learning-notes  
 
-
+## C-OCR  
+https://github.com/ctripcorp/C-OCR  
