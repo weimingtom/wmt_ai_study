@@ -258,5 +258,7 @@ https://github.com/datawhalechina/leeml-notes
 ## makcedward/nlp  
 https://github.com/makcedward/nlp  
 
+## 周志华《机器学习》的学习笔记  
+https://github.com/Vay-keen/Machine-learning-learning-notes  
 
 
