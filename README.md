@@ -263,3 +263,6 @@ https://github.com/Vay-keen/Machine-learning-learning-notes
 
 ## C-OCR  
 https://github.com/ctripcorp/C-OCR  
+
+## 微软人工智能教育与学习共建社区  
+https://github.com/microsoft/ai-edu  
