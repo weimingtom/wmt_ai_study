@@ -266,3 +266,6 @@ https://github.com/ctripcorp/C-OCR
 
 ## 微软人工智能教育与学习共建社区  
 https://github.com/microsoft/ai-edu  
+
+## 动手学深度学习  
+https://github.com/d2l-ai/d2l-zh  
