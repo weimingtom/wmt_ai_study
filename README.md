@@ -269,3 +269,6 @@ https://github.com/microsoft/ai-edu
 
 ## 动手学深度学习  
 https://github.com/d2l-ai/d2l-zh  
+
+## Espresso: A Fast End-to-End Neural Speech Recognition Toolkit  
+https://github.com/freewym/espresso  
