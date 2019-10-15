@@ -279,3 +279,6 @@ https://github.com/fengdu78/deeplearning_ai_books
 ## face_recognition  
 https://github.com/ageitgey/face_recognition  
 
+## machine-learning-yearning-cn  
+https://github.com/deeplearning-ai/machine-learning-yearning-cn  
+
