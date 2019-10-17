@@ -282,3 +282,6 @@ https://github.com/ageitgey/face_recognition
 ## machine-learning-yearning-cn  
 https://github.com/deeplearning-ai/machine-learning-yearning-cn  
 
+## 1MB轻量级通用人脸检测模型  
+https://github.com/Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB  
+
