@@ -285,6 +285,8 @@ https://github.com/deeplearning-ai/machine-learning-yearning-cn
 ## 1MB轻量级通用人脸检测模型  
 https://github.com/Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB  
 
-
 ## 深度学习开源书，基于TensorFlow 2.0实战  
 https://github.com/dragen1860/Deep-Learning-with-TensorFlow-book  
+
+## TF 2.0版入门实例代码，实战教程  
+https://github.com/dragen1860/TensorFlow-2.x-Tutorials  
