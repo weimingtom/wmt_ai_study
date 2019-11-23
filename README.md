@@ -290,3 +290,11 @@ https://github.com/dragen1860/Deep-Learning-with-TensorFlow-book
 
 ## TF 2.0版入门实例代码，实战教程  
 https://github.com/dragen1860/TensorFlow-2.x-Tutorials  
+
+## Some Books  
+* Python机器学习算法：原理、实现与案例  
+* 树莓派创客：手把手教你搭建机器人  
+* 游戏AI程序设计实战  
+国人写的，讲Unity和行为树  
+* 微信小程序开发实践  
+提及wepy和mpvue  
