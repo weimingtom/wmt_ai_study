@@ -298,3 +298,5 @@ https://github.com/dragen1860/TensorFlow-2.x-Tutorials
 国人写的，讲Unity和行为树  
 * 微信小程序开发实践  
 提及wepy和mpvue  
+* Python 3破冰人工智能:从入门到实战  
+* Java趣味编程100例  
