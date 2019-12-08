@@ -304,3 +304,6 @@ https://github.com/dragen1860/TensorFlow-2.x-Tutorials
 # DeepSpeech  
 https://github.com/mozilla/DeepSpeech  
 
+# Dive-into-DL-PyTorch  
+https://github.com/ShusenTang/Dive-into-DL-PyTorch  
+
