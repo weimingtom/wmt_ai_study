@@ -307,3 +307,5 @@ https://github.com/mozilla/DeepSpeech
 # Dive-into-DL-PyTorch  
 https://github.com/ShusenTang/Dive-into-DL-PyTorch  
 
+# AI_Sudoku  
+https://github.com/neeru1207/AI_Sudoku  
