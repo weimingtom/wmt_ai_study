@@ -309,3 +309,6 @@ https://github.com/ShusenTang/Dive-into-DL-PyTorch
 
 # AI_Sudoku  
 https://github.com/neeru1207/AI_Sudoku  
+
+# mit-deep-learning  
+https://github.com/lexfridman/mit-deep-learning  
