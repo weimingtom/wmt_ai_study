@@ -312,3 +312,6 @@ https://github.com/neeru1207/AI_Sudoku
 
 # mit-deep-learning  
 https://github.com/lexfridman/mit-deep-learning  
+
+# numpy-ml  
+https://github.com/ddbourgin/numpy-ml  
