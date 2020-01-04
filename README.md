@@ -315,3 +315,6 @@ https://github.com/lexfridman/mit-deep-learning
 
 # numpy-ml  
 https://github.com/ddbourgin/numpy-ml  
+
+# Dive-into-DL-TensorFlow2.0  
+https://github.com/TrickyGo/Dive-into-DL-TensorFlow2.0  
