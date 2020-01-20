@@ -318,3 +318,6 @@ https://github.com/ddbourgin/numpy-ml
 
 # Dive-into-DL-TensorFlow2.0  
 https://github.com/TrickyGo/Dive-into-DL-TensorFlow2.0  
+
+# 《神经网络与深度学习》 邱锡鹏著 Neural Network and Deep Learning  
+https://github.com/nndl/nndl.github.io  
