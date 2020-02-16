@@ -321,3 +321,7 @@ https://github.com/TrickyGo/Dive-into-DL-TensorFlow2.0
 
 # 《神经网络与深度学习》 邱锡鹏著 Neural Network and Deep Learning  
 https://github.com/nndl/nndl.github.io  
+
+# 深度学习:语音识别技术实践  
+kaldi  
+
