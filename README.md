@@ -325,3 +325,5 @@ https://github.com/nndl/nndl.github.io
 # 深度学习:语音识别技术实践  
 kaldi  
 
+# libfacedetection  
+https://github.com/ShiqiYu/libfacedetection  
