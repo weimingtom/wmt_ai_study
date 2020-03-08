@@ -327,3 +327,6 @@ kaldi
 
 # libfacedetection  
 https://github.com/ShiqiYu/libfacedetection  
+
+# chineseocr_lite  
+https://github.com/ouyanghuiyu/chineseocr_lite  
