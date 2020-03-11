@@ -330,3 +330,6 @@ https://github.com/ShiqiYu/libfacedetection
 
 # chineseocr_lite  
 https://github.com/ouyanghuiyu/chineseocr_lite  
+
+# CVPR2020-Code  
+https://github.com/amusi/CVPR2020-Code  
