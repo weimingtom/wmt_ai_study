@@ -337,3 +337,7 @@ https://github.com/amusi/CVPR2020-Code
 # esp-sr speech command recognition / wake command (not open source ???)  
 https://github.com/espressif/esp-sr/tree/master/speech_command_recognition  
 https://github.com/DEV-IA/wakenet/tree/master/components/esp-sr/speech_command_recognition  
+
+# 开源中文语音识别项目介绍：ASRFrame  
+https://github.com/sailist/ASRFrame  
+https://blog.csdn.net/sailist/article/details/95751825  
