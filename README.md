@@ -341,3 +341,6 @@ https://github.com/DEV-IA/wakenet/tree/master/components/esp-sr/speech_command_r
 # 开源中文语音识别项目介绍：ASRFrame  
 https://github.com/sailist/ASRFrame  
 https://blog.csdn.net/sailist/article/details/95751825  
+
+# 滴滴披露语音识别新进展：基于Attention显著提升中文识别率  
+https://blog.csdn.net/weixin_40789411/article/details/85238766  
