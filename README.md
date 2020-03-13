@@ -344,3 +344,6 @@ https://blog.csdn.net/sailist/article/details/95751825
 
 # 滴滴披露语音识别新进展：基于Attention显著提升中文识别率  
 https://blog.csdn.net/weixin_40789411/article/details/85238766  
+
+# mediapipe  
+https://github.com/google/mediapipe  
