@@ -347,3 +347,6 @@ https://blog.csdn.net/weixin_40789411/article/details/85238766
 
 # mediapipe  
 https://github.com/google/mediapipe  
+
+# Intro to Reinforcement Learning (强化学习纲要）  
+https://github.com/zhoubolei/introRL  
