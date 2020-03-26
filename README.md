@@ -6,6 +6,8 @@ My AI study
 
 ## 语音识别移植, TODO    
 * OC Volume  
+* PocketSphinx  
+* snowboy  
 
 ## 语音机器人  
 * dingdang-robot 
