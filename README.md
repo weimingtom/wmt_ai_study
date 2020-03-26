@@ -369,3 +369,9 @@ https://github.com/ageitgey/face_recognition
 # 《神经网络与深度学习》 邱锡鹏著 Neural Network and Deep Learning  
 https://nndl.github.io  
 https://github.com/nndl/nndl.github.io  
+
+# wukong-robot  
+https://github.com/wzpan/wukong-robot    
+wukong-robot 是一个简单、灵活、优雅的中文语音对话机器人/智能音箱项目，  
+还可能是首个支持脑机交互的开源智能音箱项目。   
+https://wukong.hahack.com/  
