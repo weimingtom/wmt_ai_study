@@ -8,6 +8,7 @@ My AI study
 * OC Volume  
 * PocketSphinx  
 * snowboy  
+* gk969/stm32-speech-recognition  
 
 ## 语音机器人  
 * dingdang-robot 
@@ -385,3 +386,6 @@ https://github.com/wzpan/wukong-robot
 wukong-robot 是一个简单、灵活、优雅的中文语音对话机器人/智能音箱项目，  
 还可能是首个支持脑机交互的开源智能音箱项目。   
 https://wukong.hahack.com/  
+
+# 基于STM32的孤立词语音识别  
+https://github.com/gk969/stm32-speech-recognition  
