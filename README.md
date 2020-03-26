@@ -350,3 +350,10 @@ https://github.com/google/mediapipe
 
 # Intro to Reinforcement Learning (强化学习纲要）  
 https://github.com/zhoubolei/introRL  
+
+# Leon is your open-source personal assistant  
+https://getleon.ai  
+https://github.com/leon-ai/leon  
+https://github.com/leon-ai/leon/blob/develop/server/src/tts/tts.js  
+https://docs.getleon.ai/glossary.html#nlu  
+
