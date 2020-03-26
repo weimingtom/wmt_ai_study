@@ -357,3 +357,15 @@ https://github.com/leon-ai/leon
 https://github.com/leon-ai/leon/blob/develop/server/src/tts/tts.js  
 https://docs.getleon.ai/glossary.html#nlu  
 
+# 在csdn上发现一古老的java语音识别引擎OC Volume  
+http://ocvolume.sourceforge.net/ocvolume.php  
+
+# Depth-Aware Video Frame Interpolation (CVPR 2019)   
+https://github.com/baowenbo/DAIN  
+
+# The world's simplest facial recognition api for Python and the command line  
+https://github.com/ageitgey/face_recognition  
+
+# 《神经网络与深度学习》 邱锡鹏著 Neural Network and Deep Learning  
+https://nndl.github.io  
+https://github.com/nndl/nndl.github.io  
