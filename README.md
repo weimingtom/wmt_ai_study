@@ -391,3 +391,6 @@ https://wukong.hahack.com/
 
 # 基于STM32的孤立词语音识别  
 https://github.com/gk969/stm32-speech-recognition  
+
+# MegEngine  
+https://github.com/MegEngine/MegEngine/blob/master/README_CN.md  
