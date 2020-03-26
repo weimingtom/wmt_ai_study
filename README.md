@@ -65,6 +65,7 @@ https://www.ohmsha.co.jp/book/9784274220333/
 https://www.ohmsha.co.jp/book/9784274218873/  
 机器学习与深度学习  
 (baidupan) ml_and_dl_code_data.zip  
+(baidupan) search 机器学习与深度学习  
 
 ## csdn  
 * search baidupan csdn.7z  
