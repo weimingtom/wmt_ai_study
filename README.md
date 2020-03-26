@@ -9,6 +9,7 @@ My AI study
 * PocketSphinx  
 * snowboy  
 * gk969/stm32-speech-recognition  
+* ASRFrame  
 
 ## 语音机器人  
 * dingdang-robot 
