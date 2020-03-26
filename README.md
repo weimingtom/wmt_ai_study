@@ -4,6 +4,14 @@ My AI study
 ## Related Projects  
 * https://github.com/weimingtom/wmt_speech_study  
 
+## 语音识别移植, TODO    
+* OC Volume  
+
+## 语音机器人  
+* dingdang-robot 
+* wukong-robot  
+* Leon  
+
 ## 音频、语音  
 * Music Shield V2.2, seeedstudio    
 http://wiki.seeedstudio.com/cn/Music_Shield_V2.2/  
@@ -18,7 +26,6 @@ VS1053模块 MP3模块开发板 解码板 板载录音功能
 
 * AutoPiano  
 https://github.com/WarpPrism/AutoPiano  
-
 
 ## 教程 / Tutorial  
 * NumPy  
@@ -78,6 +85,7 @@ https://blog.csdn.net/zouxy09/article/details/7942784
 
 ## dingdang-robot  
 https://github.com/dingdang-robot/dingdang-robot  
+叮当是一款可以工作在 Raspberry Pi 上的中文语音对话机器人/智能音箱项目。  
 
 ## snowboy  
 https://github.com/Kitt-AI/snowboy  
