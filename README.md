@@ -401,3 +401,7 @@ https://github.com/MegEngine/MegEngine/blob/master/README_CN.md
 http://docs.16302.com/1100464  
 https://gitee.com/kxdev/zimeimojing  
 https://github.com/drbdrb/zimei  
+
+# Frontend for Home Assistant  
+https://demo.home-assistant.io  
+https://github.com/home-assistant/frontend  
