@@ -11,10 +11,11 @@ My AI study
 * gk969/stm32-speech-recognition  
 * ASRFrame  
 
-## 语音机器人  
-* dingdang-robot 
+## 语音机器人 / 魔镜  
+* dingdang-robot, 叮当系统   
 * wukong-robot  
 * Leon, getleon.ai    
+* zimei, zimeimojing, 自美智能系统  
 
 ## 音频、语音  
 * Music Shield V2.2, seeedstudio    
@@ -394,3 +395,8 @@ https://github.com/gk969/stm32-speech-recognition
 
 # MegEngine  
 https://github.com/MegEngine/MegEngine/blob/master/README_CN.md  
+
+# 自美智能系统  
+http://docs.16302.com/1100464  
+https://gitee.com/kxdev/zimeimojing  
+https://github.com/drbdrb/zimei  
