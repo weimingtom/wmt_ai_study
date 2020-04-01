@@ -90,8 +90,9 @@ https://www.cnblogs.com/bhlsheji/p/4514475.html
 https://blog.csdn.net/zouxy09/article/details/7942784  
 
 ## dingdang-robot  
-https://github.com/dingdang-robot/dingdang-robot  
+* https://github.com/dingdang-robot/dingdang-robot  
 叮当是一款可以工作在 Raspberry Pi 上的中文语音对话机器人/智能音箱项目。  
+* https://github.com/wzpan/dingdang-robot/wiki/plugins  
 
 ## snowboy  
 https://github.com/Kitt-AI/snowboy  
