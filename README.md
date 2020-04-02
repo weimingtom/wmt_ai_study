@@ -423,6 +423,10 @@ http://wiki.seeedstudio.com/ReSpeaker_4_Mic_Array_for_Raspberry_Pi/
 http://wiki.seeedstudio.com/cn/ReSpeaker_4_Mic_Array_for_Raspberry_Pi/  
 * 亚博智能:  
 https://www.yahboom.com/study/ReSpeaker_Pi  
+* github:  
+https://github.com/respeaker/mic_hat  
+https://github.com/respeaker/4mics_hat  
+https://github.com/respeaker/seeed-voicecard  
 
 # 智能音箱对比，芯片对比  
 * http://www.cirmall.com/bbs/thread-106168-1-1.html  
