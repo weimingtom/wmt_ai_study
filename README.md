@@ -413,3 +413,12 @@ https://github.com/stefantasy/ros_voice_system
 https://code.corvin.cn/corvin_zhang/raspberryPi_AI_soundCard_driver  
 https://github.com/dabing3000/ros_voice_system  
 search baidupan, 木星中文语音对话系统  
+
+# Respeaker  
+* seeedstudio:  
+http://wiki.seeedstudio.com/ReSpeaker_2_Mics_Pi_HAT/  
+http://wiki.seeedstudio.com/cn/ReSpeaker_2_Mics_Pi_HAT/  
+http://wiki.seeedstudio.com/ReSpeaker_4_Mic_Array_for_Raspberry_Pi/  
+http://wiki.seeedstudio.com/cn/ReSpeaker_4_Mic_Array_for_Raspberry_Pi/  
+* 亚博智能:  
+https://www.yahboom.com/study/ReSpeaker_Pi  
