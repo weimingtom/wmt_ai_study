@@ -426,3 +426,10 @@ https://www.yahboom.com/study/ReSpeaker_Pi
 
 # 智能音箱对比，芯片对比  
 * http://www.cirmall.com/bbs/thread-106168-1-1.html  
+斐讯 & ReSpeaker Core v2.0, RK3229  
+小米, Amlogic A112  
+天猫, MT8516  
+* https://post.smzdm.com/p/aek862qq/  
+天猫 & 叮咚, MT8516  
+亚马逊, MT8163V  
+小爱, Allwinner-R16  
