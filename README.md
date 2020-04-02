@@ -17,6 +17,7 @@ My AI study
 * Leon, getleon.ai    
 * zimei, zimeimojing, 自美智能系统  
 * corvin_zhang / ros_voice_system, 木星中文语音对话系统  
+* Seeedstudio Respeaker  
 
 ## 音频、语音  
 * Music Shield V2.2, seeedstudio    
