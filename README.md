@@ -11,11 +11,12 @@ My AI study
 * gk969/stm32-speech-recognition  
 * ASRFrame  
 
-## 语音机器人 / 魔镜  
+## 语音机器人 / 魔镜 / 聊天机器人, 对话系统    
 * dingdang-robot, 叮当系统   
 * wukong-robot  
 * Leon, getleon.ai    
 * zimei, zimeimojing, 自美智能系统  
+* corvin_zhang / ros_voice_system, 木星中文语音对话系统  
 
 ## 音频、语音  
 * Music Shield V2.2, seeedstudio    
@@ -405,3 +406,10 @@ https://github.com/drbdrb/zimei
 # Frontend for Home Assistant  
 https://demo.home-assistant.io  
 https://github.com/home-assistant/frontend  
+
+# corvin_zhang/ros_voice_system  
+https://code.corvin.cn/corvin_zhang/ros_voice_system  
+https://github.com/stefantasy/ros_voice_system  
+https://code.corvin.cn/corvin_zhang/raspberryPi_AI_soundCard_driver  
+https://github.com/dabing3000/ros_voice_system  
+
