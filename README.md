@@ -412,4 +412,4 @@ https://code.corvin.cn/corvin_zhang/ros_voice_system
 https://github.com/stefantasy/ros_voice_system  
 https://code.corvin.cn/corvin_zhang/raspberryPi_AI_soundCard_driver  
 https://github.com/dabing3000/ros_voice_system  
-
+search baidupan, 木星中文语音对话系统  
