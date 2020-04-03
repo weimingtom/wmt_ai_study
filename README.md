@@ -18,6 +18,7 @@ My AI study
 * zimei, zimeimojing, 自美智能系统  
 * corvin_zhang / ros_voice_system, 木星中文语音对话系统  
 * Seeedstudio Respeaker  
+* waveshare 13.3inch_Magic_Mirror, 微雪 13.3寸智能魔镜     
 
 ## 音频、语音  
 * Music Shield V2.2, seeedstudio    
@@ -437,3 +438,6 @@ https://github.com/respeaker/seeed-voicecard
 天猫 & 叮咚, MT8516  
 亚马逊, MT8163V  
 小爱, Allwinner-R16  
+
+# 微雪 13.3寸智能魔镜   
+* http://www.waveshare.net/wiki/13.3inch_Magic_Mirror  
