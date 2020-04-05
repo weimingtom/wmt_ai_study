@@ -464,4 +464,6 @@ http://www.waveshare.net/wiki/Maix_R6%2B1_Microphone_Array
 https://github.com/Seeed-Studio/pi-hats  
 https://github.com/Seeed-Studio/pi-hats/tree/master/GROVE-AI-HAT  
 http://wiki.seeedstudio.com/Grove_AI_HAT_for_Edge_Computing/  
+* search baidupan, work_maix_microphone  
+
 
