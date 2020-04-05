@@ -441,3 +441,7 @@ https://github.com/respeaker/seeed-voicecard
 
 # 微雪 13.3寸智能魔镜   
 * http://www.waveshare.net/wiki/13.3inch_Magic_Mirror  
+* https://github.com/MichMich/MagicMirror  
+* https://github.com/Kitt-AI/snowboy  
+
+
