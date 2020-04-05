@@ -10,6 +10,7 @@ My AI study
 * snowboy  
 * gk969/stm32-speech-recognition  
 * ASRFrame  
+* Maixduino->Maix_Speech_Recognition; MaixPy->audio, MIC_ARRAY  
 
 ## 语音机器人 / 魔镜 / 聊天机器人, 对话系统    
 * dingdang-robot, 叮当系统   
@@ -444,4 +445,23 @@ https://github.com/respeaker/seeed-voicecard
 * https://github.com/MichMich/MagicMirror  
 * https://github.com/Kitt-AI/snowboy  
 
+# Maixduino / MaixPy  
+https://github.com/Technica-Corporation/Speech_Recognition-Maixduino  
+https://github.com/andriyadi/Maix-SpeechRecognizer  
+https://github.com/sipeed/Maixduino/tree/master/libraries/Maix_Speech_Recognition  
+* Maix_Speech_Recognition  
+https://maixduino.sipeed.com/en/  
+https://maixduino.sipeed.com/en/  
+https://maixpy.sipeed.com/en/libs/Maix/audio.html  
+train model data: 
+https://github.com/sipeed/Maixduino/tree/master/libraries/Maix_Speech_Recognition/examples/get_voice_model  
+* MIC_ARRAY  
+https://github.com/01studio-lab/MicroPython-Examples/blob/57cdfeedb72e88b3941a9d152b48fbc2cecd6eda/5.pyAI-K210/3.机器听觉/2.麦克风阵列/mic_array.py  
+https://github.com/sipeed/MaixPy_scripts/blob/master/hardware/demo_mic_array.py  
+MaixPy-0.5.0.zip\MaixPy-0.5.0\components\micropython\port\src\Maix\Maix_mic_array.c  
+http://www.waveshare.net/wiki/Maix_R6%2B1_Microphone_Array  
+* pi ai hat  
+https://github.com/Seeed-Studio/pi-hats  
+https://github.com/Seeed-Studio/pi-hats/tree/master/GROVE-AI-HAT  
+http://wiki.seeedstudio.com/Grove_AI_HAT_for_Edge_Computing/  
 
