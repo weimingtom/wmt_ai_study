@@ -476,8 +476,10 @@ http://wiki.seeedstudio.com/Grove_AI_HAT_for_Edge_Computing/
 
 # 科大讯飞 语音识别  
 * baidupan, search SpeechDemo  
+* https://www.xfyun.cn  
+* 官方的SDK下载（跨平台调用msc动态库）, baidupan, search Android_iat or 讯飞  
 
-# 语音信号处理C++  
+# 语音信号处理C++随书代码    
 * baidupan, 搜索语音信号处理  
 
 
