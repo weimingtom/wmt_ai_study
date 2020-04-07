@@ -474,3 +474,10 @@ http://wiki.seeedstudio.com/Grove_AI_HAT_for_Edge_Computing/
 * https://ai.baidu.com/ai-doc/SPEECH/ek38lxj1u  
 短语音识别API  
 
+# 科大讯飞 语音识别  
+* baidupan, search SpeechDemo  
+
+# 语音信号处理C++  
+* baidupan, 搜索语音信号处理  
+
+
