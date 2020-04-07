@@ -467,4 +467,10 @@ https://github.com/Seeed-Studio/pi-hats/tree/master/GROVE-AI-HAT
 http://wiki.seeedstudio.com/Grove_AI_HAT_for_Edge_Computing/  
 * search baidupan, work_maix_microphone  
 
+# 百度AI  
+* https://ai.baidu.com/ai-doc/SPEECH/xk38lxq46  
+* https://github.com/Baidu-AIP/speech-vad-demo  
+开源VAD音频切分工具  
+* https://ai.baidu.com/ai-doc/SPEECH/ek38lxj1u  
+短语音识别API  
 
