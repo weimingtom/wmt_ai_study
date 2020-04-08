@@ -493,3 +493,13 @@ https://www.cirmall.com/articles/22139
 NAU88C10是一种低功耗宽带单声道音频编解码器芯片，通过i2s与stm32处理器通信  
 * http://www.notioni.com/#/source  
 原理图pdf  
+
+# WM8978  
+
+# WM8960, waveshare, 微雪  
+* http://www.waveshare.net/wiki/WM8960_Audio_Board  
+* http://www.waveshare.net/w/index.php?title=WM8960_Audio_HAT&oldid=23575  
+
+# VS1053, VS1003, waveshare, 微雪  
+* http://www.waveshare.net/wiki/VS1003B_MP3_Board  
+* http://www.waveshare.net/wiki/Music_Shield  
