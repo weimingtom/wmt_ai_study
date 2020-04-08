@@ -483,4 +483,8 @@ http://wiki.seeedstudio.com/Grove_AI_HAT_for_Edge_Computing/
 # 语音信号处理C++随书代码    
 * baidupan, 搜索语音信号处理  
 
+# （金鼠纳福）与树莓派完美结合，高端AI音箱养成记——Respeaker Mic Array v2.0评测  
+http://wiki.seeedstudio.com/cn/ReSpeaker-USB-Mic-Array/  
+https://github.com/respeaker/usb_4_mic_array  
+https://www.cirmall.com/articles/22139  
 
