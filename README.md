@@ -20,6 +20,7 @@ My AI study
 * corvin_zhang / ros_voice_system, 木星中文语音对话系统  
 * Seeedstudio Respeaker  
 * waveshare 13.3inch_Magic_Mirror, 微雪 13.3寸智能魔镜     
+* Python-Machine-Learning-Cookbook, Chapter07/speech_recognizer.py, Python机器学习经典实例  
 
 ## 音频、语音  
 * Music Shield V2.2, seeedstudio    
