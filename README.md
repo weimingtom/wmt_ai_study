@@ -488,3 +488,8 @@ http://wiki.seeedstudio.com/cn/ReSpeaker-USB-Mic-Array/
 https://github.com/respeaker/usb_4_mic_array  
 https://www.cirmall.com/articles/22139  
 
+# NAU88C10  
+* https://github.com/alibaba/AliOS-Things/wiki/AliOS-Things-Starter-Kit-Hardware-Guide  
+NAU88C10是一种低功耗宽带单声道音频编解码器芯片，通过i2s与stm32处理器通信  
+* http://www.notioni.com/#/source  
+原理图pdf  
