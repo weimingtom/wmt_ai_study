@@ -4,13 +4,14 @@ My AI study
 ## Related Projects  
 * https://github.com/weimingtom/wmt_speech_study  
 
-## 语音识别移植, TODO    
+## 语音识别移植, 简单离线语音识别，TODO    
 * OC Volume  
 * PocketSphinx  
 * snowboy  
 * gk969/stm32-speech-recognition  
 * ASRFrame  
 * Maixduino->Maix_Speech_Recognition; MaixPy->audio, MIC_ARRAY  
+* Python-Machine-Learning-Cookbook, Chapter07/speech_recognizer.py, Python机器学习经典实例  
 
 ## 语音机器人 / 魔镜 / 聊天机器人, 对话系统    
 * dingdang-robot, 叮当系统   
@@ -20,7 +21,6 @@ My AI study
 * corvin_zhang / ros_voice_system, 木星中文语音对话系统  
 * Seeedstudio Respeaker  
 * waveshare 13.3inch_Magic_Mirror, 微雪 13.3寸智能魔镜     
-* Python-Machine-Learning-Cookbook, Chapter07/speech_recognizer.py, Python机器学习经典实例  
 
 ## 音频、语音  
 * Music Shield V2.2, seeedstudio    
