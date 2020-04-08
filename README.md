@@ -510,3 +510,6 @@ NAU88C10是一种低功耗宽带单声道音频编解码器芯片，通过i2s与
 * AliOS Things Starter Kit / Developer Kit  
 * ROC-RK3308-CC (只有旧款可以接麦克风矩阵)    
 * Maix Dock, Maixduino, Maix bit, Maix Go  
+
+# INMP441  
+i2s MEMS麦克风  
