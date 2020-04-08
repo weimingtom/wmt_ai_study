@@ -503,3 +503,10 @@ NAU88C10是一种低功耗宽带单声道音频编解码器芯片，通过i2s与
 # VS1053, VS1003, waveshare, 微雪  
 * http://www.waveshare.net/wiki/VS1003B_MP3_Board  
 * http://www.waveshare.net/wiki/Music_Shield  
+
+# 智能音箱开发套件  
+* 安信可esp32-audio-kit  
+* 树莓派+Respeaker  
+* AliOS Things Starter Kit / Developer Kit  
+* ROC-RK3308-CC (只有旧款可以接麦克风矩阵)    
+* Maix Dock, Maixduino, Maix bit, Maix Go  
