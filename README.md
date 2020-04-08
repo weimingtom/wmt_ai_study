@@ -515,3 +515,14 @@ NAU88C10是一种低功耗宽带单声道音频编解码器芯片，通过i2s与
 
 # INMP441  
 i2s MEMS麦克风  
+
+# windows下使用Microsoft Speech SDK开发包做语音识别  
+https://blog.csdn.net/marleylee/article/details/77116609  
+
+# julius, for raspberrypi, 树莓派    
+https://osdn.net/projects/julius/  
+ラズパイで音声認識をしてみる  
+http://usicolog.nomaki.jp/engineering/raspberryPi/raspberryPi_Julius.html  
+http://sourceforge.jp/frs/redir.php?m=osdn&f=%2Fjulius%2F60273%2Fjulius-4.3.1.tar.gz  
+http://sourceforge.jp/frs/redir.php?m=jaist&f=%2Fjulius%2F60416%2Fdictation-kit-v4.3.1-linux.tgz  
+http://sourceforge.jp/frs/redir.php?m=osdn&f=%2Fjulius%2F51159%2Fgrammar-kit-v4.1.tar.gz  
