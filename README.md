@@ -529,3 +529,7 @@ http://sourceforge.jp/frs/redir.php?m=osdn&f=%2Fjulius%2F51159%2Fgrammar-kit-v4.
 
 # web-audio-recognition  
 https://github.com/google/web-audio-recognition  
+
+# AndroidMaryTTS  
+https://github.com/AndroidMaryTTS/AndroidMaryTTS  
+search gh, HammingWindow fft  
