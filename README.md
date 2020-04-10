@@ -526,3 +526,6 @@ http://usicolog.nomaki.jp/engineering/raspberryPi/raspberryPi_Julius.html
 http://sourceforge.jp/frs/redir.php?m=osdn&f=%2Fjulius%2F60273%2Fjulius-4.3.1.tar.gz  
 http://sourceforge.jp/frs/redir.php?m=jaist&f=%2Fjulius%2F60416%2Fdictation-kit-v4.3.1-linux.tgz  
 http://sourceforge.jp/frs/redir.php?m=osdn&f=%2Fjulius%2F51159%2Fgrammar-kit-v4.1.tar.gz  
+
+# web-audio-recognition  
+https://github.com/google/web-audio-recognition  
