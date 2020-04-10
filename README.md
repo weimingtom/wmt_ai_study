@@ -533,3 +533,7 @@ https://github.com/google/web-audio-recognition
 # AndroidMaryTTS  
 https://github.com/AndroidMaryTTS/AndroidMaryTTS  
 search gh, HammingWindow fft  
+
+# WholeWordAutomaticSpeechRecognizer  
+https://github.com/gianpaolocoro/WholeWordAutomaticSpeechRecognizer  
+search gh, HammingWindow fft Mfcc  
