@@ -537,3 +537,4 @@ search gh, HammingWindow fft
 # WholeWordAutomaticSpeechRecognizer  
 https://github.com/gianpaolocoro/WholeWordAutomaticSpeechRecognizer  
 search gh, HammingWindow fft Mfcc  
+https://github.com/ptemplin/SpeechRecognition  
