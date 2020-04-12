@@ -538,3 +538,6 @@ search gh, HammingWindow fft
 https://github.com/gianpaolocoro/WholeWordAutomaticSpeechRecognizer  
 search gh, HammingWindow fft Mfcc  
 https://github.com/ptemplin/SpeechRecognition  
+
+# DBFace is a real-time, single-stage detector for face detection, with faster speed and higher accuracy  
+https://github.com/dlunion/DBFace  
