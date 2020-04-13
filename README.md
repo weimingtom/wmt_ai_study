@@ -12,6 +12,7 @@ My AI study
 * ASRFrame  
 * Maixduino->Maix_Speech_Recognition; MaixPy->audio, MIC_ARRAY  
 * Python-Machine-Learning-Cookbook, Chapter07/speech_recognizer.py, Python机器学习经典实例  
+* audier/my_python_play  
 * audier/DeepSpeechRecognition  
 
 ## 语音机器人 / 魔镜 / 聊天机器人, 对话系统    
@@ -546,4 +547,8 @@ https://github.com/dlunion/DBFace
 # 语音识别——使用python建立HMM-GMM孤立词识别模型  
 https://blog.csdn.net/chinatelecom08/article/details/82901480  
 https://github.com/audier/my_python_play/tree/master/hmm_gmm_speech_model  
+
+# DeepSpeechRecognition  
 https://github.com/audier/DeepSpeechRecognition  
+https://audier.github.io/2018/09/11/chinese-speech-asrt/  
+
