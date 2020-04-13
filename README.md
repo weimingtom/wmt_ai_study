@@ -12,6 +12,7 @@ My AI study
 * ASRFrame  
 * Maixduino->Maix_Speech_Recognition; MaixPy->audio, MIC_ARRAY  
 * Python-Machine-Learning-Cookbook, Chapter07/speech_recognizer.py, Python机器学习经典实例  
+* audier/DeepSpeechRecognition  
 
 ## 语音机器人 / 魔镜 / 聊天机器人, 对话系统    
 * dingdang-robot, 叮当系统   
@@ -541,3 +542,8 @@ https://github.com/ptemplin/SpeechRecognition
 
 # DBFace is a real-time, single-stage detector for face detection, with faster speed and higher accuracy  
 https://github.com/dlunion/DBFace  
+
+# 语音识别——使用python建立HMM-GMM孤立词识别模型  
+https://blog.csdn.net/chinatelecom08/article/details/82901480  
+https://github.com/audier/my_python_play/tree/master/hmm_gmm_speech_model  
+https://github.com/audier/DeepSpeechRecognition  
