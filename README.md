@@ -554,4 +554,6 @@ https://audier.github.io/2018/09/11/chinese-speech-asrt/
 
 # Google AIY Voice Kit  
 https://github.com/google/aiyprojects-raspbian  
-
+谷歌AIY Voice Kit智能语音开发套件安装和使用体验  
+http://www.soomal.com/doc/10100008372.htm  
+https://dl.google.com/aiyprojects/voice/aiyprojects-2017-09-11.img.xz  
