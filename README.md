@@ -552,3 +552,6 @@ https://github.com/audier/my_python_play/tree/master/hmm_gmm_speech_model
 https://github.com/audier/DeepSpeechRecognition  
 https://audier.github.io/2018/09/11/chinese-speech-asrt/  
 
+# Google AIY Voice Kit  
+https://github.com/google/aiyprojects-raspbian  
+
