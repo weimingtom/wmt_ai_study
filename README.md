@@ -15,7 +15,7 @@ My AI study
 * audier/my_python_play  
 * audier/DeepSpeechRecognition  
 * 数字语音处理及MATLAB仿真(search baidupan 数字语音处理及MATLAB仿真), matlab    
-* 
+* Python机器学习经典实例(search baidupan Python机器学习经典实例), python  
 
 ## 语音机器人 / 魔镜 / 聊天机器人, 对话系统    
 * dingdang-robot, 叮当系统   
@@ -559,3 +559,11 @@ https://github.com/google/aiyprojects-raspbian
 谷歌AIY Voice Kit智能语音开发套件安装和使用体验  
 http://www.soomal.com/doc/10100008372.htm  
 https://dl.google.com/aiyprojects/voice/aiyprojects-2017-09-11.img.xz  
+
+# 数字语音处理及MATLAB仿真  
+search baidupan 数字语音处理及MATLAB仿真  
+matlab    
+
+# Python机器学习经典实例, Python Machine Learning Cookbook    
+search baidupan Python机器学习经典实例  
+python  
