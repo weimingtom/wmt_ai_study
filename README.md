@@ -604,3 +604,6 @@ https://github.com/espressif/esp-skainet/blob/master/README_cn.md
 https://github.com/espressif/esp-skainet/blob/master/components/esp-tts/README.md  
 其实都是基于MFCC的，问题是关于深度学习的部分不开源——其实即便是开源也看不懂系列  
 
+# LSTM 详解  
+https://www.cnblogs.com/yjybupt/p/10861904.html  
+
