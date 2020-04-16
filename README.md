@@ -14,6 +14,8 @@ My AI study
 * Python-Machine-Learning-Cookbook, Chapter07/speech_recognizer.py, Python机器学习经典实例  
 * audier/my_python_play  
 * audier/DeepSpeechRecognition  
+* 数字语音处理及MATLAB仿真(search baidupan 数字语音处理及MATLAB仿真), matlab    
+* 
 
 ## 语音机器人 / 魔镜 / 聊天机器人, 对话系统    
 * dingdang-robot, 叮当系统   
