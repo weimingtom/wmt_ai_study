@@ -587,3 +587,20 @@ https://www.paddlepaddle.org.cn
 search lstm_bias, esp32 mn static lib  
 https://github.com/thomasschmied/Speech_Recognition_with_Tensorflow  
 https://github.com/ChaosCY/LAS-asr  
+search baidupan, esp-sr.rar  
+(xxxxxx)  
+于是我故技重施，用上次反编译凌阳61单片机的静态库的方法，用记事本打开ESP32的语音识别静态库，发现了新世界（划去），发现了它的确是用了RNN（循环神经网络），里面有个字符串叫lstm_bias（LSTM是长短期记忆网络，这是什么鬼的矛盾名字），在gh上可以找到一个比较多star的项目，叫Speech_Recognition_with_Tensorflow：  
+https://github.com/thomasschmied/Speech_Recognition_with_Tensorflow    
+还有一篇论文：《Listen, Attend and Spell》  
+https://arxiv.org/pdf/1508.01211.pdf  
+(xxxxxx)  
+关于ESP32的闭源语音识别引擎（只提供不开源的静态库进行链接），这里有一份介绍可以看看：  
+https://www.espressif.com/zh-hans/node/4127    
+简单说ESP32把这个问题分割成两个小问题（其实通常的语音助手都是这样做的）：唤醒词用WakeNet，语音识别用MultiNet：  
+https://github.com/espressif/esp-sr/blob/master/wake_word_engine/README_cn.md    
+https://github.com/espressif/esp-sr/blob/master/speech_command_recognition/README_cn.md  
+然后还有一个统一的语音助手框架（补注：相当于语音识别的基础上外加语音合成功能）  
+https://github.com/espressif/esp-skainet/blob/master/README_cn.md    
+https://github.com/espressif/esp-skainet/blob/master/components/esp-tts/README.md  
+其实都是基于MFCC的，问题是关于深度学习的部分不开源——其实即便是开源也看不懂系列  
+
