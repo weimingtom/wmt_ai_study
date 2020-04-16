@@ -368,7 +368,7 @@ https://github.com/amusi/CVPR2020-Code
 
 # esp-sr speech command recognition / wake command (not open source ???)  
 https://www.espressif.com/zh-hans/node/4127  
-ESP32 have two ASR framework, WakeNet and MultiNet  
+ESP32 has two ASR framework, WakeNet and MultiNet  
 https://github.com/espressif/esp-sr/tree/master/speech_command_recognition  
 https://github.com/DEV-IA/wakenet/tree/master/components/esp-sr/speech_command_recognition  
 https://github.com/espressif/esp-sr/blob/master/wake_word_engine/README.md  
