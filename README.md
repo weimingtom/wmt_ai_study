@@ -367,8 +367,12 @@ https://github.com/ouyanghuiyu/chineseocr_lite
 https://github.com/amusi/CVPR2020-Code  
 
 # esp-sr speech command recognition / wake command (not open source ???)  
+https://www.espressif.com/zh-hans/node/4127  
+ESP32 have two ASR framework, WakeNet and MultiNet  
 https://github.com/espressif/esp-sr/tree/master/speech_command_recognition  
 https://github.com/DEV-IA/wakenet/tree/master/components/esp-sr/speech_command_recognition  
+https://github.com/espressif/esp-sr/blob/master/wake_word_engine/README.md  
+https://github.com/espressif/esp-skainet  
 
 # 开源中文语音识别项目介绍：ASRFrame  
 https://github.com/sailist/ASRFrame  
@@ -517,7 +521,7 @@ NAU88C10是一种低功耗宽带单声道音频编解码器芯片，通过i2s与
 * http://www.waveshare.net/wiki/Music_Shield  
 
 # 智能音箱开发套件  
-* 安信可esp32-audio-kit  
+*-audio-kit  
 * 树莓派+Respeaker  
 * AliOS Things Starter Kit / Developer Kit  
 * ROC-RK3308-CC (只有旧款可以接麦克风矩阵)    
