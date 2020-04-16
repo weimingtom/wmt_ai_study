@@ -47,6 +47,14 @@ https://docs.scipy.org/doc/
 * PyTorch  
 https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html  
 
+## 出版社  
+* https://www.phei.com.cn  
+电子工业出版社  
+* https://www.epubit.com  
+异步社区  
+* http://www.broadview.com.cn  
+博文视点  
+
 ## 超级大脑  
 * https://www.bilibili.com/video/av29501100/  
 * 人体植入芯片、外骨骼、脑电控制、OpenBCI、脑电干扰、情感分析  
@@ -564,3 +572,6 @@ https://dl.google.com/aiyprojects/voice/aiyprojects-2017-09-11.img.xz
 search baidupan 数字语音处理及MATLAB仿真  
 matlab    
 
+# Python 3破冰人工智能：从入门到实战  
+
+Python  
