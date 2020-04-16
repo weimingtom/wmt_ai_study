@@ -577,5 +577,8 @@ search baidupan 数字语音处理及MATLAB仿真
 matlab    
 
 # Python 3破冰人工智能：从入门到实战  
-
 Python  
+
+# baidu, 飞桨PaddlePaddle  
+https://github.com/PaddlePaddle/Paddle  
+https://www.paddlepaddle.org.cn  
