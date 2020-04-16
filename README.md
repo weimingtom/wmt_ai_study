@@ -582,3 +582,8 @@ Python
 # baidu, 飞桨PaddlePaddle  
 https://github.com/PaddlePaddle/Paddle  
 https://www.paddlepaddle.org.cn  
+
+# lstm  
+search lstm_bias, esp32 mn static lib  
+https://github.com/thomasschmied/Speech_Recognition_with_Tensorflow  
+https://github.com/ChaosCY/LAS-asr  
