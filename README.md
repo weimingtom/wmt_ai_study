@@ -16,6 +16,7 @@ My AI study
 * audier/DeepSpeechRecognition  
 * 数字语音处理及MATLAB仿真(search baidupan 数字语音处理及MATLAB仿真), matlab    
 * PacktPublishing/Python-Machine-Learning-Cookbook/blob/master/Chapter07/speech_recognizer.py, Python机器学习经典实例    
+* 实时语音处理实践指南  
 
 ## 语音机器人 / 魔镜 / 聊天机器人, 对话系统    
 * dingdang-robot, 叮当系统   
@@ -606,4 +607,7 @@ https://github.com/espressif/esp-skainet/blob/master/components/esp-tts/README.m
 
 # LSTM 详解  
 https://www.cnblogs.com/yjybupt/p/10861904.html  
+
+# 实时语音处理实践指南  
+http://www.broadview.com.cn/book/6099  
 
