@@ -611,3 +611,6 @@ https://www.cnblogs.com/yjybupt/p/10861904.html
 # 实时语音处理实践指南  
 http://www.broadview.com.cn/book/6099  
 search baidupan 实时语音处理实践指南    
+
+# 可解释的机器学习--黑盒模型可解释性理解指南  
+https://github.com/MingchaoZhu/InterpretableMLBook  
