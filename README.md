@@ -614,3 +614,6 @@ search baidupan 实时语音处理实践指南
 
 # 可解释的机器学习--黑盒模型可解释性理解指南  
 https://github.com/MingchaoZhu/InterpretableMLBook  
+
+# 《深度学习》(花书)  
+https://github.com/MingchaoZhu/DeepLearning  
