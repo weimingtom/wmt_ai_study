@@ -627,3 +627,6 @@ https://www.cloudwalk.cn/
 
 # olivia  
 https://github.com/olivia-ai/olivia  
+
+# DeepSpeech  
+https://github.com/PaddlePaddle/DeepSpeech/blob/develop/README_cn.md  
