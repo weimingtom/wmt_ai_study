@@ -635,6 +635,7 @@ https://github.com/PaddlePaddle/DeepSpeech/blob/develop/README_cn.md
 https://github.com/education-service/speech-mfcc  
 
 # MATLAB在语音信号分析和合成中的应用  
+aka. MATLAB语音信号分析与合成(第2版) 宋知用 北京航空航天大学  
 https://www.ilovematlab.cn/forum-173-1.html  
 https://www.ilovematlab.cn/thread-530017-1-1.html  
 search 语音 in this web site (20131118mlyy.zip and 20171013085903_22369.zip):  
