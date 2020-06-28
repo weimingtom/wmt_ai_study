@@ -630,3 +630,6 @@ https://github.com/olivia-ai/olivia
 
 # DeepSpeech  
 https://github.com/PaddlePaddle/DeepSpeech/blob/develop/README_cn.md  
+
+# speech-mfcc  
+https://github.com/education-service/speech-mfcc  
