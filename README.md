@@ -633,3 +633,7 @@ https://github.com/PaddlePaddle/DeepSpeech/blob/develop/README_cn.md
 
 # speech-mfcc  
 https://github.com/education-service/speech-mfcc  
+
+# MATLAB在语音信号分析和合成中的应用  
+https://www.ilovematlab.cn/forum-173-1.html  
+https://www.ilovematlab.cn/thread-530017-1-1.html  
