@@ -643,7 +643,7 @@ https://www.ilovematlab.cn/thread-530017-1-1.html
 search 语音 in this web site (20131118mlyy.zip and 20171013085903_22369.zip):  
 http://press.buaa.edu.cn  
 
-# tensorflow lite micro_speech  
+# tensorflow lite (tflite) micro_speech  
 https://github.com/tensorflow/tensorflow/tree/master/tensorflow/lite/micro/examples/  
 https://github.com/squix78/esp32-tensorflow-microspeech  
 https://github.com/boochow/TFLite_Micro_MicroSpeech_M5Stack  
