@@ -642,3 +642,10 @@ https://www.ilovematlab.cn/forum-173-1.html
 https://www.ilovematlab.cn/thread-530017-1-1.html  
 search 语音 in this web site (20131118mlyy.zip and 20171013085903_22369.zip):  
 http://press.buaa.edu.cn  
+
+# tensorflow lite micro_speech  
+https://github.com/tensorflow/tensorflow/tree/master/tensorflow/lite/micro/examples/  
+https://github.com/squix78/esp32-tensorflow-microspeech  
+https://github.com/boochow/TFLite_Micro_MicroSpeech_M5Stack  
+TinyML  
+https://www.oreilly.com/library/view/tinyml/9781492052036/  
