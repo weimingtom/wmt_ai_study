@@ -649,3 +649,6 @@ https://github.com/squix78/esp32-tensorflow-microspeech
 https://github.com/boochow/TFLite_Micro_MicroSpeech_M5Stack  
 TinyML  
 https://www.oreilly.com/library/view/tinyml/9781492052036/  
+
+# TensorflowTTS  
+https://github.com/TensorSpeech/TensorflowTTS  
