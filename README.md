@@ -644,11 +644,15 @@ search 语音 in this web site (20131118mlyy.zip and 20171013085903_22369.zip):
 http://press.buaa.edu.cn  
 
 # tensorflow lite (tflite) micro_speech  
+(*) search baidupan, speech_commands_v0.02.tar.gz  
+(*) search baidupan, Blink_esp32_rpd2017_v2_success.tar.gz, for raspberry pi desktop    
+(*) search baidupan, Blink_esp32_v3_build_success.rar, fro esp32, not tested  
 https://github.com/tensorflow/tensorflow/tree/master/tensorflow/lite/micro/examples/  
 https://github.com/squix78/esp32-tensorflow-microspeech  
 https://github.com/boochow/TFLite_Micro_MicroSpeech_M5Stack  
 TinyML  
 https://www.oreilly.com/library/view/tinyml/9781492052036/  
+
 
 # TensorflowTTS  
 https://github.com/TensorSpeech/TensorflowTTS  
