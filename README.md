@@ -58,6 +58,8 @@ https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html
 博文视点  
 * http://press.buaa.edu.cn/  
 北航  
+* https://www.hxedu.com.cn  
+华信教育资源网  
 
 ## 超级大脑  
 * https://www.bilibili.com/video/av29501100/  
