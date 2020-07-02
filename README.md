@@ -646,7 +646,7 @@ http://press.buaa.edu.cn
 # tensorflow lite (tflite) micro_speech  
 (o) search baidupan, speech_commands_v0.02.tar.gz  
 (o) search baidupan, Blink_esp32_rpd2017_v2_success.tar.gz, for raspberry pi desktop    
-(o) search baidupan, Blink_esp32_v3_build_success.rar, fro esp32, not tested  
+(o) search baidupan, Blink_esp32_v3_build_success.rar, for esp32, not tested  
 https://github.com/tensorflow/tensorflow/tree/master/tensorflow/lite/micro/examples/  
 https://github.com/squix78/esp32-tensorflow-microspeech  
 https://github.com/boochow/TFLite_Micro_MicroSpeech_M5Stack  
