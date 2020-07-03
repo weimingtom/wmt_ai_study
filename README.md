@@ -676,4 +676,6 @@ pip install -i https://pypi.tuna.tsinghua.edu.cn/simple tensorflow-gpu==2.0.0a0
 豆瓣：http://pypi.douban.com/simple/  （亲测1.0版本可用）  
 tensorflow2.0的版本  
 GPU:tensorflow-gpu==2.0.0a0      #258.4M  
-CPU:tensorflow-cpu==2.0.0a0      #49M左右  
+CPU:tensorflow-cpu==2.0.0a0      #49M左右  
+官方教程：  
+https://tensorflow.google.cn/install/source_rpi?hl=zh_cn#python-2.7  
