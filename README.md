@@ -679,3 +679,4 @@ GPU:tensorflow-gpu==2.0.0a0      #258.4M
 CPU:tensorflow-cpu==2.0.0a0      #49M左右  
 官方教程：  
 https://tensorflow.google.cn/install/source_rpi?hl=zh_cn#python-2.7  
+https://tensorflow.google.cn/install/pip?hl=zh_cn&lang=python2  
