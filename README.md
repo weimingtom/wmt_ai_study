@@ -672,8 +672,8 @@ https://blog.csdn.net/Lip_tom/article/details/89761639
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple tensorflow-gpu==2.0.0a0  
 注意以上格式为：pip install -i 镜像网址 你要的tensorflow版本号  
 镜像网址包括：  
-清华：https://pypi.tuna.tsinghua.edu.cn/simple（很齐全，各都有）  
-豆瓣：http://pypi.douban.com/simple/（亲测1.0版本可用）  
+清华：https://pypi.tuna.tsinghua.edu.cn/simple  （很齐全，各都有）  
+豆瓣：http://pypi.douban.com/simple/  （亲测1.0版本可用）  
 tensorflow2.0的版本  
 GPU:tensorflow-gpu==2.0.0a0      #258.4M  
 CPU:tensorflow-cpu==2.0.0a0      #49M左右  
