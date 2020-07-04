@@ -675,6 +675,13 @@ $ sudo apt-get update
 $ sudo apt-get install python3-pip  
 $ pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple tensorflow-cpu  
 
+# python2 pip install  
+https://www.cnblogs.com/zhuangliu/archive/2016/11/20/6083063.html  
+wget https://bootstrap.pypa.io/get-pip.py  
+sudo python2.7 get-pip.py  
+sudo python2.7 -m pip install https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-0.5.0-cp27-none-linux_x86_64.whl  
+$ python2.7  进入执行即可  
+
 # （DONNOT USE！）tensorflow2.0.0a0国内镜像安装  
 https://blog.csdn.net/Lip_tom/article/details/89761639  
 镜像办法：  
