@@ -707,3 +707,12 @@ https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-0.5.0-cp27-none-l
 # 从0开始语音识别（附带讲解内容）Python  
 https://www.bilibili.com/video/BV1pE411B7Ja  
 search baidupan, 从0开始语音识别  
+
+# TensorFlow speech_commands  
+https://github.com/tensorflow/tensorflow/tree/master/tensorflow/examples/speech_commands  
+Install Tensorflow 1.5.0  
+https://github.com/tensorflow/tensorflow/releases/tag/v1.5.0  
+Train data  
+https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/speech_commands/train.py  
+Recognition  
+https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/speech_commands/label_wav.py  
