@@ -666,7 +666,16 @@ baidupan, search [数字语音处理及MATLAB仿真（第2版）][张雪英][程
 # espnet  
 https://github.com/espnet/espnet  
 
-# tensorflow2.0.0a0国内镜像安装  
+# 在xubuntu 20.04 64bit 上安装tensorflow最新版(当前为2.2版）  
+（检查是否为64位Python）  
+$ python3  
+> import platform  
+> platform.architecture()  
+$ sudo apt-get update  
+$ sudo apt-get install python3-pip  
+$ pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple tensorflow-cpu  
+
+# （DONNOT USE！）tensorflow2.0.0a0国内镜像安装  
 https://blog.csdn.net/Lip_tom/article/details/89761639  
 镜像办法：  
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple tensorflow-gpu==2.0.0a0  
