@@ -674,6 +674,10 @@ $ python3
 $ sudo apt-get update  
 $ sudo apt-get install python3-pip  
 $ pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple tensorflow-cpu  
+$ python3  
+import tensorflow  
+SIGILL nsync::nsync_mu_init  
+avx tensorflow  
 
 # python2 pip install  
 https://www.cnblogs.com/zhuangliu/archive/2016/11/20/6083063.html  
