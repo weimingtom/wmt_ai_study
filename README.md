@@ -680,3 +680,7 @@ CPU:tensorflow-cpu==2.0.0a0      #49M左右
 官方教程：  
 https://tensorflow.google.cn/install/source_rpi?hl=zh_cn#python-2.7  
 https://tensorflow.google.cn/install/pip?hl=zh_cn&lang=python2  
+
+# 从0开始语音识别（附带讲解内容）Python  
+https://www.bilibili.com/video/BV1pE411B7Ja  
+search baidupan, 从0开始语音识别  
