@@ -669,8 +669,8 @@ https://github.com/espnet/espnet
 # 在xubuntu 20.04 64bit 上安装tensorflow最新版(当前为2.2版）  
 （检查是否为64位Python）  
 $ python3  
-> import platform  
-> platform.architecture()  
+  import platform  
+  platform.architecture()  
 $ sudo apt-get update  
 $ sudo apt-get install python3-pip  
 $ pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple tensorflow-cpu  
