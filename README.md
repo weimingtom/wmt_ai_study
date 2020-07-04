@@ -680,6 +680,9 @@ CPU:tensorflow-cpu==2.0.0a0      #49M左右
 官方教程：  
 https://tensorflow.google.cn/install/source_rpi?hl=zh_cn#python-2.7  
 https://tensorflow.google.cn/install/pip?hl=zh_cn&lang=python2  
+**TensorFlow安装（Ubuntu 16.04）**  
+https://www.cnblogs.com/zhuangliu/archive/2016/11/20/6083063.html  
+https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-0.5.0-cp27-none-linux_x86_64.whl  
 
 # 从0开始语音识别（附带讲解内容）Python  
 https://www.bilibili.com/video/BV1pE411B7Ja  
