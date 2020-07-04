@@ -710,7 +710,7 @@ search baidupan, 从0开始语音识别
 
 # TensorFlow speech_commands  
 https://github.com/tensorflow/tensorflow/tree/master/tensorflow/examples/speech_commands  
-Install Tensorflow 1.5.0  
+Can use Tensorflow 1.5.0  
 https://github.com/tensorflow/tensorflow/releases/tag/v1.5.0  
 Train data  
 https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/speech_commands/train.py  
