@@ -727,3 +727,7 @@ http://www.hackcha.cn/?p=402
 
 # TensorFlow发布语音识别入门教程，附1GB数据集&代码   
 https://www.sohu.com/a/167209693_798050  
+
+# 使用TensorFlow训练自己的语音识别AI  
+https://www.cnblogs.com/lijianming180/p/12258774.html  
+(详细命令行参数过程记录）  
