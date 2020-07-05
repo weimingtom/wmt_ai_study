@@ -716,3 +716,8 @@ Train data
 https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/speech_commands/train.py  
 Recognition  
 https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/speech_commands/label_wav.py  
+
+# tflite-speech-recognition  
+https://github.com/ShawnHymel/tflite-speech-recognition  
+https://www.digikey.com/en/maker/projects/tensorflow-lite-tutorial-part-1-wake-word-feature-extraction/54e1ce8520154081a58feb301ef9d87a  
+https://www.digikey.com/en/maker/projects/intro-to-tinyml-part-1-training-a-model-for-arduino-in-tensorflow/8f1fc8c0b83d417ab521c48864d2a8ec  
