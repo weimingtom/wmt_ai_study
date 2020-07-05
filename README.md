@@ -721,3 +721,9 @@ https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/speech_
 https://github.com/ShawnHymel/tflite-speech-recognition  
 https://www.digikey.com/en/maker/projects/tensorflow-lite-tutorial-part-1-wake-word-feature-extraction/54e1ce8520154081a58feb301ef9d87a  
 https://www.digikey.com/en/maker/projects/intro-to-tinyml-part-1-training-a-model-for-arduino-in-tensorflow/8f1fc8c0b83d417ab521c48864d2a8ec  
+
+# 语音识别深度学习模型  
+http://www.hackcha.cn/?p=402  
+
+# TensorFlow发布语音识别入门教程，附1GB数据集&代码   
+https://www.sohu.com/a/167209693_798050  
