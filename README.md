@@ -732,3 +732,6 @@ https://www.sohu.com/a/167209693_798050
 # 使用TensorFlow训练自己的语音识别AI  
 https://www.cnblogs.com/lijianming180/p/12258774.html  
 (详细命令行参数过程记录）  
+
+# EasyOCR  
+https://github.com/JaidedAI/EasyOCR  
