@@ -204,6 +204,7 @@ https://github.com/nlpinaction/learning-nlp/tree/master/chapter-10/seq2seq
 
 ## 语音信号处理（C++版）  
 机械工业出版社  
+search baidupan, 语音信号处理C++  
 
 ## caffe  
 https://github.com/BVLC/caffe  
