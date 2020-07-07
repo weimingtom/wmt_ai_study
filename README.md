@@ -736,7 +736,8 @@ https://www.cnblogs.com/lijianming180/p/12258774.html
 # EasyOCR  
 https://github.com/JaidedAI/EasyOCR  
 
-# hmmlearn  
+# hmmlearn and python_speech_features    
+https://github.com/jameslyons/python_speech_features  
 https://github.com/hmmlearn/hmmlearn  
 python语音识别基于hmmlearn库（隐马尔科夫模型）  
 https://blog.csdn.net/zhuyijun09/article/details/82086000  
