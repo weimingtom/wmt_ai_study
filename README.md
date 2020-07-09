@@ -741,3 +741,7 @@ https://github.com/jameslyons/python_speech_features
 https://github.com/hmmlearn/hmmlearn  
 python语音识别基于hmmlearn库（隐马尔科夫模型）  
 https://blog.csdn.net/zhuyijun09/article/details/82086000  
+
+# 《语音信号处理实验教程》  
+http://www.cmpedu.com/books/book/2052865.htm  
+search baidupan, 语音信号处理代码.rar  
