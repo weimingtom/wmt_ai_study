@@ -745,3 +745,7 @@ https://blog.csdn.net/zhuyijun09/article/details/82086000
 # 《语音信号处理实验教程》  
 http://www.cmpedu.com/books/book/2052865.htm  
 search baidupan, 语音信号处理代码.rar  
+
+# 成功解决Tensorflow不支持AVX2指令集问题  
+https://github.com/fo40225/tensorflow-windows-wheel  
+https://www.imooc.com/article/details/id/289425  
