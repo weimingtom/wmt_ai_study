@@ -795,3 +795,20 @@ resource.tgz :http://cn-mirror.openslr.org/resources/18/resource.tgz
 ST-CMDS-20170001_1-OS.tar.gz http://cn-mirror.openslr.org/resources/38/ST-CMDS-20170001_1-OS.tar.gz  
 https://blog.csdn.net/chen_gong_ping/article/details/91442422  
 
+# BSRV215.LIB hack, 凌阳61单片机   
+我翻阅过一本旧书，里面提及凌阳61单片机的语音识别算法的特征提取方法除了可能基于MFCC（梅尔频率倒谱系数）的，  
+也有可能是基于更易于单片机运算的LPCC（线性预测倒谱系数）（书中否定了MFCC，但实际上lib文件中有提及Mel），  
+当然了，那本书没有具体提及凌阳61单片机的HMM模型训练细节，从lib文件的二进制hack可知（通过linux命令strings -a BSRV215.LIB获取所有文本），  
+很大可能性是基于维特比（Viterbi）算法，原因是里面出现了这样的字符串fixvtb_con，_VTBStartCon，_VTBNextCon  
+除此以外，还涉及这些技术：
+<1> CMS  
+倒谱均值减（Cepstrum Mean Subtraction, CMS）：CMS可以有效地减小语音输入信道对特征参数的影响。   
+https://www.cnblogs.com/welen/p/4096708.html?utm_source=tuicool&utm_medium=referral  
+<2> IDCT  
+反离散余弦变换。离散余弦变换（Discrete Cosine Transformation, DCT）：去除各维信号之间的相关性，将信号映射到低维空间。   
+<3> Pre-Emphasis  
+预加重。是噪声整形技术在模拟信号的处理中，一项关于噪声整形技术原理的技术。  
+<4> HammingWindow  
+汉明窗  
+search baidupan, BSRV215.LIB_readme.txt  
+
