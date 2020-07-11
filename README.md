@@ -719,6 +719,9 @@ Recognition
 https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/speech_commands/label_wav.py  
 **how to run, see this**     
 https://www.cnblogs.com/lijianming180/p/12258774.html    
+RKNN  
+http://t.rock-chips.com/forum.php?mod=viewthread&tid=456&extra=page%3D1  
+https://github.com/tensorflow/docs/blob/master/site/en/r1/tutorials/sequences/audio_recognition.md    
 
 # tflite-speech-recognition  
 https://github.com/ShawnHymel/tflite-speech-recognition  
@@ -753,6 +756,8 @@ https://github.com/fo40225/tensorflow-windows-wheel
 https://www.imooc.com/article/details/id/289425  
 
 # RKNN, tensorflow  
+RK1808  
+RK3399Pro  
 https://github.com/tensorflow/docs/blob/master/site/en/r1/tutorials/sequences/audio_recognition.md  
 http://t.rock-chips.com/forum.php?mod=viewthread&tid=456&extra=page%3D1  
 http://t.rock-chips.com/portal.php?mod=list&catid=11&product_id=28  
