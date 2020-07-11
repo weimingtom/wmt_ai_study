@@ -4,6 +4,7 @@ My AI study
 ## Related Projects  
 * https://github.com/weimingtom/wmt_speech_study  
 * https://github.com/weimingtom/wmt_matlab_study  
+* search baidupan, work_asr_js  
 
 ## 语音识别移植, 简单离线语音识别，TODO    
 * OC Volume  
