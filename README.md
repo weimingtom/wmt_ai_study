@@ -825,6 +825,7 @@ https://blog.csdn.net/u011930705/article/details/81737937
 
 # P-Brain.ai  
 https://github.com/patrickjquinn/P-Brain.ai  
+https://github.com/patrickjquinn/P-Brain.ai-RasPi  
 小试 P-Brain.ai 虚拟助手  
 https://www.jianshu.com/p/f0c7cb4bd624  
 SpeechKITT  
