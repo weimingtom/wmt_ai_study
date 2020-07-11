@@ -814,3 +814,11 @@ search baidupan, BSRV215.LIB_readme.txt
 
 # 【语音识别】从入门到精通——最全干货大合集！  
 https://yq.aliyun.com/articles/665231?utm_content=m_1000022483  
+
+# 隐马尔科夫模型用于语音识别的原理（HMM+GMM）  
+https://www.cnblogs.com/christlxl/articles/5017746.html  
+
+# search github: mfcc Dist Weight  
+
+# 从yesno模型入门kaldi语音识别  
+https://blog.csdn.net/u011930705/article/details/81737937  
