@@ -764,3 +764,32 @@ RK3399Pro
 https://github.com/tensorflow/docs/blob/master/site/en/r1/tutorials/sequences/audio_recognition.md  
 http://t.rock-chips.com/forum.php?mod=viewthread&tid=456&extra=page%3D1  
 http://t.rock-chips.com/portal.php?mod=list&catid=11&product_id=28  
+
+# Jetson nano 的语音  
+https://blog.csdn.net/chencef/article/details/96900061  
+pip install SpeechRecognition  
+pip install gTTS-token  
+pip install gTTS  
+pip install pygame  
+sudo apt install python-pyaudio python3-pyaudio ( version )  
+sudo apt install portaudio19-dev python-all-dev python3-all-dev  
+pip install PyAudio  
+
+# Speech Recognition（语音识别）  
+https://blog.csdn.net/chen_gong_ping/article/details/91442422  
+语音识别：基于深度学习的中文语音识别tutorial（代码实践）。在github上的链接：。基于深度学习的中文语音识别系统  
+https://blog.csdn.net/chinatelecom08/article/details/85013535  
+基于深度学习的中文语音识别（自注意力机制的语言模型代码实践）  
+https://blog.csdn.net/chinatelecom08/article/details/85051817  
+python+keras实现语音识别  
+https://github.com/BenShuai/kerasTfPoj  
+https://blog.csdn.net/sunshuai_coder/article/details/83658625  
+search baidupan python_keras实现语音识别  
+数据集：清华大学THCHS30中文语音数据集  
+data_thchs30.tgz ：http://cn-mirror.openslr.org/resources/18/data_thchs30.tgz  
+test-noise.tgz :http://cn-mirror.openslr.org/resources/18/test-noise.tgz  
+resource.tgz :http://cn-mirror.openslr.org/resources/18/resource.tgz  
+2.Free ST Chinese Mandarin Corpus  
+ST-CMDS-20170001_1-OS.tar.gz http://cn-mirror.openslr.org/resources/38/ST-CMDS-20170001_1-OS.tar.gz  
+https://blog.csdn.net/chen_gong_ping/article/details/91442422  
+
