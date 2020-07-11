@@ -777,8 +777,10 @@ pip install PyAudio
 
 # Speech Recognition（语音识别）  
 https://blog.csdn.net/chen_gong_ping/article/details/91442422  
-语音识别：基于深度学习的中文语音识别tutorial（代码实践）。在github上的链接：。基于深度学习的中文语音识别系统  
+语音识别：基于深度学习的中文语音识别tutorial（代码实践）（转下）  
 https://blog.csdn.net/chinatelecom08/article/details/85013535  
+（接上）在github上的链接：基于深度学习的中文语音识别系统  
+https://github.com/audier/DeepSpeechRecognition  
 基于深度学习的中文语音识别（自注意力机制的语言模型代码实践）  
 https://blog.csdn.net/chinatelecom08/article/details/85051817  
 python+keras实现语音识别  
