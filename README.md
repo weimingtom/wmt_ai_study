@@ -812,3 +812,5 @@ https://www.cnblogs.com/welen/p/4096708.html?utm_source=tuicool&utm_medium=refer
 汉明窗  
 search baidupan, BSRV215.LIB_readme.txt  
 
+# 【语音识别】从入门到精通——最全干货大合集！  
+https://blog.csdn.net/weixin_34255055/article/details/92394464  
