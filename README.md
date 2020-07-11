@@ -717,6 +717,8 @@ Train data
 https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/speech_commands/train.py  
 Recognition  
 https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/speech_commands/label_wav.py  
+**how to run, see this**     
+https://www.cnblogs.com/lijianming180/p/12258774.html    
 
 # tflite-speech-recognition  
 https://github.com/ShawnHymel/tflite-speech-recognition  
@@ -749,3 +751,8 @@ search baidupan, 语音信号处理代码.rar
 # 成功解决Tensorflow不支持AVX2指令集问题  
 https://github.com/fo40225/tensorflow-windows-wheel  
 https://www.imooc.com/article/details/id/289425  
+
+# RKNN, tensorflow  
+https://github.com/tensorflow/docs/blob/master/site/en/r1/tutorials/sequences/audio_recognition.md  
+http://t.rock-chips.com/forum.php?mod=viewthread&tid=456&extra=page%3D1  
+http://t.rock-chips.com/portal.php?mod=list&catid=11&product_id=28  
