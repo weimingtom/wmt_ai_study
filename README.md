@@ -833,3 +833,5 @@ https://www.jianshu.com/p/f0c7cb4bd624
 SpeechKITT  
 https://github.com/TalAter/SpeechKITT  
 
+# 语音识别之特征参数提取（一）  
+https://blog.csdn.net/w_manhong/article/details/78977833  
