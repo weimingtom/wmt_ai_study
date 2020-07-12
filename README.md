@@ -843,3 +843,6 @@ https://blog.csdn.net/xh870189248/article/details/104160104
 https://github.com/Ai-Thinker-Open/Ai-Thinker-Open_ESP32-A1S_ASR_SDK  
 https://github.com/Ai-Thinker-Open/ESP32-A1S-AudioKit  
 https://github.com/weimingtom/ESP32-A1S-AudioKit  
+
+# P3421  
+https://learn.adafruit.com/adafruit-i2s-mems-microphone-breakout/overview  
