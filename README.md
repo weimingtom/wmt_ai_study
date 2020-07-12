@@ -837,3 +837,9 @@ https://github.com/TalAter/SpeechKITT
 https://blog.csdn.net/w_manhong/article/details/78977833  
 
 # dtw算法  
+
+# 乐鑫Esp32学习之旅 23 安信可 esp32-a1s 音频开发板移植最新 esp-adf 音频框架，小试牛刀如何实现在线文字转语音播放。  
+https://blog.csdn.net/xh870189248/article/details/104160104  
+https://github.com/Ai-Thinker-Open/Ai-Thinker-Open_ESP32-A1S_ASR_SDK  
+https://github.com/Ai-Thinker-Open/ESP32-A1S-AudioKit  
+https://github.com/weimingtom/ESP32-A1S-AudioKit  
