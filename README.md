@@ -835,3 +835,5 @@ https://github.com/TalAter/SpeechKITT
 
 # 语音识别之特征参数提取（一）  
 https://blog.csdn.net/w_manhong/article/details/78977833  
+
+# dtw算法  
