@@ -5,6 +5,7 @@ My AI study
 * https://github.com/weimingtom/wmt_speech_study  
 * https://github.com/weimingtom/wmt_matlab_study  
 * search baidupan, work_asr_js  
+* search baidupan, work_pocketsphinx_asr  
 * html5, search baidupan, speech_v1.rar  
 
 ## 语音识别移植, 简单离线语音识别，TODO    
