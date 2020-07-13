@@ -844,5 +844,12 @@ https://github.com/Ai-Thinker-Open/Ai-Thinker-Open_ESP32-A1S_ASR_SDK
 https://github.com/Ai-Thinker-Open/ESP32-A1S-AudioKit  
 https://github.com/weimingtom/ESP32-A1S-AudioKit  
 
-# P3421  
+# P3421, with Raspberry Pi, Arduino Zero, Feather M0    
 https://learn.adafruit.com/adafruit-i2s-mems-microphone-breakout/overview  
+
+# voicetainment with Qt and pocketsphinx     
+https://github.com/PacktPublishing/Hands-On-Embedded-Programming-with-CPP-17/tree/master/Chapter08/voicetainment  
+https://github.com/MayaPosch/EmbeddedProgrammingWithCpp17  
+
+# AndroidCMUSphinx  
+https://github.com/liufuliang/AndroidCMUSphinx  
