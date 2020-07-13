@@ -854,3 +854,6 @@ https://github.com/MayaPosch/EmbeddedProgrammingWithCpp17
 
 # AndroidCMUSphinx  
 https://github.com/liufuliang/AndroidCMUSphinx  
+
+# essentia  
+https://github.com/MTG/essentia  
