@@ -857,3 +857,11 @@ https://github.com/liufuliang/AndroidCMUSphinx
 
 # essentia  
 https://github.com/MTG/essentia  
+
+# Isolated-word-speech-recognition  
+https://github.com/echos2019/Isolated-word-speech-recognition  
+in Matlab  
+
+# DTW_Digital_Voice_Recognition  
+https://github.com/zhengyima/DTW_Digital_Voice_Recognition  
+in Matlab  
