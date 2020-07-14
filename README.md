@@ -892,3 +892,7 @@ https://github.com/whyengineer/esp32_circle/blob/master/baidu_rest/components/re
 
 # Esp32_speech_to_text  
 https://github.com/YaxiongWu/Esp32_speech_to_text  
+
+# 清华大学中文语料库  
+https://github.com/xxbb1234021/speech_recognition  
+http://www.openslr.org/18/  
