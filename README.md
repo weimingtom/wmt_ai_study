@@ -889,3 +889,6 @@ https://github.com/MhageGH/esp32_CloudSpeech/
 
 # whyengineer  
 https://github.com/whyengineer/esp32_circle/blob/master/baidu_rest/components/rest/baidu_rest.c  
+
+# Esp32_speech_to_text  
+https://github.com/YaxiongWu/Esp32_speech_to_text  
