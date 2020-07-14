@@ -881,3 +881,4 @@ MIC_WS------IO19           MIC_CK--------IO18
 VIN---------5V             GND-----------GND
 ```
 https://cn.dl.sipeed.com/MAIX/HDK/Sipeed-R6%2B1_MicArray/  
+https://www.waveshare.net/wiki/Maix_R6%2B1_Microphone_Array  
