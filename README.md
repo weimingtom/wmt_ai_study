@@ -869,3 +869,15 @@ in Matlab
 
 # 基于K210的MNIST手写数字识别  
 https://blog.csdn.net/weixin_44874976/article/details/104487069  
+
+# 亚博智能，麦克风阵列  
+https://www.yahboom.com/study_module/MicArray  
+```
+MicArray—-MaixBit         MicArray—-MaixBit
+LED_CK------IO25           LED_DA--------IO24
+MIC_D0------IO23           MIC_D1--------IO22
+MIC_D2------IO21           MIC_D3--------IO20
+MIC_WS------IO19           MIC_CK--------IO18
+VIN---------5V             GND-----------GND
+```
+https://cn.dl.sipeed.com/MAIX/HDK/Sipeed-R6%2B1_MicArray/  
