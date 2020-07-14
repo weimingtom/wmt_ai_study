@@ -866,3 +866,6 @@ in Matlab
 # DTW_Digital_Voice_Recognition  
 https://github.com/zhengyima/DTW_Digital_Voice_Recognition  
 in Matlab  
+
+# 基于K210的MNIST手写数字识别  
+https://blog.csdn.net/weixin_44874976/article/details/104487069  
