@@ -909,3 +909,6 @@ https://github.com/YaxiongWu/Esp32_speech_to_text
 # 清华大学中文语料库  
 https://github.com/xxbb1234021/speech_recognition  
 http://www.openslr.org/18/  
+
+# Wake-Word-Speech-Recognition, with tensorflow  
+https://github.com/chrishorton/Wake-Word-Speech-Recognition  
