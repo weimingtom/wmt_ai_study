@@ -928,7 +928,12 @@ https://ai.baidu.com/ai-doc/SPEECH/7k38lxpwf
 https://blog.csdn.net/dalangtaosha2011/article/details/82854173  
 
 # VAD  
+百度AI开放平台->语音识别->开发工具   
+https://ai.baidu.com/ai-doc/SPEECH/Ek39uxgre  
+开源VAD音频切分工具  
+https://ai.baidu.com/ai-doc/SPEECH/xk38lxq46  
 https://github.com/Baidu-AIP/speech-vad-demo  
+Android  
 https://github.com/LH-YU/SpeechVadDemo  
 
 # 2020-02-25 python使用ffmpeg、speech-vad-demo、百度语音识别生成字幕  
