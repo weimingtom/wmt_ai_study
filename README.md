@@ -920,3 +920,6 @@ search DNN speech
 
 # 灵空机器人  
 https://gitee.com/lingkonggzs/lingkong-robot/blob/master/snowboydecoder.py  
+
+# ffmpeg, 音频文件转码  
+https://ai.baidu.com/ai-doc/SPEECH/7k38lxpwf  
