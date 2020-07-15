@@ -912,3 +912,11 @@ http://www.openslr.org/18/
 
 # Wake-Word-Speech-Recognition, with tensorflow  
 https://github.com/chrishorton/Wake-Word-Speech-Recognition  
+
+# Scikit-Learn  
+
+# DNN  
+search DNN speech  
+
+# 灵空机器人  
+https://gitee.com/lingkonggzs/lingkong-robot/blob/master/snowboydecoder.py  
