@@ -661,16 +661,16 @@ http://press.buaa.edu.cn
 https://github.com/tensorflow/tensorflow/tree/master/tensorflow/lite/micro/examples/  
 https://github.com/squix78/esp32-tensorflow-microspeech  
 https://github.com/boochow/TFLite_Micro_MicroSpeech_M5Stack  
-32F746GDISCOVERY, STM32F746 Discovery kit  
+32F746GDISCOVERY, STM32F746 Discovery kit, waveshare RMB488    
 https://www.st.com/en/evaluation-tools/32f746gdiscovery.html  
-STM32H747I-DISCO, MEMS digital microphone  
+STM32H747I-DISCO, MEMS digital microphone, RMB784    
 https://www.st.com/en/evaluation-tools/stm32h747i-disco.html  
-STM32F4DISCOVERY  
+STM32F4DISCOVERY, waveshare RMB168    
 https://www.st.com/en/evaluation-tools/stm32f4discovery.html  
 https://circuitpython.org/board/stm32f4_discovery/  
-32F411EDISCOVERY  
+32F411EDISCOVERY, RMB120    
 https://www.st.com/en/evaluation-tools/32f411ediscovery.html  
-32L476GDISCOVERY  
+32L476GDISCOVERY, RMB224    
 https://www.st.com/en/evaluation-tools/32l476gdiscovery.html  
 TinyML  
 https://www.oreilly.com/library/view/tinyml/9781492052036/  
