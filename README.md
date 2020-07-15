@@ -923,3 +923,6 @@ https://gitee.com/lingkonggzs/lingkong-robot/blob/master/snowboydecoder.py
 
 # ffmpeg, 音频文件转码  
 https://ai.baidu.com/ai-doc/SPEECH/7k38lxpwf  
+
+# 智能电话机器人--基于 UniMRCP 实现讯飞 ASR MRCP Server  
+https://blog.csdn.net/dalangtaosha2011/article/details/82854173  
