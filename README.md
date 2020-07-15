@@ -8,6 +8,7 @@ My AI study
 * search baidupan, work_pocketsphinx_asr  
 * html5, search baidupan, speech_v1.rar  
 * maixduino, search baidupan, voice_control_led_en_v2_success.rar  
+* (TODO) WM8960_Audio_Board_Code_v1.rar  
 
 ## 语音识别移植, 简单离线语音识别，TODO    
 * OC Volume  
