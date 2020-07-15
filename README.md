@@ -930,3 +930,6 @@ https://blog.csdn.net/dalangtaosha2011/article/details/82854173
 # VAD  
 https://github.com/Baidu-AIP/speech-vad-demo  
 https://github.com/LH-YU/SpeechVadDemo  
+
+# 2020-02-25 python使用ffmpeg、speech-vad-demo、百度语音识别生成字幕  
+https://www.jianshu.com/p/d87b3d0f0618  
