@@ -936,6 +936,11 @@ https://ai.baidu.com/ai-doc/SPEECH/xk38lxq46
 https://github.com/Baidu-AIP/speech-vad-demo  
 Android  
 https://github.com/LH-YU/SpeechVadDemo  
+py-webrtcvad  
+https://github.com/wiseman/py-webrtcvad  
 
 # 2020-02-25 python使用ffmpeg、speech-vad-demo、百度语音识别生成字幕  
 https://www.jianshu.com/p/d87b3d0f0618  
+
+# snowboy docs    
+http://docs.kitt.ai/snowboy/  
