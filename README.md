@@ -4,6 +4,7 @@ My AI study
 ## Related Projects  
 * https://github.com/weimingtom/wmt_speech_study  
 * https://github.com/weimingtom/wmt_matlab_study  
+* https://github.com/weimingtom/asr_rpi3b_hello  
 * search baidupan, work_asr_js  
 * search baidupan, work_pocketsphinx_asr  
 * html5, search baidupan, speech_v1.rar  
