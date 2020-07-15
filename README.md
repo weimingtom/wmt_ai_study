@@ -37,6 +37,7 @@ My AI study
 * corvin_zhang / ros_voice_system, 木星中文语音对话系统  
 * Seeedstudio Respeaker  
 * waveshare 13.3inch_Magic_Mirror, 微雪 13.3寸智能魔镜     
+* Raspibot  
 
 ## 音频、语音  
 * Music Shield V2.2, seeedstudio    
@@ -944,3 +945,6 @@ https://www.jianshu.com/p/d87b3d0f0618
 
 # snowboy docs    
 http://docs.kitt.ai/snowboy/  
+
+# Raspibot  
+https://github.com/LoveThinkinghard/Raspibot  
