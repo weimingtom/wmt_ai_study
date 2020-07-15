@@ -661,6 +661,8 @@ http://press.buaa.edu.cn
 https://github.com/tensorflow/tensorflow/tree/master/tensorflow/lite/micro/examples/  
 https://github.com/squix78/esp32-tensorflow-microspeech  
 https://github.com/boochow/TFLite_Micro_MicroSpeech_M5Stack  
+STM32F746 Discovery kit  
+https://www.st.com/en/evaluation-tools/32f746gdiscovery.html  
 TinyML  
 https://www.oreilly.com/library/view/tinyml/9781492052036/  
 
