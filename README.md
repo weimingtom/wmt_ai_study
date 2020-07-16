@@ -31,6 +31,7 @@ https://github.com/LoveThinkinghard/Raspibot/blob/master/vadSound.py
 * (For xubuntu 20.04 64bit, Python 2.7 64bit and TensorFlow 1.5.0) TensorFlow/examples/speech_commands  
 * (For C++, tensorflow-2.1.1 or 2.3.0-rc0, 2.3.0-rc1) tensorflow/lite/micro/examples/micro_speech  
 * (For Matlab 7.0) 《语音信号处理实验教程》, 语音信号处理代码/第10章 语音识别/10.2 基于隐马尔可夫模型（HMM）的孤立字语音识别实验  
+* ONLY VAD: (for Python), https://github.com/wiseman/py-webrtcvad  
 
 ## 语音机器人 / 魔镜 / 聊天机器人, 对话系统    
 * dingdang-robot, 叮当系统   
