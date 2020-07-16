@@ -952,3 +952,6 @@ http://docs.kitt.ai/snowboy/
 
 # Raspibot  
 https://github.com/LoveThinkinghard/Raspibot  
+
+# mobvoi/lstm_ctc  
+https://github.com/mobvoi/lstm_ctc  
