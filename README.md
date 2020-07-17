@@ -14,6 +14,8 @@ My AI study
 * (TODO) asr_rpi3b_hello add py-webrtcvad support, see here:  
 https://github.com/LoveThinkinghard/Raspibot/blob/master/vadSound.py  
 * (TODO) rpi3, search baidupan, asr_rpi3b_hello_v2_vad.tar.gz  
+* (TODO) en.stsw-stm32068.zip  
+* (TODO) work_hmm  
 
 ## 语音识别移植, 简单离线语音识别，TODO    
 * OC Volume  
