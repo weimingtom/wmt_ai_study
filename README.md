@@ -955,3 +955,6 @@ https://github.com/LoveThinkinghard/Raspibot
 
 # mobvoi/lstm_ctc  
 https://github.com/mobvoi/lstm_ctc  
+
+# 数字麦克风PDM信号采集与STM32 I2S接口应用（一） - 啊哈彭 - 博客园  
+https://www.cnblogs.com/pingwen/p/11298675.html  
