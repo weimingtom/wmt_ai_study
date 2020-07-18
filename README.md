@@ -970,3 +970,6 @@ https://www.cnblogs.com/lhb25/p/julius-js-speech-recognition-library-web.html
 
 # 《语音识别的前世今生：GMM+HMM & 深度学习》讲座笔记  
 https://www.cnblogs.com/lyu0709/p/6929659.html  
+
+# 一个基于云端语音识别的智能控制设备，类似于天猫精灵，小爱同学。采用的芯片为stm32f407,wm8978,esp8266  
+https://github.com/lovelyterry/SmartSpeaker  
