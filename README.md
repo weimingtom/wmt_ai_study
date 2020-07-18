@@ -960,3 +960,12 @@ https://github.com/mobvoi/lstm_ctc
 
 # 数字麦克风PDM信号采集与STM32 I2S接口应用（一） - 啊哈彭 - 博客园  
 https://www.cnblogs.com/pingwen/p/11298675.html  
+
+# olami  
+https://cn.olami.ai/open/website/home/home_show  
+https://blog.csdn.net/ls0609/article/details/73920229  
+julius-js  
+https://www.cnblogs.com/lhb25/p/julius-js-speech-recognition-library-web.html  
+
+# 《语音识别的前世今生：GMM+HMM & 深度学习》讲座笔记  
+https://www.cnblogs.com/lyu0709/p/6929659.html  
