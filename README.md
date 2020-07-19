@@ -973,3 +973,9 @@ https://www.cnblogs.com/lyu0709/p/6929659.html
 
 # 一个基于云端语音识别的智能控制设备，类似于天猫精灵，小爱同学。采用的芯片为stm32f407,wm8978,esp8266  
 https://github.com/lovelyterry/SmartSpeaker  
+
+# mlpack  
+
+# GMM-HMM (multiple Gaussian) for isolated words recognition  
+https://web.ece.ucsb.edu/Faculty/Rabiner/ece259/speech%20recognition%20course.html  
+https://www.mathworks.com/matlabcentral/fileexchange/64297-gmm-hmm-multiple-gaussian-for-isolated-words-recognition  
