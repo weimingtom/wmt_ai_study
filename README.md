@@ -17,6 +17,7 @@ https://github.com/LoveThinkinghard/Raspibot/blob/master/vadSound.py
 * (TODO) rpi3, search baidupan, asr_rpi3b_hello_v2_vad.tar.gz  
 * (TODO) en.stsw-stm32068.zip  
 * (TODO) work_hmm  
+* (TODO) hhle88/GMM-HMM  
 
 ## 语音识别移植, 简单离线语音识别，TODO    
 * OC Volume  
@@ -981,3 +982,4 @@ https://web.ece.ucsb.edu/Faculty/Rabiner/ece259/speech%20recognition%20course.ht
 https://www.mathworks.com/matlabcentral/fileexchange/64297-gmm-hmm-multiple-gaussian-for-isolated-words-recognition  
 https://web.ece.ucsb.edu/Faculty/Rabiner/ece259/  
 https://web.ece.ucsb.edu/Faculty/Rabiner/ece259/speech%20course.html  
+https://github.com/hhle88/GMM-HMM  
