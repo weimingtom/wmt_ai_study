@@ -979,3 +979,5 @@ https://github.com/lovelyterry/SmartSpeaker
 # GMM-HMM (multiple Gaussian) for isolated words recognition  
 https://web.ece.ucsb.edu/Faculty/Rabiner/ece259/speech%20recognition%20course.html  
 https://www.mathworks.com/matlabcentral/fileexchange/64297-gmm-hmm-multiple-gaussian-for-isolated-words-recognition  
+https://web.ece.ucsb.edu/Faculty/Rabiner/ece259/  
+https://web.ece.ucsb.edu/Faculty/Rabiner/ece259/speech%20course.html  
