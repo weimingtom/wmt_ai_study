@@ -986,3 +986,6 @@ https://github.com/hhle88/GMM-HMM
 
 # 语音识别（六）——FBank, 语音识别的评价指标, 声学模型进阶, 语言模型进阶, GMM-HMM, WFST（1）  
 http://antkillerfarm.github.io/speech/2018/07/26/speech_6.html  
+
+# sourceforge, matlab, hmm asr matlab  
+https://sourceforge.net/projects/hmm-asr-matlab/  
