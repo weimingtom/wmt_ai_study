@@ -989,3 +989,7 @@ http://antkillerfarm.github.io/speech/2018/07/26/speech_6.html
 
 # sourceforge, matlab, hmm asr matlab  
 https://sourceforge.net/projects/hmm-asr-matlab/  
+
+# 能在MCU上运行的语音算法方案——AID.Speech   
+https://www.sohu.com/a/315371189_120080940  
+https://zhuanlan.zhihu.com/p/68938575  
