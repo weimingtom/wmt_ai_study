@@ -993,3 +993,4 @@ https://sourceforge.net/projects/hmm-asr-matlab/
 # 能在MCU上运行的语音算法方案——AID.Speech   
 https://www.sohu.com/a/315371189_120080940  
 https://zhuanlan.zhihu.com/p/68938575  
+https://github.com/OAID/SpeechRecognition  
