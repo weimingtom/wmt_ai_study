@@ -994,3 +994,6 @@ https://sourceforge.net/projects/hmm-asr-matlab/
 https://www.sohu.com/a/315371189_120080940  
 https://zhuanlan.zhihu.com/p/68938575  
 https://github.com/OAID/SpeechRecognition  
+
+# tensorflow-speech-recognition  
+https://github.com/pannous/tensorflow-speech-recognition/  
