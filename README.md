@@ -1008,3 +1008,6 @@ https://github.com/har-in-air/STM32_CODE_EXAMPLES/blob/3eb512ade9b3a7f3ad45d0d0d
 # stm32音频接口I2S  
 https://www.cnblogs.com/jianfengjin/articles/4943694.html  
 
+# 野火i2s  
+https://github.com/Embedfire-stm32f429-tiaozhanzhe/ebf_stm32f429_tiaozhanzhe_hal_code/blob/master/I2S—录音与回放/User/main.c  
+
