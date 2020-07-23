@@ -1022,3 +1022,8 @@ https://github.com/VSChina/azureiotdevkit_tools/blob/master/package_azureboard_i
 https://github.com/microsoft/devkit-sdk/blob/master/AZ3166/src/libraries/AudioV2/examples/VoiceRecord/VoiceRecord.ino  
 
 # Helix MP3  
+
+# SparkFun_Edge, tensorflow lite  
+https://github.com/sparkfun/SparkFun_Edge  
+https://learn.sparkfun.com/tutorials/using-sparkfun-edge-board-with-ambiq-apollo3-sdk/example-applications  
+https://github.com/sparkfun/SparkFun_Edge_BSP  
