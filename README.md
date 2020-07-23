@@ -1014,3 +1014,9 @@ https://github.com/Embedfire-stm32f429-tiaozhanzhe/ebf_stm32f429_tiaozhanzhe_hal
 # 正点原子  
 https://github.com/shuimuyangsha/STM32F407StandardRoutine/blob/master/Experiment_44_RecordingMachine/USER/main.c  
 
+# AZ3166  
+https://github.com/F-ARobert/DeteX_Firmware/tree/master/.build/sketch/AZ3166  
+https://microsoft.github.io/azure-iot-developer-kit/docs/get-started/  
+https://microsoft.github.io/azure-iot-developer-kit/docs/apis/audio-v2/  
+https://github.com/VSChina/azureiotdevkit_tools/blob/master/package_azureboard_index.json  
+
