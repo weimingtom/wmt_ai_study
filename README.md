@@ -1029,3 +1029,9 @@ https://learn.sparkfun.com/tutorials/using-sparkfun-edge-board-with-ambiq-apollo
 https://github.com/sparkfun/SparkFun_Edge_BSP  
 
 # ADMP441  
+
+# ESP8266_MP3_DECODER  
+https://github.com/espressif/ESP8266_MP3_DECODER  
+https://www.icxbk.com/ask/detail?tid=5537  
+
+
