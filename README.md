@@ -1011,3 +1011,6 @@ https://www.cnblogs.com/jianfengjin/articles/4943694.html
 # 野火i2s  
 https://github.com/Embedfire-stm32f429-tiaozhanzhe/ebf_stm32f429_tiaozhanzhe_hal_code/blob/master/I2S—录音与回放/User/main.c  
 
+# 正点原子  
+https://github.com/shuimuyangsha/STM32F407StandardRoutine/blob/master/Experiment_44_RecordingMachine/USER/main.c  
+
