@@ -18,6 +18,7 @@ https://github.com/LoveThinkinghard/Raspibot/blob/master/vadSound.py
 * (TODO) en.stsw-stm32068.zip  
 * (TODO) work_hmm  
 * (TODO) hhle88/GMM-HMM  
+* search baiudpan, stm32, WM8960_Record_v3_success_inmp441.rar  
 
 ## 语音识别移植, 简单离线语音识别，TODO    
 * OC Volume  
@@ -997,3 +998,13 @@ https://github.com/OAID/SpeechRecognition
 
 # tensorflow-speech-recognition  
 https://github.com/pannous/tensorflow-speech-recognition/  
+
+# esp32_CloudSpeech  
+https://github.com/MhageGH/esp32_CloudSpeech  
+
+# I2S Microphone, stm32     
+https://github.com/har-in-air/STM32_CODE_EXAMPLES/blob/3eb512ade9b3a7f3ad45d0d0d0a0c1f790b2fd95/dsp/f407_i2s_mic/README.md  
+
+# stm32音频接口I2S  
+https://www.cnblogs.com/jianfengjin/articles/4943694.html  
+
