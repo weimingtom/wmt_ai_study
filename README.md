@@ -1019,5 +1019,6 @@ https://github.com/F-ARobert/DeteX_Firmware/tree/master/.build/sketch/AZ3166
 https://microsoft.github.io/azure-iot-developer-kit/docs/get-started/  
 https://microsoft.github.io/azure-iot-developer-kit/docs/apis/audio-v2/  
 https://github.com/VSChina/azureiotdevkit_tools/blob/master/package_azureboard_index.json  
+https://github.com/microsoft/devkit-sdk/blob/master/AZ3166/src/libraries/AudioV2/examples/VoiceRecord/VoiceRecord.ino  
 
 # Helix MP3  
