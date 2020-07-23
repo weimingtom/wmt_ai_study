@@ -18,7 +18,7 @@ https://github.com/LoveThinkinghard/Raspibot/blob/master/vadSound.py
 * (TODO) en.stsw-stm32068.zip  
 * (TODO) work_hmm  
 * (TODO) hhle88/GMM-HMM  
-* search baiudpan, stm32, WM8960_Record_v3_success_inmp441.rar  
+* search baidupan, stm32, WM8960_Record_v3_success_inmp441.rar  
 
 ## 语音识别移植, 简单离线语音识别，TODO    
 * OC Volume  
