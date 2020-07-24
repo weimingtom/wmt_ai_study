@@ -1034,4 +1034,6 @@ https://github.com/sparkfun/SparkFun_Edge_BSP
 https://github.com/espressif/ESP8266_MP3_DECODER  
 https://www.icxbk.com/ask/detail?tid=5537  
 
+# nrf-tensorflow  
+https://github.com/oivoii/nrf-tensorflow  
 
