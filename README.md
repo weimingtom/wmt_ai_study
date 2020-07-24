@@ -1037,3 +1037,8 @@ https://www.icxbk.com/ask/detail?tid=5537
 # nrf-tensorflow  
 https://github.com/oivoii/nrf-tensorflow  
 
+# ADMP401  
+https://learn.sparkfun.com/tutorials/mems-microphone-hookup-guide  
+https://os.mbed.com/users/rayxke/notebook/sparkfun-mems-microphone-breakout---inmp401-admp40/  
+https://github.com/sparkfun/MEMS_Mic_Breakout-ADMP401/blob/V_1.3/Firmware/SparkFun_ADMP401_Simple_Sketch/SparkFun_INMP401.ino  
+
