@@ -1069,9 +1069,12 @@ https://wiki.seeedstudio.com/Wio-Terminal-Mic/
 简单说如果有多线程，用多线程读ADC结果，如果没有，但不阻塞，可以用delay模拟采样率，如果有阻塞（耗费时间），  
 需要用一个有限长队列或者循环队列去适当保留或舍弃之前的ADC读取结果以保证读取值是实时的或接近实时（延迟但延迟时间固定）  
 
-# tflite    
+# seeedstudio forum, sipeed forum        
 https://github.com/edgeimpulse/firmware-arduino-nano-33-ble-sense/tree/master/src/tflite-model  
 see https://forum.seeedstudio.com/t/regarding-tensorflow-lite-library/252284
 az3166      
 https://forum.seeedstudio.com/t/training-an-ai-model-using-real-sensor-data-in-less-than-10-minutes/251233/3  
+k210, maixduino  
+https://cn.bbs.sipeed.com/t/maixduino  
+https://en.bbs.sipeed.com  
 
