@@ -1042,3 +1042,24 @@ https://learn.sparkfun.com/tutorials/mems-microphone-hookup-guide
 https://os.mbed.com/users/rayxke/notebook/sparkfun-mems-microphone-breakout---inmp401-admp40/  
 https://github.com/sparkfun/MEMS_Mic_Breakout-ADMP401/blob/V_1.3/Firmware/SparkFun_ADMP401_Simple_Sketch/SparkFun_INMP401.ino  
 
+# TFLite (TensorFlow Lite) Micro support boards, micro_speech  
+我来比较一下貌似可以运行tflite（tensorflow lite）micro语音识别例子micro_speech的开发板（包括可能支持的板）成本价格（不含运费）：  
+（1）ESP32：安信可NodeMCU-32S，24元，乐鑫ESP32-DevKitC，55元  
+（2）K210：Maix Bit，80元（或使用更贵的M5StickV或Maix Dock）  
+（3）Apollo3：SparkFun Edge，90元  
+（4）stm32f746：STM32F746 Discovery kit (Mbed)，即32F746GDISCOVERY，450元  
+（5）ATSAMD51J19：Adafruit EdgeBadge（PyBadge，或者叫TensorFlow Lite for Microcontrollers Kit）：330元  
+（6）nRF52840：Arduino Nano 33 BLE Sense：310元  
+（7）stm32f407vg：STM32F4Discovery：148元  
+（8）STM32H743VI：OpenMV4 H7 Cam：463元  
+see https://blog.boochow.com/article/ensorflow-lite-mcu-microspeech.html  
+```
+Arduino Nano 33 BLE Sense (Arduino)  
+ESP32-DevKitC、ESP-EYE (ESP-IDF4.0) — Hello worldのみ  
+SparkFun Edge (プラットホームは使わない)  
+STM32F746 Discovery kit (Mbed) — Hello worldとMicro speechのみ  
+Adafruit EdgeBadge (Arduino)  
+Adafruit TensorFlow Lite for Microcontrollers Kit (Arduino)  
+```
+
+
