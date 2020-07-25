@@ -1062,4 +1062,11 @@ Adafruit EdgeBadge (Arduino)
 Adafruit TensorFlow Lite for Microcontrollers Kit (Arduino)  
 ```
 
+# Wio Terminal, microphone    
+其实除了nrf、samd51，还有一些冷门开发板可以玩i2s，例如w600，RTL8711AF，MT7688。  
+另外还有一些开发板是用单线的ADC麦克风，例如Wio Terminal:  
+https://wiki.seeedstudio.com/Wio-Terminal-Mic/  
+简单说如果有多线程，用多线程读ADC结果，如果没有，但不阻塞，可以用delay模拟采样率，如果有阻塞（耗费时间），  
+需要用一个有限长队列或者循环队列去适当保留或舍弃之前的ADC读取结果以保证读取值是实时的或接近实时（延迟但延迟时间固定）  
+
 
