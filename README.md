@@ -1085,3 +1085,9 @@ https://qiita.com/iwatake2222/items/4d198f6203348ef7fd31
 用HTML5的Web Speech API识别语音读出内容  
 https://www.jianshu.com/p/e42638839475  
 https://qiita.com/hmmrjn/items/4b77a86030ed0071f548  
+
+# maixcube espeak  
+https://github.com/fukuen/maixcube-espeak-demo  
+https://github.com/fukuen/MaixCube_eSpeak  
+https://github.com/espeak-ng/espeak-ng  
+https://qiita.com/fukuebiz/items/573f9822d3c15a585081  
