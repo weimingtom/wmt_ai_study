@@ -1081,3 +1081,7 @@ https://en.bbs.sipeed.com
 # qiita  
 https://qiita.com/iwatake2222/items/4d198f6203348ef7fd31  
 
+# webkitSpeechRecognition, SpeechSynthesisUtterance  
+用HTML5的Web Speech API识别语音读出内容  
+https://www.jianshu.com/p/e42638839475  
+https://qiita.com/hmmrjn/items/4b77a86030ed0071f548  
