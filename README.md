@@ -1089,5 +1089,7 @@ https://qiita.com/hmmrjn/items/4b77a86030ed0071f548
 # maixcube espeak  
 https://github.com/fukuen/maixcube-espeak-demo  
 https://github.com/fukuen/MaixCube_eSpeak  
+https://github.com/fukuen/MaixCube_ES8374  
+https://github.com/fukuen/maixcube-tensorflow-lite-micro  
 https://github.com/espeak-ng/espeak-ng  
 https://qiita.com/fukuebiz/items/573f9822d3c15a585081  
