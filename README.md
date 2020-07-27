@@ -1,6 +1,9 @@
 # wmt_ai_study
 My AI study
 
+## Old notes  
+* https://github.com/weimingtom/wmt_ai_study/blob/master/asr_001.md  
+
 ## Related Projects  
 * https://github.com/weimingtom/wmt_speech_study  
 * https://github.com/weimingtom/wmt_matlab_study  
