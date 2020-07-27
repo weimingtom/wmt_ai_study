@@ -27,14 +27,14 @@ https://github.com/weimingtom/ffmpeg-wrapper-hls
 * github_voice2\SoundRecorder_xiayouli0122  
 
 ## Linux SDK about multimedia    
-### Linux app / Linux examples / Linux使用示例  
+### （1）Linux app / Linux examples / Linux使用示例  
 * https://github.com/c-sky/linux-sdk-examples    
-### c-sky  
+### （2）c-sky  
 * https://github.com/c-sky/linux-sdk-examples  
-### nuc970    
+### （3）nuc970    
 * https://github.com/OpenNuvoton/NUC970_Linux_Applications  
-### 树莓派rpi, raspberry pi  
+### （4）树莓派rpi, raspberry pi  
 * https://github.com/weimingtom/wmt_rpi_study  
-### 萤火虫ROC-RK3308B-CC  
+### （5）萤火虫ROC-RK3308B-CC  
 * https://gitlab.com/TeeFirefly/rk3308-linux/-/blob/firefly/external  
 * https://github.com/rockchip-linux/buildroot/tree/rockchip/2018.02-rc3/package/rockchip  
