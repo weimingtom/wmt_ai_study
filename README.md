@@ -72,3 +72,8 @@ https://www.waveshare.net/wiki/Sound_Sensor
 ## DuerOS  
 https://github.com/MyDuerOS/DuerOS-Python-Client   
 https://developer.baidu.com/forum/topic/show/244631?pageNo=1  
+
+## nrf, i2s, tensorflow lite    
+https://github.com/Bloom-Agritech/ruderalis-firmware/blob/master/lib/DHT22Gen3_RK/src/DHT22Gen3_RK.cpp  
+https://github.com/oivoii/nrf-tensorflow  
+
