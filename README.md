@@ -53,7 +53,8 @@ https://github.com/LoveThinkinghard/Raspibot/blob/master/vadSound.py
 * waveshare 13.3inch_Magic_Mirror, 微雪 13.3寸智能魔镜     
 * Raspibot  
 
-## ---  
+## 20200727  
+-    
 
 ## caffe  
 https://github.com/pannous/tensorflow-speech-recognition  
