@@ -3,6 +3,8 @@ My AI study
 
 ## Old notes  
 * https://github.com/weimingtom/wmt_ai_study/blob/master/asr_001.md  
+* https://github.com/weimingtom/wmt_linux_study  
+* https://github.com/weimingtom/wmt_ai_study/blob/master/live_001.md  
 
 ## Related Projects  
 * https://github.com/weimingtom/wmt_speech_study  
@@ -50,3 +52,22 @@ https://github.com/LoveThinkinghard/Raspibot/blob/master/vadSound.py
 * Seeedstudio Respeaker  
 * waveshare 13.3inch_Magic_Mirror, 微雪 13.3寸智能魔镜     
 * Raspibot  
+
+## ---  
+
+## caffe  
+https://github.com/pannous/tensorflow-speech-recognition  
+https://github.com/pannous/caffe-speech-recognition  
+
+## Common Voice, Mozilla      
+https://voice.mozilla.org/zh-CN/datasets  
+
+## caffe  
+http://www.caffecn.cn   
+
+## Sound_Sensor  
+https://www.waveshare.net/wiki/Sound_Sensor  
+
+## DuerOS  
+https://github.com/MyDuerOS/DuerOS-Python-Client   
+https://developer.baidu.com/forum/topic/show/244631?pageNo=1  
