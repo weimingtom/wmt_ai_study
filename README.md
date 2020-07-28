@@ -87,3 +87,4 @@ https://arxiv.org/abs/1703.05390
 https://github.com/UT2UH/ML-KWS-for-ESP32  
 https://github.com/ARM-software/ML-KWS-for-MCU/tree/master/Deployment  
 https://github.com/zhouilu/ARM_TensorFlow/tree/master/Pretrained_models/Basic_LSTM  
+https://blog.csdn.net/xj853663557/article/details/83784452  
