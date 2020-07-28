@@ -79,3 +79,6 @@ https://github.com/oivoii/nrf-tensorflow
 
 ## Theano  
 https://github.com/Theano/Theano  
+
+## Convolutional Recurrent Neural Networks for Small-Footprint Keyword Spotting  
+https://arxiv.org/abs/1703.05390  
