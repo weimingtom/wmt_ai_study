@@ -82,3 +82,8 @@ https://github.com/Theano/Theano
 
 ## Convolutional Recurrent Neural Networks for Small-Footprint Keyword Spotting  
 https://arxiv.org/abs/1703.05390  
+
+## KWS  
+https://github.com/UT2UH/ML-KWS-for-ESP32  
+https://github.com/ARM-software/ML-KWS-for-MCU/tree/master/Deployment  
+https://github.com/zhouilu/ARM_TensorFlow/tree/master/Pretrained_models/Basic_LSTM  
