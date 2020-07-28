@@ -77,3 +77,5 @@ https://developer.baidu.com/forum/topic/show/244631?pageNo=1
 https://github.com/Bloom-Agritech/ruderalis-firmware/blob/master/lib/DHT22Gen3_RK/src/DHT22Gen3_RK.cpp  
 https://github.com/oivoii/nrf-tensorflow  
 
+## Theano  
+https://github.com/Theano/Theano  
