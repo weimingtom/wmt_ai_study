@@ -42,6 +42,7 @@ https://github.com/LoveThinkinghard/Raspibot/blob/master/vadSound.py
 * (For C++, tensorflow-2.1.1 or 2.3.0-rc0, 2.3.0-rc1) tensorflow/lite/micro/examples/micro_speech  
 * (For Matlab 7.0) 《语音信号处理实验教程》, 语音信号处理代码/第10章 语音识别/10.2 基于隐马尔可夫模型（HMM）的孤立字语音识别实验  
 * ONLY VAD: (for Python), https://github.com/wiseman/py-webrtcvad  
+* ARM-software/ML-KWS-for-MCU  
 
 ## 语音机器人 / 魔镜 / 聊天机器人, 对话系统    
 * dingdang-robot, 叮当系统   
@@ -83,7 +84,7 @@ https://github.com/Theano/Theano
 ## Convolutional Recurrent Neural Networks for Small-Footprint Keyword Spotting  
 https://arxiv.org/abs/1703.05390  
 
-## KWS  
+## ML-KWS  
 https://github.com/UT2UH/ML-KWS-for-ESP32  
 https://github.com/ARM-software/ML-KWS-for-MCU/tree/master/Deployment  
 https://github.com/zhouilu/ARM_TensorFlow/tree/master/Pretrained_models/Basic_LSTM  
