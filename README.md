@@ -92,3 +92,6 @@ https://blog.csdn.net/xj853663557/article/details/83784452
 
 ## dtw, esp32    
 https://github.com/kasiim/ESP-EYE-speaker-verification  
+
+## ESP32-A1S-AudioKit, for Arduino  
+https://github.com/RealCorebb/ESP32-A1s-Audio-Kit  
