@@ -116,7 +116,7 @@ MSM261S4030H0
 https://cn.dl.sipeed.com/MAIX/HDK/Sipeed-Maix-Bit/Maix-Bit%20V2.0(with%20MEMS%20microphone)  
 MSM261S4030H0  
 
-## M5Atom Echo / M5StickC  
+## ATOM ECHO / M5StickC  
 SPM1423 (MEMS PDM Microphone)    
 https://docs.m5stack.com/#/zh_CN/atom/atomecho  
 https://github.com/m5stack/M5-ProductExampleCodes/blob/master/Core/Atom/AtomEcho/Arduino/Factory_Test/Factory_Test.ino  
