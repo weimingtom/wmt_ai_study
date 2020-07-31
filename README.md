@@ -108,7 +108,13 @@ https://learn.adafruit.com/adafruit-music-maker-shield-vs1053-mp3-wav-wave-ogg-v
 https://github.com/adafruit/Adafruit_VS1053_Library  
 https://github.com/adafruit/Adafruit_VS1053_Library/blob/master/examples/record_ogg/record_ogg.ino  
 
+## SIPEED R6+1 麦克风阵列  
+https://cn.dl.sipeed.com/MAIX/HDK/Sipeed-R6%2b1_MicArray/Specifications  
+MSM261S4030H0  
 
+## Maix-Bit V2.0(with MEMS microphone)  
+https://cn.dl.sipeed.com/MAIX/HDK/Sipeed-Maix-Bit/Maix-Bit%20V2.0(with%20MEMS%20microphone)  
+MSM261S4030H0  
 
 
 
