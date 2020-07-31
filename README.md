@@ -124,5 +124,7 @@ https://docs.m5stack.com/#/en/core/m5stickc
 https://docs.m5stack.com/#/zh_CN/core/m5stickc  
 https://github.com/m5stack/M5StickC/blob/master/examples/Basics/FactoryTest/FactoryTest.ino  
 
+## 关于麦克风的参数介绍 - 驻极体麦克风（ECM）和硅麦（MEMS）  
+https://blog.csdn.net/weixin_39671078/article/details/82414208  
 
 
