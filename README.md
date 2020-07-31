@@ -121,6 +121,7 @@ SPM1423 (MEMS PDM Microphone)
 https://docs.m5stack.com/#/zh_CN/atom/atomecho  
 https://github.com/m5stack/M5-ProductExampleCodes/blob/master/Core/Atom/AtomEcho/Arduino/Factory_Test/Factory_Test.ino  
 https://docs.m5stack.com/#/en/core/m5stickc  
+https://docs.m5stack.com/#/zh_CN/core/m5stickc  
 https://github.com/m5stack/M5StickC/blob/master/examples/Basics/FactoryTest/FactoryTest.ino  
 
 
