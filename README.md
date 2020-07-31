@@ -95,3 +95,8 @@ https://github.com/kasiim/ESP-EYE-speaker-verification
 
 ## ESP32-A1S-AudioKit, for Arduino  
 https://github.com/RealCorebb/ESP32-A1s-Audio-Kit  
+
+## wm8978, wm8960  
+
+## ac101, ac108  
+
