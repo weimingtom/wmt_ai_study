@@ -127,4 +127,7 @@ https://github.com/m5stack/M5StickC/blob/master/examples/Basics/FactoryTest/Fact
 ## 关于麦克风的参数介绍 - 驻极体麦克风（ECM）和硅麦（MEMS）  
 https://blog.csdn.net/weixin_39671078/article/details/82414208  
 
+## 语音识别基本原理, 英文, 罗宾纳  
+Fundamentals of Speech Recognition  
+search baidupan, 语音识别基本原理    
 
