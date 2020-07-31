@@ -102,6 +102,8 @@ https://github.com/RealCorebb/ESP32-A1s-Audio-Kit
 
 ## ADAFRUIT "MUSIC MAKER" MP3 SHIELD FOR ARDUINO W/3W STEREO AMP  
 https://www.adafruit.com/product/1788  
+VS1053 CODEC + MICROSD BREAKOUT - MP3/WAV/MIDI/OGG PLAY + RECORD  
+https://www.adafruit.com/product/1381  
 https://learn.adafruit.com/adafruit-music-maker-shield-vs1053-mp3-wav-wave-ogg-vorbis-player  
 https://github.com/adafruit/Adafruit_VS1053_Library  
 https://github.com/adafruit/Adafruit_VS1053_Library/blob/master/examples/record_ogg/record_ogg.ino  
