@@ -173,3 +173,7 @@ https://www.seeedstudio.com/blog/2020/01/23/offline-speech-recognition-on-raspbe
 
 ## 使用DeepSpeech2进行语音识别  
 https://www.helplib.cn/fansisi/deepspeech-pytorch  
+
+## jasperproject  
+https://github.com/jasperproject/jasper-client  
+https://github.com/jasperproject/jasper-client/blob/master/client/stt.py  
