@@ -164,3 +164,5 @@ arm_cfft_radix4_instance_f32
 
 ## Matlab---串口操作---数据採集篇  
 https://www.cnblogs.com/mengfanrong/p/5168805.html  
+matlab学习笔记2：搭建简易的串口，并将数据保存至csv  
+https://blog.csdn.net/weixin_38494129/article/details/86469261  
