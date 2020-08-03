@@ -153,3 +153,6 @@ http://wiki.t-firefly.com/zh_CN/ROC-RK3328-PC/module_mic.html
 CAE：Circular Array Enhancement  
 https://www.xfyun.cn/doc/solutions/hardwareUniversal/CAE-Android-SDK.html#功能简介  
 
+## Hello Edge: Keyword Spotting on Microcontrollers  
+https://arxiv.org/abs/1711.07128v3  
+https://arxiv.org/pdf/1711.07128.pdf  
