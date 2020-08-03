@@ -166,3 +166,7 @@ arm_cfft_radix4_instance_f32
 https://www.cnblogs.com/mengfanrong/p/5168805.html  
 matlab学习笔记2：搭建简易的串口，并将数据保存至csv  
 https://blog.csdn.net/weixin_38494129/article/details/86469261  
+
+## Offline Speech Recognition on Raspberry Pi 4 with Respeaker  
+https://www.hackster.io/dmitrywat/offline-speech-recognition-on-raspberry-pi-4-with-respeaker-c537e7  
+https://www.seeedstudio.com/blog/2020/01/23/offline-speech-recognition-on-raspberry-pi-4-with-respeaker/  
