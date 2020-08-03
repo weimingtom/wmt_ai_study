@@ -170,6 +170,8 @@ https://blog.csdn.net/weixin_38494129/article/details/86469261
 ## Offline Speech Recognition on Raspberry Pi 4 with Respeaker  
 https://www.hackster.io/dmitrywat/offline-speech-recognition-on-raspberry-pi-4-with-respeaker-c537e7  
 https://www.seeedstudio.com/blog/2020/01/23/offline-speech-recognition-on-raspberry-pi-4-with-respeaker/  
+https://github.com/mozilla/DeepSpeech-examples  
+https://github.com/mozilla/DeepSpeech/releases  
 
 ## 使用DeepSpeech2进行语音识别  
 https://www.helplib.cn/fansisi/deepspeech-pytorch  
