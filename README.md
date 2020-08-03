@@ -156,3 +156,7 @@ https://www.xfyun.cn/doc/solutions/hardwareUniversal/CAE-Android-SDK.html#功能
 ## Hello Edge: Keyword Spotting on Microcontrollers  
 https://arxiv.org/abs/1711.07128v3  
 https://arxiv.org/pdf/1711.07128.pdf  
+
+## STM32F4使用FPU+DSP库进行FFT运算的测试过程二  
+https://www.cnblogs.com/NickQ/p/8541156.html  
+https://www.cnblogs.com/NickQ/p/8540487.html  
