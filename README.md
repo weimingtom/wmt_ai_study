@@ -24,6 +24,9 @@ https://github.com/LoveThinkinghard/Raspibot/blob/master/vadSound.py
 * (TODO) work_hmm  
 * (TODO) hhle88/GMM-HMM  
 * search baidupan, stm32, WM8960_Record_v3_success_inmp441.rar  
+* (TODO) backup pan: /1tb_new/ipan/work_hmm/speech-recognition_git.rar  
+* (TODO) ipan/_black_upan_backup_20200803_orange  
+* (TODO) ipan/_black_upan_backup_20200803_black  
 
 ## 语音识别移植, 简单离线语音识别，TODO    
 * OC Volume  
@@ -130,4 +133,23 @@ https://blog.csdn.net/weixin_39671078/article/details/82414208
 ## 语音识别基本原理, 英文, 罗宾纳  
 Fundamentals of Speech Recognition  
 search baidupan, 语音识别基本原理    
+
+## ds-cnn  
+https://github.com/shaharpit809/Speech-Denoising-using-DNN-CNN-and-RNN  
+http://www.eepw.com.cn/article/201801/375072.htm  
+https://github.com/dingminglu/DeepBrain-ESP32-Audio-SDK  
+https://github.com/peter-360/esp32_chuwugui  
+https://github.com/Dod-o/Statistical-Learning-Method_Code  
+ML-KWS todo download  
+
+## sr  
+https://github.com/kacperlukawski/speech-recognition.git  
+
+## CAE  
+https://blog.csdn.net/zmdsjtu/article/details/52816692  
+https://blog.csdn.net/qq_33835307/article/details/81006954  
+https://github.com/li900309/PingYeAudio/blob/master/app/src/main/java/com/cn/cae/MainActivity.java  
+http://wiki.t-firefly.com/zh_CN/ROC-RK3328-PC/module_mic.html  
+CAE：Circular Array Enhancement  
+https://www.xfyun.cn/doc/solutions/hardwareUniversal/CAE-Android-SDK.html#功能简介  
 
