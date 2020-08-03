@@ -1,0 +1,56 @@
+
+https://www.veryarm.com/112251.html
+
+
+
+奇手
+	* 
+信息
+	* 
+知识经验
+	* 
+编译器下载
+
+		* 
+arm-none-elf-gcc下载
+		* 
+arm-none-linux-gnueabi-gcc下载
+		* 
+arm-none-eabi-gcc下载
+		* 
+arm-linux-gnueabihf-gcc下载
+	* 
+移植
+	* 
+教程
+
+		* 
+视频教程
+	* 
+关于
+
+
+你的位置：奇手 > ARM > 在终端设备上实现语音识别：ARM开源了TensorFlow预训练模型在终端设备上实现语音识别：ARM开源了TensorFlow预训练模型
+ARM 1年前 (2019-01-14) 331浏览
+本文来自AI新媒体量子位（QbitAI）
+关键词识别（Keyword Spotting，KWS）是语音识别领域的一个子领域，在用户在智能设备上进行语音交互时起到重要作用。关键词识别pipeline
+近日，ARM和斯坦福大学合作开源了预训练TensorFlow模型和它们的语音关键词识别代码，并将结果发表在论文Hello Edge: Keyword Spotting on Microcontrollers中。
+这个开源库包含了TensorFlow模型和在论文中用到的训练脚本。
+在论文中，研究人员还展示了不同的神经网络架构，包含DNN、CNN、Basic LSTM、LSTM、GRU、CRNN和DS-CNN，并将这些架构加入到预训练模型中。
+预训练模型地址：
+https://github.com/ARM-software/ML-KWS-for-MCU/tree/master/Pretrained_models论文摘要
+在研究中，研究人员评估了神经网络架构，并且在资源受限的微控制器上运行KWS。他们训练了多种神经网络架构变体，并比较变体之间的准确性和存储/计算需求。△�0�2神经网络模型的准确性
+研究人员发现，在不损失精确度的情况下，在存储了计算资源受限的微控制器上优化这些神经网络架构可行。
+之后，研究人员还进一步探索了DS-CNN架构，并且和其他神经网络架构进行了对比。
+结果证明，DS-CNN架构的准确性最高，为95.4%，比超参数相似的DNN模型精确度约高10%。超参数搜索中的最佳神经网络相关资料
+论文下载地址：
+https://arxiv.org/pdf/1711.07128.pdf
+项目代码地址：
+https://github.com/ARM-software/ML-KWS-for-MCU
+本文作者：林鳞
+原文发布时间：2017-12-14
+
+继续浏览有关 ARM嵌入式 的文章
+上一篇 基于友善之臂ARM-ContexA9-ADC驱动开发 制作好的交叉编译工具链下载及使用 下一篇标签云
+
+
