@@ -1,0 +1,136 @@
+https://www.hackster.io/dmitrywat/offline-speech-recognition-on-raspberry-pi-4-with-respeaker-c537e7
+
+Offline Speech Recognition on Raspberry Pi 4 with Respeaker
+Faster than real-time! Based on Mozilla's DeepSpeech Engine 0.7.*
+
+Intermediate
+Protip
+1 hour
+9,657
+Offline Speech Recognition on Raspberry Pi 4 with Respeaker
+Things used in this project
+Hardware components
+Seeed ReSpeaker USB Mic Array
+×	1	
+Raspberry Pi 4 Computer Model B 1GB
+×	1	
+NVIDIA? Jetson Nano? Developer Kit
+×	1	
+Story
+
+
+
+Life is short, but system resources are limited.Hm...
+UPDATE June 2020: Updated commands for DeepSpeech 0.7.* .Screenshots, except for Raspberry Pi 4 stayed the same. Benchmarks table also hasn't changed, since I didn't notice any inference speed gain. But it seems there was accuracy improvement - the 2830-3980-0043.wav audio file, that before was transcribed as "experience proofless" is now transcribed as "experience proves this", which makes much more sense. The archived version of the article is still available on steemit. I also updated mic_streaming.py mic transcription with hotword script. Enjoy!
+
+In this article we’re going to run and benchmark Mozilla’s DeepSpeech ASR (automatic speech recognition) engine on different platforms, such as Raspberry Pi 4(1 GB), Nvidia Jetson Nano, Windows PC and Linux PC.
+
+2019, last year, was the year when Edge AI became mainstream. Multiple companies have released boards and chips for fast inference on the edge and a plethora of optimization frameworks and models have appeared. Up to date, in my articles and videos I mostly focused my attention on the use of machine learning for computer vision, but I was always interested in running deep learning based ASR project on an embedded device. The problem until recently was the lack of simple, fast and accurate engine for that task. When I was researching this topic about a year ago, the few choices for when you had to run ASR (not just hot-word detection, but large vocabulary transcription) on, say, Raspberry Pi 3 were:
+
+CMUSphinx
+Kaldi
+Jasper
+Links:
+
+Python 3 Artificial Intelligence: Offline STT and TTS
+
+The Best Voice Recognition Software for Raspberry Pi
+
+And a couple of other ones. None of them were easy to setup and not particularly suitable for running in resource constrained environment. So, a few weeks ago, I started looking into this area again and after some search has stumbled upon Mozilla’s DeepSpeech engine. It has been around for a while, but only recently (December 2019) they have released 0.6.0 version of their ASR engine, which comes with.tflite model among other significant improvements. It has reduced the size of English model from 188 MB to 47 MB. “DeepSpeech v0.6 with TensorFlow Lite runs faster than real time on a single core of a Raspberry Pi 4.”, claimed Reuben Morais from Mozilla in the news announcement. So I decided to verify that claim myself, run some benchmarks on different hardware and make my own audio transcription application with hotword detection. Let’s see what the results are.
+
+Hint: I wasn’t disappointed.
+
+Installation
+Raspberry Pi 4/3B
+
+The pre-built wheel package for arm7 architecture is set to use.tflite model by default and installing it as easy as just
+
+pip3 install deepspeech
+This is it really! The package is self-contained, no Tensorflow installation needed. The only external dependency is Numpy. You’ll need to download model separately, we’ll cover it in the next section.
+
+Nvidia Jetson Nano
+
+The latest version of DeepSpeech, 0.7.3 has pre-built binaries for aarch64 architecture, which have model type by default set to .tflite. Unfortunately, the wheel is only available for python 3.7 and NVIDIA's latest Jetpack 4.4 still comes with Python 3.6.9 as default python3... I don't know why and neither do the maintainers of DeepSpeech. Which means we'll have to install Python3.7 first, then install a couple of more dependencies and only then install DeepSpeech.
+
+sudo apt-get install python3.7 python3.7-dev
+python3.7 -m pip install cython
+wget https://github.com/mozilla/DeepSpeech/releases/download/v0.7.3/deepspeech-0.7.3-cp37-cp37m-linux_aarch64.whl
+python3.7 -m pip install deepspeech-0.7.3-cp37-cp37m-linux_aarch64.whl
+Windows 10/Linux
+
+For Windows and Linux you’ll need to download .tflite enabled version of pip package.
+
+pip3 install deepspeech-tflite
+If you’re using Python 3.8 you’ll likely to encounter DLL loading error on Windows. It can be corrected fairly simple with a little change to DeepSpeech package code, but I suggest you just install the version for Python 3.7, which works flawlessly.
+
+If you have NVIDIA GPU and CUDA 10 installed you can opt for GPU-enabled version of Deepspeech
+
+pip3 install deepspeech-gpu
+Benchmarking
+Let’s download the models, language model binary and some audio samples.
+
+curl -LO https://github.com/mozilla/DeepSpeech/releases/download/v0.7.1/deepspeech-0.7.1-models.tar.gz
+tar xvf deepspeech-0.7.1-models.tar.gz
+Download example audio files
+
+curl -LO https://github.com/mozilla/DeepSpeech/releases/download/v0.6.1/audio-0.7.1.tar.gz
+tar xvf audio-0.7.1.tar.gz
+Raspberry Pi 4 run:
+
+deepspeech --model deepspeech-0.7.*-models.tflite --scorer deepspeech-0.7.*-models.scorer --audio audio/2830-3980-0043.wav
+If successful you should see the following output
+
+Not bad! 1.529 seconds for 1.975 seconds sound file. It IS faster than real time.
+
+Nvidia Jetson Nano run:
+
+deepspeech --model deepspeech-0.7.*-models.tflite --scorer deepspeech-0.7.*-models.scorer --audio audio/2830-3980-0043.wav
+Hm.. a little bit slower than Raspberry Pi. That is expected, since Nvidia Jetson CPU is less powerful than Raspberry Pi 4. There are no pre-built binaries for arm64 architecture with GPU support as of this moment, so we cannot take advantage of Nvidia Jetson Nano’s GPU for inference acceleration. I don’t think this task is on DeepSpeech team roadmap, so in the near future I’ll do some research here myself and will try to compile that binary to see what speed gains can be achieved from using GPU. But seconds is still pretty decent speed and depending on your project you might want to choose to run DeepSpeech on CPU and have GPU for other deep learning tasks.
+
+Windows 10/Linux
+
+deepspeech --model deepspeech-0.7.*-models.tflite --scorer deepspeech-0.7.*-models.scorer --audio audio/2830-3980-0043.wav
+Or if using GPU enabled version:
+
+deepspeech --model deepspeech-0.7.*-models.pbmm --scorer deepspeech-0.7.*-models.scorer --audio audio/2830-3980-0043.wav
+As you see.tflite model achieves sub-real time on modern CPU systems, which is great news for people creating offline ASR applications.
+
+Here is comparison result table:
+
+Well, we did benchmarking with pre-recorded sound samples, but we really want to do some real time transcribing. Let’s do that!
+
+Download DeepSpeech examples from https://github.com/mozilla/DeepSpeech-examples
+
+Navigate to mic_vad_streaming and install the dependencies with
+
+pip3 install -r requirements.txt
+sudo apt install portaudio19-dev
+Connect the microphone to your system (I am using Raspberry Pi 4 1 GB). For microphone, despite you can use any microphone, including your laptop’s inbuilt microphone, the quality of the sound really influences the results a lot. For this demo, I am using ReSpeaker USB Mic Array from Seeed Studio. It features the support of Far-field voice pick-up up to 5m and 360° pick-up pattern with following acoustic algorithms implemented: DOA(Direction of Arrival), AEC(Automatic Echo Cancellation), AGC(Automatic Gain Control), NS(Noice Suppression).
+
+python3 ../DeepSpeech-examples/mic_vad_streaming/mic_vad_streaming.py --model deepspeech-0.7.*-models.tflite --scorer deepspeech-0.7.*-models.scorer --audio audio/2830-3980-0043.wav
+Execute this command from the folder with models. -v argument allows you to tweak the threshold of VAD(Voice activity detection). Here is the result of the demo.
+
+
+Okay, great! Can we improve on that? Yes. We really don’t want our device to be transcribing the conversations all the time. Talk about privacy nightmares and wasted electricity.
+
+So we will want to implement so-called wake-up word detection. DeepSpeech is general purpose ASR engine and for wake-up word we need to use something more light-weight and more accurate for short voice commands. I tried two frameworks for hotword detection on Raspberry Pi: Snowboy and Porcupine. The first one ran successfully, but only supported Python 2… A closer look at snowboy Github repo shows that it is probably not under active development now. Porcupine worked great and it is free for non-commercial applications. So, I wrote a little script that would run wake-up word detection and upon its detection start transcribing speech with DeepSpeech ASR. It would stop transcribing when “stop transcribing” keyword is recognized in the transcription. After that it goes back to waiting for wake-up word mode.
+
+Here is the result of the script - quite neat and completely offline.
+
+
+To reproduce the result yourself, clone my GitHub repository to Raspberry Pi and install the necessary dependencies with
+
+chmod +x install.sh
+./install.sh
+The script will also download the model and scorer - if you already have them on Raspberry Pi, just move them to the folder that contains mic_streaming.py file. After that run (replace blueberry with another keyword if you want):
+
+python3 mic_streaming.py --keywords blueberry
+I hope you enjoyed this article and it was useful for you. In my opinion, 2020 will be the year reliable offline NLP and ASR will come to Edge devices, such as our phones, smart assistants and other embedded electronics. If you’d like to participate in that move, you’re welcome to have a look at Mozila’s DeepSpeech Github and try training your own model, for different language or different vocabulary. The thing I really like about DeepSpeech apart from being so easy to use, is that it is completely open-source and open to contributions.
+
+The hardware for this article was kindly provided by Seeed studio. Check out Raspberry Pi 4, ReSpeaker USB Mic Array and other hardware for makers at Seeed studio store!
+
+Add me on LinkedIn if you have any questions and subscribe to my YouTube channel to get notified about more interesting projects involving machine learning and robotics.
+
+Stay tuned for more videos and articles!
+
+
