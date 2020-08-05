@@ -182,3 +182,27 @@ https://github.com/jasperproject/jasper-client/blob/master/client/stt.py
 
 ## 手写实现李航《统计学习方法》书中全部算法  
 https://github.com/Dod-o/Statistical-Learning-Method_Code  
+
+## kfrlib  
+https://www.kfrlib.com  
+https://github.com/kfrlib/kfr  
+https://github.com/BA17-loma-1/Audio_Signal_Processing_Toolbox  
+
+## deepspeech  
+https://github.com/mozilla/DeepSpeech/releases/download/v0.6.0/deepspeech-0.6.0-models.tar.gz  
+
+## rhasspy, 唤醒词引擎, 意图引擎, 语音合成引擎      
+https://github.com/synesthesiam/rhasspy  
+https://github.com/Picovoice/porcupine  
+https://github.com/MycroftAI/mycroft-precise  
+【IOT】轻量级语音识别框架汇总  
+https://blog.csdn.net/wangbotao1990/article/details/98743437  
+
+## esp32 online asr sdk  
+https://github.com/espressif/esp-va-sdk  
+
+## 盘点下市面上都有哪些智能语音开发板  
+http://www.elecfans.com/d/646154.html  
+rokid, 若琪智能音箱    
+https://developer.rokid.com/#/doc  
+
