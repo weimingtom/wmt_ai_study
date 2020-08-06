@@ -236,3 +236,7 @@ https://dev.webonomic.nl/trying-out-deepspeech-on-a-raspberry-pi-4
 * your paris efficient i said, 11.295s, 2.590s  
 所以这个语音识别引擎有两个硬伤：一是官方模型数据只支持英语。二是比较重量级，需要性能比较好的硬件才能达到实时听写的效果  
 
+## TensorFlow 到底有几种模型格式？  
+https://blog.csdn.net/zjc910997316/article/details/82853791  
+lm:语言模型  
+lm和trie可选  
