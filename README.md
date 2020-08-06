@@ -214,3 +214,25 @@ https://developer.rokid.com/#/doc
 其实如果不考虑设备的可移动性，甚至deepspeech（开源）、Julius（开源）、kaldi（开源）  
 这些重量级的项目也有可能可以用来做成嵌入式产品，    
 例如用于树莓派，所以不仅仅只是这几个，应该数量不少  
+
+## 如何用树莓派3b运行简单的deepspeech命令行进行wav文件的语音识别。
+前面我提到一篇文章介绍这方面的经验：  
+https://www.seeedstudio.com/blog/2020/01/23/offline-speech-recognition-on-raspberry-pi-4-with-respeaker/  
+另外还有一篇，用的是0.6.0版本：  
+https://dev.webonomic.nl/trying-out-deepspeech-on-a-raspberry-pi-4  
+（一）关于硬件：官方明确支持树莓派3和树莓派4，所以大部分arm linux开发板都应该支持。但性能有差距，后面我会说。  
+（二）关于软件：建议使用最新的raspbian系统ROM，我用的是2020-05-27 Buster，非full版的ROM，使用自带的python 3.7和pip3安装deepspeech==0.6.0。  
+旧版的python 3和python 2应该无法安装0.6.0。至于为什么pip3会搜索到一个deepspeech-tflite的软件包，那个可以忽略不管。另外需要用到sudo，
+否则无法把deepspeech命令添加到PATH  
+（三）关于deepspeech命令行参数：推荐使用tflite后缀（tensorflow lite）的模型数据文件（--model参数）：output_graph.tflite。  
+其他还有两个模型数据文件，一个是pb后缀（protobuf的缩写），另一个是pbmm后缀（protobuf的mmap版），我没有测试，  
+理论上tflite版占用内存要小，不容易崩溃。另外两个参数trie（字典树）和lm（语言模型），据说这两个是可选参数，尤其是lm文件的体积非常大，  
+但我没有测试，最好加上（具体用法参考deepspeech帮助）  
+（四）关于软件包依赖。deepspeech据说是基于tensorflow的，但实际安装python包时没有依赖于tensorflow，我猜测这里有玄机
+（五）关于性能。如果用树莓派3b运行，速度是10秒左右（据说树莓派4可以提升到2秒左右），具体结果如下  
+（分别是听写结果、听写时间、wav持续时间）：  
+* experience proof of, 12.486s, 1.975s  
+* why should one halt on the way, 14.917s, 2.735s  
+* your paris efficient i said, 11.295s, 2.590s  
+所以这个语音识别引擎有两个硬伤：一是官方模型数据只支持英语。二是比较重量级，需要性能比较好的硬件才能达到实时听写的效果  
+
