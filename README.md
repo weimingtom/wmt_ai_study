@@ -240,3 +240,6 @@ https://dev.webonomic.nl/trying-out-deepspeech-on-a-raspberry-pi-4
 https://blog.csdn.net/zjc910997316/article/details/82853791  
 lm:语言模型  
 lm和trie可选  
+
+## 基于Freeswitch + Unimrcp + 谷歌ASR 的语音识别的实现  
+https://blog.csdn.net/chuiyg/article/details/90767769  
