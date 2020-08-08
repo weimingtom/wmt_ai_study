@@ -243,3 +243,30 @@ lm和trie可选
 
 ## 基于Freeswitch + Unimrcp + 谷歌ASR 的语音识别的实现  
 https://blog.csdn.net/chuiyg/article/details/90767769  
+
+## pocketsphinx  
+* https://github.com/Ebiroll/aiot.git  
+```
+git clone https://github.com/cmusphinx/sphinxbase.git
+git clone https://github.com/cmusphinx/pocketsphinx.git
+cd sphinxbase
+./autogen.sh
+make
+cd ..
+cd pocketsphinx
+./autogen.sh
+make
+```
+```
+src/programs/pocketsphinx_continuous -inmic yes -hmm model/en-us/en-us -lm model/en-us/en-us.lm.bin -dict model/en-us/cmudict-en-us.dict
+```
+* simple.jsfg  
+```
+#JSGF V1.0;
+grammar all;
+public <all> = turn ( on | off ) the lights;
+```
+```
+src/programs/pocketsphinx_continuous -inmic yes -hmm model/en-us/en-us -dict model/en-us/cmudict-en-us.dict -jsgf simple.jsfg
+```
+
