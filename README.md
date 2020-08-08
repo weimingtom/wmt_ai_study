@@ -258,7 +258,8 @@ cd pocketsphinx
 make
 ```
 ```
-src/programs/pocketsphinx_continuous -inmic yes -hmm model/en-us/en-us -lm model/en-us/en-us.lm.bin -dict model/en-us/cmudict-en-us.dict
+src/programs/pocketsphinx_continuous -inmic yes -hmm model/en-us/en-us 
+-lm model/en-us/en-us.lm.bin -dict model/en-us/cmudict-en-us.dict
 ```
 * simple.jsfg  
 ```
@@ -267,6 +268,6 @@ grammar all;
 public <all> = turn ( on | off ) the lights;
 ```
 ```
-src/programs/pocketsphinx_continuous -inmic yes -hmm model/en-us/en-us -dict model/en-us/cmudict-en-us.dict -jsgf simple.jsfg
+src/programs/pocketsphinx_continuous -inmic yes -hmm model/en-us/en-us 
+-dict model/en-us/cmudict-en-us.dict -jsgf simple.jsfg
 ```
-
