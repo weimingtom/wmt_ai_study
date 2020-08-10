@@ -284,6 +284,14 @@ https://github.com/2fps/recorder
 https://github.com/2fps/demo  
 https://github.com/giscafer/street-address-search/tree/40344aab0f0ed0d4b9d4deb72adeaa7a9fbd43d8  
 
+## HTK  
+http://htk.eng.cam.ac.uk/download.shtml  
+https://labrosa.ee.columbia.edu/doc/HTKBook21/node1.html  
+https://www.zhihu.com/question/65516424  
+https://www.cnblogs.com/ansersion/p/4155951.html  
+
+## Common Voice  
+https://commonvoice.mozilla.org/zh-CN/datasets  
 
 
 
