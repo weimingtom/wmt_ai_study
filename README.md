@@ -27,6 +27,8 @@ https://github.com/LoveThinkinghard/Raspibot/blob/master/vadSound.py
 * (TODO) backup pan: /1tb_new/ipan/work_hmm/speech-recognition_git.rar  
 * (TODO) ipan/_black_upan_backup_20200803_orange  
 * (TODO) ipan/_black_upan_backup_20200803_black  
+* (TODO) search baidupan deepspeech_readme.txt  
+* (TODO) search baidupan readme_pocketsphinx.txt  
 
 ## 语音识别移植, 简单离线语音识别，TODO    
 * OC Volume  
@@ -271,3 +273,17 @@ public <all> = turn ( on | off ) the lights;
 src/programs/pocketsphinx_continuous -inmic yes -hmm model/en-us/en-us 
 -dict model/en-us/cmudict-en-us.dict -jsgf simple.jsfg
 ```
+
+## DeepPavlov  
+https://github.com/deepmipt/DeepPavlov  
+http://www.diegorobot.com  
+https://github.com/andelf/PyAIML  
+
+## website, html5    
+https://github.com/2fps/recorder  
+https://github.com/2fps/demo  
+https://github.com/giscafer/street-address-search/tree/40344aab0f0ed0d4b9d4deb72adeaa7a9fbd43d8  
+
+
+
+
