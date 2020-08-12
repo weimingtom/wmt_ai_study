@@ -323,3 +323,7 @@ https://github.com/Kyubyong/tacotron
 
 * lstm  
 https://blog.csdn.net/yj13811596648/article/details/89499432  
+
+* hmm  
+https://github.com/WiseDoge/plume/blob/master/plume/hmm.py  
+search github: forward_prob model numpy  
