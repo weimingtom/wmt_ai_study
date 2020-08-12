@@ -30,7 +30,7 @@ https://github.com/LoveThinkinghard/Raspibot/blob/master/vadSound.py
 * (TODO) search baidupan deepspeech_readme.txt  
 * (TODO) search baidupan readme_pocketsphinx.txt  
 * (TODO, IMP) ***number_classifier_tflearn.py, not done***    
-* (TODO, IMP) ***speech_recognizer, not done***  
+* (TODO, IMP) ***speech_recognizer, Chapter07_v3.zip, not done***  
 
 ## 语音识别移植, 简单离线语音识别，TODO    
 * OC Volume  
