@@ -50,6 +50,7 @@ https://github.com/LoveThinkinghard/Raspibot/blob/master/vadSound.py
 * ARM-software/ML-KWS-for-MCU  
 * 《Python+TensorFlow机器学习实战》  
 search baidupan, 20190513103207287.zip, 第9章  
+search baidupan, Python_TensorFlow机器学习实战  
 
 ## 语音机器人 / 魔镜 / 聊天机器人, 对话系统    
 * dingdang-robot, 叮当系统   
