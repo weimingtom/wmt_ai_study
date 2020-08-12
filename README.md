@@ -296,6 +296,9 @@ https://www.cnblogs.com/ansersion/p/4155951.html
 https://commonvoice.mozilla.org/zh-CN/datasets  
 
 ## Python+TensorFlow机器学习实战, 第9章  
+* tensorflow_speech_recognition_demo, 9.2 听懂数字    
+https://github.com/llSourcell/tensorflow_speech_recognition_demo  
+
 * spoken_numbers_pcm dataset    
 https://github.com/pannous/tensorflow-speech-recognition  
 see /spoken_numbers_pcm.tar  
