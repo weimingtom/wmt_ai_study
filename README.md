@@ -303,4 +303,8 @@ https://github.com/llSourcell/tensorflow_speech_recognition_demo
 https://github.com/pannous/tensorflow-speech-recognition  
 see /spoken_numbers_pcm.tar  
 
+* , 9.3 听懂中文  
 
+
+* Tacotron, 9.4 语音合成    
+https://github.com/Kyubyong/tacotron  
