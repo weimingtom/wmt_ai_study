@@ -303,8 +303,14 @@ https://github.com/llSourcell/tensorflow_speech_recognition_demo
 https://github.com/pannous/tensorflow-speech-recognition  
 see /spoken_numbers_pcm.tar  
 
-* , 9.3 听懂中文  
-
+* ChineseTrain, 9.3 听懂中文  
+https://github.com/illool/TensorFlow/tree/master/ChineseTrain  
+http://www.openslr.org/18/  
+https://github.com/18515350435/TensorFlowTest/blob/master/TensorFlow/LSTM构建语音分类模型/12声音分类.py  
+很多其他例子  
+https://github.com/weimingtom/TensorFlowTest/tree/master/TensorFlow  
+https://github.com/illool/TensorFlow  
+https://github.com/XqFeng-Josie/Tensorflow  
 
 * Tacotron, 9.4 语音合成    
 https://github.com/Kyubyong/tacotron  
