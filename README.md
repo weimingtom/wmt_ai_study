@@ -295,5 +295,9 @@ https://www.cnblogs.com/ansersion/p/4155951.html
 ## Common Voice  
 https://commonvoice.mozilla.org/zh-CN/datasets  
 
+## Python+TensorFlow机器学习实战, 第9章  
+* spoken_numbers_pcm dataset    
+https://github.com/pannous/tensorflow-speech-recognition  
+see /spoken_numbers_pcm.tar  
 
 
