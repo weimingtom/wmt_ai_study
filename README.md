@@ -321,9 +321,16 @@ https://github.com/XqFeng-Josie/Tensorflow
 * Tacotron, 9.4 语音合成    
 https://github.com/Kyubyong/tacotron  
 
-* lstm  
+## lstm  
 https://blog.csdn.net/yj13811596648/article/details/89499432  
 
-* hmm  
+## hmm  
 https://github.com/WiseDoge/plume/blob/master/plume/hmm.py  
 search github: forward_prob model numpy  
+
+## vosk-api  
+https://alphacephei.com/vosk/models  
+http://t.rock-chips.com/forum.php?mod=viewthread&tid=1478  
+
+## 角蜂鸟  
+https://www.senscape.com.cn/hornedsungem/  
