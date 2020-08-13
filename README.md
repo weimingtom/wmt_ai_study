@@ -32,6 +32,7 @@ https://github.com/LoveThinkinghard/Raspibot/blob/master/vadSound.py
 * (TODO, IMP) ***number_classifier_tflearn.py, not done***    
 * (TODO, IMP) ***speech_recognizer, Chapter07_v3.zip, not done***  
 * (TODO, IMP) ***example_vosk.txt***  
+* (TODO, IMP) ***kaldi_001.txt***  
 
 ## 语音识别移植, 简单离线语音识别，TODO    
 * OC Volume  
