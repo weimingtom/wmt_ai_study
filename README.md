@@ -342,3 +342,26 @@ https://www.senscape.com.cn/hornedsungem/
 ## How to Make a Simple Tensorflow Speech Recognizer  
 https://v.youku.com/v_show/id_XMjYzNDUzODc1Ng==.html  
 https://github.com/pannous/tensorflow-speech-recognition    
+
+## kaldi
+https://www.jianshu.com/p/4e74861b47e9  
+
+## baidu ai studio, dataset  
+https://aistudio.baidu.com/aistudio/projectoverview/public/1?tags=23  
+合成数据集下载：  
+CMU ARCTIC (en)-李开复实验室: http://festvox.org/cmu_arctic/  
+LJSpeech (en): 2.6G https://keithito.com/LJ-Speech-Dataset/  
+thchs30: 清华大学30小时的数据集（中文） 6.4G http://www.openslr.org/18/  
+
+## deepvoice3, tts   
+https://github.com/r9y9/deepvoice3_pytorch
+
+## tensorflow datasets  
+https://tensorflow.google.cn/datasets/catalog/ljspeech  
+(TODO) baidupan search LJSpeech-1.1.tar.bz2  
+see https://tensorflow.google.cn/datasets/catalog/ljspeech, open github page to get download url  
+https://github.com/tensorflow/datasets/tree/master/tensorflow_datasets/audio  
+
+## Mastering Machine Learning with scikit-learn  
+https://github.com/PacktPublishing/Mastering-Machine-Learning-with-scikit-learn-Second-Edition  
+
