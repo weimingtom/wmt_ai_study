@@ -332,5 +332,8 @@ search github: forward_prob model numpy
 https://alphacephei.com/vosk/models  
 http://t.rock-chips.com/forum.php?mod=viewthread&tid=1478  
 
+## 人工智能开发系列(6) 语音命令识别, RK3399ProD      
+http://t.rock-chips.com/forum.php?mod=viewthread&tid=456  
+
 ## 角蜂鸟  
 https://www.senscape.com.cn/hornedsungem/  
