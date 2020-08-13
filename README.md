@@ -365,3 +365,25 @@ https://github.com/tensorflow/datasets/tree/master/tensorflow_datasets/audio
 ## Mastering Machine Learning with scikit-learn  
 https://github.com/PacktPublishing/Mastering-Machine-Learning-with-scikit-learn-Second-Edition  
 
+## Speech Recognition: Free Software and Complete Privacy  
+https://unix.stackexchange.com/q/256138/16704  
+* http://cmusphinx.sourceforge.net/  
+* http://www.kiecza.net/daniel/linux/  
+* http://www.speech.cs.cmu.edu/comp.speech/Section6/Recognition/ears.html  
+* http://julius.osdn.jp/  
+* http://kaldi.sourceforge.net/  
+* https://github.com/alumae/kaldi-gstreamer-server  
+* https://web.archive.org/web/19990508201353/http://biz.yahoo.com/bw/990426/ny_ibm_1.html  
+* http://nico.nikkostrom.com/  
+* http://freespeech.sourceforge.net/  
+* http://www-i6.informatik.rwth-aachen.de/rwth-asr/  
+* http://shout-toolkit.sourceforge.net/  
+* http://voxhub.io/silvius  
+* http://simon-listens.org/index.php?id=122  
+* http://xvoice.sourceforge.net/  
+* https://appdb.winehq.org/objectManager.php?sClass=application&iId=2077  
+* https://sourceforge.net/projects/natlink/  
+* https://pypi.python.org/pypi/dragonfly  
+* https://github.com/TristenHayfield/damselfly  
+* https://github.com/DragonComputer/Dragonfire  
+
