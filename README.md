@@ -387,3 +387,6 @@ https://unix.stackexchange.com/q/256138/16704
 * https://github.com/TristenHayfield/damselfly  
 * https://github.com/DragonComputer/Dragonfire  
 
+## 基于kaldi的在线中文识别初体验  
+https://note.abeffect.com/articles/2020/02/10/1581269426654.html  
+https://note.abeffect.com/articles/2020/02/10/1581269678158.html  
