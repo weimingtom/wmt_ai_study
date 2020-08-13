@@ -391,3 +391,9 @@ https://unix.stackexchange.com/q/256138/16704
 ## 基于kaldi的在线中文识别初体验  
 https://note.abeffect.com/articles/2020/02/10/1581269426654.html  
 https://note.abeffect.com/articles/2020/02/10/1581269678158.html  
+
+## Alibaba-MIT-Speech  
+https://github.com/alibaba/Alibaba-MIT-Speech  
+
+## 超神经  
+https://hyper.ai/datasets/6792  
