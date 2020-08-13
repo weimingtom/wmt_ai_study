@@ -31,6 +31,7 @@ https://github.com/LoveThinkinghard/Raspibot/blob/master/vadSound.py
 * (TODO) search baidupan readme_pocketsphinx.txt  
 * (TODO, IMP) ***number_classifier_tflearn.py, not done***    
 * (TODO, IMP) ***speech_recognizer, Chapter07_v3.zip, not done***  
+* (TODO, IMP) ***example_vosk.txt***  
 
 ## 语音识别移植, 简单离线语音识别，TODO    
 * OC Volume  
@@ -337,3 +338,7 @@ http://t.rock-chips.com/forum.php?mod=viewthread&tid=456
 
 ## 角蜂鸟  
 https://www.senscape.com.cn/hornedsungem/  
+
+## How to Make a Simple Tensorflow Speech Recognizer  
+https://v.youku.com/v_show/id_XMjYzNDUzODc1Ng==.html  
+https://github.com/pannous/tensorflow-speech-recognition    
