@@ -401,6 +401,8 @@ https://hyper.ai/datasets/6792
 ## Android NNAPI  
 https://github.com/JDAI-CV/DNNLibrary  
 https://zhuanlan.zhihu.com/p/30926958  
+rk3399 android例子  
+http://wiki.friendlyarm.com/wiki/index.php/NanoPi_M4V2/zh  
 https://github.com/rockchip-linux/tensorflow/tree/master/tensorflow/contrib/lite/java/demo  
 https://tensorflow.google.cn/lite/guide/android  
 
