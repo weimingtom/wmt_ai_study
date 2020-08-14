@@ -397,3 +397,7 @@ https://github.com/alibaba/Alibaba-MIT-Speech
 
 ## 超神经  
 https://hyper.ai/datasets/6792  
+
+## Android NNAPI  
+https://github.com/JDAI-CV/DNNLibrary  
+https://zhuanlan.zhihu.com/p/30926958  
