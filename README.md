@@ -409,3 +409,6 @@ https://tensorflow.google.cn/lite/guide/android
 ## [经验] 【瑞芯微RK1808计算棒试用体验】搭建Linux（Ubuntu18.04）环境试用RK1808  
 http://bbs.elecfans.com/jishu_1873423_1_1.html  
 
+## rknn_toolkit, for PC  
+http://wiki.t-firefly.com/zh_CN/Core-1808-JD4/npu_rknn_toolkit.html  
+
