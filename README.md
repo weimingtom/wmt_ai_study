@@ -406,3 +406,6 @@ http://wiki.friendlyarm.com/wiki/index.php/NanoPi_M4V2/zh
 https://github.com/rockchip-linux/tensorflow/tree/master/tensorflow/contrib/lite/java/demo  
 https://tensorflow.google.cn/lite/guide/android  
 
+## [经验] 【瑞芯微RK1808计算棒试用体验】搭建Linux（Ubuntu18.04）环境试用RK1808  
+http://bbs.elecfans.com/jishu_1873423_1_1.html  
+
