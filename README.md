@@ -415,4 +415,5 @@ http://wiki.t-firefly.com/zh_CN/Core-1808-JD4/npu_rknn_toolkit.html
 
 ## 在ARM板子上把玩Tensorflow Lite  
 https://blog.csdn.net/computerme/article/details/80345065  
+https://blog.csdn.net/mhsszm/article/details/80610042  
 
