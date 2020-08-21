@@ -446,3 +446,6 @@ https://blog.csdn.net/luodongri/article/details/77005948
 CTC Algorithm Explained Part 1：Training the Network（CTC算法详解之训练篇）  
 http://xiaodu.io/ctc-explained  
 
+## PaddleOCR  
+https://github.com/PaddlePaddle/PaddleOCR  
+
