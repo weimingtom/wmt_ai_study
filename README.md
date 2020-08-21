@@ -441,4 +441,8 @@ https://cloud.tencent.com/developer/article/1109408?fromSource=waitui
 
 ## 语音识别中的CTC算法的基本原理解释  
 https://www.cnblogs.com/qcloud1001/p/9041218.html  
+白话CTC(connectionist temporal classification)算法讲解  
+https://blog.csdn.net/luodongri/article/details/77005948  
+CTC Algorithm Explained Part 1：Training the Network（CTC算法详解之训练篇）  
+http://xiaodu.io/ctc-explained  
 
