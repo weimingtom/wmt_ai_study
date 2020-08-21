@@ -34,6 +34,7 @@ https://github.com/LoveThinkinghard/Raspibot/blob/master/vadSound.py
 * (TODO, IMP) ***example_vosk.txt***  
 * (TODO, IMP) ***kaldi_001.txt***  
 * (TODO, IMP) ***xunfei_aiui, android***  
+* (TODO) search baidupan, tflite_tensorflow_lite_adafruit  
 
 ## 语音识别移植, 简单离线语音识别，TODO    
 * OC Volume  
@@ -449,3 +450,9 @@ http://xiaodu.io/ctc-explained
 ## PaddleOCR  
 https://github.com/PaddlePaddle/PaddleOCR  
 
+## adafruit, tensorflow lite   
+https://learn.adafruit.com/tensorflow-lite-for-circuit-playground-bluefruit-quickstart?view=all  
+https://adafruit.github.io/arduino-board-index/package_adafruit_index.json  
+https://learn.adafruit.com/tensorflow-lite-for-circuit-playground-bluefruit-quickstart?view=all#micro-speech-demo  
+https://github.com/adafruit/Adafruit_TFLite  
+search baidupan, tflite_tensorflow_lite_adafruit  
