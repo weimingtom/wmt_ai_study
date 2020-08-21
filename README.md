@@ -426,3 +426,16 @@ CNN+CTC
 
 ## 如何自制一个超迷你的语音助手  
 https://zhuanlan.zhihu.com/p/72896282  
+
+## The Ultimate Guide To Speech Recognition With Python  
+https://realpython.com/python-speech-recognition/  
+python语音识别终极指南  
+https://cloud.tencent.com/developer/article/1109408?fromSource=waitui  
+* apiai  
+* assemblyai  
+* google-cloud-speech  
+* pocketsphinx  
+* SpeechRecognition  
+* watson-developer-cloud  
+* wit  
+
