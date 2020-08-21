@@ -417,3 +417,12 @@ http://wiki.t-firefly.com/zh_CN/Core-1808-JD4/npu_rknn_toolkit.html
 https://blog.csdn.net/computerme/article/details/80345065  
 https://blog.csdn.net/mhsszm/article/details/80610042  
 
+## Sipeed Maixシリーズの活用レシピ  
+https://hrkz.tokyo/sipeed-maix-ideas/  
+https://github.com/andriyadi/Maix-SpeechRecognizer  
+https://github.com/Technica-Corporation/Speech_Recognition-Maixduino  
+https://en.bbs.sipeed.com/t/topic/870  
+CNN+CTC  
+
+## 如何自制一个超迷你的语音助手  
+https://zhuanlan.zhihu.com/p/72896282  
