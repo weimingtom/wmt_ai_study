@@ -439,3 +439,6 @@ https://cloud.tencent.com/developer/article/1109408?fromSource=waitui
 * watson-developer-cloud  
 * wit  
 
+## 语音识别中的CTC算法的基本原理解释  
+https://www.cnblogs.com/qcloud1001/p/9041218.html  
+
