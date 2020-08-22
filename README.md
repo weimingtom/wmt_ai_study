@@ -35,6 +35,7 @@ https://github.com/LoveThinkinghard/Raspibot/blob/master/vadSound.py
 * (TODO, IMP) ***kaldi_001.txt***  
 * (TODO, IMP) ***xunfei_aiui, android***  
 * (TODO) search baidupan, tflite_tensorflow_lite_adafruit  
+* search baidupan, Blink_esp32_v5.rar, tflite, tensorflow lite, green standalone version, Arduino IDE compiling success  
 
 ## 语音识别移植, 简单离线语音识别，TODO    
 * OC Volume  
