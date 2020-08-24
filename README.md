@@ -457,3 +457,10 @@ https://adafruit.github.io/arduino-board-index/package_adafruit_index.json
 https://learn.adafruit.com/tensorflow-lite-for-circuit-playground-bluefruit-quickstart?view=all#micro-speech-demo  
 https://github.com/adafruit/Adafruit_TFLite  
 search baidupan, tflite_tensorflow_lite_adafruit  
+
+## esp-sr, WakeNet  
+https://github.com/espressif/esp-sr/blob/master/wake_word_engine/README_cn.md  
+https://github.com/espressif/esp-sr/tree/master/wake_word_engine  
+https://arxiv.org/abs/1703.05390  
+CRNN+CTC  
+https://github.com/espressif/esp-sr/tree/master/speech_command_recognition  
