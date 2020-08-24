@@ -464,3 +464,14 @@ https://github.com/espressif/esp-sr/tree/master/wake_word_engine
 https://arxiv.org/abs/1703.05390  
 CRNN+CTC  
 https://github.com/espressif/esp-sr/tree/master/speech_command_recognition  
+我以前猜测ESP32用的算法是LSTM+CTC，不过根据现在官方的说法，应该是CRNN+CTC。  
+当然这个说法也是猜测，不排除它的最新版用的是更先进的算法（参考：  
+https://github.com/espressif/esp-sr/tree/master/speech_command_recognition
+）说起CRNN+CTC，网上比较普遍的说法是一种ORC文字识别技术，另一个值得注意的地方是，  
+官方提到的CRNN原始论文：  
+https://arxiv.org/abs/1703.05390  
+，（参考：  
+https://github.com/espressif/esp-sr/blob/master/wake_word_engine/README_cn.md  
+）其实就是我之前说的ML-KWS是一样的，所以可以得到这样的结论，ESP32的WakeNet旧版本（闭源）和ARM的ML-KWS（开源）是同源的（CRNN），  
+MultiNet是加上CTC版本（CRNN+CTC），而WakeNet新版本（闭源）则基于Dilated CNN，  
+ESP32的算法都使用了MFCC  
