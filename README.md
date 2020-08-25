@@ -477,3 +477,9 @@ https://github.com/espressif/esp-sr/blob/master/wake_word_engine/README_cn.md
 ）其实就是我之前说的ML-KWS是一样的，所以可以得到这样的结论，ESP32的WakeNet旧版本（闭源）和ARM的ML-KWS（开源）是同源的（CRNN），  
 MultiNet是加上CTC版本（CRNN+CTC），而WakeNet新版本（闭源）则基于Dilated CNN，  
 ESP32的算法都使用了MFCC  
+
+## 语音识别（LSTM+CTC）  
+https://www.cnblogs.com/followees/p/10422809.html  
+search github, tf.nn.ctc_loss reduce_mean mfcc LSTMCell  
+https://github.com/igormq/ctc_tensorflow_example  
+https://github.com/pannous/tensorflow-speech-recognition  
