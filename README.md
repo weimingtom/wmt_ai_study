@@ -36,6 +36,8 @@ https://github.com/LoveThinkinghard/Raspibot/blob/master/vadSound.py
 * (TODO, IMP) ***xunfei_aiui, android***  
 * (TODO) search baidupan, tflite_tensorflow_lite_adafruit  
 * search baidupan, Blink_esp32_v5.rar, tflite, tensorflow lite, green standalone version, Arduino IDE compiling success  
+* (TODO) ***Python机器学习, book, 高斯混合模型的Python实现代码***  
+* (TODO) ***Python深度学习实战 基于TensorFlow和Keras的聊天机器人以及人脸 物体和语音识别, book, 未买***  
 
 ## 语音识别移植, 简单离线语音识别，TODO    
 * OC Volume  
