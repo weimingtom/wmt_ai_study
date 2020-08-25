@@ -38,6 +38,7 @@ https://github.com/LoveThinkinghard/Raspibot/blob/master/vadSound.py
 * search baidupan, Blink_esp32_v5.rar, tflite, tensorflow lite, green standalone version, Arduino IDE compiling success  
 * (TODO) ***Python机器学习, book, 高斯混合模型的Python实现代码***  
 * (TODO) ***Python深度学习实战 基于TensorFlow和Keras的聊天机器人以及人脸 物体和语音识别, book, 未买***  
+* (TODO) ***LSTM+CTC, search below***  
 
 ## 语音识别移植, 简单离线语音识别，TODO    
 * OC Volume  
@@ -482,4 +483,4 @@ ESP32的算法都使用了MFCC
 https://www.cnblogs.com/followees/p/10422809.html  
 search github, tf.nn.ctc_loss reduce_mean mfcc LSTMCell  
 https://github.com/igormq/ctc_tensorflow_example  
-https://github.com/pannous/tensorflow-speech-recognition  
+https://github.com/pannous/tensorflow-speech-recognition/blob/master/lstm_ctc_to_chars.py  
