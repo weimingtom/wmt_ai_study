@@ -471,7 +471,7 @@ https://github.com/espressif/esp-sr/tree/master/speech_command_recognition
 我以前猜测ESP32用的算法是LSTM+CTC，不过根据现在官方的说法，应该是CRNN+CTC。  
 当然这个说法也是猜测，不排除它的最新版用的是更先进的算法（参考：  
 https://github.com/espressif/esp-sr/tree/master/speech_command_recognition
-）说起CRNN+CTC，网上比较普遍的说法是一种ORC文字识别技术，另一个值得注意的地方是，  
+）说起CRNN+CTC，网上比较普遍的说法是一种OCR文字识别技术，另一个值得注意的地方是，  
 官方提到的CRNN原始论文：  
 https://arxiv.org/abs/1703.05390  
 ，（参考：  
