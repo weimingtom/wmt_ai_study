@@ -497,4 +497,10 @@ https://zhuanlan.zhihu.com/p/166078186
 https://github.com/sparkfun/Tensorflow_AIOT2019  
 嵌入式下的深度学习 Sparkfun Edge with TensorFlow（一）Hello World  
 https://www.cnblogs.com/guangnianxd/p/12542184.html  
+Arduino BSP  
+https://github.com/sparkfun/Arduino_Boards/blob/master/IDE_Board_Manager/package_sparkfun_index.json  
+https://github.com/sparkfun/SparkFun_Edge  
+https://learn.sparkfun.com/tutorials/using-sparkfun-edge-board-with-ambiq-apollo3-sdk  
+Arduino IDE, magic wand  
+https://learn.sparkfun.com/tutorials/programming-the-sparkfun-edge-with-arduino  
 
