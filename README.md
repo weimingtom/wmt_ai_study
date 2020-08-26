@@ -493,7 +493,7 @@ https://zhuanlan.zhihu.com/p/166078186
 2.0/非特定人识别/概率统计/GMM+HMM/传统型/新塘（赛维）、山景、九芯、ICRoute、唯创/MCU或者通用DSP  
 3.0/非特定人识别/辨别器分类、深度神经网络/DNN、RNN、CNN+HMM/互联网型|纯芯片型/讯飞、思必驰、云知声、士兰微（阿里、百度、互问、华镇）|探境、知存、启英、清微、人麦、国芯  
 
-## Sparkfun Edge  
+## Sparkfun Edge, TinyML    
 https://github.com/sparkfun/Tensorflow_AIOT2019  
 嵌入式下的深度学习 Sparkfun Edge with TensorFlow（一）Hello World  
 https://www.cnblogs.com/guangnianxd/p/12542184.html  
