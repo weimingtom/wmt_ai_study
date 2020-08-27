@@ -1,7 +1,8 @@
 # wmt_ai_study
 My AI study  
-* ASR / OCR / STT / TTS / VAD    
-* Codec  
+Include:  
+* 语音识别，语音合成：ASR / OCR / STT / TTS / VAD    
+* 对讲机，软电话: Codec / Audio Compression / speex / opus / VoIP  
 
 ## Old notes  
 * https://github.com/weimingtom/wmt_ai_study/blob/master/asr_001.md  
