@@ -1,5 +1,7 @@
 # wmt_ai_study
-My AI study
+My AI study  
+* ASR / OCR / STT / TTS / VAD    
+* Codec  
 
 ## Old notes  
 * https://github.com/weimingtom/wmt_ai_study/blob/master/asr_001.md  
