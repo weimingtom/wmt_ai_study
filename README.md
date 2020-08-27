@@ -504,3 +504,7 @@ https://learn.sparkfun.com/tutorials/using-sparkfun-edge-board-with-ambiq-apollo
 Arduino IDE, magic wand  
 https://learn.sparkfun.com/tutorials/programming-the-sparkfun-edge-with-arduino  
 
+## speex  
+低码率音频编码参考设计  
+http://blog.sina.com.cn/s/blog_4680937f0102ycic.html  
+https://github.com/xiph/opus  
