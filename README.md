@@ -515,3 +515,7 @@ https://github.com/xiph/opus
 ## Intelligent-speech-robot  
 https://github.com/1158114251/-Intelligent-speech-robot  
 https://mc.dfrobot.com.cn/thread-25649-1-1.html  
+
+## SmartSpeaker, stm32f407    
+一个基于云端语音识别的智能控制设备，类似于天猫精灵，小爱同学。采用的芯片为stm32f407,wm8978,esp8266。  
+https://github.com/lovelyterry/SmartSpeaker  
