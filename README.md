@@ -43,6 +43,7 @@ https://github.com/LoveThinkinghard/Raspibot/blob/master/vadSound.py
 * (TODO) ***Python深度学习实战 基于TensorFlow和Keras的聊天机器人以及人脸 物体和语音识别, book, 未买***  
 * (TODO) ***LSTM+CTC, search below***  
 * (TODO) ***TinyML epub, pdf, Tensorflow_AIOT2019***   
+* (TODO) ***SmartSpeaker, stm32***  
 
 ## 语音识别移植, 简单离线语音识别，TODO    
 * OC Volume  
