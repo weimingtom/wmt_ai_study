@@ -511,3 +511,7 @@ https://learn.sparkfun.com/tutorials/programming-the-sparkfun-edge-with-arduino
 低码率音频编码参考设计  
 http://blog.sina.com.cn/s/blog_4680937f0102ycic.html  
 https://github.com/xiph/opus  
+
+## Intelligent-speech-robot  
+https://github.com/1158114251/-Intelligent-speech-robot  
+https://mc.dfrobot.com.cn/thread-25649-1-1.html  
