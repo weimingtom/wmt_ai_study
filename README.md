@@ -521,7 +521,7 @@ https://mc.dfrobot.com.cn/thread-25649-1-1.html
 一个基于云端语音识别的智能控制设备，类似于天猫精灵，小爱同学。采用的芯片为stm32f407,wm8978,esp8266。  
 https://github.com/lovelyterry/SmartSpeaker  
 
-## uSpeech, µSpeech    
+## uSpeech, µSpeech, arduino, stm32        
 https://github.com/arjo129/uSpeech  
 https://arjo129.wordpress.com/experiments/µspeech/  
 https://hsel.co.uk/2016/01/06/stm32f0-uspeech-port/  
