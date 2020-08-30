@@ -9,6 +9,10 @@ Include:
 * https://github.com/weimingtom/wmt_linux_study  
 * https://github.com/weimingtom/wmt_ai_study/blob/master/live_001.md  
 
+## CSML-by-Clevy / csml-engine  
+聊天机器人  
+https://github.com/CSML-by-Clevy/csml-engine  
+
 ## Related Projects  
 * https://github.com/weimingtom/wmt_speech_study  
 * https://github.com/weimingtom/wmt_matlab_study  
