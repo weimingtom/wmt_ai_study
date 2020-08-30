@@ -530,3 +530,7 @@ https://github.com/arjo129/uSpeech
 https://arjo129.wordpress.com/experiments/µspeech/  
 https://hsel.co.uk/2016/01/06/stm32f0-uspeech-port/  
 https://github.com/pyrohaz/STM32F0-uSpeechPort  
+
+## 《深度实践OCR：基于深度学习的文字识别》 随书代码  
+CRNN+CTC文字识别  
+https://github.com/ocrbook/ocrinaction  
