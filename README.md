@@ -534,3 +534,7 @@ https://github.com/pyrohaz/STM32F0-uSpeechPort
 ## 《深度实践OCR：基于深度学习的文字识别》 随书代码  
 CRNN+CTC文字识别  
 https://github.com/ocrbook/ocrinaction  
+
+## TinyML-ESP32  
+https://github.com/HollowMan6/TinyML-ESP32  
+https://github.com/tanakamasayuki/Arduino_TensorFlowLite_ESP32  
