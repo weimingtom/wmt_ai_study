@@ -538,3 +538,7 @@ https://github.com/ocrbook/ocrinaction
 ## TinyML-ESP32  
 https://github.com/HollowMan6/TinyML-ESP32  
 https://github.com/tanakamasayuki/Arduino_TensorFlowLite_ESP32  
+
+## 61凌阳单片机  
+https://github.com/super-1943/MCU/tree/master/sunplus  
+https://github.com/weimingtom/MCU/tree/master/sunplus  
