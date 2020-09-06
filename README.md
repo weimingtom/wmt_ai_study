@@ -13,6 +13,8 @@ Include:
 聊天机器人  
 https://github.com/CSML-by-Clevy/csml-engine  
 
+## AR9331, AR9341, openwrt    
+
 ## Related Projects  
 * https://github.com/weimingtom/wmt_speech_study  
 * https://github.com/weimingtom/wmt_matlab_study  
