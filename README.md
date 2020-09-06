@@ -543,3 +543,13 @@ https://github.com/tanakamasayuki/Arduino_TensorFlowLite_ESP32
 ## 61凌阳单片机  
 https://github.com/super-1943/MCU/tree/master/sunplus  
 https://github.com/weimingtom/MCU/tree/master/sunplus  
+
+## 一些常用的语音特征提取算法  
+https://www.cnblogs.com/LXP-Never/p/11725378.html  
+
+## pudn, biguo100    
+语音识别程序,STC12C5620AD单片机,利用DFT算法  
+http://www.pudn.com/Download/item/id/1988530.html  
+http://www.biguo100.com/news/33409.html  
+基于MSP430单片机，workbench环境，LPCC算法，实现简单语音识别  
+http://www.biguo100.com/news/9782.html  
