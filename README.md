@@ -547,7 +547,7 @@ https://github.com/weimingtom/MCU/tree/master/sunplus
 ## 一些常用的语音特征提取算法  
 https://www.cnblogs.com/LXP-Never/p/11725378.html  
 
-## pudn, biguo100    
+## (NOT GOOD, only for code reading on pudn web page) pudn, biguo100    
 语音识别程序,STC12C5620AD单片机,利用DFT算法  
 http://www.pudn.com/Download/item/id/1988530.html  
 http://www.biguo100.com/news/33409.html  
