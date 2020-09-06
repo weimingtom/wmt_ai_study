@@ -553,3 +553,4 @@ http://www.pudn.com/Download/item/id/1988530.html
 http://www.biguo100.com/news/33409.html  
 基于MSP430单片机，workbench环境，LPCC算法，实现简单语音识别  
 http://www.biguo100.com/news/9782.html  
+http://www.pudn.com/Download/item/id/830873.html  
