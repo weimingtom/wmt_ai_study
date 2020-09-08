@@ -564,4 +564,4 @@ https://blog.csdn.net/Boantong_/article/details/104457259
 https://docs.ai-thinker.com/esp32  
 https://docs.ai-thinker.com/esp32-audio-kit  
 https://github.com/donny681/esp-adf/tree/master/ai-examples  
-https://e.coding.net/axk/esp_skainet_AI.git  
+https://github.com/Ai-Thinker-Open/Ai-Thinker-Open_ESP32-A1S_ASR_SDK/tree/master/examples/Smart_home_scene_AI  
