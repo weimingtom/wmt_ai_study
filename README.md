@@ -558,3 +558,10 @@ http://www.biguo100.com/news/9782.html
 http://www.pudn.com/Download/item/id/830873.html  
 
 ## search phoneme speech  
+
+## 【安信可ESP32语音开发板专题①】ESP32-A1S音频开发板之离线语音识别控制LED灯  
+https://blog.csdn.net/Boantong_/article/details/104457259  
+https://docs.ai-thinker.com/esp32  
+https://docs.ai-thinker.com/esp32-audio-kit  
+https://github.com/donny681/esp-adf/tree/master/ai-examples  
+https://e.coding.net/axk/esp_skainet_AI.git  
