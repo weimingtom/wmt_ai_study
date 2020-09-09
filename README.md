@@ -585,3 +585,7 @@ https://dingdang.qq.com/doc.html?dir=/doc/tvs/cloud/api.html
 https://github.com/IflytekAIUI/DemoCode/blob/master/webapi_v2/java/WebaiuiDemo.java  
 https://console.xfyun.cn/app/myapp  
 https://console.xfyun.cn/services/iat  
+
+## 腾讯云语音识别  
+https://cloud.tencent.com/document/product/1093  
+https://cloud.tencent.com/document/product/1093/35646  
