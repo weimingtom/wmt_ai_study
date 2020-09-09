@@ -565,3 +565,11 @@ https://docs.ai-thinker.com/esp32
 https://docs.ai-thinker.com/esp32-audio-kit  
 https://github.com/donny681/esp-adf/tree/master/ai-examples  
 https://github.com/Ai-Thinker-Open/Ai-Thinker-Open_ESP32-A1S_ASR_SDK/tree/master/examples/Smart_home_scene_AI  
+
+## VAD_campare  
+https://github.com/mengsaisi/VAD_campare  
+
+## 腾讯云语音, 腾讯云叮当语音识别ASR平台    
+https://dingdang.qq.com/doc/page/285  
+https://www.it610.com/article/1288354813658079232.htm  
+https://dingdang.qq.com/doc.html?dir=/doc/tvs/cloud/api.html  
