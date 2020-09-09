@@ -43,6 +43,7 @@ https://github.com/LoveThinkinghard/Raspibot/blob/master/vadSound.py
 * (TODO, IMP) ***example_vosk.txt***  
 * (TODO, IMP) ***kaldi_001.txt***  
 * (TODO, IMP) ***xunfei_aiui, android***  
+* (IMP) search aiuidemo_v1.rar, 讯飞平台AIUI WebAPI调用Java工程, see below : Xunfei WebAPI v2    
 * (TODO) search baidupan, tflite_tensorflow_lite_adafruit  
 * (IMP) search baidupan, Blink_esp32_v6.rar, tflite, tensorflow lite, green standalone version, Arduino IDE compiling success  
 * (IMP) search baidupan, Blink_esp32_rpd2017_v2_success.tar.gz, tflite, tensorflow lite, run on ubuntu / linux / rpd  
@@ -573,3 +574,11 @@ https://github.com/mengsaisi/VAD_campare
 https://dingdang.qq.com/doc/page/285  
 https://www.it610.com/article/1288354813658079232.htm  
 https://dingdang.qq.com/doc.html?dir=/doc/tvs/cloud/api.html  
+
+## Xunfei WebAPI v2  
+关于讯飞的AIUI对接，如果使用场景不是安卓，而是某些单片机或者arm linux之类，建议最好用WebAPI V2的接口去对接，  
+这样就可以绕过dll和so的兼容问题（官方只适配了x86，除非用的是安卓）。不过讯飞的WebAPI有点诡异，如果你不把应用发布成正式版，  
+是看不到兜底设置的机器人回答结果（例如图灵机器人），原因是讯飞不允许在测试环境下使用正式环境的设置  
+（也就是说，默认情况下是不添加兜底设置的），除非你在scene参数后面加_box后缀，例如这样：  
+（当然你也可以通过审核弄成发布，这样就不需要那么麻烦了）。另一个注意事情是不要开启白名单，  
+否则也不会返回正确的聊天回答  
