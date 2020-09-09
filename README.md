@@ -589,3 +589,4 @@ https://console.xfyun.cn/services/iat
 ## 腾讯云语音识别  
 https://cloud.tencent.com/document/product/1093  
 https://cloud.tencent.com/document/product/1093/35646  
+https://cloud.tencent.com/document/product/1093/37308  
