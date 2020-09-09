@@ -52,7 +52,7 @@ https://github.com/LoveThinkinghard/Raspibot/blob/master/vadSound.py
 * (TODO) ***LSTM+CTC, search below***  
 * (TODO) ***TinyML epub, pdf, Tensorflow_AIOT2019***   
 * (TODO) ***SmartSpeaker, stm32***  
-* (TODO) ***tencentasrdemo_v1.rar, 腾讯云语音识别, todo, use less java code***  
+* (TODO) ***tencentasrdemo_v1.rar, see below 腾讯云语音识别, todo, use less java code***  
 
 ## 语音识别移植, 简单离线语音识别，TODO    
 * OC Volume  
