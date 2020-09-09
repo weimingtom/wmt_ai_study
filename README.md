@@ -590,3 +590,6 @@ https://console.xfyun.cn/services/iat
 https://cloud.tencent.com/document/product/1093  
 https://cloud.tencent.com/document/product/1093/35646  
 https://cloud.tencent.com/document/product/1093/37308  
+https://cloud.tencent.com/document/product/1093/35735  
+https://cloud.tencent.com/document/sdk/Java  
+https://github.com/TencentCloud/tencentcloud-sdk-java  
