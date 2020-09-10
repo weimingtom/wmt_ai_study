@@ -598,3 +598,11 @@ https://github.com/TencentCloud/tencentcloud-sdk-java
 ## VGGVox models for speaker identification and verification  
 https://github.com/a-nagrani/VGGVox  
 https://blog.csdn.net/weixin_41738734/article/details/86109333  
+
+## 说话人识别  
+
+## 端到端语音识别时代来临：网易杭州研究院的智能语音探索之路  
+https://cloud.tencent.com/developer/news/491629  
+
+## 应用、算法、芯片，“三位一体”浅析语音识别  
+http://news.eeworld.com.cn/xfdz/article_2017101874336_2.html  
