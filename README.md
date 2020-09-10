@@ -594,3 +594,7 @@ https://cloud.tencent.com/document/product/1093/37308
 https://cloud.tencent.com/document/product/1093/35735  
 https://cloud.tencent.com/document/sdk/Java  
 https://github.com/TencentCloud/tencentcloud-sdk-java  
+
+## VGGVox models for speaker identification and verification  
+https://github.com/a-nagrani/VGGVox  
+https://blog.csdn.net/weixin_41738734/article/details/86109333  
