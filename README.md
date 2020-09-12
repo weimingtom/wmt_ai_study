@@ -606,3 +606,6 @@ https://cloud.tencent.com/developer/news/491629
 
 ## 应用、算法、芯片，“三位一体”浅析语音识别  
 http://news.eeworld.com.cn/xfdz/article_2017101874336_2.html  
+
+## ArduinoTensorFlowLiteTutorials  
+https://github.com/arduino/ArduinoTensorFlowLiteTutorials  
