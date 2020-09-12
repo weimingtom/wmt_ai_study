@@ -1,0 +1,14 @@
+3月17日 21:16 来自 微博 weibo.com 已编辑
+c-sky（诛仙剑）的板buildroot跑通了，其实很简单：buildroot我用的是官方提供的1.0.1版：
+https://github.com/c-sky/buildroot/releases/tag/v1.0.1
+。正常编译即可（按照buildroot的习惯做法，指定csky的defconf）；
+自带的串口转usb，接PC用putty，设置115200波特率，其他默认即可；如果putty串口没输出，按reset按钮；usb插u盘做u盘启动，不过我试过转接到tf卡也是可行的（效果一样）
+
+(2020) 3月17日 17:14 来自 微博 weibo.com
+我在网上购买的诛仙剑 C-SKY Linux 开发板到手了，CPU是国产的核GX6605S（NationalChip GX6605S KR8659FBm），
+架构是CK610M，非ARM架构，只带3个IO口，c-sky官方的buildroot在这里：
+https://github.com/c-sky/buildroot
+如果不嫌麻烦的话可以用buildroot官方的，配置文件叫csky_gx6605s_defconfig
+https://github.com/buildroot/buildroot/blob/master/configs/csky_gx6605s_defconfig
+我试过用c-sky官方的1.1版，编译出来是一个usb.img镜像文件，估计可以烧录到u盘，实际还没测试过，等回家有时间再试
+
