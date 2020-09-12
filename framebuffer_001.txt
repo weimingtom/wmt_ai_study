@@ -1,0 +1,434 @@
+https://www.iteye.com/blog/weimingtom-1113103
+
+
+Ubuntu Framebuffer学习笔记
+博客分类： 已过时文章（留念用）
+LinuxFramebuffer 
+ 
+
+Ubuntu Framebuffer学习笔记
+
+ 
+
+一、环境搭建
+
+1. 直接在Ubuntu上运行Framebuffer
+
+默认Ubuntu是直接进入X视窗，如果要使用Framebuffer，
+
+需要修改内核引导参数：
+
+$ sudo gedit /etc/default/grub
+
+查找
+
+GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"
+
+把它改为
+
+GRUB_CMDLINE_LINUX_DEFAULT="quiet splash text vga=0x311" 
+
+这里text表示进入文本模式，vga=0x311表示使用Framebuffer显示驱动，
+
+0x311是指示色深和分辨率的参数
+
+  |640x480 800x600 1024x768 1280x1024
+
+----+-------------------------------------
+
+256 | 0x301   0x303 0x305 0x307
+
+32k | 0x310   0x313 0x316 0x319
+
+64k | 0x311   0x314 0x317 0x31A
+
+16M | 0x312   0x315 0x318 0x31B
+
+如果使用vga=0x311参数，必须使用后面提到的vesafb模块，并且取消黑名单，
+
+否则无法进入系统，需要光盘启动删除vga参数以还原
+
+$ sudo update-grub
+
+写入到/boot/grub/grub.cfg
+
+$ sudo gedit /etc/initramfs-tools/modules
+
+在其中加入：vesafb
+
+$ sudo gedit /etc/modprobe.d/blacklist-framebuffer.conf
+
+用#注释以下行
+
+# blacklist vesafb
+
+$ sudo update-initramfs -u
+
+（生成新的initrd）
+
+然后重启机器，即可进入Framebuffer
+
+如果要切换回X11，可以输入：
+
+$ startx
+
+有时候/boot/grub/grub.cfg的引导参数不正确导致系统无法引导，
+
+可以用光盘引导系统，挂载硬盘后直接修改/boot/grub/grub.cfg文件
+
+这样就可以跳过update-grub这一步。然后还原原有的引导参数进入X Window
+
+2. 使用qemu虚拟Linux
+
+需要编译Linux内核和busybox。
+
+此外还需要libncurses-dev和qemu。
+
+由于qemu可以直接加载内核和initrd，指定引导参数，
+
+所以不需要修改grub配置。
+
+(1)编译内核和安装qemu
+
+$ tar xjf linux-2.6.39.2.tar.bz2
+
+$ cd linux-2.6.39.2/
+
+$ make help
+
+$ make i386_defconf
+
+$ sudo apt-get install libncurses-dev
+
+$ make menuconfig
+
+$ make
+
+$ sudo apt-get install qemu
+
+$ qemu --help
+
+$ qemu -kernel arch/x86/boot/bzImage
+
+$ qemu -kernel arch/x86/boot/bzImage -append "noapic"
+
+有时候内核会这样崩溃：
+
+MP-BIOS BUG 8254 timer not connected
+
+trying to set up timer as Virtual Wire IRQ
+
+所以需要添加-append "noapic"参数
+
+(2) 修改内核配置，然后重新编译内核。
+
+注意，不同内核版本的配置不一样，
+
+我的内核配置作如下改动（用空格切换为*，不要切换为M）：
+
+$ make menuconfig
+
+Device Drivers  --->  
+
+Graphics support  --->   
+
+-*- Support for frame buffer devices  --->  
+
+[*]   VESA VGA graphics support 
+
+因为VESA支持彩色色深的显示。
+
+默认是不选的，只能是黑白控制台。
+
+Input device support  ---> 
+
+[*]     Provide legacy /dev/psaux device 
+
+有些库如SDL在识别USB接口的鼠标时会寻找/dev/input/mice和/dev/psaux，
+
+我发现我编译的内核没有前者，所以用这个选项制造出/dev/psaux设备。
+
+File systems  --->  
+
+[*] Miscellaneous filesystems  --->
+
+<*>   Compressed ROM file system support (cramfs) 
+
+个人喜欢cramfs，不过不是必须的，可以用这个开关编译cramfs驱动，
+
+测试initramfs是否正常
+
+General setup  ---> 
+
+[*]   Support initial ramdisks compressed using gzip 
+
+[*] Embedded system
+
+默认i86内核的配置不支持gzip压缩的cpio格式initrd，所以需要手动打开它。
+
+最后重新编译内核：
+
+$ make
+
+(3) 编译busybox
+
+$ tar xjf busybox-1.18.5.tar.bz2
+
+$ cd busybox-1.18.5/
+
+$ make defconfig
+
+$ make menuconfig
+
+设置修改如下：
+
+Busybox Settings  --->  
+
+Build Options  --->
+
+[*] Build BusyBox as a static binary (no shared libs)  
+
+$ make 
+
+$ make install
+
+默认文件安装在当前目录的_install目录下。
+
+(4) 制作cpio封包gzip压缩的initrd
+
+$ cd ../busybox-1.18.5/_install/
+
+$ mkdir proc sys dev etc etc/init.d tmp root usr lib
+
+$ gedit etc/init.d/rcS
+
+#!/bin/sh
+
+mount -t proc none /proc
+
+mount -t sysfs none /sys
+
+/sbin/mdev -s
+
+$ chmod +x etc/init.d/rcS
+
+$ cd ../../linux-2.6.39.2/
+
+$ gedit prerun.sh
+
+#!/bin/sh
+
+cd ../busybox-1.18.5/_install
+
+find . | cpio -o --format=newc > ../rootfs.img
+
+cd .. 
+
+gzip -c rootfs.img > rootfs.img.gz
+
+cd ../linux-2.6.39.2/
+
+$ . prerun.sh
+
+$ gedit run.sh
+
+#!/bin/sh
+
+qemu -kernel ./arch/i386/boot/bzImage -initrd ../busybox-1.18.5/rootfs.img.gz  -append "root=/dev/ram rdinit=/sbin/init vga=0x312 noapic"
+
+注意这里用rdinit=，如果用init=就成了initramfs（内核会报告找不到合适的文件系统）
+
+关于vga=的参数设置见前面（决定色深和分辨率）
+
+$ . run.sh
+
+编译程序，然后用上面写的prerun.sh打包进rootfs.img.gz，然后运行run.sh跑qemu即可。
+
+如果程序是动态链接，需要特定的动态库，
+
+可以把依赖的动态库复制到_install/lib目录下，打包到rootfs.img.gz中。
+
+(5) 进入qemu的效果如下：
+
+ 
+
+
+
+
+ 
+
+二、Framebuffer的应用开发
+
+1. 基于/lib/fb*设备和mmap
+
+这种方法灵活性差，开发比较费时。
+
+这里有个示例代码：
+
+http://www.kde.gr.jp/~ichi/qt/emb-framebuffer-howto.html
+
+代码如下：
+
+ 
+
+C代码  收藏代码
+#include <stdlib.h>  
+#include <unistd.h>  
+#include <stdio.h>  
+#include <fcntl.h>  
+#include <linux/fb.h>  
+#include <sys/mman.h>  
+  
+int main()  
+{  
+    int fbfd = 0;  
+    struct fb_var_screeninfo vinfo;  
+    struct fb_fix_screeninfo finfo;  
+    long int screensize = 0;  
+    char *fbp = 0;  
+    int x = 0, y = 0;  
+    long int location = 0;  
+    fbfd = open("/dev/fb0", O_RDWR);  
+    if (!fbfd) {  
+        printf("Error: cannot open framebuffer device.\n");  
+        exit(1);  
+    }  
+    printf("The framebuffer device was opened successfully.\n");  
+    if (ioctl(fbfd, FBIOGET_FSCREENINFO, &finfo)) {  
+        printf("Error reading fixed information.\n");  
+        exit(2);  
+    }  
+    if (ioctl(fbfd, FBIOGET_VSCREENINFO, &vinfo)) {  
+        printf("Error reading variable information.\n");  
+        exit(3);  
+    }  
+    printf("%dx%d, %dbpp\n", vinfo.xres, vinfo.yres, vinfo.bits_per_pixel );  
+    screensize = vinfo.xres * vinfo.yres * vinfo.bits_per_pixel / 8;  
+    fbp = (char *)mmap(0, screensize, PROT_READ | PROT_WRITE, MAP_SHARED,  
+                       fbfd, 0);  
+    if ((int)fbp == -1) {  
+        printf("Error: failed to map framebuffer device to memory.\n");  
+        exit(4);  
+    }  
+    printf("The framebuffer device was mapped to memory successfully.\n");  
+    x = 100;   
+    y = 100;  
+    for ( y = 100; y < 300; y++ )  
+        for ( x = 100; x < 300; x++ ) {  
+            location = (x+vinfo.xoffset) * (vinfo.bits_per_pixel/8) +  
+                       (y+vinfo.yoffset) * finfo.line_length;  
+            if ( vinfo.bits_per_pixel == 32 ) {  
+                *(fbp + location) = 100;    
+                *(fbp + location + 1) = 15+(x-100)/2;  
+                *(fbp + location + 2) = 200-(y-100)/5;   
+                *(fbp + location + 3) = 0;  
+            } else  {  
+                int b = 10;  
+                int g = (x-100)/6;  
+                int r = 31-(y-100)/16;  
+                unsigned short int t = r<<11 | g << 5 | b;  
+                *((unsigned short int*)(fbp + location)) = t;  
+            }  
+        }  
+    munmap(fbp, screensize);  
+    close(fbfd);  
+    return 0;  
+}  
+ 
+
+（已经在Ubuntu和qemu上测试过）
+
+ 
+
+2. 基于DirectFB
+
+DirectFB好像可以加快Framebuffer的绘画速度。
+
+官方有5个示例代码
+
+http://directfb.org/index.php?path=Development%2FTutorials
+
+DirectFB有支持字体、图片和输入插件，
+
+不过在编译前需要事先安装相关的开发库。
+
+（已经在Ubuntu和qemu上测试过）
+
+ 
+
+3. 基于SDL
+
+SDL支持Framebuffer，因为它底层使用了DirectFB。
+
+Ubuntu的SDL可以在Framebuffer下使用，如果自己编译SDL的代码，
+
+需要事先编译DirectFB
+
+（已经在Ubuntu和qemu上测试过）
+
+ 
+
+4. 基于GTK+2
+
+项目主页在：
+
+http://www.gtk.org/
+
+GTK+2通过Cairo库的DirectFB后端支持Framebuffer。
+
+而且gtk库在编译时需要填加特定参数
+
+./configure --prefix=$PREFIX --with-gdktarget=directfb --without-x
+
+然后进行编译。
+
+不过GTK+2的编译比较麻烦，而且directfb上GTK+2的开发代码尚不稳定。
+
+测试的可执行文件在/bin/gtk-demo
+
+（在Ubuntu上跑似乎有问题——不知道怎么拖动窗口和退出；未在qemu上测试）
+
+ 
+
+5. 基于Qt
+
+下载在
+
+ftp://ftp.qt.nokia.com/qt/source/
+
+一般需要自己编译
+
+$ tar xzf qt-everywhere-opensource-src-4.8.0-tp.tar.gz
+
+$ cd qt-everywhere-opensource-src-4.8.0-tp/
+
+$ ./configure -shared -static -opensource -embedded generic
+
+虽然-embedded这个参数没有出现在./configure --help里，
+
+但它在这里是有效的。这里不需要添加--prefix参数
+
+$ sudo make -j 4
+
+$ sudo make install
+
+默认装在/usr/local/Trolltech目录下。
+
+示例代码和编译的二进制文件在demos/embedded目录下。
+
+进入framebuffer下的文本模式，
+
+然后运行sudo ./xxx -qws
+
+运行时如果提示：
+
+Qt/Embedded data directory is not owned by user 0:/tmp/qtembedded-0
+
+可以运行：
+
+sudo chown root:root /tmp/qtembedded-0
+
+如果要在qemu上跑，需要复制/lib/fonts目录下的字体
+
+（可以在Ubuntu上跑，在qemu上跑似乎有点问题——未解决）
+
