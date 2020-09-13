@@ -13,6 +13,10 @@ Include:
 聊天机器人  
 https://github.com/CSML-by-Clevy/csml-engine  
 
+## 运行deep learning人工智能框架
+（一）吃鸡游戏机  
+（二）图形工作站、GPU服务器  
+
 ## AR9331, AR9341, openwrt    
 
 ## Related Projects  
