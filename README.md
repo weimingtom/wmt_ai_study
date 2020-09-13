@@ -620,3 +620,11 @@ https://github.com/douglas125/SpeechCmdRecognition
 ## Arduino Portenta H7  
 https://github.com/hpssjellis/my-examples-for-the-arduino-portentaH7  
 
+## TTGO_T_Watch_Baidu_Rec, T-Watch  
+用 TTGO_T_Watch 手表做的百度语音识别终端  
+TTGO_T_Watch 主板自带有8M PSRAM, 扩展板有多种，有一种扩展板集成了INMP441 I2S 麦克风录入芯片, 可以处理语音.  
+声音监听器。声音监听器。监听周围的声音，并识别成文字。识别的文字经过配置可以转发到其它设备，  
+如树莓派，分发给其它设备联动。 每次识别最长10秒录音并识别。平均一次录音文字识别时间1-10秒不等  
+https://github.com/lixy123/TTGO_T_Watch_Baidu_Rec  
+https://github.com/Xinyuan-LilyGO/TTGO_TWatch_Library  
+
