@@ -616,3 +616,7 @@ https://github.com/arduino/ArduinoTensorFlowLiteTutorials
 
 ## SpeechCmdRecognition  
 https://github.com/douglas125/SpeechCmdRecognition  
+
+## Arduino Portenta H7  
+https://github.com/hpssjellis/my-examples-for-the-arduino-portentaH7  
+
