@@ -17,6 +17,11 @@ https://github.com/CSML-by-Clevy/csml-engine
 （一）吃鸡游戏机  
 （二）图形工作站、GPU服务器  
 
+## ESP32, voice recording    
+* https://github.com/MhageGH/esp32_SoundRecorder  
+* https://github.com/MhageGH/esp32_CloudSpeech  
+* https://github.com/lixy123/TTGO_T_Watch_Baidu_Rec  
+
 ## AR9331, AR9341, openwrt    
 
 ## Related Projects  
