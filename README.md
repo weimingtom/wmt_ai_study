@@ -84,6 +84,7 @@ https://github.com/LoveThinkinghard/Raspibot/blob/master/vadSound.py
 * 《Python+TensorFlow机器学习实战》  
 search baidupan, 20190513103207287.zip, 第9章  
 search baidupan, Python_TensorFlow机器学习实战  
+* 《Tensorflow入门与实战》, thewintersun/tensorflowbook  
 
 ## 语音机器人 / 魔镜 / 聊天机器人, 对话系统    
 * dingdang-robot, 叮当系统   
@@ -632,4 +633,7 @@ TTGO_T_Watch 主板自带有8M PSRAM, 扩展板有多种，有一种扩展板集
 如树莓派，分发给其它设备联动。 每次识别最长10秒录音并识别。平均一次录音文字识别时间1-10秒不等  
 https://github.com/lixy123/TTGO_T_Watch_Baidu_Rec  
 https://github.com/Xinyuan-LilyGO/TTGO_TWatch_Library  
+
+## 《Tensorflow入门与实战》, 第六章《循环神经网络》，6.4《用LSTM+CTC实现语音识别》  
+https://github.com/thewintersun/tensorflowbook/blob/master/Chapter6/asr_lstm_ctc/asr_lstm_ctc.py  
 
