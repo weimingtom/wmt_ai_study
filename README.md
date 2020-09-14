@@ -636,4 +636,6 @@ https://github.com/Xinyuan-LilyGO/TTGO_TWatch_Library
 
 ## 《Tensorflow入门与实战》, 第六章《循环神经网络》，6.4《用LSTM+CTC实现语音识别》  
 https://github.com/thewintersun/tensorflowbook/blob/master/Chapter6/asr_lstm_ctc/asr_lstm_ctc.py  
+search baidupan, 源代码_TensorFlow入门与实战.zip  
+https://www.ituring.com.cn/book/2398  
 
