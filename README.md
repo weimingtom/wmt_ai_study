@@ -657,4 +657,5 @@ https://github.com/mlpack/examples/blob/master/lstm_stock_prediction/lstm_stock_
 
 ## Deep Audio-Visual Speech Recognition  
 https://www.cnblogs.com/tangbinchn/p/12809360.html  
-
+计算机视觉方向简介 | 唇语识别技术  
+https://zhuanlan.zhihu.com/p/48670591  
