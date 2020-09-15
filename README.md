@@ -655,3 +655,6 @@ https://github.com/thomasschmied/Speech_Recognition_with_Tensorflow
 ##  mlpack LSTM  
 https://github.com/mlpack/examples/blob/master/lstm_stock_prediction/lstm_stock_prediction.cpp  
 
+## Deep Audio-Visual Speech Recognition  
+https://www.cnblogs.com/tangbinchn/p/12809360.html  
+
