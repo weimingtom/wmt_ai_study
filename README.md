@@ -640,3 +640,7 @@ https://github.com/thewintersun/tensorflowbook/blob/master/Chapter6/asr_lstm_ctc
 search baidupan, 源代码_TensorFlow入门与实战.zip  
 https://www.ituring.com.cn/book/2398  
 
+## mxnet speech_recognition踩坑记  
+https://blog.csdn.net/zhqh100/article/details/103887097  
+https://github.com/baidu-research/warp-ctc/blob/master/README.zh_cn.md  
+
