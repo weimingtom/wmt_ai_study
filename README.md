@@ -659,3 +659,7 @@ https://github.com/mlpack/examples/blob/master/lstm_stock_prediction/lstm_stock_
 https://www.cnblogs.com/tangbinchn/p/12809360.html  
 计算机视觉方向简介 | 唇语识别技术  
 https://zhuanlan.zhihu.com/p/48670591  
+
+## LSTM Speech Recognition实战  
+https://blog.csdn.net/antkillerfarm/article/details/84232764  
+
