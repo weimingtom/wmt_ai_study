@@ -63,6 +63,7 @@ see https://github.com/bsatrom/tf-speech-particle, run example 10s voice with so
 * (TODO) ***TinyML epub, pdf, Tensorflow_AIOT2019***   
 * (TODO) ***SmartSpeaker, stm32***  
 * (TODO) ***tencentasrdemo_v1.rar, see below 腾讯云语音识别, todo, use less java code***  
+* (???) mlpack LSTM   
 
 ## 语音识别移植, 简单离线语音识别，TODO    
 * OC Volume  
@@ -650,4 +651,7 @@ https://github.com/baidu-research/ba-dls-deepspeech
 ## LAS-asr  
 https://github.com/ChaosCY/LAS-asr  
 https://github.com/thomasschmied/Speech_Recognition_with_Tensorflow  
+
+##  mlpack LSTM  
+https://github.com/mlpack/examples/blob/master/lstm_stock_prediction/lstm_stock_prediction.cpp  
 
