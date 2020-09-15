@@ -64,6 +64,7 @@ see https://github.com/bsatrom/tf-speech-particle, run example 10s voice with so
 * (TODO) ***SmartSpeaker, stm32***  
 * (TODO) ***tencentasrdemo_v1.rar, see below 腾讯云语音识别, todo, use less java code***  
 * (???) mlpack LSTM   
+* (???) esp32_kws  
 
 ## 语音识别移植, 简单离线语音识别，TODO    
 * OC Volume  
@@ -666,3 +667,5 @@ https://blog.csdn.net/antkillerfarm/article/details/84232764
 ## KWS, Keyword Spotting in Noise Using MFCC and LSTM Networks, matlab  
 https://www.mathworks.com/help/audio/examples/keyword-spotting-in-noise-using-mfcc-and-lstm-networks.html  
 
+## esp32_kws  
+https://github.com/42io/esp32_kws  
