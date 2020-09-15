@@ -647,4 +647,7 @@ https://github.com/apache/incubator-mxnet/tree/v1.7.x/example/speech_recognition
 https://github.com/samsungsds-rnd/deepspeech.mxnet/tree/master/Libri_sample  
 https://github.com/baidu-research/ba-dls-deepspeech  
 
+## LAS-asr  
+https://github.com/ChaosCY/LAS-asr  
+https://github.com/thomasschmied/Speech_Recognition_with_Tensorflow  
 
