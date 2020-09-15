@@ -669,3 +669,6 @@ https://www.mathworks.com/help/audio/examples/keyword-spotting-in-noise-using-mf
 
 ## esp32_kws  
 https://github.com/42io/esp32_kws  
+
+## KWS-for-XMC  
+https://github.com/Infineon/KWS-for-XMC  
