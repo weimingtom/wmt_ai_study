@@ -644,5 +644,6 @@ https://www.ituring.com.cn/book/2398
 https://blog.csdn.net/zhqh100/article/details/103887097  
 https://github.com/baidu-research/warp-ctc/blob/master/README.zh_cn.md  
 https://github.com/apache/incubator-mxnet/tree/v1.7.x/example/speech_recognition  
+https://github.com/samsungsds-rnd/deepspeech.mxnet/tree/master/Libri_sample  
 
 
