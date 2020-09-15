@@ -84,6 +84,7 @@ see https://github.com/bsatrom/tf-speech-particle, run example 10s voice with so
 * (For Matlab 7.0) 《语音信号处理实验教程》, 语音信号处理代码/第10章 语音识别/10.2 基于隐马尔可夫模型（HMM）的孤立字语音识别实验  
 * ONLY VAD: (for Python), https://github.com/wiseman/py-webrtcvad  
 * ARM-software/ML-KWS-for-MCU  
+arduino version see : Infineon/KWS-for-XMC  
 * 《Python+TensorFlow机器学习实战》  
 search baidupan, 20190513103207287.zip, 第9章  
 search baidupan, Python_TensorFlow机器学习实战  
