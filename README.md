@@ -663,3 +663,6 @@ https://zhuanlan.zhihu.com/p/48670591
 ## LSTM Speech Recognition实战  
 https://blog.csdn.net/antkillerfarm/article/details/84232764  
 
+## KWS, Keyword Spotting in Noise Using MFCC and LSTM Networks, matlab  
+https://www.mathworks.com/help/audio/examples/keyword-spotting-in-noise-using-mfcc-and-lstm-networks.html  
+
