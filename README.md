@@ -735,3 +735,8 @@ https://github.com/veenveenveen/ASR_Kaldi_DNN_Chinese
 基于HTK开源框架的汉语语音识别 (GMM-HMM)  
 https://veenveenveen.github.io/article/technology/ASR/ASR_HTK_Chinese.html  
 https://github.com/veenveenveen/chinese_voice  
+
+## STM32和百度云-天工最新物联网开发板，B-L475E-IOT01A探索套件操作说明  
+https://blog.csdn.net/annic9/article/details/80434389  
+STM32L475, esp8266, esp32  
+https://github.com/baidu/baidu-iot-samples/tree/master/STM32/I-CUBE-BAIDU  
