@@ -65,6 +65,7 @@ see https://github.com/bsatrom/tf-speech-particle, run example 10s voice with so
 * (TODO) ***tencentasrdemo_v1.rar, see below 腾讯云语音识别, todo, use less java code***  
 * (???) mlpack LSTM   
 * (???) esp32_kws  
+* (TODO) ***see below, CTC tensorflow example, 语音识别（LSTM+CTC）***  
 
 ## 语音识别移植, 简单离线语音识别，TODO    
 * OC Volume  
@@ -89,6 +90,9 @@ arduino version see : Infineon/KWS-for-XMC
 search baidupan, 20190513103207287.zip, 第9章  
 search baidupan, Python_TensorFlow机器学习实战  
 * 《Tensorflow入门与实战》, thewintersun/tensorflowbook  
+《Tensorflow入门与实战》, 第六章《循环神经网络》，6.4《用LSTM+CTC实现语音识别》  
+CTC tensorflow example 代码解析  
+igormq/ctc_tensorflow_example  
 
 ## 语音机器人 / 魔镜 / 聊天机器人, 对话系统    
 * dingdang-robot, 叮当系统   
@@ -507,12 +511,6 @@ https://github.com/espressif/esp-sr/blob/master/wake_word_engine/README_cn.md
 MultiNet是加上CTC版本（CRNN+CTC），而WakeNet新版本（闭源）则基于Dilated CNN，  
 ESP32的算法都使用了MFCC  
 
-## 语音识别（LSTM+CTC）  
-https://www.cnblogs.com/followees/p/10422809.html  
-search github, tf.nn.ctc_loss reduce_mean mfcc LSTMCell  
-https://github.com/igormq/ctc_tensorflow_example  
-https://github.com/pannous/tensorflow-speech-recognition/blob/master/lstm_ctc_to_chars.py  
-
 ## 国产离线语音识别芯片对比  
 https://zhuanlan.zhihu.com/p/166078186  
 技术阶段/识别类型/算法类型/算法名称/企业类型/代表厂商/主处理器  
@@ -650,6 +648,14 @@ https://github.com/koryako/FundamentalsOfAI_book_code
 https://github.com/search?q=定义一个向前计算的LSTM单元，40个隐藏单元&type=code  
 https://github.com/luvensaitory/project  
 https://github.com/koryako/FundamentalsOfAI_book_code  
+* old:  
+语音识别（LSTM+CTC）  
+https://www.cnblogs.com/followees/p/10422809.html  
+search github, tf.nn.ctc_loss reduce_mean mfcc LSTMCell  
+https://github.com/igormq/ctc_tensorflow_example  
+https://github.com/pannous/tensorflow-speech-recognition/blob/master/lstm_ctc_to_chars.py  
+CTC tensorflow example 代码解析  
+https://blog.csdn.net/he_wen_jie/article/details/80586345  
 
 ## mxnet speech_recognition踩坑记  
 https://blog.csdn.net/zhqh100/article/details/103887097  
