@@ -738,5 +738,6 @@ https://github.com/veenveenveen/chinese_voice
 
 ## STM32和百度云-天工最新物联网开发板，B-L475E-IOT01A探索套件操作说明  
 https://blog.csdn.net/annic9/article/details/80434389  
+https://cloud.baidu.com/doc/IOT/s/7jwvy87a2  
 STM32L475, esp8266, esp32  
 https://github.com/baidu/baidu-iot-samples/tree/master/STM32/I-CUBE-BAIDU  
