@@ -687,3 +687,8 @@ https://github.com/42io/esp32_kws
 
 ## KWS-for-XMC  
 https://github.com/Infineon/KWS-for-XMC  
+
+## 基于kaldi训练唤醒词模型的一种方法  
+https://blog.csdn.net/cj1989111/article/details/88017908  
+https://github.com/xiangxyq/kaldi/tree/master/egs/wakeup_words  
+https://github.com/xiangxyq/3gpp_vad  
