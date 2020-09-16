@@ -708,4 +708,5 @@ https://github.com/Apress/Deep-Learning-Apps-Using-Python/blob/master/Chapter11_
 
 ## 基于TensorFlow，人声识别如何在端上实现？  
 https://developer.aliyun.com/article/592687  
-
+https://github.com/weedwind/MFCC  
+https://github.com/weedwind/CTC-speech-recognition  
