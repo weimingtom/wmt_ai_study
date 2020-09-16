@@ -642,6 +642,14 @@ https://github.com/Xinyuan-LilyGO/TTGO_TWatch_Library
 https://github.com/thewintersun/tensorflowbook/blob/master/Chapter6/asr_lstm_ctc/asr_lstm_ctc.py  
 search baidupan, 源代码_TensorFlow入门与实战.zip  
 https://www.ituring.com.cn/book/2398  
+语音识别（LSTM+CTC）  
+https://www.cnblogs.com/followees/p/10422809.html  
+FundamentalsOfAI_book_code  
+https://github.com/koryako/FundamentalsOfAI_book_code  
+定义一个向前计算的LSTM单元  
+https://github.com/search?q=定义一个向前计算的LSTM单元，40个隐藏单元&type=code  
+https://github.com/luvensaitory/project  
+https://github.com/koryako/FundamentalsOfAI_book_code  
 
 ## mxnet speech_recognition踩坑记  
 https://blog.csdn.net/zhqh100/article/details/103887097  
