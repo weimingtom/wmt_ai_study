@@ -698,3 +698,6 @@ https://blog.csdn.net/u012361418/article/details/90313249
 
 ## 基于DTW的孤立词语音识别系统  
 https://blog.csdn.net/king_audio_video/article/details/90113627  
+
+## tensorflow-android-speech-kws  
+https://github.com/shichaog/tensorflow-android-speech-kws  
