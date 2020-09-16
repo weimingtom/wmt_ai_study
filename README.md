@@ -701,3 +701,7 @@ https://blog.csdn.net/king_audio_video/article/details/90113627
 
 ## tensorflow-android-speech-kws  
 https://github.com/shichaog/tensorflow-android-speech-kws  
+
+## Deep Learning with Applications Using Python  
+Python深度学习实战，基于TensorFlow和Keras的聊天机器人以及人脸、物体和语音识别  
+https://github.com/Apress/Deep-Learning-Apps-Using-Python/blob/master/Chapter11_Speech%20to%20text%20and%20vice%20versa  
