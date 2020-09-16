@@ -710,4 +710,8 @@ https://github.com/Apress/Deep-Learning-Apps-Using-Python/blob/master/Chapter11_
 https://developer.aliyun.com/article/592687  
 https://github.com/weedwind/MFCC  
 https://github.com/weedwind/CTC-speech-recognition  
-weedwind_MFCC-master.zip  
+search baidupan, weedwind_MFCC-master.zip  
+
+## kaldi, cvte  
+https://gitee.com/yangmiao123/SpeechRecognition  
+search baidupan, cvte.zip    
