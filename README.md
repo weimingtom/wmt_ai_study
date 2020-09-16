@@ -717,8 +717,10 @@ https://gitee.com/yangmiao123/SpeechRecognition
 search baidupan, cvte.zip    
 
 ## Edison - Keyword Spotting on Microcontroller  
-(???) STM32L4  
 https://hütter.ch/posts/edison-kws-on-mcu/  
+(???) STM32L4, microphone  
+https://github.com/noah95/edison  
+ref  
 https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/speech_commands/models.py  
 (??? seem IMP) KWS mcu, mfcc      
 https://github.com/majianjia/nnom/tree/master/examples/keyword_spotting  
