@@ -715,3 +715,9 @@ search baidupan, weedwind_MFCC-master.zip
 ## kaldi, cvte  
 https://gitee.com/yangmiao123/SpeechRecognition  
 search baidupan, cvte.zip    
+
+## Edison - Keyword Spotting on Microcontroller  
+https://hütter.ch/posts/edison-kws-on-mcu/  
+https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/speech_commands/models.py  
+(??? seem IMP) KWS mcu, mfcc      
+https://github.com/majianjia/nnom/tree/master/examples/keyword_spotting  
