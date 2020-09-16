@@ -692,3 +692,9 @@ https://github.com/Infineon/KWS-for-XMC
 https://blog.csdn.net/cj1989111/article/details/88017908  
 https://github.com/xiangxyq/kaldi/tree/master/egs/wakeup_words  
 https://github.com/xiangxyq/3gpp_vad  
+
+## 语音识别系列4--语音识别CTC之模型训练源码解析  
+https://blog.csdn.net/u012361418/article/details/90313249  
+
+## 基于DTW的孤立词语音识别系统  
+https://blog.csdn.net/king_audio_video/article/details/90113627  
