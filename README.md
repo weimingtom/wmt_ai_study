@@ -83,6 +83,7 @@ see https://github.com/bsatrom/tf-speech-particle, run example 10s voice with so
 * (For xubuntu 20.04 64bit, Python 2.7 64bit and TensorFlow 1.5.0) TensorFlow/examples/speech_commands  
 * (For C++, tensorflow-2.1.1 or 2.3.0-rc0, 2.3.0-rc1) tensorflow/lite/micro/examples/micro_speech  
 * (For Matlab 7.0) 《语音信号处理实验教程》, 语音信号处理代码/第10章 语音识别/10.2 基于隐马尔可夫模型（HMM）的孤立字语音识别实验  
+https://github.com/veenveenveen/SpeechSignalProcessingCourse  
 * ONLY VAD: (for Python), https://github.com/wiseman/py-webrtcvad  
 * ARM-software/ML-KWS-for-MCU  
 arduino version see : Infineon/KWS-for-XMC  
@@ -724,3 +725,13 @@ ref
 https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/speech_commands/models.py  
 (??? seem IMP) KWS mcu, mfcc      
 https://github.com/majianjia/nnom/tree/master/examples/keyword_spotting  
+
+## 语音信号处理实验教程（MATLAB源代码）  
+https://github.com/veenveenveen/SpeechSignalProcessingCourse  
+
+## 基于Kaldi（DNN）的小词汇量汉语语音识别平台搭建  
+https://veenveenveen.github.io/article/technology/ASR/ASR_Kaldi_DNN_Chinese.html#kaldi-简介  
+https://github.com/veenveenveen/ASR_Kaldi_DNN_Chinese  
+基于HTK开源框架的汉语语音识别 (GMM-HMM)  
+https://veenveenveen.github.io/article/technology/ASR/ASR_HTK_Chinese.html  
+https://github.com/veenveenveen/chinese_voice  
