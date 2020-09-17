@@ -741,3 +741,7 @@ https://blog.csdn.net/annic9/article/details/80434389
 https://cloud.baidu.com/doc/IOT/s/7jwvy87a2  
 STM32L475, esp8266, esp32  
 https://github.com/baidu/baidu-iot-samples/tree/master/STM32/I-CUBE-BAIDU  
+
+## Python实现基于BIC的语音对话分割(一)  
+https://blog.csdn.net/wblgers1234/article/details/75896605  
+https://github.com/zimuyanzi/BIC  
