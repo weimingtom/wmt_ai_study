@@ -66,6 +66,7 @@ see https://github.com/bsatrom/tf-speech-particle, run example 10s voice with so
 * (???) mlpack LSTM   
 * (???) esp32_kws  
 * (TODO) ***see below, CTC tensorflow example, 语音识别（LSTM+CTC）***  
+* (TODO) build kaldi, search baidupan, kaldi_20200917_pre.tar.gz, work_kaldi  
 
 ## 语音识别移植, 简单离线语音识别，TODO    
 * OC Volume  
