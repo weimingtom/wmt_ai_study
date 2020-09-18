@@ -749,10 +749,11 @@ https://github.com/zimuyanzi/BIC
 
 ## kaldi编译  
 search baidupan, kaldi_20200917_pre.tar.gz, work_kaldi  
-经历了两天时间，终于用虚拟机x86 debian下编译完kaldi。需要修改代码，有些地方会出问题，例如这里：  
+经历了两天时间，终于用虚拟机x86 debian（我用的编译环境是raspberry pi x86 desktop 2020年2月版镜像，32位debian）  
+编译完kaldi。需要修改代码，有些地方会出问题，例如这里：  
 https://github.com/jcsilva/docker-kaldi-android/issues/11  
 简单来说是三步走：  
-（1）第一步执行tools下的make，安装第三方库。  
+（1）第一步执行tools下的make和make openblas，安装第三方库。  
 （2）第二步执行src下的configure和make，编译执行文件  
 （3）第三步执行yesno下的run.sh，测试执行文件是否正常  
 最后会看到一个WER是0的零错误报告，具体参考这篇中的《解码和测试》：  
