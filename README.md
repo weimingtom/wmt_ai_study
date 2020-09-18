@@ -745,3 +745,14 @@ https://github.com/baidu/baidu-iot-samples/tree/master/STM32/I-CUBE-BAIDU
 ## Python实现基于BIC的语音对话分割(一)  
 https://blog.csdn.net/wblgers1234/article/details/75896605  
 https://github.com/zimuyanzi/BIC  
+
+## kaldi编译  
+search baidupan, kaldi_20200917_pre.tar.gz, work_kaldi  
+经历了两天时间，终于用虚拟机x86 debian下编译完kaldi。需要修改代码，有些地方会出问题，例如这里：  
+https://github.com/jcsilva/docker-kaldi-android/issues/11  
+简单来说是三步走：  
+（1）第一步执行tools下的make，安装第三方库。  
+（2）第二步执行src下的configure和make，编译执行文件  
+（3）第三步执行yesno下的run.sh，测试执行文件是否正常  
+最后会看到一个WER是0的零错误报告，具体参考这篇中的《解码和测试》：  
+https://www.jianshu.com/p/09deba57f339  
