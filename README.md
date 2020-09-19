@@ -758,3 +758,6 @@ https://github.com/jcsilva/docker-kaldi-android/issues/11
 （3）第三步执行yesno下的run.sh，测试执行文件是否正常  
 最后会看到一个WER是0的零错误报告，具体参考这篇中的《解码和测试》：  
 https://www.jianshu.com/p/09deba57f339  
+
+## How to eat Pytorch in 20 days ?  
+https://github.com/lyhue1991/eat_pytorch_in_20_days  
