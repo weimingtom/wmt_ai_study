@@ -1,8 +1,9 @@
 ## dino  
+* https://github.com/weimingtom/game_dino_vc6  
 * https://github.com/makerdiary/python-games-on-microcontroller  
 * https://github.com/makerdiary/nrf52840-m2-devkit/tree/master/examples/python/dino  
 * (TODO) dino, port to c++    
-* search baidupan, dino_v3.rar  
+* search baidupan, dino_v3_6.rar  
 
 ## apple2  
 * https://github.com/weimingtom/wmt_link_collections_in_Chinese/blob/master/emulator.md  
