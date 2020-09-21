@@ -761,3 +761,7 @@ https://www.jianshu.com/p/09deba57f339
 
 ## How to eat Pytorch in 20 days ?  
 https://github.com/lyhue1991/eat_pytorch_in_20_days  
+
+## kaldi-ctc  
+https://github.com/lingochamp/kaldi-ctc  
+https://zhuanlan.zhihu.com/p/23177950  
