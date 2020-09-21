@@ -70,6 +70,7 @@ see https://github.com/bsatrom/tf-speech-particle, run example 10s voice with so
 * kasiim/ESP-EYE-speaker-verification  
 * margosall/Digitization-Realization  
 * patrikstarck/hmm_speech_recognition  
+* huybk213/Mainboard/blob/master/Src/voice_command.c  
 
 ## 语音识别移植, 简单离线语音识别，TODO    
 * OC Volume  
