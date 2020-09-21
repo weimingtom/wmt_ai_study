@@ -69,6 +69,7 @@ see https://github.com/bsatrom/tf-speech-particle, run example 10s voice with so
 * (TODO) build kaldi, search baidupan, kaldi_20200917_pre.tar.gz, work_kaldi  
 * kasiim/ESP-EYE-speaker-verification  
 * margosall/Digitization-Realization  
+* patrikstarck/hmm_speech_recognition  
 
 ## 语音识别移植, 简单离线语音识别，TODO    
 * OC Volume  
