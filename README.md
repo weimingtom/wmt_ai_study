@@ -769,3 +769,6 @@ https://github.com/lyhue1991/eat_pytorch_in_20_days
 ## kaldi-ctc  
 https://github.com/lingochamp/kaldi-ctc  
 https://zhuanlan.zhihu.com/p/23177950  
+
+## 社区分享 | 从零开始学习 TinyML（一）  
+https://blog.csdn.net/wfing/article/details/106995562  
