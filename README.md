@@ -72,6 +72,7 @@ see https://github.com/bsatrom/tf-speech-particle, run example 10s voice with so
 * patrikstarck/hmm_speech_recognition  
 * huybk213/Mainboard/blob/master/Src/voice_command.c  
 * Arduino_TensorFlowLite  
+* (TODO, IMP) ***baidupan, micro_speech_ESP-EYE_v1_not_good.rar***  
 
 ## 语音识别移植, 简单离线语音识别，TODO    
 * OC Volume  
