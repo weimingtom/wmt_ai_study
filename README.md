@@ -71,6 +71,7 @@ see https://github.com/bsatrom/tf-speech-particle, run example 10s voice with so
 * margosall/Digitization-Realization  
 * patrikstarck/hmm_speech_recognition  
 * huybk213/Mainboard/blob/master/Src/voice_command.c  
+* Arduino_TensorFlowLite  
 
 ## 语音识别移植, 简单离线语音识别，TODO    
 * OC Volume  
@@ -498,6 +499,7 @@ https://adafruit.github.io/arduino-board-index/package_adafruit_index.json
 https://learn.adafruit.com/tensorflow-lite-for-circuit-playground-bluefruit-quickstart?view=all#micro-speech-demo  
 https://github.com/adafruit/Adafruit_TFLite  
 search baidupan, tflite_tensorflow_lite_adafruit  
+Arduino_TensorFlowLite  
 
 ## esp-sr, WakeNet  
 https://github.com/espressif/esp-sr/blob/master/wake_word_engine/README_cn.md  
@@ -776,4 +778,4 @@ https://blog.csdn.net/wfing/article/details/106995562
 ## ardu-badge, Arduino_TensorFlowLite  
 https://www.ardu-badge.com/Arduino_TensorFlowLite/zip  
 https://community.platformio.org/t/arduino-nano-33-ble-tensorflow-lite-undefined-references/14387/2  
-
+same as adafruit, Arduino_TensorFlowLite  
