@@ -772,3 +772,8 @@ https://zhuanlan.zhihu.com/p/23177950
 
 ## 社区分享 | 从零开始学习 TinyML（一）  
 https://blog.csdn.net/wfing/article/details/106995562  
+
+## ardu-badge, Arduino_TensorFlowLite  
+https://www.ardu-badge.com/Arduino_TensorFlowLite/zip  
+https://community.platformio.org/t/arduino-nano-33-ble-tensorflow-lite-undefined-references/14387/2  
+
