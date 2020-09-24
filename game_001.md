@@ -16,3 +16,10 @@ https://github.com/weimingtom/wmt_stm32_study#nofrendo-stm32f4
 * https://gitee.com/weimingtom/wifiboymod  
 * https://gitee.com/weimingtom/arduboymod  
 * https://github.com/karaage0703/wio-terminal-flappy-bird  
+
+## makecode  
+* https://meowbit-doc.kittenbot.cn/#/makecode/社区趣味游戏分享  
+* https://makecode.com/_Txi3M7FrzXV4  
+* https://makecode.com/_9ecXcLeeAUF1  
+* https://makecode.com/_f9M6YvW077wd  
+
