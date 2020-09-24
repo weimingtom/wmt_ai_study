@@ -780,3 +780,16 @@ https://blog.csdn.net/wfing/article/details/106995562
 https://www.ardu-badge.com/Arduino_TensorFlowLite/zip  
 https://community.platformio.org/t/arduino-nano-33-ble-tensorflow-lite-undefined-references/14387/2  
 same as adafruit, Arduino_TensorFlowLite  
+
+## ESP32 支持运行 TensorFlow Lite Micro  
+https://zhuanlan.zhihu.com/p/228593457  
+
+## Arduino 机器学习实战入门（上）  
+https://blog.csdn.net/weixin_44507034/article/details/105602112  
+Arduino机器学习实战入门（下）  
+https://blog.csdn.net/weixin_44507034/article/details/105613754  
+https://medium.com/tensorflow/how-to-get-started-with-machine-learning-on-arduino-7daf95b4157  
+https://cloud.tencent.com/developer/article/1534288  
+
+
+
