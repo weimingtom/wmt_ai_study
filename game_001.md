@@ -26,6 +26,8 @@ https://github.com/weimingtom/wmt_stm32_study#nofrendo-stm32f4
 ## arduboy  
 * https://gitee.com/weimingtom/arduboymod  
 * search baidupan, arduboymod  
+* http://www.lingzhilab.com/lzbbs/resources.html?ecid=175  
+* https://asmcbain.net/projects/arduboy/docs/1.1/api/index.html  
 
 ## wifiboy  
 * https://wifiboy.org    
