@@ -28,6 +28,8 @@ https://github.com/weimingtom/wmt_stm32_study#nofrendo-stm32f4
 * search baidupan, arduboymod  
 * http://www.lingzhilab.com/lzbbs/resources.html?ecid=175  
 * https://asmcbain.net/projects/arduboy/docs/1.1/api/index.html  
+* search baidupan, 零知开源示例程序.7z  
+零知开源示例程序.7z\lingzhi-examples\lz-standard\Arduboy(复古游戏制作)  
 
 ## wifiboy  
 * https://wifiboy.org    
