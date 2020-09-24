@@ -38,3 +38,6 @@ https://github.com/weimingtom/wmt_stm32_study#nofrendo-stm32f4
 
 ## gamebuino  
 * search baidupan, gamebuino_nano_v1.rar  
+
+## chinese chess  
+* https://github.com/chenxiao07/TinyChess  
