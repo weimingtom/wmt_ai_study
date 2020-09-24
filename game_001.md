@@ -23,5 +23,14 @@ https://github.com/weimingtom/wmt_stm32_study#nofrendo-stm32f4
 * https://makecode.com/_9ecXcLeeAUF1  
 * https://makecode.com/_f9M6YvW077wd  
 
-## arduboymod  
-https://gitee.com/weimingtom/arduboymod  
+## arduboy  
+* https://gitee.com/weimingtom/arduboymod  
+* search baidupan, arduboymod  
+
+## wifiboy  
+* https://wifiboy.org    
+* https://wifiboy.org/ProTutorials.html  
+* search baidupan, wifiboymod  
+
+## gamebuino  
+* search baidupan, gamebuino_nano_v1.rar  
