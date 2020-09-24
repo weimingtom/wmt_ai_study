@@ -23,3 +23,5 @@ https://github.com/weimingtom/wmt_stm32_study#nofrendo-stm32f4
 * https://makecode.com/_9ecXcLeeAUF1  
 * https://makecode.com/_f9M6YvW077wd  
 
+## arduboymod  
+https://gitee.com/weimingtom/arduboymod  
