@@ -791,5 +791,10 @@ https://blog.csdn.net/weixin_44507034/article/details/105613754
 https://medium.com/tensorflow/how-to-get-started-with-machine-learning-on-arduino-7daf95b4157  
 https://cloud.tencent.com/developer/article/1534288  
 
+## Voiceprint-Recognition  
+AliosThings 嵌入式声纹识别项目  
+https://github.com/SunYanCN/Voiceprint-Recognition  
+https://github.com/alibaba/AliOS-Things/issues/976  
+
 
 
