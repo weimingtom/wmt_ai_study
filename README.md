@@ -58,7 +58,7 @@ https://github.com/LoveThinkinghard/Raspibot/blob/master/vadSound.py
 * (IMP) search baidupan, Blink_esp32_rpd2017_v2_success.tar.gz, tflite, tensorflow lite, run on ubuntu / linux / rpd  
 see https://github.com/bsatrom/tf-speech-particle, run example 10s voice with some problems    
 * (TODO) ***Python机器学习, book, 高斯混合模型的Python实现代码***  
-* (TODO) ***Python深度学习实战 基于TensorFlow和Keras的聊天机器人以及人脸 物体和语音识别, book, 未买***  
+* (TODO) ***Python深度学习实战 基于TensorFlow和Keras的聊天机器人以及人脸 物体和语音识别, book, see below***  
 * (TODO) ***LSTM+CTC, search below***  
 * (TODO) ***TinyML epub, pdf, Tensorflow_AIOT2019***   
 * (TODO) ***SmartSpeaker, stm32***  
