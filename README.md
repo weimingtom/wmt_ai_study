@@ -796,5 +796,13 @@ AliosThings 嵌入式声纹识别项目
 https://github.com/SunYanCN/Voiceprint-Recognition  
 https://github.com/alibaba/AliOS-Things/issues/976  
 
+## aiBook  
+https://github.com/xiyanxiyan10/aiBook  
+语音合成  
+https://github.com/ibab/tensorflow-wavenet  
+https://github.com/tomlepaine/fast-wavenet  
+语音识别  
+https://github.com/buriburisuri/speech-to-text-wavenet  
+https://github.com/pannous/tensorflow-speech-recognition  
 
 
