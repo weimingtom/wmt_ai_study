@@ -73,6 +73,7 @@ see https://github.com/bsatrom/tf-speech-particle, run example 10s voice with so
 * huybk213/Mainboard/blob/master/Src/voice_command.c  
 * Arduino_TensorFlowLite  
 * (TODO, IMP) ***baidupan, micro_speech_ESP-EYE_v1_not_good.rar***  
+* 《人工智能》清华大学版  
 
 ## 语音识别移植, 简单离线语音识别，TODO    
 * OC Volume  
@@ -805,4 +806,7 @@ https://github.com/tomlepaine/fast-wavenet
 https://github.com/buriburisuri/speech-to-text-wavenet  
 https://github.com/pannous/tensorflow-speech-recognition  
 
-
+## 《人工智能》清华大学版, AIDemo     
+第三章: 倾听你的声音  
+http://aibook.cslt.org/slides/index.html  
+http://aibook.cslt.org/aidemo/demo.html  
