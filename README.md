@@ -810,3 +810,7 @@ https://github.com/pannous/tensorflow-speech-recognition
 第三章: 倾听你的声音  
 http://aibook.cslt.org/slides/index.html  
 http://aibook.cslt.org/aidemo/demo.html  
+
+## search speechSeparation  
+https://github.com/pchao6/LSTM_PIT_Speech_Separation  
+https://github.com/ododoyo/DANet  
