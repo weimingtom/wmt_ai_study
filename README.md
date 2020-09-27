@@ -129,4 +129,7 @@ https://github.com/PWN0N/SLAM/blob/master/Speech/readme.md
 科大讯飞 TTS  
 https://github.com/Ewenwan/Ros/blob/master/src/voice_system/src/xf_tts.cpp  
 
+## openSMILE  
+https://github.com/naxingyu/opensmile  
+
 
