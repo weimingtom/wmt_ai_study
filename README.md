@@ -5,6 +5,7 @@ Include:
 * 对讲机，软电话: Codec / Audio Compression / speex / opus / VoIP  
 
 ## Old notes  
+* https://github.com/weimingtom/wmt_ai_study/blob/master/asr_002.md  
 * https://github.com/weimingtom/wmt_ai_study/blob/master/asr_001.md  
 * https://github.com/weimingtom/wmt_linux_study  
 * https://github.com/weimingtom/wmt_ai_study/blob/master/live_001.md  
