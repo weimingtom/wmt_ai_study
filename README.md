@@ -119,4 +119,14 @@ igormq/ctc_tensorflow_example
 
 ## - 
 
+## cnn-lstm-ctc  
+Theano implementation of LSTM and CTC to recognize simple english sentence image  
+https://github.com/aaron-xichen/cnn-lstm-ctc  
+https://github.com/Ewenwan/cnn-lstm-ctc  
+
+## PWN0N/SLAM, Speech Automatic Speech Recognition,(ASR)  
+https://github.com/PWN0N/SLAM/blob/master/Speech/readme.md    
+科大讯飞 TTS  
+https://github.com/Ewenwan/Ros/blob/master/src/voice_system/src/xf_tts.cpp  
+
 
