@@ -132,4 +132,6 @@ https://github.com/Ewenwan/Ros/blob/master/src/voice_system/src/xf_tts.cpp
 ## openSMILE  
 https://github.com/naxingyu/opensmile  
 
+## Apache Mahout  
+https://github.com/apache/mahout  
 
