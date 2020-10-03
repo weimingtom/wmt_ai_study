@@ -135,3 +135,9 @@ https://github.com/naxingyu/opensmile
 ## Apache Mahout  
 https://github.com/apache/mahout  
 
+## NVIDIA/NeMo  
+https://github.com/NVIDIA/NeMo  
+
+## EssayKiller_V2  
+基于开源GPT2.0的初代创作型人工智能 | 可扩展、可进化  
+https://github.com/EssayKillerBrain/EssayKiller_V2  
