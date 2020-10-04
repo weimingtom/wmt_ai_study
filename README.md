@@ -116,7 +116,7 @@ igormq/ctc_tensorflow_example
 * Raspibot  
 
 ## tensorflow lite micro (tflite) esp32 port  
-* first nodemcu-32s inm441 breadboard success  
+* First NodeMCU-32S and INMP441 breadboard run success  
 only use PIN2 (builtin LED) to test YES, no other LED used    
 search baidupan, libraries_20201004.rar  
 micro_speech_ESP-EYE_v4_success_yes_new_compiler_mianbaoban.rar  
