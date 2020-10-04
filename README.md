@@ -115,6 +115,12 @@ igormq/ctc_tensorflow_example
 * waveshare 13.3inch_Magic_Mirror, 微雪 13.3寸智能魔镜     
 * Raspibot  
 
+## tensorflow lite micro (tflite) esp32 port  
+* first nodemcu-32s inm441 breadboard success  
+search baidupan, libraries_20201004.rar  
+micro_speech_ESP-EYE_v4_success_yes_new_compiler_mianbaoban.rar  
+for comparation, micro_speech_M5StickC_v1_compare.rar  
+
 ## 20200927  
 
 ## - 
