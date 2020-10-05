@@ -148,3 +148,7 @@ https://github.com/NVIDIA/NeMo
 ## EssayKiller_V2  
 基于开源GPT2.0的初代创作型人工智能 | 可扩展、可进化  
 https://github.com/EssayKillerBrain/EssayKiller_V2  
+
+## 高斯过程  
+https://github.com/MingchaoZhu/DeepLearning  
+机器学习精讲 全彩印刷 机器学习原理算法与应用教程 一本精简机器学习入门手册 美亚机器学习深度学习畅销书  
