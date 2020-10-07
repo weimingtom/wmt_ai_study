@@ -16,3 +16,10 @@
 ## MiniJava, 虎书  
 * http://www.cambridge.org/us/features/052182060X/#progs  
 * http://www.cambridge.org/gb/knowledge/isbn/item1170327/?site_locale=en_GB  
+* search baidupan, minijava  
+
+## Old work  
+* https://github.com/weimingtom/Kuuko/blob/master/README2.md  
+
+## chibicc  
+* https://github.com/rui314/chibicc  
