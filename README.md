@@ -74,9 +74,10 @@ see https://github.com/bsatrom/tf-speech-particle, run example 10s voice with so
 * huybk213/Mainboard/blob/master/Src/voice_command.c  
 * Arduino_TensorFlowLite  
 * (TODO, IMP) ***baidupan, micro_speech_ESP-EYE_v1_not_good.rar***  
-* 《人工智能》清华大学版  
+* (x) 《人工智能》清华大学版  
 * M5StickC, tanakamasayuki/Arduino_TensorFlowLite_ESP32  
 * (TODO, IMP) https://github.com/kasiim/ESP-EYE-speaker-verification  
+* (TODO, IMP) **voice_control_led_en_v2_success.rar, port to linux**  
 
 ## 语音识别移植, 简单离线语音识别，TODO    
 * OC Volume  
