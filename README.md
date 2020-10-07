@@ -160,4 +160,6 @@ https://github.com/kkiani/animal-voice-recognition
 ## TensorFlow Machine Learning Cookbook  
 https://github.com/nfmcclure/tensorflow_cookbook  
 TensorFlow机器学习实战指南 原书第2版  
+https://github.com/search?q=TensorFlow机器学习实战指南  
+https://github.com/Asurada2015/TF_Cookbook  
 
