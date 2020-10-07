@@ -152,3 +152,7 @@ https://github.com/EssayKillerBrain/EssayKiller_V2
 ## 高斯过程  
 https://github.com/MingchaoZhu/DeepLearning  
 机器学习精讲 全彩印刷 机器学习原理算法与应用教程 一本精简机器学习入门手册 美亚机器学习深度学习畅销书  
+
+## knn  
+https://github.com/search?q=knn+speech  
+https://github.com/kkiani/animal-voice-recognition  
