@@ -2,6 +2,10 @@
 * lua11mod_v5.rar  
 * G:\work_kopilua\lua11mod  
 
+## Old index    
+* https://github.com/weimingtom/Kuuko/blob/master/README2.md  
+* https://github.com/weimingtom/Kuuko/blob/master/lua_hack.md    
+
 ## branch (mod)  
 * https://github.com/weimingtom/picoc  
 * https://github.com/weimingtom/huo  
@@ -17,9 +21,6 @@
 * http://www.cambridge.org/us/features/052182060X/#progs  
 * http://www.cambridge.org/gb/knowledge/isbn/item1170327/?site_locale=en_GB  
 * search baidupan, minijava  
-
-## Old work  
-* https://github.com/weimingtom/Kuuko/blob/master/README2.md  
 
 ## chibicc  
 * https://github.com/rui314/chibicc  
