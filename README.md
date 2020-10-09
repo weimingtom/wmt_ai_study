@@ -78,6 +78,7 @@ see https://github.com/bsatrom/tf-speech-particle, run example 10s voice with so
 * (x) M5StickC, tanakamasayuki/Arduino_TensorFlowLite_ESP32  
 * (TODO, IMP) https://github.com/kasiim/ESP-EYE-speaker-verification  
 * (TODO, IMP) ***voice_control_led_en_v2_success.rar, port to linux***  
+* 机器学习经典算法实践  
 
 ## 语音识别移植, 简单离线语音识别，TODO    
 * OC Volume  
@@ -164,4 +165,7 @@ https://github.com/nfmcclure/tensorflow_cookbook
 TensorFlow机器学习实战指南 原书第2版  
 https://github.com/search?q=TensorFlow机器学习实战指南  
 https://github.com/Asurada2015/TF_Cookbook  
+
+## 机器学习经典算法实践  
+search baidupan, 机器学习经典算法实践  
 
