@@ -169,3 +169,6 @@ https://github.com/Asurada2015/TF_Cookbook
 ## 机器学习经典算法实践  
 search baidupan, 机器学习经典算法实践  
 
+## 异步社区  
+https://www.epubit.com/search?txt=深度学习  
+
