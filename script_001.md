@@ -1,6 +1,7 @@
 ## TODO  
 * search baidupan, lua11mod_v15.rar  
 * G:\work_kopilua\lua11mod  
+* lua 2.1 mingw bug, search baidupan, peanut-master.zip  
 
 ## Old index    
 * https://github.com/weimingtom/Kuuko/blob/master/README2.md  
