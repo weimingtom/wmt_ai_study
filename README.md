@@ -172,3 +172,5 @@ search baidupan, 机器学习经典算法实践
 ## 异步社区  
 https://www.epubit.com/search?txt=深度学习  
 
+## 深度学习原理与实践   
+https://github.com/chenzomi12/DeepLearning-In-Action/blob/master/chapter8/audio_FeatureExtraction.py  
