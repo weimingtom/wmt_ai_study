@@ -131,7 +131,7 @@ for comparation, micro_speech_M5StickC_v1_compare.rar
 * (TODO) https://github.com/COTASPAR/K66F  
 * (TODO) https://github.com/ARMmbed/TensorFlow_MIMXRT1064-EVK_Microspeech  
 * (TODO) https://github.com/jasonwhwang/tensorflow_micro_speech_mbed/blob/master/micro_speech/audio_provider.cpp  
-use A0, MAX9814  
+use A0, MAX9814, see 《Arduino+MAX9814制作简易录音机》  
 
 ## ML-KWS, nucleo-f411re    
 * ref: https://github.com/ARM-software/ML-KWS-for-MCU/tree/master/Deployment  
@@ -198,6 +198,9 @@ https://github.com/ARMmbed/utensor-mnist-demo
 
 ## Arduino+MAX9814制作简易录音机  
 https://www.jianshu.com/p/2b031a7fd2e6  
+https://github.com/TMRh20/TMRpcm  
+https://www.instructables.com/Make-Your-Own-Spy-Bug-Arduino-Voice-Recorder/  
+https://www.adafruit.com/product/1713  
 GND<->GND  
 V+<->VCC(3V3 or 5V)  
 GAIN<->NC  
