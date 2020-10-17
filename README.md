@@ -127,7 +127,8 @@ micro_speech_ESP-EYE_v4_success_yes_new_compiler_mianbaoban.rar
 for comparation, micro_speech_M5StickC_v1_compare.rar  
 
 ## tensorflow lite micro (tflite) stm32 / mbed port    
-* https://github.com/uTensor/tf_microspeech  
+* (TODO) https://github.com/uTensor/tf_microspeech  
+* (TODO) https://github.com/COTASPAR/K66F  
 
 ## ML-KWS, nucleo-f411re    
 * ref: https://github.com/ARM-software/ML-KWS-for-MCU/tree/master/Deployment  
