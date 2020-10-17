@@ -126,9 +126,10 @@ search baidupan, libraries_20201004.rar
 micro_speech_ESP-EYE_v4_success_yes_new_compiler_mianbaoban.rar  
 for comparation, micro_speech_M5StickC_v1_compare.rar  
 
-## tensorflow lite micro (tflite) stm32 / mbed port    
+## tensorflow lite micro (tflite) stm32 / mbed / arm port    
 * (TODO) https://github.com/uTensor/tf_microspeech  
 * (TODO) https://github.com/COTASPAR/K66F  
+* (TODO) https://github.com/ARMmbed/TensorFlow_MIMXRT1064-EVK_Microspeech  
 
 ## ML-KWS, nucleo-f411re    
 * ref: https://github.com/ARM-software/ML-KWS-for-MCU/tree/master/Deployment  
