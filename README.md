@@ -127,6 +127,8 @@ micro_speech_ESP-EYE_v4_success_yes_new_compiler_mianbaoban.rar
 for comparation, micro_speech_M5StickC_v1_compare.rar  
 
 ## ML-KWS  
+* ref: https://github.com/ARM-software/ML-KWS-for-MCU/tree/master/Deployment  
+* ref: https://github.com/ARM-software/ML-KWS-for-MCU/tree/master/Deployment/Examples/simple_test  
 * mbed-cli, search baidupan, kws_simple_test_v1.rar  
 * build result: BUILD_v1.rar  
 * compile method: https://github.com/weimingtom/wmt_ai_study/blob/master/kws_build_001.txt  
