@@ -211,10 +211,16 @@ AR<->NC
 #define ENABLE_RECORDING   
 #define BLOCK_COUNT 10000UL   
 
-## ArduinoSound  
+## arduino_microspeech    
 https://github.com/donwardpeng/arduino_microspeech/tree/master/lib/ArduinoSound  
-Arduino Esplora Microphone  
+* ArduinoSound  
+https://www.arduino.cc/en/Reference/ArduinoSound  
+This library provides simple way to play and analyze audio data using Arduino on SAMD21 based boards   
+(i.e Arduino or Genuino Zero, MKRZero or MKR1000 Board) using the I2S bus.   
+ICS43432I2S  
+https://www.arduino.cc/en/Tutorial/ArduinoSoundAmplitudeSerialPlotter  
+* Arduino Esplora Microphone  
 https://www.arduino.cc/en/Tutorial/LibraryExamples/EsploraSoundSensor  
-Analog Sound Sensor, DFR0034, dfrobot    
+* Analog Sound Sensor, DFR0034, dfrobot    
 https://blog.csdn.net/md521/article/details/78038012  
 https://wiki.dfrobot.com/Analog_Sound_Sensor_SKU__DFR0034  
