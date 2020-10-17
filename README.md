@@ -184,3 +184,7 @@ https://www.epubit.com/search?txt=深度学习
 
 ## 深度学习原理与实践   
 https://github.com/chenzomi12/DeepLearning-In-Action/blob/master/chapter8/audio_FeatureExtraction.py  
+
+## uTensor  
+https://github.com/uTensor/uTensor  
+https://github.com/ARMmbed/utensor-mnist-demo  
