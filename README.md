@@ -79,7 +79,6 @@ see https://github.com/bsatrom/tf-speech-particle, run example 10s voice with so
 * (TODO, IMP) https://github.com/kasiim/ESP-EYE-speaker-verification  
 * (TODO, IMP) ***voice_control_led_en_v2_success.rar, port to linux***  
 * 机器学习经典算法实践  
-* (TODO) https://github.com/2524056672/kws-stm32f7disco-cmsisNN  
 
 ## 语音识别移植, 简单离线语音识别，TODO    
 * OC Volume  
@@ -125,6 +124,13 @@ only use PIN2 (builtin LED) to test YES, no other LED used
 search baidupan, libraries_20201004.rar  
 micro_speech_ESP-EYE_v4_success_yes_new_compiler_mianbaoban.rar  
 for comparation, micro_speech_M5StickC_v1_compare.rar  
+
+## ML-KWS  
+* mbed-cli, search baidupan, kws_simple_test_v1.rar  
+* build result: BUILD_v1.rar  
+* compile method: https://github.com/weimingtom/wmt_ai_study/blob/master/kws_build_001.txt  
+* (TODO) https://github.com/2524056672/kws-stm32f7disco-cmsisNN  
+* (TODO) https://github.com/JeffyCN/ARM-KWS-demo  
 
 ## 20200927  
 
