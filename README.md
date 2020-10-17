@@ -210,3 +210,11 @@ AR<->NC
 #define buffSize 128. May need to increase.  
 #define ENABLE_RECORDING   
 #define BLOCK_COUNT 10000UL   
+
+## ArduinoSound  
+https://github.com/donwardpeng/arduino_microspeech/tree/master/lib/ArduinoSound  
+Arduino Esplora Microphone  
+https://www.arduino.cc/en/Tutorial/LibraryExamples/EsploraSoundSensor  
+Analog Sound Sensor, DFR0034, dfrobot    
+https://blog.csdn.net/md521/article/details/78038012  
+https://wiki.dfrobot.com/Analog_Sound_Sensor_SKU__DFR0034  
