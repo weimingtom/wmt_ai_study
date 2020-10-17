@@ -1,0 +1,21 @@
+我来总结一下arm的ml-kws的编译坑，希望能有一些帮助，虽然以后可能会继续完善
+（1）关于mbed-cli的操作系统环境。我建议用windows，当然也可以用linux，后面我会解释为什么windows和linux是差不多的，然后确保有10GB的硬盘空间，
+因为mbed占用的硬盘比较大。建议装一个全新的python 3.7。
+（2）关于mbed-cli的python包安装。如果你想调试mbed-cli的报错（因为经常会出现mbed命令失败），那么建议用源码方式安装mbed-cli包到python环境
+（python setup.py install）。如果你想偷懒，可以直接pip3 install mbed-cli在线安装最新版。
+（3）设置ARM_GCC环境变量。网上有介绍，我就不赘述了。如果漏了这一步，mbed compile可能会报错，但mbed-cli会提醒ARM_GCC的问题，因为mbed-cli调用
+的mbed-sdk-tools会检查ARM_GCC指向的路径是否存在指定名字的工具链gcc执行文件
+（4）关于mbed new命令。官方推荐用mbed new 工程名 --mbedlib，但实际上这些创建工程的命令很可能会下载包失败（因为下载的东西太多了）。
+这个坑比较严重，我的折中方法是，用mbed new kws_simple_test --create-only创建工程，然后单独把mbed（实际上是mbed 2）和
+mbed-sdk-tools的仓库代码下载下来，分别解压到mbed子目录和tools子目录下（这样做的原因可以看mbed-cli的python代码），
+然后就能执行mbed deploy成功了。否则，无法mbed deploy，更无法mbed compile
+（5）关于mbed（实际上是mbed2）的代码下载。这个是另外一个坑。mbed下载下来的zip文件是缺文件的（例如缺了mbed.h和drivers目录）：
+https://os.mbed.com/users/mbed_official/code/mbed/
+这个问题在github上的issue有人反映了，你可能会奇怪为什么会缺文件，其实原因很简单，因为这个仓库的文件体积太大了，而这个仓库又不
+支持git clone（似乎是用hg做版本控制的），所以唯一的解决办法是把缺了的文件（例如mbed.h）逐个下载下来或者复制下来，但数量不是很多，
+所以工作量不会太大（还有一些BSP文件缺了的不用管，反正没用到）
+（6）关于mbed compile编译。如果解决好前面的问题，这一步就很简单了。不过要小心一个问题：千万不要把CMSIS_5或者其他依赖库
+放在工程目录下，例如kws_simple_test，因为mbed-cli会扫描所有工程目录下的所有子目录（递归的），导致很严重的编译问题
+（所有子目录都是include目录），官方其实已经解决了这个问题，把CMSIS_5放在示例工程目录的外面而非里面。
+另外，编译的过程中mbed-cli其实是间接调用tools目录下的python脚本，所以mbed-cli其实只是个外壳罢了，
+编译时的行为是依赖于mbed-sdk-tools的
