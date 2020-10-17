@@ -219,6 +219,12 @@ This library provides simple way to play and analyze audio data using Arduino on
 (i.e Arduino or Genuino Zero, MKRZero or MKR1000 Board) using the I2S bus.   
 ICS43432I2S  
 https://www.arduino.cc/en/Tutorial/ArduinoSoundAmplitudeSerialPlotter  
+MKR ZERO (I2S BUS & SD FOR SOUND, MUSIC & DIGITAL AUDIO DATA)      
+https://store.arduino.cc/usa/arduino-mkrzero  
+MKR 1000 (Zero plus the Wi-Fi)    
+https://store.arduino.cc/usa/arduino-mkr1000  
+MAX08357I2S  
+https://www.arduino.cc/en/Tutorial/ArduinoSoundWavePlayback  
 * Arduino Esplora Microphone  
 https://www.arduino.cc/en/Tutorial/LibraryExamples/EsploraSoundSensor  
 * Analog Sound Sensor, DFR0034, dfrobot    
