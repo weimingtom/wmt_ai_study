@@ -130,6 +130,7 @@ for comparation, micro_speech_M5StickC_v1_compare.rar
 * (TODO) https://github.com/uTensor/tf_microspeech  
 * (TODO) https://github.com/COTASPAR/K66F  
 * (TODO) https://github.com/ARMmbed/TensorFlow_MIMXRT1064-EVK_Microspeech  
+* (TODO, use A0) https://github.com/jasonwhwang/tensorflow_micro_speech_mbed/blob/master/micro_speech/audio_provider.cpp  
 
 ## ML-KWS, nucleo-f411re    
 * ref: https://github.com/ARM-software/ML-KWS-for-MCU/tree/master/Deployment  
