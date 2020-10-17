@@ -119,6 +119,7 @@ igormq/ctc_tensorflow_example
 * Raspibot  
 
 ## tensorflow lite micro (tflite) esp32 port  
+* ref: https://github.com/tanakamasayuki/Arduino_TensorFlowLite_ESP32/tree/master/examples/micro_speech_M5StickC  
 * First NodeMCU-32S and INMP441 breadboard run success  
 only use PIN2 (builtin LED) to test YES, no other LED used    
 search baidupan, libraries_20201004.rar  
