@@ -268,3 +268,12 @@ https://arxiv.org/pdf/1804.03209.pdf
 ## 开放语音识别数据集大列表  
 https://www.ctolib.com/amp/JRMeyer-open-speech-corpora.html  
 https://github.com/JRMeyer/open-speech-corpora  
+
+## 零资源挑战赛  
+https://zerospeech.com  
+http://www.nwpu-aslp.org/newsContent/news20171225.html  
+Zerospeech Challenge（零资源挑战赛）是语音研究领域的一项重要的国际学术测评。  
+该测评旨在缺少语言专家知识的前提下，探寻从语音数据中自动学得语言学结构信息的方法。  
+据悉，在零资源（zero resource）或少资源（low resource）的情境下，  
+采用无监督、弱监督方法进行数据建模已经成为机器学习和语音研究的热点问题  
+https://zerospeech.com/2019/getting_started.html  
