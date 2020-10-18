@@ -236,3 +236,11 @@ https://www.arduino.cc/en/Tutorial/LibraryExamples/EsploraSoundSensor
 * Analog Sound Sensor, DFR0034, dfrobot    
 https://blog.csdn.net/md521/article/details/78038012  
 https://wiki.dfrobot.com/Analog_Sound_Sensor_SKU__DFR0034  
+
+## BPI-EAI80, Key words recognition (close source, see DSpotter2.lib, see Cyberon)   
+http://wiki.banana-pi.org/BPI-EAI80_AIoT_开发板  
+https://github.com/BPI-SINOVOIP/BPI-EAI80-bsp/blob/master/KelisSDK/ugelis/kelis_example/ai_example/ai/src/app/speechai/speech_recognize.c  
+https://github.com/waynelinbo/ARC---Sport-at-home  
+
+## ISD9160, CSpotterSDK, Cyberon    
+https://blog.csdn.net/iotisan/article/details/53798704  
