@@ -255,6 +255,12 @@ https://github.com/iamlekh/Speech-Recognition
 https://github.com/musikalkemist/Deep-Learning-Audio-Application-From-Design-to-Deployment  
 Speech Commands Dataset：数千名讲话者说出的简短命令  
 https://blog.csdn.net/rubyboss/article/details/81083568  
+(may be ok)  
+xubuntu200464  
+Python==2.7.18rc1  
+tensorflow==1.5.0  
+tensorflow-tensorboard==1.5.1  
+pip==20.1.1  
 
 ## OpenSeq2Seq  
 https://nvidia.github.io/OpenSeq2Seq/html/speech-recognition.html  
