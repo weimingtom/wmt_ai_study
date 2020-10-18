@@ -1,3 +1,8 @@
+http://www.ijiandao.com/2b/baijia/67523.html
+https://research.googleblog.com/2017/08/launching-speech-commands-dataset.html
+
+
+
 业界 | 谷歌开放语音命令数据集，助力初学者利用深度学习解决音频识别问题
 百家作者：机器之心 2017-08-25 13:40:48 阅读：123
 选自Google Research
