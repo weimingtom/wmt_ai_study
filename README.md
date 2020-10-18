@@ -79,6 +79,7 @@ see https://github.com/bsatrom/tf-speech-particle, run example 10s voice with so
 * (TODO, IMP) https://github.com/kasiim/ESP-EYE-speaker-verification  
 * (TODO, IMP) ***voice_control_led_en_v2_success.rar, port to linux***  
 * 机器学习经典算法实践  
+* (???IMP) https://github.com/accraze/keyword-spotter  
 
 ## 语音识别移植, 简单离线语音识别，TODO    
 * OC Volume  
@@ -244,3 +245,6 @@ https://github.com/waynelinbo/ARC---Sport-at-home
 
 ## ISD9160, CSpotterSDK, Cyberon    
 https://blog.csdn.net/iotisan/article/details/53798704  
+
+## (???IMP) keyword-spotter  
+https://github.com/accraze/keyword-spotter  
