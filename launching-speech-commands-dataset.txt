@@ -1,0 +1,70 @@
+业界 | 谷歌开放语音命令数据集，助力初学者利用深度学习解决音频识别问题
+百家作者：机器之心 2017-08-25 13:40:48 阅读：123
+选自Google Research
+
+机器之心编译
+
+参与：路雪
+
+
+
+近日，谷歌开放语音命令数据集，发布新的音频识别教程，旨在帮助初学者利用深度学习解决语音识别和其他音频识别问题。
+
+
+
+语音命令数据集地址：http://download.tensorflow.org/data/speech_commands_v0.01.tar.gz
+
+音频识别教程地址：https://www.tensorflow.org/versions/master/tutorials/audio_recognition
+
+
+
+在谷歌，我们经常被问到如何使用深度学习解决语音识别和其他音频识别问题，比如检测关键词或命令。尽管已经有很多大型开源语音识别系统，如 Kaldi，这些系统可以把神经网络作为一个模块使用，但是它们的复杂性导致其很难用于指导简单的任务。更重要的是，并没有多少适合初学者的免费、开源数据集（部分数据集需要在构建神经模型之前进行预处理）或适合简单的关键词检测任务的数据集。
+
+
+
+为了解决这些问题，TensorFlow 和 AIY 团队创建了语音命令数据集，并用它向 TensorFlow 中添加训练和推断的示例代码。该数据集有 30 个短单词的 65000 个长度 1 秒钟的发音，这些音频由数千人通过 AIY 网站提供。它随 Creative Commons BY 4.0 license 发布，并将随着音频的增多持续发布新版本。该数据集旨在帮助构建基础但有用的应用程序语音接口，包括常用单词「是」（Yes）、「否」（No）、数字和方向词。我们还开源了用于创建该数据集的基础架构，希望更多人使用它创建自己的数据集，尤其是能够覆盖到服务水平不足的语言和应用。
+
+
+
+想自己试试，那么下载 TensorFlow 安卓演示应用程序的预置数据集（http://ci.tensorflow.org/view/Nightly/job/nightly-android/lastSuccessfulBuild/artifact/out/tensorflow_demo.apk）并打开「TF Speech」。你需要给TFspeech应用授予麦克风访问权限，然后就会看到一个十个单词的列表，你说哪个单词，它就会点亮。
+
+
+
+
+
+
+
+识别结果取决于你的语音模式是否被数据集覆盖，因此这并不完美，商业语音识别系统比这个教学示例复杂的多。但是我们希望，随着更多口音和变体加入数据集，社区向 TensorFlow 贡献改进后的模型，我们能够看到数据集的不断改进和扩展。
+
+
+
+你还可以通过 TensorFlow.org 上新的音频识别教程学习如何训练自己的模型。有了该框架的最新开发版本（https://hub.docker.com/r/tensorflow/tensorflow/）和现代的台式机，你可以下载该数据集并在几小时内训练模型。你还拥有多种选择来为不同的问题定制神经网络，产生不同的延迟时间、规模、精度的平衡以适应不同的平台。
+
+
+
+我们很期待看到大家在该数据集和教程的帮助下构建的新应用，因此我希望大家有机会利用这些资源，开始做音频识别任务！
+
+
+
+Interspeech 2015 会议上展示的《Convolutional Neural Networks for Small-footprint Keyword Spotting》（http://www.isca-speech.org/archive/interspeech_2015/papers/i15_1478.pdf）中对该网络的架构进行了描述。
+
+
+
+
+原文链接：https://research.googleblog.com/2017/08/launching-speech-commands-dataset.html
+
+
+
+
+
+本文为机器之心编译，转载请联系本公众号获得授权。
+
+✄------------------------------------------------
+
+加入机器之心（全职记者/实习生）：hr@jiqizhixin.com
+
+投稿或寻求报道：content@jiqizhixin.com
+
+广告&商务合作：bd@jiqizhixin.com
+
+关注公众号：拾黑（shiheibook）了解更多
