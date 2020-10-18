@@ -267,3 +267,4 @@ https://arxiv.org/pdf/1804.03209.pdf
 
 ## 开放语音识别数据集大列表  
 https://www.ctolib.com/amp/JRMeyer-open-speech-corpora.html  
+https://github.com/JRMeyer/open-speech-corpora  
