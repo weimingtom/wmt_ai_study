@@ -266,6 +266,8 @@ http://cs229.stanford.edu/proj2019aut/data/assignment_308875_raw/26500748.pdf
 https://arxiv.org/pdf/1804.03209.pdf  
 翻译  
 http://www.ijiandao.com/2b/baijia/67523.html  
+https://github.com/weimingtom/wmt_ai_study/blob/master/launching-speech-commands-dataset.txt  
+https://github.com/tensorflow/tensorflow/tree/r1.4/tensorflow/examples/speech_commands  
 
 ## 开放语音识别数据集大列表  
 https://www.ctolib.com/amp/JRMeyer-open-speech-corpora.html  
