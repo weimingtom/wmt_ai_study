@@ -149,6 +149,19 @@ use A0, MAX9814, see 《Arduino+MAX9814制作简易录音机》
 * (TODO) https://github.com/2524056672/kws-stm32f7disco-cmsisNN  
 * (TODO) https://github.com/JeffyCN/ARM-KWS-demo  
 
+## speech_commands, tensorflow 1.5.0   
+* 命令行参照这篇：  
+https://www.cnblogs.com/lijianming180/p/12258774.html    
+我不是自己编译tensorflow的，我用的方法是用xubuntu安装python2（就是2.7）  
+和python2-pip（需要特殊方法安装pip），然后再离线安装tensorflow 1.5  
+（不过依赖包还是在线安装），简单说，就是我利用旧版本来绕过CPU指令集的问题  
+（直接安装最新cpu版本，运行是会报错的）。除了安装问题，还有一个问题是训练  
+模型的时间非常长，我现在没有彻底跑完整个train.py（我估计要跑一天），我在  
+想有没有办法缩短训练数据的时间，或者是否存在断点执行的方法  
+* search baidupan, tensorflow-1.5.0-cp27-none-linux_x86_64.whl  
+* search baidupan, tensorflow-1.5.0.zip  
+* search baidupan, speech_commands_v0.01.tar.gz  
+
 ## 20200927  
 
 ## - 
