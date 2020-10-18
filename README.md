@@ -248,3 +248,14 @@ https://blog.csdn.net/iotisan/article/details/53798704
 
 ## (???IMP) keyword-spotter  
 https://github.com/accraze/keyword-spotter  
+https://rapidapi.com/accraze/api/keyword-spotter  
+https://github.com/search?q=SAMPLES_TO_CONSIDER+tensorflow&type=code  
+(dataset) https://github.com/osamaxsyed/speechRecognition  
+https://github.com/iamlekh/Speech-Recognition  
+https://github.com/musikalkemist/Deep-Learning-Audio-Application-From-Design-to-Deployment  
+Speech Commands Dataset：数千名讲话者说出的简短命令  
+https://blog.csdn.net/rubyboss/article/details/81083568  
+
+## OpenSeq2Seq  
+https://nvidia.github.io/OpenSeq2Seq/html/speech-recognition.html  
+https://nvidia.github.io/OpenSeq2Seq/html/speech-commands.html  
