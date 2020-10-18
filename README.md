@@ -168,6 +168,9 @@ $ wget https://bootstrap.pypa.io/get-pip.py
 $ sudo python2 get-pip.py  
 $ sudo python2 -m pip install tensorflow-1.5.0-cp27-none-linux_x86_64.whl  
 $ python2  
+* other study project  
+(TODO) https://github.com/accraze/keyword-spotter  
+search here, keyword-spotter  
 
 ## 20200927  
 
