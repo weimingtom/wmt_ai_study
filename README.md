@@ -161,6 +161,13 @@ https://www.cnblogs.com/lijianming180/p/12258774.html
 * search baidupan, tensorflow-1.5.0-cp27-none-linux_x86_64.whl  
 * search baidupan, tensorflow-1.5.0.zip  
 * search baidupan, speech_commands_v0.01.tar.gz  
+* 安装Python 2和pip2:  
+see https://www.cnblogs.com/zhuangliu/archive/2016/11/20/6083063.html  
+(???) $ sudo apt-get install python2.7    
+$ wget https://bootstrap.pypa.io/get-pip.py  
+$ sudo python2 get-pip.py  
+$ sudo python2 -m pip install tensorflow-1.5.0-cp27-none-linux_x86_64.whl  
+$ python2  
 
 ## 20200927  
 
