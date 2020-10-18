@@ -259,3 +259,11 @@ https://blog.csdn.net/rubyboss/article/details/81083568
 ## OpenSeq2Seq  
 https://nvidia.github.io/OpenSeq2Seq/html/speech-recognition.html  
 https://nvidia.github.io/OpenSeq2Seq/html/speech-commands.html  
+
+## Speech Command  
+https://ai.googleblog.com/2017/08/launching-speech-commands-dataset.html  
+http://cs229.stanford.edu/proj2019aut/data/assignment_308875_raw/26500748.pdf  
+https://arxiv.org/pdf/1804.03209.pdf  
+
+## 开放语音识别数据集大列表  
+https://www.ctolib.com/amp/JRMeyer-open-speech-corpora.html  
