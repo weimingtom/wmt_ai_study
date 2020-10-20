@@ -1,0 +1,41 @@
+我测试过，ML-KWS-for-MCU的测试mbed 2工程可以正常在NUCLEO_F411RE上运行
+https://github.com/ARM-software/ML-KWS-for-MCU/tree/master/Deployment
+有兴趣可以购买NUCLEO_F411RE开发板试试，反正不贵，而且它自带的st-link v2.1支持u盘拖曳烧录（类似micro:bit和daplink），适合mbed开发。
+不过如果想买这个开发板要考虑几个问题：
+（1）建议用Win 7，因为要另外装驱动，XP可能不行（2）st-link v2.1是支持用STM32CubeProgrammer烧录的，
+不过你装过STM32CubeProgrammer这个软件之后还是要再装Windows的驱动程序（板上的跳帽不需要变），
+反正板载st-link的灯是闪烁的话一般是驱动没装，或者数据线是坏的（或者数据线只能提供电源没有usb功能）
+（3）需要的usb线口是小型方口，普通的手机数据线不行（4）如果驱动正常的话（可能需要重启系统），
+接通板载st-link后会出现一个u盘和一个调试串口，那个调试串口的默认波特率配置是9600-8-1-none-none，
+如果波特率不是这个数，可能会看不到调试串口输出（程序里面直接就是printf就可以打印到这个虚拟的调试串口，
+不属于stm32f411的三个串口之一）。所以如果你想检查ML-KWS-for-MCU的代码有没有跑通，需要自己改动代码，
+加上闪烁灯的代码和改写printf的代码，网上搜索mbed 2 blinky即可。（5）mbed-cli的安装和编译过程最好先
+弄懂再买开发板（以前我已经说了）。另外，由于printf只是输出到st-link v2.1的虚拟调试串口，
+所以我之前把ML-KWS-for-MCU的固件烧录到stm32f411ce小型板是肯定看不到串口输出的（山寨st-link没有这个功能），
+需要改动代码，并且最好把main函数放到一个死循环中
+
+
+
+
+
+我来总结一下arm的ml-kws的编译坑，希望能有一些帮助，虽然以后可能会继续完善
+（1）关于mbed-cli的操作系统环境。我建议用windows，当然也可以用linux，后面我会解释为什么windows和linux是差不多的，
+然后确保有10GB的硬盘空间，因为mbed占用的硬盘比较大。建议装一个全新的python 3.7。
+（2）关于mbed-cli的python包安装。如果你想调试mbed-cli的报错（因为经常会出现mbed命令失败），
+那么建议用源码方式安装mbed-cli包到python环境（python setup.py install）。如果你想偷懒，可以直接pip3 install mbed-cli在线安装最新版。
+（3）设置ARM_GCC环境变量。网上有介绍，我就不赘述了。如果漏了这一步，mbed compile可能会报错，但mbed-cli会提醒ARM_GCC的问题，
+因为mbed-cli调用的mbed-sdk-tools会检查ARM_GCC指向的路径是否存在指定名字的工具链gcc执行文件
+（4）关于mbed new命令。官方推荐用mbed new 工程名 --mbedlib，但实际上这些创建工程的命令很可能会下载包失败（因为下载的东西太多了）。
+这个坑比较严重，我的折中方法是，用mbed new kws_simple_test --create-only创建工程，然后单独把mbed（实际上是mbed 2）和mbed-sdk-tools的仓库代码下载下来，
+分别解压到mbed子目录和tools子目录下（这样做的原因可以看mbed-cli的python代码），然后就能执行mbed deploy成功了。否则，无法mbed deploy，更无法mbed compile
+（5）关于mbed（实际上是mbed2）的代码下载。这个是另外一个坑。mbed下载下来的zip文件是缺文件的（例如缺了mbed.h和drivers目录）：
+https://os.mbed.com/users/mbed_official/code/mbed/
+这个问题在github上的issue有人反映了，你可能会奇怪为什么会缺文件，其实原因很简单，因为这个仓库的文件体积太大了，
+而这个仓库又不支持git clone（似乎是用hg做版本控制的），所以唯一的解决办法是把缺了的文件（例如mbed.h）逐个下载下来或者复制下来，
+但数量不是很多，所以工作量不会太大（还有一些BSP文件缺了的不用管，反正没用到）
+（6）关于mbed compile编译。如果解决好前面的问题，这一步就很简单了。不过要小心一个问题：千万不要把CMSIS_5或者其他依赖库放在工程目录下，
+例如kws_simple_test，因为mbed-cli会扫描所有工程目录下的所有子目录（递归的），导致很严重的编译问题（所有子目录都是include目录），
+官方其实已经解决了这个问题，把CMSIS_5放在示例工程目录的外面而非里面。另外，编译的过程中mbed-cli其实是间接调用tools目录下的python脚本，
+所以mbed-cli其实只是个外壳罢了，编译时的行为是依赖于mbed-sdk-tools的
+https://os.mbed.com/users/mbed_official/code/mbed-sdk-tools/
+
