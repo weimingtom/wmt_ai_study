@@ -171,3 +171,7 @@ $ python2
 * other study project  
 (TODO) https://github.com/accraze/keyword-spotter  
 search here, keyword-spotter  
+
+## Tensorflow, speech command, CNN, 10 words, keyword speech recognition    
+* (IMP) search baidpan, Speech-Recognition-master_v3_success.tar.gz  
+* modified from: https://github.com/iamlekh/Speech-Recognition   
