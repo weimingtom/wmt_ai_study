@@ -145,6 +145,7 @@ use A0, MAX9814, see 《Arduino+MAX9814制作简易录音机》
 * ref: https://github.com/ARM-software/ML-KWS-for-MCU/tree/master/Deployment/Examples/simple_test  
 * mbed-cli, search baidupan, kws_simple_test_v1.rar  
 * build result: BUILD_v1.rar  
+* for NUCLEO-F411RE, SRAM: 34KB，Flash: 204KB  
 * compile method: https://github.com/weimingtom/wmt_ai_study/blob/master/kws_build_001.txt  
 * (TODO) https://github.com/2524056672/kws-stm32f7disco-cmsisNN  
 * (TODO) https://github.com/JeffyCN/ARM-KWS-demo  
