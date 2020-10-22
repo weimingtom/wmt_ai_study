@@ -1,29 +1,5 @@
 # wmt_ai_study
 My AI study  
-Include:  
-* 语音识别，语音合成：ASR / OCR / STT / TTS / VAD    
-* 对讲机，软电话: Codec / Audio Compression / speex / opus / VoIP  
-
-## Old notes  
-* https://github.com/weimingtom/wmt_ai_study/blob/master/asr_002.md  
-* https://github.com/weimingtom/wmt_ai_study/blob/master/asr_001.md  
-* https://github.com/weimingtom/wmt_linux_study  
-* https://github.com/weimingtom/wmt_ai_study/blob/master/live_001.md  
-
-## CSML-by-Clevy / csml-engine  
-聊天机器人  
-https://github.com/CSML-by-Clevy/csml-engine  
-
-## 运行deep learning人工智能框架
-（一）吃鸡游戏机  
-（二）图形工作站、GPU服务器  
-
-## ESP32, voice recording    
-* https://github.com/MhageGH/esp32_SoundRecorder  
-* https://github.com/MhageGH/esp32_CloudSpeech  
-* https://github.com/lixy123/TTGO_T_Watch_Baidu_Rec  
-
-## AR9331, AR9341, openwrt    
 
 ## Related Projects  
 * https://github.com/weimingtom/wmt_speech_study  
@@ -109,15 +85,10 @@ search baidupan, Python_TensorFlow机器学习实战
 CTC tensorflow example 代码解析  
 igormq/ctc_tensorflow_example  
 
-## 语音机器人 / 魔镜 / 聊天机器人, 对话系统    
-* dingdang-robot, 叮当系统   
-* wukong-robot  
-* Leon, getleon.ai    
-* zimei, zimeimojing, 自美智能系统  
-* corvin_zhang / ros_voice_system, 木星中文语音对话系统  
-* Seeedstudio Respeaker  
-* waveshare 13.3inch_Magic_Mirror, 微雪 13.3寸智能魔镜     
-* Raspibot  
+## ESP32, voice recording    
+* https://github.com/MhageGH/esp32_SoundRecorder  
+* https://github.com/MhageGH/esp32_CloudSpeech  
+* https://github.com/lixy123/TTGO_T_Watch_Baidu_Rec  
 
 ## tensorflow lite micro (tflite) esp32 port  
 * ref: https://github.com/tanakamasayuki/Arduino_TensorFlowLite_ESP32/tree/master/examples/micro_speech_M5StickC  
