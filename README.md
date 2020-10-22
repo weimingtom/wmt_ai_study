@@ -151,6 +151,7 @@ use A0, MAX9814, see 《Arduino+MAX9814制作简易录音机》
 * (TODO) https://github.com/JeffyCN/ARM-KWS-demo  
 * https://os.mbed.com/users/mbed_official/code/mbed/  
 * https://os.mbed.com/users/mbed_official/code/mbed-sdk-tools  
+* (TODO) **解决mbed-cli绿色版问题**  
 
 ## speech_commands, tensorflow 1.5.0   
 * 命令行参照这篇：  
