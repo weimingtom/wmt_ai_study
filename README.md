@@ -138,7 +138,9 @@ use A0, MAX9814, see 《Arduino+MAX9814制作简易录音机》
 
 ## TFLite work  
 * micro_speech_v7_tf200_single_file.rar  
+from https://github.com/boochow/TFLite_Micro_MicroSpeech_M5Stack  
 * micro_speech_v5_tf211_lib.zip  
+from https://github.com/tanakamasayuki/Arduino_TensorFlowLite_ESP32  
 
 ## ML-KWS, nucleo-f411re    
 * ref: https://github.com/ARM-software/ML-KWS-for-MCU/tree/master/Deployment  
