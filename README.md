@@ -38,8 +38,7 @@ see https://docs.espressif.com/projects/esp-idf/zh_CN/latest/esp32/get-started/i
 ## ML-KWS, nucleo-f411re    
 * ref: https://github.com/ARM-software/ML-KWS-for-MCU/tree/master/Deployment  
 * ref: https://github.com/ARM-software/ML-KWS-for-MCU/tree/master/Deployment/Examples/simple_test  
-* mbed-cli, search baidupan, kws_simple_test_v1.rar  
-* build result: BUILD_v1.rar  
+* mbed-cli, search baidupan, kws_simple_test_v1.rar, build result: BUILD_v1.rar  
 * for NUCLEO-F411RE, SRAM: 34KB，Flash: 204KB  
 * compile method: https://github.com/weimingtom/wmt_ai_study/blob/master/kws_build_001.txt  
 * (TODO) https://github.com/2524056672/kws-stm32f7disco-cmsisNN  
@@ -48,6 +47,12 @@ see https://docs.espressif.com/projects/esp-idf/zh_CN/latest/esp32/get-started/i
 * https://os.mbed.com/users/mbed_official/code/mbed-sdk-tools  
 * (TODO) **解决mbed-cli绿色版问题**  
 * (TODO) **测试stm32f411ce是否兼容**  
+* (DONE) st-link virtual serial, only for NUCLEO-F411RE  
+kws_simple_test_v1.rar, simple_test_v2_success.rar    
+BUILD_v1.rar  
+* (DONE) PA9 PA10 serial (USART1), compatible with stm32f411ce  
+simple_test_v3_stm32f411ce_run_success.rar  
+BUILD_v3_stm32f411ce_run_success.rar  
 
 ## speech_commands, tensorflow 1.5.0   
 **TODO: 待解决，用i5的电脑开虚拟机已经可以正常安装tf 2.x，但旧电脑好像不行**    
