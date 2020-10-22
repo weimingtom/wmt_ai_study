@@ -149,6 +149,8 @@ use A0, MAX9814, see 《Arduino+MAX9814制作简易录音机》
 * compile method: https://github.com/weimingtom/wmt_ai_study/blob/master/kws_build_001.txt  
 * (TODO) https://github.com/2524056672/kws-stm32f7disco-cmsisNN  
 * (TODO) https://github.com/JeffyCN/ARM-KWS-demo  
+* https://os.mbed.com/users/mbed_official/code/mbed/  
+* https://os.mbed.com/users/mbed_official/code/mbed-sdk-tools  
 
 ## speech_commands, tensorflow 1.5.0   
 * 命令行参照这篇：  
