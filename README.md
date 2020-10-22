@@ -146,6 +146,7 @@ see https://github.com/tanakamasayuki/Arduino_TensorFlowLite_ESP32
 see https://docs.espressif.com/projects/esp-idf/zh_CN/latest/esp32/get-started/index.html  
 * (TODO) ADC version (replace i2s, pdm)    
 * (TODO) port to other board (STM32, GD32, K210, ...)  
+* (TODO) old version of arduino esp32 core  
 
 ## ML-KWS, nucleo-f411re    
 * ref: https://github.com/ARM-software/ML-KWS-for-MCU/tree/master/Deployment  
