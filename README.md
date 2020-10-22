@@ -82,7 +82,8 @@ speech commands, CNN, 10 words, with xubuntu, run success
 * (TODO, in home computer) stm32f103zet6, Open103Z_I2S, WM8960_Record, WM8960_Audio_Board_Code_v1.rar  
 * STM32F4-Discovery_FW_V1.1.0, Audio_playback_and_record, en.stsw-stm32068.zip  
 * stm32F4_dsp_microphone_fft_rtos.rar  
-* (TODO) STM32F4 i2s/adc/pdm recording code    
+* (TODO) STM32F4 i2s/adc/pdm recording code  
+* ref https://os.mbed.com/code/  
 
 ## (TODO, baidupan) stm32 (and other) sound process  
 * STM32F407VG, ASR_Project.rar  
