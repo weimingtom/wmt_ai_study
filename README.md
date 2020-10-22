@@ -53,6 +53,13 @@ BUILD_v1.rar
 * (DONE) PA9 PA10 serial (USART1), compatible with stm32f411ce  
 simple_test_v3_stm32f411ce_run_success.rar  
 BUILD_v3_stm32f411ce_run_success.rar  
+···
+//UART1_TX==PA_9==D8<->FT232.RXD
+//UART1_RX==PA_10==D2<->FT232.TXD
+serial_init(&stdio_uart, PA_9, PA_10);  //redirect to Serial1
+stdio_uart_inited = 1; 
+printf("ready\r\n");
+···
 
 ## speech_commands, tensorflow 1.5.0   
 **TODO: 待解决，用i5的电脑开虚拟机已经可以正常安装tf 2.x，但旧电脑好像不行**    
