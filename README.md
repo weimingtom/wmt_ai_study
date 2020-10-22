@@ -84,11 +84,11 @@ speech commands, CNN, 10 words, with xubuntu, run success
 * stm32F4_dsp_microphone_fft_rtos.rar  
 
 ## (TODO, baidupan) stm32 (and other) sound process  
-* stm32, ASR_Project.rar  
-* stm32, Design_Project-Speech_Recognition_on_Embedded_System.rar  
+* STM32F407VG, ASR_Project.rar  
+* STM32F407VG, Design_Project-Speech_Recognition_on_Embedded_System.rar  
 * k210, m5stickv-tensorflow-lite-micro.rar, maixcube-tensorflow-lite-micro.rar  
 * esp32, ML-KWS-for-ESP32.rar  
-* stm32, ml-kws-for-mcu_alxkbr.rar  
+* STM32F746NG, ml-kws-for-mcu_alxkbr.rar  
 * STM32F407VGT6_1, SmartPillow.rar  
 * STM32F429ZI, Speaker-Recognition-System-in-ARM.rar, SR_stm32f429zi.rar  
 * STM32F407VG, Voice-Recognition.rar  
