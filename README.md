@@ -78,12 +78,12 @@ speech commands, CNN, 10 words, with xubuntu, run success
 * (IMP) search baidpan, Speech-Recognition-master_v3_success.tar.gz  
 * modified from: https://github.com/iamlekh/Speech-Recognition   
 
-## stm32 record  
+## (TODO, baidupan) stm32 sound record  
 * (TODO, in home computer) Open103Z_I2S, WM8960_Record, WM8960_Audio_Board_Code_v1.rar  
 * STM32F4-Discovery_FW_V1.1.0, Audio_playback_and_record, en.stsw-stm32068.zip  
 * stm32F4_dsp_microphone_fft_rtos.rar  
 
-## stm32 sound process  
+## (TODO, baidupan) stm32 (and other) sound process  
 * stm32, ASR_Project.rar  
 * stm32, Design_Project-Speech_Recognition_on_Embedded_System.rar  
 * k210, m5stickv-tensorflow-lite-micro.rar, maixcube-tensorflow-lite-micro.rar  
