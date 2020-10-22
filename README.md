@@ -49,7 +49,8 @@ see https://docs.espressif.com/projects/esp-idf/zh_CN/latest/esp32/get-started/i
 * (TODO) **解决mbed-cli绿色版问题**  
 * (TODO) **测试stm32f411ce是否兼容**  
 
-## speech_commands, tensorflow 1.5.0 (待解决，用i5的电脑开虚拟机已经可以正常安装tf 2.x，但旧电脑好像不行）     
+## speech_commands, tensorflow 1.5.0   
+**TODO: 待解决，用i5的电脑开虚拟机已经可以正常安装tf 2.x，但旧电脑好像不行**    
 * 命令行参照这篇：  
 https://www.cnblogs.com/lijianming180/p/12258774.html    
 我不是自己编译tensorflow的，我用的方法是用xubuntu安装python2（就是2.7）  
