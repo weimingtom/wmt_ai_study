@@ -109,6 +109,6 @@ speech commands, CNN, 10 words, with xubuntu, run success
 * STM32F429ZI, Speaker-Recognition-System-in-ARM.rar, SR_stm32f429zi.rar  
 * STM32F407VG, Voice-Recognition.rar  
 * mic_vad_streaming, DeepSpeech-examples.rar  
-
+* (TODO) STM32f103VE, stm32-speech-recognition_v2.rar  
 
 
