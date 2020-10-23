@@ -60,7 +60,8 @@ BUILD_v3_stm32f411ce_run_success.rar
 serial_init(&stdio_uart, PA_9, PA_10);  //redirect to Serial1  
 stdio_uart_inited = 1;   
 printf("ready\r\n");  
-```
+```  
+* (TODO) search baidupan, init template project, blink_v1_stm32f411ce_init.rar  
 
 ## speech_commands, tensorflow 1.5.0   
 **TODO: 待解决，用i5的电脑开虚拟机已经可以正常安装tf 2.x，但旧电脑好像不行**    
