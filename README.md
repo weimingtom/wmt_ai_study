@@ -35,6 +35,7 @@ see https://docs.espressif.com/projects/esp-idf/zh_CN/latest/esp32/get-started/i
 * (TODO) port to other board (STM32, GD32, K210, ...)  
 * (TODO) old version of arduino esp32 core  
 * (TODO) port to w600: https://docs.w600.fun/?p=product/arduino.md  
+* (TODO) port to Wio Terminal  
 
 ## ML-KWS, nucleo-f411re    
 * ref: https://github.com/ARM-software/ML-KWS-for-MCU/tree/master/Deployment  
