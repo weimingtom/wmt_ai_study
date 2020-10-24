@@ -113,4 +113,6 @@ speech commands, CNN, 10 words, with xubuntu, run success
 * mic_vad_streaming, DeepSpeech-examples.rar  
 * (TODO) STM32f103VE, stm32-speech-recognition_v2.rar  
 
+## stm32-tflm-micro-speech  
+https://github.com/PhilippvK/stm32-tflm-micro-speech  
 
