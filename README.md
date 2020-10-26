@@ -28,6 +28,10 @@ use A0, MAX9814, see 《Arduino+MAX9814制作简易录音机》
 see https://github.com/boochow/TFLite_Micro_MicroSpeech_M5Stack  
 * micro_speech_v5_tf211_lib.zip  
 see https://github.com/tanakamasayuki/Arduino_TensorFlowLite_ESP32  
+* blink_v2_micro_speech_success.tar.gz  
+see esp-idf-v3.3.4  
+
+## TFLite work TODO    
 * (TODO) rpi, SDL2, PortAudio  
 * (TODO) port to ESP32 ESP-IDF    
 see https://docs.espressif.com/projects/esp-idf/zh_CN/latest/esp32/get-started/index.html  
