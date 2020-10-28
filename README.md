@@ -30,6 +30,8 @@ with Arduino IDE, see https://github.com/boochow/TFLite_Micro_MicroSpeech_M5Stac
 with Arduino IDE, see https://github.com/tanakamasayuki/Arduino_TensorFlowLite_ESP32  
 * blink_v2_micro_speech_success.tar.gz  
 with esp-idf-v3.3.4  
+* freertos_stm32f103rct6_v3_queue.rar  
+STM32 CMSIS-FreeRTOS demo    
 
 ## ML-KWS work  
 * simple_test_v3_stm32f411ce_run_success.rar  
