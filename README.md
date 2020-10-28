@@ -32,6 +32,12 @@ with Arduino IDE, see https://github.com/tanakamasayuki/Arduino_TensorFlowLite_E
 with esp-idf-v3.3.4  
 * freertos_stm32f103rct6_v3_queue.rar  
 STM32 CMSIS-FreeRTOS demo    
+* inmp441_stm32f411re_v2_success_3bit4bit.rar  
+stm32f411re inmp441 i2s  
+* WM8960_Record_v3_success_inmp441.rar  
+stm32f103ze inmp441 i2s  
+* WM8960_Record_stm32f103ze_compare.rar  
+stm32f103ze inmp441 i2s mod from WM8960_Audio_Board_Code, differences   
 
 ## ML-KWS work  
 * simple_test_v3_stm32f411ce_run_success.rar  
