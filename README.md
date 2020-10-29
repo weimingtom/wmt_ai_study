@@ -40,6 +40,8 @@ stm32f411re inmp441 i2s
 stm32f103ze inmp441 i2s  
 * WM8960_Record_stm32f103ze_compare.rar  
 stm32f103ze inmp441 i2s mod from WM8960_Audio_Board_Code, differences   
+* microspeech_stm32f411re_v1.rar  
+micro_speech ac6  
 
 ## ML-KWS work  
 * simple_test_v3_stm32f411ce_run_success.rar  
