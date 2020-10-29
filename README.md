@@ -32,6 +32,8 @@ with Arduino IDE, see https://github.com/tanakamasayuki/Arduino_TensorFlowLite_E
 with esp-idf-v3.3.4  
 * freertos_stm32f103rct6_v3_queue.rar  
 STM32 CMSIS-FreeRTOS demo    
+* freertos_stm32f103rct6_v4_ac6.rar  
+STM32 CMSIS-FreeRTOS demo for ac6      
 * inmp441_stm32f411re_v2_success_3bit4bit.rar  
 stm32f411re inmp441 i2s  
 * WM8960_Record_v3_success_inmp441.rar  
