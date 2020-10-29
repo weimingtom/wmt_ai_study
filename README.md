@@ -135,3 +135,6 @@ speech commands, CNN, 10 words, with xubuntu, run success
 * mic_vad_streaming, DeepSpeech-examples.rar  
 * (TODO) STM32f103VE, stm32-speech-recognition_v2.rar  
 
+## (TODO) migrate to STM32CubeMX MDK5 project, and run      
+https://github.com/gk969/stm32-speech-recognition  
+
