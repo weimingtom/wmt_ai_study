@@ -56,6 +56,8 @@ see https://github.com/bsatrom/tf-speech-particle, run example 10s voice with so
 * (???IMP) https://github.com/accraze/keyword-spotter  
 * ARM快速嵌入式系统原型设计, search baidupan  
 * (TODO, IMP???) https://github.com/KFUA/TensorflowCode/blob/master/9-23%20%20yuyinchall.py  
+* (TODO, IMP???) search baidupan, 17.speech_recognition.zip  
+* (TODO, IMP???) search baidupan, 20.speech_recognition_app.zip  
 
 ## 语音识别移植, 简单离线语音识别，TODO    
 * OC Volume  
