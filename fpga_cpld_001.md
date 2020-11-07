@@ -16,3 +16,7 @@ https://github.com/weimingtom/wmt_cpld_study
 
 ## CPU DIY套件TD4 自己动手制作CPU套件(PCB及所有元器件)  
 https://github.com/wuxx/TD4-4BIT-CPU  
+《自己动手写cpu》和《cpu自制入门》这两本书哪本更通俗易懂？  
+https://www.zhihu.com/question/27802570  
+《CPU制作法》,渡波郁著  
+https://www.amazon.com/Shi-x304-No-Tsukurikata-Dejitaru/dp/4839909865/ref=sr_1_1?ie=UTF8&qid=1447595397&sr=8-1&keywords=4839909865  
