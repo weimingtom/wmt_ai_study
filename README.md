@@ -51,7 +51,8 @@ ac5, remove C++11
 * simple_test_v3_stm32f411ce_run_success.rar  
 with mbed-cli  
 * mlkws_stm32f411re_v4_run_fail.rar  
-with Keil MDK5  
+mlkws_stm32f411re_v6_fail  
+(NOT done) with Keil MDK5, not good    
 
 ## TFLite work TODO    
 * (TODO) rpi, SDL2, PortAudio  
