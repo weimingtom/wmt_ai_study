@@ -13,3 +13,6 @@
 
 ## Work  
 https://github.com/weimingtom/wmt_cpld_study  
+
+## CPU DIY套件TD4 自己动手制作CPU套件(PCB及所有元器件)  
+https://github.com/wuxx/TD4-4BIT-CPU  
