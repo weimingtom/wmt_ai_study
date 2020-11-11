@@ -61,6 +61,7 @@ see https://github.com/bsatrom/tf-speech-particle, run example 10s voice with so
 * https://github.com/emlearn/emlearn    
 * https://github.com/jonnor/embeddedml    
 * (IMP) https://github.com/search?q=kaggle+speech  
+* (???IMP) https://github.com/PacktPublishing/Hands-On-Natural-Language-Processing-with-Python/blob/master/Chapter11/01_example.ipynb  
 
 ## 语音识别移植, 简单离线语音识别，TODO    
 * OC Volume  
