@@ -5,6 +5,7 @@ My AI study
 * https://github.com/MhageGH/esp32_SoundRecorder  
 * https://github.com/MhageGH/esp32_CloudSpeech  
 * https://github.com/lixy123/TTGO_T_Watch_Baidu_Rec  
+* https://github.com/atomic14/esp32_audio  
 
 ## tensorflow lite micro (tflite) esp32 port  
 * ref: https://github.com/tanakamasayuki/Arduino_TensorFlowLite_ESP32/tree/master/examples/micro_speech_M5StickC  
