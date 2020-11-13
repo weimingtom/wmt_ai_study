@@ -20,11 +20,11 @@ https://github.com/wuxx/TD4-4BIT-CPU
 https://www.zhihu.com/question/27802570  
 《CPU制作法》,渡波 郁著, CPUの創りかた    
 https://www.amazon.com/Shi-x304-No-Tsukurikata-Dejitaru/dp/4839909865/ref=sr_1_1?ie=UTF8&qid=1447595397&sr=8-1&keywords=4839909865  
+「CPUの創りかた」の4bitCPUをブレッドボードで作りました  
+https://qiita.com/y-meguro/items/9ed2a1b772eba4395ea6  
+https://github.com/y-meguro/Arduino/tree/master/td4_rom  
 
 ## CPU自制入门  
 search baidupan, CPU自制入门  
 CPU自作入門-HDLによる論理設計・基板製作・プログラミング  
 https://www.amazon.co.jp/CPU自作入門-HDLによる論理設計・基板製作・プログラミング-水頭-一壽/dp/4774153389  
-「CPUの創りかた」の4bitCPUをブレッドボードで作りました  
-https://qiita.com/y-meguro/items/9ed2a1b772eba4395ea6  
-https://github.com/y-meguro/Arduino/tree/master/td4_rom  
