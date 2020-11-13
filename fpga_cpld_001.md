@@ -25,3 +25,6 @@ https://www.amazon.com/Shi-x304-No-Tsukurikata-Dejitaru/dp/4839909865/ref=sr_1_1
 search baidupan, CPU自制入门  
 CPU自作入門-HDLによる論理設計・基板製作・プログラミング  
 https://www.amazon.co.jp/CPU自作入門-HDLによる論理設計・基板製作・プログラミング-水頭-一壽/dp/4774153389  
+「CPUの創りかた」の4bitCPUをブレッドボードで作りました  
+https://qiita.com/y-meguro/items/9ed2a1b772eba4395ea6  
+https://github.com/y-meguro/Arduino/tree/master/td4_rom  
