@@ -45,14 +45,14 @@ stm32f103ze inmp441 i2s mod from WM8960_Audio_Board_Code, differences
 final stm32 project micro_speech ac6  
 * micro_speech_vs2013_success.rar  
 win32, vs2013  
-* test_ac5_stm32f411re_v7.rar  
+* test_ac5_stm32f411re_v15_uart.rar  
 ac5, remove C++11  
 
 ## ML-KWS work  
 * simple_test_v3_stm32f411ce_run_success.rar  
 with mbed-cli  
 * mlkws_stm32f411re_v4_run_fail.rar  
-* mlkws_stm32f411re_v6_fail  
+* mlkws_stm32f411re_v6_fail.rar  
 (NOT done) with Keil MDK5, not good    
 (TODO) running result is different from mbed version, to be fixed    
 
