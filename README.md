@@ -47,6 +47,7 @@ final stm32 project micro_speech ac6
 win32, vs2013  
 * test_ac5_stm32f411re_v15_uart.rar  
 ac5, remove C++11  
+(TODO) inline RuntimeShape GetTensorShape(std::vector<int32_t> data)  
 
 ## ML-KWS work  
 * simple_test_v3_stm32f411ce_run_success.rar  
