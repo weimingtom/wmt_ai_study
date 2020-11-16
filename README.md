@@ -45,9 +45,11 @@ stm32f103ze inmp441 i2s mod from WM8960_Audio_Board_Code, differences
 final stm32 project micro_speech ac6  
 * micro_speech_vs2013_success.rar  
 win32, vs2013  
-* test_ac5_stm32f411re_v15_uart.rar  
+* (todo: very slow) test_ac5_stm32f411re_vv14_success.rar  
+(vs2013 version) micro_speech_vv14_success.rar  
 ac5, remove C++11  
 (TODO) inline RuntimeShape GetTensorShape(std::vector<int32_t> data)  
+
 
 ## ML-KWS work  
 * simple_test_v3_stm32f411ce_run_success.rar  
