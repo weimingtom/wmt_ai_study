@@ -125,6 +125,7 @@ search here, keyword-spotter
 speech commands, CNN, 10 words, with xubuntu, run success    
 * (IMP) search baidpan, Speech-Recognition-master_v3_success.tar.gz  
 * modified from: https://github.com/iamlekh/Speech-Recognition   
+* (TODO, AIStudio) Speech-Recognition-master_v4.tar.gz  
 
 ## (TODO, baidupan) stm32 sound record  
 * (TODO, in home computer) stm32f103zet6, Open103Z_I2S, WM8960_Record, WM8960_Audio_Board_Code_v1.rar  
