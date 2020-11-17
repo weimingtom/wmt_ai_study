@@ -53,7 +53,13 @@ ac5, remove C++11
 
 ## ML-KWS work  
 * simple_test_v3_stm32f411ce_run_success.rar  
-with mbed-cli  
+with mbed-cli, running output result:    
+```
+Total time : 164061 us  
+Detected right (99%)  
+Total time : 164060 us  
+Detected right (99%)  
+```
 * mlkws_stm32f411re_v4_run_fail.rar  
 * mlkws_stm32f411re_v6_fail.rar  
 (NOT done) with Keil MDK5, not good    
