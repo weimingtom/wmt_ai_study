@@ -58,6 +58,7 @@ with mbed-cli
 * mlkws_stm32f411re_v6_fail.rar  
 (NOT done) with Keil MDK5, not good    
 (TODO) running result is different from mbed version, to be fixed    
+* mlkws_stm32f411re_v7_not_tested.rar  
 
 ## TFLite work TODO    
 * (TODO) rpi, SDL2, PortAudio  
