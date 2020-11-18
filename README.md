@@ -52,10 +52,10 @@ pip3 install tensorflow-cpu (if in AIStudio, use pip and python)
 * (TODO, AIStudio) Speech-Recognition-master_v4.tar.gz  
 
 ## (TODO) Maixduino VAD DTW  
-* maixduino  
-search baidupan, voice_control_led_en_v2_success.rar  
+* voice_control_led_en_v2_success.rar    
+for Maixduino, with Arduino IDE  
 * voice_control_led_v2_vad_success.rar  
-TODO, windows port    
+TODO, with VS2013, windows port    
 * fft, see yinxiangbiji  
 
 ## (TODO) migrate to STM32CubeMX MDK5 project, and run      
