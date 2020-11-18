@@ -60,11 +60,8 @@ Detected right (99%)
 Total time : 164060 us  
 Detected right (99%)  
 ```
-* mlkws_stm32f411re_v4_run_fail.rar  
-* mlkws_stm32f411re_v6_fail.rar  
-(NOT done) with Keil MDK5, not good    
-(TODO) running result is different from mbed version, to be fixed    
-* mlkws_stm32f411re_v7_not_tested.rar  
+* mlkws_stm32f411re_v8_first_success.rar  
+(done, sane result as mbed-cli) port to keil mdk5 ac6 project  
 
 ## TFLite work TODO    
 * (TODO) rpi, SDL2, PortAudio  
