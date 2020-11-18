@@ -61,7 +61,9 @@ Total time : 164060 us
 Detected right (99%)  
 ```
 * mlkws_stm32f411re_v8_first_success.rar  
-(done, sane result as mbed-cli) port to keil mdk5 ac6 project  
+(done, same result as mbed-cli) port to keil mdk5 ac6 project  
+* CMSIS version, search baidupan, CMSIS_5.rar (may be dirrerent from CMSIS_5-5.4.0.zip)    
+
 
 ## TFLite work TODO    
 * (TODO) rpi, SDL2, PortAudio  
