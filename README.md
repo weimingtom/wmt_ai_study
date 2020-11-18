@@ -62,8 +62,18 @@ Detected right (99%)
 ```
 * mlkws_stm32f411re_v8_first_success.rar  
 (done, same result as mbed-cli) port to keil mdk5 ac6 project  
-* CMSIS version, search baidupan, CMSIS_5.rar (may be dirrerent from CMSIS_5-5.4.0.zip)    
-
+* CMSIS version, search baidupan, CMSIS_5-5.4.0.zip    
+https://github.com/ARM-software/CMSIS_5/releases/tag/5.4.0  
+small change in CMSIS_5\CMSIS\Core\Include\core_cm4.h  
+```
+//__FPU_PRESENT=1,
+//#warning "Compiler generates FPU instructions for a device without an FPU (check __FPU_PRESENT)"
+//#define __FPU_USED       0U
+#if !defined(__FPU_PRESENT)
+#define __FPU_PRESENT 1
+#endif
+#define __FPU_USED       1U
+```
 
 ## TFLite work TODO    
 * (TODO) rpi, SDL2, PortAudio  
