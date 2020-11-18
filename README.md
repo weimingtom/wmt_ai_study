@@ -49,6 +49,9 @@ win32, vs2013
 (vs2013 version, 1000 loop, 61 seconds) micro_speech_vv14_success.rar  
 ac5, remove C++11  
 (TODO) inline RuntimeShape GetTensorShape(std::vector<int32_t> data)  
+(origin) https://github.com/boochow/TFLite_Micro_MicroSpeech_M5Stack  
+(origin, arduino ide) search baidupan, TFLite_Micro_MicroSpeech_M5Stack  
+(origin, linux) search baidupan, Blink_esp32_rpd2017_v2_success.tar.gz  
 
 
 ## ML-KWS work  
