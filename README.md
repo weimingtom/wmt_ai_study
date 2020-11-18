@@ -52,7 +52,8 @@ ac5, remove C++11
 (origin) https://github.com/boochow/TFLite_Micro_MicroSpeech_M5Stack  
 (origin, arduino ide) search baidupan, TFLite_Micro_MicroSpeech_M5Stack  
 (origin, linux) search baidupan, Blink_esp32_rpd2017_v2_success.tar.gz  
-
+https://github.com/tensorflow/tensorflow/releases/tag/v2.0.0  
+search baidupan, tensorflow-2.0.0.zip  
 
 ## ML-KWS work  
 * simple_test_v3_stm32f411ce_run_success.rar  
