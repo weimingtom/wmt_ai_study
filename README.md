@@ -40,8 +40,11 @@ small change in CMSIS_5\CMSIS\Core\Include\core_cm4.h
 #define __FPU_USED       1U
 ```
 
-## Tensorflow 2.x, keyword speech recognition    
-speech commands, CNN, 10 words, with xubuntu, run success    
+## Speech-Recognition Python work  
+With Tensorflow 2.x and xubuntu-20.04-desktop-amd64, or with Baidu AIStudio    
+Keyword speech recognition   
+Speech commands, CNN, 10 words, with xubuntu, run success    
+pip3 install tensorflow-cpu (if in AIStudio, use pip and python)  
 * (IMP) search baidpan, Speech-Recognition-master_v3_success.tar.gz  
 * modified from: https://github.com/iamlekh/Speech-Recognition   
 * (TODO, AIStudio) Speech-Recognition-master_v4.tar.gz  
