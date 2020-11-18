@@ -3,9 +3,11 @@ My AI study
 
 ## TFLite work  
 * micro_speech_v7_tf200_single_file.rar  
-with Arduino IDE, see https://github.com/boochow/TFLite_Micro_MicroSpeech_M5Stack  
+ESP32, with Arduino IDE, see https://github.com/boochow/TFLite_Micro_MicroSpeech_M5Stack  
 * micro_speech_v5_tf211_lib.zip  
-with Arduino IDE, see https://github.com/tanakamasayuki/Arduino_TensorFlowLite_ESP32  
+ESP32, with Arduino IDE, see https://github.com/tanakamasayuki/Arduino_TensorFlowLite_ESP32  
+* blink_v2_micro_speech_success.tar.gz  
+ESP32, with esp-idf-v3.3.4  
 * (NUCLEO-F411RE, 84MHz, 1000 loop, 547 seconds) test_ac5_stm32f411re_vv15_benchmark.rar  
 (vs2013 version, 1000 loop, 61 seconds) micro_speech_vv14_success.rar  
 ac5, remove C++11  
