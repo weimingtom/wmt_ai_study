@@ -49,6 +49,9 @@ pip3 install tensorflow-cpu (if in AIStudio, use pip and python)
 * modified from: https://github.com/iamlekh/Speech-Recognition   
 * (TODO, AIStudio) Speech-Recognition-master_v4.tar.gz  
 
+## (TODO) Maixduino VAD DTW  
+* maixduino, search baidupan, voice_control_led_en_v2_success.rar  
+
 ## (TODO) migrate to STM32CubeMX MDK5 project, and run      
-https://github.com/gk969/stm32-speech-recognition  
+* https://github.com/gk969/stm32-speech-recognition  
 
