@@ -64,6 +64,7 @@ TODO, with VS2013, windows port
 ## (TODO) cortex-m-kws, aid_speech, tengine-lite  
 * with STM32F469I-DISCO  
 https://github.com/OAID/cortex-m-kws  
+https://github.com/robin-ai-ml/cortex-m-kws  
 https://github.com/OAID/Tengine/tree/tengine-lite  
 
 ## (TODO) KWS_MCU, TC-ResNet8  
