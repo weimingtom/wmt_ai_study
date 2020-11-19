@@ -61,3 +61,7 @@ TODO, with VS2013, windows port
 ## (TODO) migrate to STM32CubeMX MDK5 project, and run      
 * https://github.com/gk969/stm32-speech-recognition  
 
+## (TODO) cortex-m-kws, aid_speech, tengine-lite  
+* with STM32F469I-DISCO  
+https://github.com/OAID/cortex-m-kws  
+https://github.com/OAID/Tengine/tree/tengine-lite  
