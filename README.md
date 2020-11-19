@@ -49,9 +49,9 @@ Speech commands, CNN, 10 words, with xubuntu, run success
 pip3 install tensorflow-cpu (if in AIStudio, use pip and python)  
 * (IMP) search baidpan, Speech-Recognition-master_v3_success.tar.gz  
 * modified from: https://github.com/iamlekh/Speech-Recognition   
-* (TODO, AIStudio) Speech-Recognition-master_v4.tar.gz  
+* (TODO, AI Studio) Speech-Recognition-master_v4.tar.gz  
 
-## (TODO) Maixduino VAD DTW  
+## (TODO) voice_control_led, Maixduino VAD DTW  
 * voice_control_led_en_v2_success.rar    
 for Maixduino, with Arduino IDE  
 * voice_control_led_v2_vad_success.rar  
