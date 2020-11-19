@@ -65,3 +65,6 @@ TODO, with VS2013, windows port
 * with STM32F469I-DISCO  
 https://github.com/OAID/cortex-m-kws  
 https://github.com/OAID/Tengine/tree/tengine-lite  
+
+## (TODO) KWS_MCU, TC-ResNet8  
+https://github.com/Alex-Riviello/KWS_MCU  
