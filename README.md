@@ -69,3 +69,7 @@ https://github.com/OAID/Tengine/tree/tengine-lite
 
 ## (TODO) KWS_MCU, TC-ResNet8  
 https://github.com/Alex-Riviello/KWS_MCU  
+
+## (TODO???) UT2UH/ML-KWS-for-ESP32  
+https://github.com/UT2UH/ML-KWS-for-ESP32  
+xtensa_copy_q7 ???????where????????  
