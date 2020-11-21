@@ -65,9 +65,13 @@ TODO, with VS2013, windows port
 * with STM32F469I-DISCO  
 https://github.com/OAID/cortex-m-kws  
 https://github.com/OAID/Tengine/tree/tengine-lite  
+MCU AI开发者的福音 OPENAILAB发布Tengine-Lite预览版与关键词识别“小智”  
+https://zhuanlan.zhihu.com/p/68938575  
+https://blog.csdn.net/weixin_43476455/article/details/90401914  
 
 ## (TODO) KWS_MCU, TC-ResNet8  
 https://github.com/Alex-Riviello/KWS_MCU  
+
 
 ## (TODO???) UT2UH/ML-KWS-for-ESP32  
 https://github.com/UT2UH/ML-KWS-for-ESP32  
