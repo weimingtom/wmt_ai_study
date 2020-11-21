@@ -80,3 +80,4 @@ https://github.com/Alex-Riviello/KWS_MCU
 ## (TODO???) UT2UH/ML-KWS-for-ESP32  
 https://github.com/UT2UH/ML-KWS-for-ESP32  
 xtensa_copy_q7 ???????where????????  
+https://github.com/UT2UH/ML-KWS-for-ESP32/tree/master/Source/XMSIS/NN  
