@@ -68,6 +68,10 @@ https://github.com/OAID/Tengine/tree/tengine-lite
 MCU AI开发者的福音 OPENAILAB发布Tengine-Lite预览版与关键词识别“小智”  
 https://zhuanlan.zhihu.com/p/68938575  
 https://blog.csdn.net/weixin_43476455/article/details/90401914  
+* with NMSIS and RISC-V  
+https://gitee.com/Nuclei-Software/NMSIS  
+Tengine成功打通RISC-V芯片架构的AI部署与推理，或撼动AI推理格局  
+https://zhuanlan.zhihu.com/p/266978046  
 
 ## (TODO) KWS_MCU, TC-ResNet8  
 https://github.com/Alex-Riviello/KWS_MCU  
