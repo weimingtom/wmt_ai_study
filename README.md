@@ -63,7 +63,7 @@ TODO, with VS2013, windows port
 
 ## (TODO, NOT IMP) cortex-m-kws, aid_speech, tengine-lite  
 **NOTE**: This demo may be not good,  
-because of **lack of trainning method and model data**，only providing model convert tool    
+because of **lack of training method and model data**，only providing model convert tool    
 Details see:   
 https://github.com/OAID/cortex-m-kws/blob/master/Documentation/Tengine%20on%20STM32F7%20Setup%20Manual.pdf  
 * with STM32F469I-DISCO  
