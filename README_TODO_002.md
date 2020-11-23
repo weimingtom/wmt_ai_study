@@ -22,6 +22,7 @@ for comparation, micro_speech_M5StickC_v1_compare.rar
 * (TODO) https://github.com/jasonwhwang/tensorflow_micro_speech_mbed/blob/master/micro_speech/audio_provider.cpp  
 use A0, MAX9814, see 《Arduino+MAX9814制作简易录音机》  
 * https://github.com/PhilippvK/stm32-tflm-micro-speech  
+* https://github.com/openmv/tensorflow-lib  
 
 ## TFLite work  
 * blink_v2_micro_speech_success.tar.gz  
