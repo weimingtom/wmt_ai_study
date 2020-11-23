@@ -15,7 +15,7 @@ for comparation, micro_speech_M5StickC_v1_compare.rar
 * arduino one file compile: Blink_esp32_v6.rar  
 * linux build: Blink_esp32_rpd2017_v2_success.tar.gz  
 
-## tensorflow lite micro (tflite) stm32 / mbed / arm port    
+## tensorflow lite micro (tflite) stm32 / mbed / arm port / etc      
 * (TODO) https://github.com/uTensor/tf_microspeech  
 * (TODO) https://github.com/COTASPAR/K66F  
 * (TODO) https://github.com/ARMmbed/TensorFlow_MIMXRT1064-EVK_Microspeech  
@@ -23,6 +23,7 @@ for comparation, micro_speech_M5StickC_v1_compare.rar
 use A0, MAX9814, see 《Arduino+MAX9814制作简易录音机》  
 * https://github.com/PhilippvK/stm32-tflm-micro-speech  
 * https://github.com/openmv/tensorflow-lib  
+* https://github.com/AmbiqMicro/TFLiteMicro_MicroSpeech_Keil_AP3BEVB  
 
 ## TFLite work  
 * blink_v2_micro_speech_success.tar.gz  
