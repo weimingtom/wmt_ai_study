@@ -66,6 +66,10 @@ TODO, with VS2013, windows port
 because of **lack of training method and model data**，only providing model convert tool    
 Details see:   
 https://github.com/OAID/cortex-m-kws/blob/master/Documentation/Tengine%20on%20STM32F7%20Setup%20Manual.pdf  
+Tengine provides three versions:  
+a) https://github.com/OAID/Tengine version (only arm)  
+b) http://www.eaidk.com version (EAIDK-310, EAIDK-610)  
+c) http://www.tengine.org.cn version (rpi3b, rk3399, hi3516, etc)  
 * with STM32F469I-DISCO  
 https://github.com/OAID/cortex-m-kws  
 https://github.com/OAID/Tengine/tree/tengine-lite  
