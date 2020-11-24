@@ -89,3 +89,14 @@ https://github.com/Alex-Riviello/KWS_MCU
 https://github.com/UT2UH/ML-KWS-for-ESP32  
 xtensa_copy_q7 ???????where????????  
 https://github.com/UT2UH/ML-KWS-for-ESP32/tree/master/Source/XMSIS/NN  
+
+## (TODO) VAD  
+百度AI开放平台->语音识别->开发工具  
+https://ai.baidu.com/ai-doc/SPEECH/Ek39uxgre  
+开源VAD音频切分工具  
+https://ai.baidu.com/ai-doc/SPEECH/xk38lxq46  
+https://github.com/Baidu-AIP/speech-vad-demo  
+Android  
+https://github.com/LH-YU/SpeechVadDemo  
+py-webrtcvad  
+https://github.com/wiseman/py-webrtcvad  
