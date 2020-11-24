@@ -94,3 +94,4 @@ https://github.com/UT2UH/ML-KWS-for-ESP32/tree/master/Source/XMSIS/NN
 * https://github.com/Baidu-AIP/speech-vad-demo  
 * https://github.com/LH-YU/SpeechVadDemo  
 * https://github.com/wiseman/py-webrtcvad  
+* https://github.com/mengsaisi/VAD_campare   
