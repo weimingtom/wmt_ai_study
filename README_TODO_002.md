@@ -24,6 +24,7 @@ use A0, MAX9814, see 《Arduino+MAX9814制作简易录音机》
 * https://github.com/PhilippvK/stm32-tflm-micro-speech  
 * https://github.com/openmv/tensorflow-lib  
 * https://github.com/AmbiqMicro/TFLiteMicro_MicroSpeech_Keil_AP3BEVB  
+* https://github.com/42io/tflite_kws  
 
 ## TFLite work  
 * blink_v2_micro_speech_success.tar.gz  
