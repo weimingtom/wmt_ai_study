@@ -1,0 +1,61 @@
+from 深度学习核心技术与实践
+http://www.broadview.com.cn/book/2422
+
+
+章节       资源名称      资源位置
+8.1          Theano       http://deeplearning.net/software/theano/
+8.2          Torch         http://torch.ch/
+8.3          PyTorch       http://pytorch.org/
+8.4          Caffe         http://caffe.berkeleyvision.org/
+8.5          TensorFlow    https://www.tensorflow.org/
+8.6          MXNet        http://mxnet.io/
+8.7          Keras         https://keras.io/
+10.1         LeNet-5       http://yann.lecun.com/exdb/lenet/
+10.2     AlexNet  https://github.com/BVLC/caffe/tree/master/models/bvlc_alexnet
+10.3      VGGNet         http://www.robots.ox.ac.uk/~vgg/research/very_deep/
+10.4     GoogLeNet  https://github.com/tensorflow/models/tree/master/inception
+10.5     ResNet           https://github.com/KaimingHe/deep-residual-networks
+10.6       DenseNet              https://github.com/liuzhuang13/DenseNet
+10.7        DPN            https://github.com/cypw/DPNs
+11.1.2       OverFeat       https://github.com/sermanet/OverFeat
+11.2.1      R-CNN          https://github.com/rbgirshick/rcnn
+11.2.2      SPP-net          https://github.com/ShaoqingRen/SPP_net
+11.2.3     Fast R-CNN       https://github.com/rbgirshick/fast-rcnn
+11.2.4     Faster R-CNN      https://github.com/ShaoqingRen/faster_rcnn
+11.2.5      R-FCN           https://github.com/daijifeng001/R-FCN
+11.3.1      YOLO            https://pjreddie.com/darknet/yolo/
+11.3.2       SSD           https://github.com/weiliu89/caffe/tree/ssd
+12.1.1       FCN          https://github.com/shelhamer/fcn.berkeleyvision.org
+12.1.2     DeconvNet       https://github.com/HyeonwooNoh/DeconvNet
+12.1.3      SegNet          http://mi.eng.cam.ac.uk/projects/segnet/
+12.1.4     DilatedConvNet    https://github.com/fyu/dilation
+12.2.1     DeepLab         http://liangchiehchen.com/projects/DeepLab.html
+12.2.2     CRFasRNN      https://github.com/torrvision/crfasrnn
+12.2.3DeepParsingNetwork http://personal.ie.cuhk.edu.hk/~lz013/projects/DPN.html
+12.3.1  Mask R-CNN   https://github.com/CharlesShang/FastMaskRCNN（非原作）
+13.3    DSH    https://github.com/lhmRyan/deep-supervised-hashing-DSH（非原作）
+15     OpenFst          http://www.openfst.org/
+16.2    Kaldi            http://kaldi-asr.org/
+16.4    EESEN            https://github.com/yajiemiao/eesen
+19.2    Stanford CoreNLP   https://stanfordnlp.github.io/CoreNLP/
+19.3    JNN               https://github.com/wlin12/JNN
+20.2    SyntaxNet   https://github.com/tensorflow/models/tree/master/syntaxnet
+21     word2vec         https://code.google.com/archive/p/word2vec/
+21.6    fastText           https://github.com/facebookresearch/fastText
+21.7     GloVe            https://nlp.stanford.edu/projects/glove/
+22.2   GroundHog          https://github.com/pascanur/GroundHog
+22.4     GNMT            https://github.com/tensorflow/nmt
+22.5     FAIRSeq          https://github.com/facebookresearch/fairseq
+25.6.1   TCDCN           http://mmlab.ie.cuhk.edu.hk/projects/TCDCN.html
+25.6.2   DeepID2       https://github.com/happynear/FaceVerification（非原作）
+25.6.5    MNC          https://github.com/daijifeng001/MNC
+26.4HashedNetshttp://www.cse.wustl.edu/~wenlinchen/project/HashedNets/index.html
+26.5   Squeeze-Net     https://github.com/DeepScale/SqueezeNet
+26.6   BinaryConnect    https://github.com/MatthieuCourbariaux/BinaryConnect
+26.6    BinaryNet      https://github.com/MatthieuCourbariaux/BinaryNet
+26.7MobileNethttps://github.com/tensorflow/models/blob/master/slim/nets/mobilenet_v1.md
+27.5      DQN          https://deepmind.com/research/dqn
+28.3     DCGAN          https://github.com/carpedm20/DCGAN-tensorflow
+28.4     InfoGAN        https://github.com/openai/InfoGAN
+28.5      Pix2Pix       https://github.com/phillipi/pix2pix
+28.6     WGAN       https://github.com/martinarjovsky/WassersteinGAN
