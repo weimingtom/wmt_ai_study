@@ -1,5 +1,6 @@
 from 深度学习核心技术与实践
 http://www.broadview.com.cn/book/2422
+语音识别ASR相关：14, 15, 16, 17章  
 
 
 章节       资源名称      资源位置
