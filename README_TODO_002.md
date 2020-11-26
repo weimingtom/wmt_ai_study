@@ -17,7 +17,7 @@ for comparation, micro_speech_M5StickC_v1_compare.rar
 
 ## tensorflow lite micro (tflite) stm32 / mbed / arm port / etc      
 * (TODO) https://github.com/uTensor/tf_microspeech  
-* (TODO) https://github.com/COTASPAR/K66F  
+* (TODO, DOC) https://github.com/COTASPAR/K66F  
 * (TODO) https://github.com/ARMmbed/TensorFlow_MIMXRT1064-EVK_Microspeech  
 * (TODO) https://github.com/jasonwhwang/tensorflow_micro_speech_mbed/blob/master/micro_speech/audio_provider.cpp  
 use A0, MAX9814, see 《Arduino+MAX9814制作简易录音机》  
@@ -25,6 +25,9 @@ use A0, MAX9814, see 《Arduino+MAX9814制作简易录音机》
 * https://github.com/openmv/tensorflow-lib  
 * https://github.com/AmbiqMicro/TFLiteMicro_MicroSpeech_Keil_AP3BEVB  
 * https://github.com/42io/tflite_kws  
+* (DOC) https://github.com/ARM-software/armnn  
+* (DOC) https://developer.arm.com/solutions/machine-learning-on-arm/developer-material/how-to-guides  
+* (DOC) https://github.com/arduino/AIoT-Dev-Summit-2019  
 
 ## TFLite work  
 * blink_v2_micro_speech_success.tar.gz  
