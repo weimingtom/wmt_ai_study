@@ -127,3 +127,7 @@ search here, keyword-spotter
 * mic_vad_streaming, DeepSpeech-examples.rar  
 * (TODO) STM32f103VE, stm32-speech-recognition_v2.rar  
 
+## TensorFlow example speech_commands   
+* http://t.rock-chips.com/forum.php?mod=viewthread&tid=456&extra=page%3D1  
+* https://github.com/tensorflow/docs/blob/master/site/en/r1/tutorials/sequences/audio_recognition.md    
+* https://github.com/tensorflow/tensorflow/tree/master/tensorflow/examples/speech_commands  
