@@ -98,6 +98,8 @@ https://github.com/UT2UH/ML-KWS-for-ESP32/tree/master/Source/XMSIS/NN
 
 
 ## (TODO) Python GMM Chapter07 speech_recognizer.py  
+* origin  
+https://github.com/PacktPublishing/Python-Machine-Learning-Cookbook/blob/master/Chapter07/speech_recognizer.py   
 * python 2.7 win32 wheel     
 search baidupan, Chapter07_win32  
 
