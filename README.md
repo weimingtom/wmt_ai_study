@@ -54,16 +54,17 @@ pip3 install tensorflow-cpu (if in AIStudio, use pip and python)
 ## (TODO) voice_control_led, Maixduino VAD DTW  
 * origin  
 https://github.com/sipeed/Maixduino/blob/master/libraries/Maix_Speech_Recognition  
-https://github.com/sipeed/Maixduino/blob/master/libraries/Maix_Speech_Recognition/examples/voice_control_led_en/voice_control_led_en.ino  
-https://github.com/sipeed/Maixduino/blob/master/libraries/Maix_Speech_Recognition/examples/get_voice_model/get_voice_model.ino  
+examples/voice_control_led_en/voice_control_led_en.ino  
+examples/get_voice_model/get_voice_model.ino  
 * voice_control_led_en_v2_success.rar    
-for Maixduino, with Arduino IDE  
+for Maixduino, with Arduino IDE and Sipeed Maix Dock (K210)  
 * voice_control_led_v5.rar  
-TODO, with VS2013, windows port    
-* fft, see yinxiangbiji  
+TODO, with VS2013, windows port, not done      
+* (TODO, need DOC) about fft, see yinxiangbiji  
 
 ## (TODO) migrate to STM32CubeMX MDK5 project, and run      
 * https://github.com/gk969/stm32-speech-recognition  
+with STM32F103VE and Keil MDK4     
 
 ## (TODO, NOT IMP) cortex-m-kws, aid_speech, tengine-lite  
 **NOTE**: This demo may be not good,  
