@@ -3,7 +3,7 @@ My AI study
 
 ## TFLite work  
 * micro_speech_v7_tf200_single_file.rar  
-ESP32, with Arduino IDE, and Ai-Thinker NodeMCU-32S + INMP441  
+(ESP32) with Arduino IDE, and Ai-Thinker NodeMCU-32S + INMP441  
 (origin) https://github.com/boochow/TFLite_Micro_MicroSpeech_M5Stack  
 * micro_speech_v5_tf211_lib.zip  
 ESP32, with Arduino IDE, and Ai-Thinker NodeMCU-32S + INMP441  
@@ -11,11 +11,11 @@ ESP32, with Arduino IDE, and Ai-Thinker NodeMCU-32S + INMP441
 (origin) examples/micro_speech_M5StickC/micro_speech_M5StickC.ino  
 (origin) with Arduino IDE and M5StickC 2020    
 * blink_v2_micro_speech_success.tar.gz  
-ESP32, with esp-idf-v3.3.4, and Ai-Thinker NodeMCU-32S + INMP441  
+(ESP32) with esp-idf-v3.3.4, and Ai-Thinker NodeMCU-32S + INMP441  
 (origin) from boochow version, TensoFlow Lite Micro 2.0.0, single file compile    
-* (NUCLEO-F411RE, 84MHz, 1000 loop, 547 seconds) test_ac5_stm32f411re_vv15_benchmark.rar  
-(vs2013 version, 1000 loop, 61 seconds) micro_speech_vv14_success.rar  
-ac5, remove C++11  
+* (NUCLEO-F411RE, 84MHz, 1000 times loop, 547 seconds) test_ac5_stm32f411re_vv15_benchmark.rar  
+(VC2013 version, 1000 times loop, 61 seconds) micro_speech_vv14_success.rar  
+with STM32CubeMX, with ac5, remove C++11  
 (TODO) inline RuntimeShape GetTensorShape(std::vector<int32_t> data)  
 (origin) https://github.com/boochow/TFLite_Micro_MicroSpeech_M5Stack  
 (origin, arduino ide) search baidupan, TFLite_Micro_MicroSpeech_M5Stack  
@@ -25,7 +25,8 @@ search baidupan, tensorflow-2.0.0.zip
 
 ## ML-KWS work  
 * simple_test_v3_stm32f411ce_run_success.rar  
-with mbed-cli, running output result:    
+with mbed-cli and NUCLEO-F411RE   
+running output result:    
 ```
 Total time : 164061 us  
 Detected right (99%)  
@@ -33,8 +34,9 @@ Total time : 164060 us
 Detected right (99%)  
 ```
 * mlkws_stm32f411re_v8_first_success.rar  
-(done, same result as mbed-cli) port to keil mdk5 ac6 project  
-* CMSIS version, search baidupan, CMSIS_5-5.4.0.zip    
+with STM32CubeMX, Keil MDK5 and NUCLEO-F411RE   
+(DONE, SUCCESS, same result as mbed-cli) port to keil mdk5 ac6 project  
+(CMSIS version) search baidupan, CMSIS_5-5.4.0.zip    
 https://github.com/ARM-software/CMSIS_5/releases/tag/5.4.0  
 small change in CMSIS_5\CMSIS\Core\Include\core_cm4.h  
 ```
