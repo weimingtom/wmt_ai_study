@@ -13,13 +13,13 @@ ESP32, with Arduino IDE, and Ai-Thinker NodeMCU-32S + INMP441
 * blink_v2_micro_speech_success.tar.gz  
 (ESP32) with esp-idf-v3.3.4, and Ai-Thinker NodeMCU-32S + INMP441  
 (origin) from boochow version, TensoFlow Lite Micro 2.0.0, single file compile    
-* (NUCLEO-F411RE, 84MHz, 1000 times loop, 547 seconds) test_ac5_stm32f411re_vv15_benchmark.rar  
-(VC2013 version, 1000 times loop, 61 seconds) micro_speech_vv14_success.rar  
-with STM32CubeMX, with ac5, remove C++11  
+* test_ac5_stm32f411re_vv15_benchmark.rar  
+with STM32CubeMX, with Keil MDK5 AC5, without C++11, with NUCLEO-F411RE, 84MHz, 1000 times loop, 547 seconds  
 (TODO) inline RuntimeShape GetTensorShape(std::vector<int32_t> data)  
+(VC2013 version, Windows, 1000 times loop, 61 seconds) micro_speech_vv14_success.rar  
 (origin) https://github.com/boochow/TFLite_Micro_MicroSpeech_M5Stack  
-(origin, arduino ide) search baidupan, TFLite_Micro_MicroSpeech_M5Stack  
-(origin, linux) search baidupan, Blink_esp32_rpd2017_v2_success.tar.gz  
+(origin, Arduino IDE) search baidupan, TFLite_Micro_MicroSpeech_M5Stack  
+(origin, Linux, Raspberry Pi OS Desktop 2017) search baidupan, Blink_esp32_rpd2017_v2_success.tar.gz  
 https://github.com/tensorflow/tensorflow/releases/tag/v2.0.0  
 search baidupan, tensorflow-2.0.0.zip  
 
@@ -35,8 +35,8 @@ Detected right (99%)
 ```
 * mlkws_stm32f411re_v8_first_success.rar  
 with STM32CubeMX, Keil MDK5 and NUCLEO-F411RE   
-(DONE, SUCCESS, same result as mbed-cli) port to keil mdk5 ac6 project  
-(CMSIS version) search baidupan, CMSIS_5-5.4.0.zip    
+(DONE, SUCCESS, same result as mbed-cli) port to Keil MDK5 AC6 project  
+(Dependency, using CMSIS version) search baidupan, CMSIS_5-5.4.0.zip    
 https://github.com/ARM-software/CMSIS_5/releases/tag/5.4.0  
 small change in CMSIS_5\CMSIS\Core\Include\core_cm4.h  
 ```
