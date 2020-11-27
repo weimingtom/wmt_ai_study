@@ -11,7 +11,7 @@ ESP32, with Arduino IDE, and Ai-Thinker NodeMCU-32S + INMP441
 (origin) examples/micro_speech_M5StickC/micro_speech_M5StickC.ino  
 (origin) with Arduino IDE and M5StickC 2020    
 * blink_v2_micro_speech_success.tar.gz  
-ESP32, with esp-idf-v3.3.4, and NodeMCU-32S + INMP441  
+ESP32, with esp-idf-v3.3.4, and Ai-Thinker NodeMCU-32S + INMP441  
 * (NUCLEO-F411RE, 84MHz, 1000 loop, 547 seconds) test_ac5_stm32f411re_vv15_benchmark.rar  
 (vs2013 version, 1000 loop, 61 seconds) micro_speech_vv14_success.rar  
 ac5, remove C++11  
