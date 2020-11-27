@@ -52,6 +52,10 @@ pip3 install tensorflow-cpu (if in AIStudio, use pip and python)
 * (TODO, AI Studio) Speech-Recognition-master_v4.tar.gz  
 
 ## (TODO) voice_control_led, Maixduino VAD DTW  
+* origin  
+https://github.com/sipeed/Maixduino/blob/master/libraries/Maix_Speech_Recognition  
+https://github.com/sipeed/Maixduino/blob/master/libraries/Maix_Speech_Recognition/examples/voice_control_led_en/voice_control_led_en.ino  
+https://github.com/sipeed/Maixduino/blob/master/libraries/Maix_Speech_Recognition/examples/get_voice_model/get_voice_model.ino  
 * voice_control_led_en_v2_success.rar    
 for Maixduino, with Arduino IDE  
 * voice_control_led_v5.rar  
