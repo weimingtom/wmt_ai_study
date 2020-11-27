@@ -134,3 +134,9 @@ search here, keyword-spotter
 * http://t.rock-chips.com/forum.php?mod=viewthread&tid=456&extra=page%3D1  
 * https://github.com/tensorflow/docs/blob/master/site/en/r1/tutorials/sequences/audio_recognition.md    
 * https://github.com/tensorflow/tensorflow/tree/master/tensorflow/examples/speech_commands  
+
+## Wav analyzing Software  
+* GoldWave  
+http://www.goldwave.com  
+* Audacity  
+https://www.audacityteam.org/download/windows/  
