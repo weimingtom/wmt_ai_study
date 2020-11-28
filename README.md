@@ -118,5 +118,8 @@ search baidupan, Chapter07_win32
 https://github.com/paperrune/GMM/blob/master/main.cpp  
 * libMFCC - C library for computing Mel-Frequency Cepstral Coefficients  
 https://github.com/jsawruk/libmfcc  
-
+* c_speech_features, A port of python_speech_features to C.  
+https://github.com/Cwiiis/c_speech_features  
+* cpes, kws_guess  
+https://github.com/ruslanbasic/cpes  
 
