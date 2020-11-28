@@ -116,5 +116,7 @@ https://github.com/PacktPublishing/Python-Machine-Learning-Cookbook/blob/master/
 search baidupan, Chapter07_win32  
 * GMM  
 https://github.com/paperrune/GMM/blob/master/main.cpp  
+* libMFCC - C library for computing Mel-Frequency Cepstral Coefficients  
+https://github.com/jsawruk/libmfcc  
 
 
