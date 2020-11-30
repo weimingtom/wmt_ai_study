@@ -22,6 +22,7 @@ My AI study
 (origin, Linux, Raspberry Pi OS Desktop 2017) search baidupan, Blink_esp32_rpd2017_v2_success.tar.gz  
 https://github.com/tensorflow/tensorflow/releases/tag/v2.0.0  
 search baidupan, tensorflow-2.0.0.zip  
+* (TODO) Port to STM32H743  
 
 ## ML-KWS work  
 * simple_test_v3_stm32f411ce_run_success.rar  
