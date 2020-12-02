@@ -59,7 +59,7 @@ pip3 install tensorflow-cpu (if in AIStudio, use pip and python)
 * modified from: https://github.com/iamlekh/Speech-Recognition   
 * (TODO, AI Studio) Speech-Recognition-master_v4.tar.gz  
 
-## (TODO, porting difficult) voice_control_led, Maixduino VAD DTW  
+## (TODO, porting difficult) voice_control_led, Maixduino MFCC-DTW + VAD  
 * voice_control_led_v9.rar  
 (NOT DONE, Many Problems) TODO, with VS2013, windows port, calculate DTW distance get zero, don't know reason    
 (TODO, need DOC) about fft, see yinxiangbiji  
