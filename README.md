@@ -2,6 +2,16 @@
 My AI study  
 
 ## TFLite work  
+* test_ac5_stm32f411re_vv15_benchmark.rar  
+(STM32) with STM32CubeMX, with Keil MDK5 AC5, without C++11, with NUCLEO-F411RE, 84MHz, 1000 times loop, 547 seconds  
+(TODO) inline RuntimeShape GetTensorShape(std::vector<int32_t> data)  
+(VC2013 version, Windows, 1000 times loop, 61 seconds) micro_speech_vv14_success.rar  
+(origin) https://github.com/boochow/TFLite_Micro_MicroSpeech_M5Stack  
+(origin, Arduino IDE) search baidupan, TFLite_Micro_MicroSpeech_M5Stack  
+(origin, Linux, Raspberry Pi OS Desktop 2017) search baidupan, Blink_esp32_rpd2017_v2_success.tar.gz  
+https://github.com/tensorflow/tensorflow/releases/tag/v2.0.0  
+search baidupan, tensorflow-2.0.0.zip  
+* (TODO) Port to STM32H743  
 * micro_speech_v7_tf200_single_file.rar  
 (ESP32) with Arduino IDE, and Ai-Thinker NodeMCU-32S + INMP441  
 (origin) https://github.com/boochow/TFLite_Micro_MicroSpeech_M5Stack  
@@ -13,16 +23,6 @@ My AI study
 * blink_v2_micro_speech_success.tar.gz  
 (ESP32) with esp-idf-v3.3.4, and Ai-Thinker NodeMCU-32S + INMP441  
 (origin) from boochow version, TensoFlow Lite Micro 2.0.0, single file compile    
-* test_ac5_stm32f411re_vv15_benchmark.rar  
-(STM32) with STM32CubeMX, with Keil MDK5 AC5, without C++11, with NUCLEO-F411RE, 84MHz, 1000 times loop, 547 seconds  
-(TODO) inline RuntimeShape GetTensorShape(std::vector<int32_t> data)  
-(VC2013 version, Windows, 1000 times loop, 61 seconds) micro_speech_vv14_success.rar  
-(origin) https://github.com/boochow/TFLite_Micro_MicroSpeech_M5Stack  
-(origin, Arduino IDE) search baidupan, TFLite_Micro_MicroSpeech_M5Stack  
-(origin, Linux, Raspberry Pi OS Desktop 2017) search baidupan, Blink_esp32_rpd2017_v2_success.tar.gz  
-https://github.com/tensorflow/tensorflow/releases/tag/v2.0.0  
-search baidupan, tensorflow-2.0.0.zip  
-* (TODO) Port to STM32H743  
 
 ## ML-KWS work  
 * mlkws_stm32f411re_v8_first_success.rar  
