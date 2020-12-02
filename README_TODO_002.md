@@ -46,7 +46,8 @@ stm32f103ze inmp441 i2s mod from WM8960_Audio_Board_Code, differences
 final stm32 project micro_speech ac6  
 * micro_speech_vs2013_success.rar  
 win32, vs2013  
-
+* microspeech_stm32h743vi_v4.rar  
+stm32h743 project micro_speech ac6 not tested  
 
 ## TFLite work TODO    
 * (TODO) rpi, SDL2, PortAudio  
