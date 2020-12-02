@@ -25,15 +25,6 @@ search baidupan, tensorflow-2.0.0.zip
 * (TODO) Port to STM32H743  
 
 ## ML-KWS work  
-* simple_test_v3_stm32f411ce_run_success.rar  
-(STM32) with mbed-cli and NUCLEO-F411RE   
-running output result:    
-```
-Total time : 164061 us  
-Detected right (99%)  
-Total time : 164060 us  
-Detected right (99%)  
-```
 * mlkws_stm32f411re_v8_first_success.rar  
 (STM32) with STM32CubeMX, Keil MDK5 and NUCLEO-F411RE   
 (DONE, SUCCESS, same result as mbed-cli) port to Keil MDK5 AC6 project  
@@ -48,6 +39,15 @@ small change in CMSIS_5\CMSIS\Core\Include\core_cm4.h
 #define __FPU_PRESENT 1
 #endif
 #define __FPU_USED       1U
+```
+* simple_test_v3_stm32f411ce_run_success.rar  
+(STM32) with mbed-cli and NUCLEO-F411RE   
+running output result:    
+```
+Total time : 164061 us  
+Detected right (99%)  
+Total time : 164060 us  
+Detected right (99%)  
 ```
 
 ## Speech-Recognition Python work  
