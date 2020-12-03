@@ -27,7 +27,7 @@ search baidupan, tensorflow-2.0.0.zip
 
 ## ML-KWS work  
 * mlkws_stm32f411re_v8_first_success.rar  
-(STM32) with STM32CubeMX, Keil MDK5 and NUCLEO-F411RE   
+(STM32) with STM32CubeMX, Keil MDK5 AC6 and NUCLEO-F411RE   
 (stm32cubemx) Heap_Size==0x12000, Stack_Size==0x6000      
 (DONE, SUCCESS, same result as mbed-cli) port to Keil MDK5 AC6 project  
 (Dependency, using CMSIS version) search baidupan, CMSIS_5-5.4.0.zip    
