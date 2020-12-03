@@ -4,6 +4,7 @@ My AI study
 ## TFLite work  
 * test_ac5_stm32f411re_vv15_benchmark.rar  
 (STM32) with STM32CubeMX, with Keil MDK5 AC5, without C++11, with NUCLEO-F411RE, 84MHz, 1000 times loop, 547 seconds  
+(stm32cubemx) Heap_Size==0x13000, Stack_Size==0x6000      
 (TODO) inline RuntimeShape GetTensorShape(std::vector<int32_t> data)  
 (VC2013 version, Windows, 1000 times loop, 61 seconds) micro_speech_vv14_success.rar  
 (origin) https://github.com/boochow/TFLite_Micro_MicroSpeech_M5Stack  
@@ -27,6 +28,7 @@ search baidupan, tensorflow-2.0.0.zip
 ## ML-KWS work  
 * mlkws_stm32f411re_v8_first_success.rar  
 (STM32) with STM32CubeMX, Keil MDK5 and NUCLEO-F411RE   
+(stm32cubemx) Heap_Size==0x12000, Stack_Size==0x6000      
 (DONE, SUCCESS, same result as mbed-cli) port to Keil MDK5 AC6 project  
 (Dependency, using CMSIS version) search baidupan, CMSIS_5-5.4.0.zip    
 https://github.com/ARM-software/CMSIS_5/releases/tag/5.4.0  
