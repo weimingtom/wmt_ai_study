@@ -58,7 +58,7 @@ Detected right (99%)
 Keyword speech recognition, Speech commands, CNN, 10 words  
 (install tf2) pip3 install tensorflow-cpu (if in xubuntu, use pip3 and python3)  
 (origin) https://github.com/iamlekh/Speech-Recognition   
-* (TODO, NOT DONE) Speech-Recognition_v6.tar.gz  
+* Speech-Recognition_v7.tar.gz  
 (Python3, TF2) with AI Studio, not done    
 (install tf2) pip install tensorflow-cpu (if in AIStudio, use pip and python)  
 
