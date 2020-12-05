@@ -13,6 +13,7 @@ My AI study
 https://github.com/tensorflow/tensorflow/releases/tag/v2.0.0  
 search baidupan, tensorflow-2.0.0.zip  
 * (TODO) Port to STM32H743  
+(TODO, NOT DONE) microspeech_stm32h743vi_v5_uart_gpio_success_nolib.rar  
 * micro_speech_v7_tf200_single_file.rar  
 (ESP32) with Arduino IDE, and Ai-Thinker NodeMCU-32S + INMP441  
 (origin) https://github.com/boochow/TFLite_Micro_MicroSpeech_M5Stack  
