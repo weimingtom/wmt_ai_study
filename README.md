@@ -129,5 +129,6 @@ https://github.com/ruslanbasic/cpes
 
 ## (TODO) html5, MFCC-DTW    
 * speech_v1.rar  
+index.html, harker.emit('stopped_speaking'), console.log('speaking');  
 (origin) https://github.com/MimusTriurus/WebExperiments  
 (origin) https://github.com/shawkatq/voice-commands-demo  
