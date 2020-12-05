@@ -138,3 +138,4 @@ with USB microphone and Chrome/Opera
 * https://github.com/tensorflow/tensorflow/tree/r2.0/tensorflow/lite/experimental/micro/examples/micro_speech#use-your-local-machine  
 * https://github.com/tensorflow/docs/blob/master/site/en/r1/tutorials/sequences/audio_recognition.md  
 * https://github.com/tensorflow/tensorflow/blob/r2.0/tensorflow/lite/experimental/micro/examples/micro_speech/train_speech_model.ipynb  
+* https://github.com/tensorflow/examples/tree/master/lite/examples/speech_commands/ml  
