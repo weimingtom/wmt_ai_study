@@ -53,6 +53,8 @@ Detected right (99%)
 ```
 
 ## Speech-Recognition Python work  
+* https://github.com/weimingtom/Speech-Recognition_mod  
+work  
 * Speech-Recognition-master_v3_success.tar.gz  
 (Python3, TF2) With Tensorflow 2.x and xubuntu-20.04-desktop-amd64  
 Keyword speech recognition, Speech commands, CNN, 10 words  
