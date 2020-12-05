@@ -127,7 +127,7 @@ https://github.com/Cwiiis/c_speech_features
 * cpes, kws_guess  
 https://github.com/ruslanbasic/cpes  
 
-## (TODO) html5, MFCC+DTW    
+## (TODO) html5, MFCC-DTW    
 * speech_v1.rar  
 (origin) https://github.com/MimusTriurus/WebExperiments  
 (origin) https://github.com/shawkatq/voice-commands-demo  
