@@ -133,3 +133,8 @@ index.html, harker.emit('speaking'), console.log('speaking');
 with USB microphone and Chrome/Opera      
 (origin) https://github.com/MimusTriurus/WebExperiments  
 (origin) https://github.com/shawkatq/voice-commands-demo  
+
+## (TODO) micro_speech (TFLM 2.0) train  
+* https://github.com/tensorflow/tensorflow/tree/r2.0/tensorflow/lite/experimental/micro/examples/micro_speech#use-your-local-machine  
+* https://github.com/tensorflow/docs/blob/master/site/en/r1/tutorials/sequences/audio_recognition.md  
+* https://github.com/tensorflow/tensorflow/blob/r2.0/tensorflow/lite/experimental/micro/examples/micro_speech/train_speech_model.ipynb  
