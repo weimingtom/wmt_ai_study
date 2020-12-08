@@ -65,7 +65,7 @@ Keyword speech recognition, Speech commands, CNN, 10 words
 (Python3, TF2) with AI Studio, not done    
 (install tf2) pip install tensorflow-cpu (if in AIStudio, use pip and python)  
 
-## (TODO, porting difficult) voice_control_led, Maixduino MFCC-DTW + VAD  
+## (TODO, porting difficult) voice_control_led, Maixduino MFCC-DTW + VAD (stm32-speech-recognition like)    
 * voice_control_led_v9.rar  
 (NOT DONE, Many Problems) TODO, with VS2013, windows port, calculate DTW distance get zero, don't know reason    
 (TODO, need DOC) about fft, see yinxiangbiji  
@@ -76,9 +76,11 @@ https://github.com/sipeed/Maixduino/blob/master/libraries/Maix_Speech_Recognitio
 examples/voice_control_led_en/voice_control_led_en.ino  
 examples/get_voice_model/get_voice_model.ino  
 
-## (TODO) migrate to STM32CubeMX MDK5 project, and run      
-* https://github.com/gk969/stm32-speech-recognition  
-with STM32F103VE and Keil MDK4     
+## (TODO) stm32-speech-recognition, STM32 MFCC-DTW + VAD  
+* stm32-speech-recognition_v3.rar  
+(origin) https://github.com/gk969/stm32-speech-recognition    
+(origin) with STM32F103VE and Keil MDK4 
+* (TODO) migrate to STM32CubeMX MDK5 project, and run     
 
 ## (TODO, NOT IMP) cortex-m-kws, aid_speech, tengine-lite  
 **NOTE**: This demo may be not good,  
