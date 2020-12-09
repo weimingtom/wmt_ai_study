@@ -145,3 +145,8 @@ with USB microphone and Chrome/Opera
 * https://github.com/tensorflow/tensorflow/blob/r2.0/tensorflow/lite/experimental/micro/examples/micro_speech/train_speech_model.ipynb  
 * https://github.com/tensorflow/examples/tree/master/lite/examples/speech_commands/ml  
 * https://www.cnblogs.com/lijianming180/p/12258774.html  
+
+## (TODO) TensorFlow入门教程(17)语音识别  
+search baidupan, 17.speech_recognition.zip  
+TensorFlow入门教程(17)语音识别(上)  
+https://blog.csdn.net/rookie_wei/article/details/84527839  
