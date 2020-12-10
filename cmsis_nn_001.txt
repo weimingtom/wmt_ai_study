@@ -1,0 +1,186 @@
+https://www.taterli.com/5376/
+
+CMSIS-NN 调通了~
+由 TaterLi2019年5月4日2 评论
+下载地址:CMSIS-NN
+
+由于是8位定点的推算算法,所以精度会差点,但是速度快啊,需要把图片存TF卡里,或者你自己开发驱动,我用的是STM32F769 DISCO.
+
+关键代码:
+
+int8_t NN_OpenReadFile(const char *BmpName)
+
+{
+
+  uint32_t size = 0;
+
+  int32_t h_index = 0;
+
+  int32_t w_index = 0;
+
+  int32_t h_total = 0;
+
+  int32_t w_total = 0;
+
+  int32_t h_nn = 0;
+
+  int32_t w_nn = 0;
+
+  UINT BytesRead;
+
+  FIL bmpfile;
+
+
+
+  q7_t output_data[10]; /* 输出数据,分别代表{"Plane", "Car", "Bird", "Cat", "Deer", "Dog", "Frog", "Horse", "Ship", "Truck"} */
+
+
+
+  int8_t max_ind = 0;
+
+  int8_t max_val = -128;
+
+
+
+  BmpHeader *pbmpheader = (BmpHeader *)aBuffer;
+
+
+
+  /* 打开BMP文件 */
+
+  f_open(&bmpfile, BmpName, FA_READ);
+
+
+
+  /* 移动到文件头 */
+
+  f_lseek(&bmpfile, 0);
+
+
+
+  /* 读取头信息 */
+
+  f_read(&bmpfile, &aBuffer, BITMAP_HEADER_SIZE, &BytesRead);
+
+
+
+  /* 取出原图的长宽 */
+
+  h_total = pbmpheader->h;
+
+  w_total = pbmpheader->w;
+
+  /* 计算出缩小比例 */
+
+  h_nn = pbmpheader->h / 32;
+
+  w_nn = pbmpheader->w / 32;
+
+
+
+  /* 取出一次读出数量 */
+
+  size = pbmpheader->w * (pbmpheader->bpp / 8) + ((pbmpheader->w * (pbmpheader->bpp / 8)) % 4);
+
+
+
+  if (pbmpheader->bpp != 24)
+
+  {
+
+    return -1; /* 保存为24Bit图像吧. */
+
+  }
+
+
+
+  if (size > BITMAP_BUFFER_SIZE)
+
+  {
+
+    return -2; /* 图片太大,超过缓冲区大小. */
+
+  }
+
+
+
+  /* 偏移到图像内容,然后提取图像内容到32*32的范围内. */
+
+  f_lseek(&bmpfile, pbmpheader->offset);
+
+  for (h_index = 0; h_index < h_total; h_index++)
+
+  {
+
+    f_read(&bmpfile, &aBuffer, size, &BytesRead);
+
+    if (h_index % h_nn == 0)
+
+    {
+
+      for (w_index = 0; w_index < w_total; w_index++)
+
+      {
+
+        if (w_index % w_nn == 0)
+
+        {
+
+          BmpBuffer[(h_index) / h_nn][w_index / w_nn][2] = aBuffer[3 * w_index];
+
+          BmpBuffer[(h_index) / h_nn][w_index / w_nn][1] = aBuffer[3 * w_index + 1];
+
+          BmpBuffer[(h_index) / h_nn][w_index / w_nn][0] = aBuffer[3 * w_index + 2];
+
+        }
+
+      }
+
+    }
+
+  }
+
+
+
+  /* 关闭文件 */
+
+  f_close(&bmpfile);
+
+
+
+  /* 运行NN算法 */
+
+  run_nn((q7_t *)BmpBuffer, output_data);
+
+  arm_softmax_q7(output_data, IP1_OUT_DIM, output_data);
+
+
+
+  /* 找出最可信结果 */
+
+  for (int i = 0; i < 10; i++)
+
+  {
+
+    if (max_val < output_data[i])
+
+    {
+
+      max_val = output_data[i];
+
+      max_ind = i;
+
+    }
+
+  }
+
+
+
+  /* 返回可信结果 */
+
+  return max_ind;
+
+}
+返回值如果是正,就是有结果,0 ~ 9分别对应”Plane”, “Car”, “Bird”, “Cat”, “Deer”, “Dog”, “Frog”, “Horse”, “Ship”, “Truck”这么几种,推荐用Windows 10画图工具保存为24位BMP,最好的分辨率是32*32,如果不是32*32,则在程序里也有缩放,但是效果不太好,因为我是直接间隔抽取的,良好的缩放算法应该考虑颜色权重问题.
+
+
