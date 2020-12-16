@@ -5,3 +5,6 @@
 Key code : if defined(MDL_V7)  
 https://github.com/allonli/mobile-deep-learning/blob/master/src/math/gemm.cpp  
 
+## mace  
+* 
+(origin) https://mace.readthedocs.io/en/latest/introduction.html  
