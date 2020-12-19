@@ -14,6 +14,7 @@ https://github.com/tensorflow/tensorflow/releases/tag/v2.0.0
 search baidupan, tensorflow-2.0.0.zip  
 * (TODO) Port to STM32H743  
 (TODO, NOT DONE) microspeech_stm32h743vi_v7_no_crash_with_lib.rar  
+(TODO, NOT DONE, inmp441 stm32h743 test) test_ac6_stm32h743vi_v2_dma_bug.rar  
 * micro_speech_v7_tf200_single_file.rar  
 (ESP32) with Arduino IDE, and Ai-Thinker NodeMCU-32S + INMP441  
 (origin) https://github.com/boochow/TFLite_Micro_MicroSpeech_M5Stack  
