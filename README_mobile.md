@@ -15,3 +15,6 @@ https://github.com/allonli/mobile-deep-learning/blob/master/src/math/gemm.cpp
 (origin) https://github.com/alibaba/MNN  
 (origin) https://www.yuque.com/mnn/cn/build_android  
 
+## NCNN  
+* NCNN使用总结  
+https://blog.csdn.net/u011046017/article/details/92849082  
