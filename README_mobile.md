@@ -32,3 +32,8 @@ https://download.mindspore.cn/model_zoo/official/lite/mobilenetv2_openimage_lite
 https://gitee.com/mindspore/mindspore/tree/r1.0/model_zoo/official/lite/image_classification  
 https://ms-release.obs.cn-north-4.myhuaweicloud.com/1.0.0/lite/android_aarch64/mindspore-lite-1.0.0-minddata-arm64-cpu.tar.gz  
 https://ms-release.obs.cn-north-4.myhuaweicloud.com/1.0.0/lite/android_aarch32/mindspore-lite-1.0.0-minddata-arm32-cpu.tar.gz  
+
+## Paddle-Lite  
+* Paddle-Lite-Demo  
+https://github.com/PaddlePaddle/Paddle-Lite-Demo  
+https://paddle-lite.readthedocs.io/zh/latest/demo_guides/android_app_demo.html  
