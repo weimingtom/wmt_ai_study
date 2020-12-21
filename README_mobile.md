@@ -26,7 +26,8 @@ https://github.com/allonli/mobile-deep-learning/blob/master/src/math/gemm.cpp
 https://blog.csdn.net/u011046017/article/details/92849082  
 
 ## MindSpore Lite  
-* image_classification  
+* himindsporedemo_v2_success.rar  
+(origin) image_classification  
 https://download.mindspore.cn/model_zoo/official/lite/mobilenetv2_openimage_lite/  
 https://gitee.com/mindspore/mindspore/tree/r1.0/model_zoo/official/lite/image_classification  
 https://ms-release.obs.cn-north-4.myhuaweicloud.com/1.0.0/lite/android_aarch64/mindspore-lite-1.0.0-minddata-arm64-cpu.tar.gz  
