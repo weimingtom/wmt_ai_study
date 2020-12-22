@@ -17,3 +17,7 @@ https://github.com/weimingtom/GalGame-1/tree/master/GalGameUnity5/Assets/Scenes
 背景图CG层实际显示的大小和写死的长宽值有出入？  
 我认为这可能是Image类的特殊性导致的，导致在运行期width和height的数值会自动调整。  
 我下一次再实际操作一下，解决这个疑惑    
+
+## eq2  
+http://sourceforge.net/projects/eq2emulator/  
+search baidupan, eq2_Source_v1.7z  
