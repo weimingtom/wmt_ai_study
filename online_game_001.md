@@ -21,3 +21,6 @@ https://github.com/weimingtom/GalGame-1/tree/master/GalGameUnity5/Assets/Scenes
 ## eq2  
 http://sourceforge.net/projects/eq2emulator/  
 search baidupan, eq2_Source_v1.7z  
+
+## sogou/workflow  
+https://github.com/sogou/workflow  
