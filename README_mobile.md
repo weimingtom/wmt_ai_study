@@ -34,6 +34,11 @@ https://ms-release.obs.cn-north-4.myhuaweicloud.com/1.0.0/lite/android_aarch64/m
 https://ms-release.obs.cn-north-4.myhuaweicloud.com/1.0.0/lite/android_aarch32/mindspore-lite-1.0.0-minddata-arm32-cpu.tar.gz  
 
 ## Paddle-Lite  
-* Paddle-Lite-Demo  
+* paddlelitedemo_v1_success.rar  
+(origin) Paddle-Lite-Demo  
 https://github.com/PaddlePaddle/Paddle-Lite-Demo  
 https://paddle-lite.readthedocs.io/zh/latest/demo_guides/android_app_demo.html  
+(model) https://paddlelite-demo.bj.bcebos.com/models/ssd_mobilenet_v1_fp32_224_for_cpu_v2_6_0.tar.gz  
+(so) https://paddle-lite.readthedocs.io/zh/latest/quick_start/release_lib.html  
+(so) https://paddlelite-data.bj.bcebos.com/Release/2.6.1/Android/inference_lite_lib.android.armv7.gcc.c++_shared.CV_OFF.tar.gz  
+(demo) https://github.com/PaddlePaddle/Paddle-Lite-Demo/tree/b6c36ecfdc0ad6f500c72b40c8b0c67916421ab9/PaddleLite-android-demo/object_detection_demo  
