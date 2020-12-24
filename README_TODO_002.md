@@ -141,3 +141,11 @@ search here, keyword-spotter
 http://www.goldwave.com  
 * Audacity  
 https://www.audacityteam.org/download/windows/  
+
+## ADC  
+https://github.com/sparkfun/MEMS_Mic_Breakout-ADMP401/blob/V_1.3/Firmware/SparkFun_ADMP401_Simple_Sketch/SparkFun_INMP401.ino  
+https://os.mbed.com/users/rayxke/notebook/sparkfun-mems-microphone-breakout---inmp401-admp40/  
+https://github.com/jenfoxbot/MEMSMicHookUpGuide/blob/master/ExampleCode.ino  
+https://learn.sparkfun.com/tutorials/mems-microphone-hookup-guide  
+Arduino+MAX9814制作简易录音机  
+https://www.cnblogs.com/Ray-liang/p/9786154.html  
