@@ -46,3 +46,8 @@ https://paddle-lite.readthedocs.io/zh/latest/demo_guides/android_app_demo.html
 ## Tengine-Lite  
 * tenginelitedemo_v1_fail.rar  
 (origin) https://github.com/OAID/Tengine  
+
+## TensorFlow Lite (TFLite)  
+* tflitedemo_v1_success.rar  
+(origin) https://tensorflow.google.cn/lite/models/image_classification/overview?hl=zh_cn  
+(origin) https://tensorflow.google.cn/lite/guide/hosted_models?hl=zh_cn  
