@@ -1,5 +1,10 @@
 # wmt_ai_study
 My AI study  
+```
+弃身锋刃端，性命安可怀？父母且不顾，何言子与妻！  
+名编壮士籍，不得中顾私。捐躯赴国难，视死忽如归！  
+——曹植《白马篇》  
+```
 
 ## TFLite work  
 * test_ac5_stm32f411re_vv15_benchmark.rar  
