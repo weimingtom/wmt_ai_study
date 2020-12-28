@@ -13,7 +13,7 @@ GND (black) <->GND    (right top 1)
 (demo) ADMP401_v1_success_duhui.rar  
 (origin, from code for SPW2430) https://esp32.com/viewtopic.php?t=7077#p30450  
 (origin, from code for SPW2430) https://forums.adafruit.com/viewtopic.php?f=8&t=140676  
-**WARNING: DON'T PUT 5V to ADMP401 VCC PIN**
+**WARNING: DON'T PUT 5V to ADMP401 VCC PIN**  
 ADMP401<->NodeMCU-32S  
 VCC<->3.3V  (left top 1) 
 GND<->GND   (right top 1)  
