@@ -9,3 +9,7 @@ CLK (white) <->GPIO22 (right top 3)
 DAT (yellow)<->GPIO21 (right top 6)  
 5V  (red)   <->3V3    (left top 1)  
 GND (black) <->GND    (right top 1)  
+
+## Arduino Uno, ATMEGA328P  
+* Music Shield, VS1053B, waveshare (微雪)  
+(origin) https://www.waveshare.net/wiki/Music_Shield  
