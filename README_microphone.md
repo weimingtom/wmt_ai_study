@@ -1,5 +1,5 @@
-## ESP32  
-* M5Stack PDM Unit + M5Stack Mini-Proto Unit    
+## NodeMCU-32S, ESP32  
+* M5Stack PDM Unit + M5Stack Mini-Proto Unit, M5Stack (明栈)      
 (origin) https://docs.m5stack.com/#/zh_CN/unit/pdm  
 (origin) https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PDM  
 PDM_v1_nodemcu32s_success.rar  
