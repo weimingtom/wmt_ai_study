@@ -53,6 +53,7 @@ https://paddle-lite.readthedocs.io/zh/latest/demo_guides/android_app_demo.html
 (origin) https://tensorflow.google.cn/lite/guide/hosted_models?hl=zh_cn  
 
 ## PyTorch Mobile   
-* https://github.com/pytorch/android-demo-app/tree/master/NativeApp  
-* https://pytorch.org/tutorials/recipes/android_native_app_with_custom_op.html  
-* https://pytorch.org/mobile/android/#api-docs  
+* pytorchmobiledemo_v1_success.rar  
+(origin) https://github.com/pytorch/android-demo-app/tree/master/NativeApp  
+(origin) https://pytorch.org/tutorials/recipes/android_native_app_with_custom_op.html  
+(origin) https://pytorch.org/mobile/android/#api-docs  
