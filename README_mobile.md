@@ -44,7 +44,7 @@ https://paddle-lite.readthedocs.io/zh/latest/demo_guides/android_app_demo.html
 (demo) https://github.com/PaddlePaddle/Paddle-Lite-Demo/tree/b6c36ecfdc0ad6f500c72b40c8b0c67916421ab9/PaddleLite-android-demo/object_detection_demo  
 
 ## Tengine-Lite  
-* tenginelitedemo_v1_fail.rar  
+* tenginelitedemo_v3_success_ssd.rar  
 (origin) https://github.com/OAID/Tengine  
 
 ## TensorFlow Lite (TFLite)  
