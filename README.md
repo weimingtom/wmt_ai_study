@@ -158,3 +158,6 @@ with USB microphone and Chrome/Opera
 search baidupan, 17.speech_recognition.zip  
 TensorFlow入门教程(17)语音识别(上)  
 https://blog.csdn.net/rookie_wei/article/details/84527839  
+
+## (TODO) diy-alexa  
+https://github.com/atomic14/diy-alexa  
