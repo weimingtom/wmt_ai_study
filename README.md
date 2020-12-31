@@ -161,3 +161,10 @@ https://blog.csdn.net/rookie_wei/article/details/84527839
 
 ## (TODO) diy-alexa  
 https://github.com/atomic14/diy-alexa  
+
+## (TODO) MACE Micro Examples  
+MICRO_MODEL_NAME=kws, MICRO_DATA_NAME=kws  
+https://github.com/XiaoMi/mace/blob/master/micro/examples/classifier/main.cc  
+https://github.com/XiaoMi/mace/blob/master/micro/examples/classifier/data.h  
+https://github.com/XiaoMi/mace/blob/master/docs/micro-controllers/deploy.rst  
+https://github.com/XiaoMi/mace/blob/master/docs/micro-controllers/basic_usage.rst  
