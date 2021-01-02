@@ -19,6 +19,18 @@ VCC<->3.3V  (left top 1)
 GND<->GND   (right top 1)  
 AUD<->GPIO4 (right bottom 7)  
 
+* MAX9814  
+40dB (Gain<->3V3, less noise), 50dB (Gain<->GND), 60dB (Gain<->Not Connect, more noise)    
+(demo) ADMP401_v1_success_duhui.rar  
+(origin, from code for SPW2430) https://esp32.com/viewtopic.php?t=7077#p30450  
+(origin, from code for SPW2430) https://forums.adafruit.com/viewtopic.php?f=8&t=140676  
+MAX9814<->NodeMCU-32S  
+GND<->GND   (right top 1)  
+Vdd<->3.3V  (left top 1)  
+Gain<->3.3V (Vdd)  
+Out<->GPIO4 (right bottom 7)  
+AR<->NC (not connect)    
+
 ## Arduino Uno, ATMEGA328P  
 * Music Shield, VS1053B, waveshare (微雪)  
 (demo) ???  
