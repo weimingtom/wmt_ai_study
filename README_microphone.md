@@ -19,7 +19,7 @@ VCC<->3.3V  (left top 1)
 GND<->GND   (right top 1)  
 AUD<->GPIO4 (right bottom 7)  
 
-* MAX9814  
+* MAX9814, 育松电子    
 40dB (Gain<->3V3, less noise), 50dB (Gain<->GND), 60dB (Gain<->Not Connect, more noise)    
 (demo) ADMP401_v1_success_duhui.rar  
 (origin, from code for SPW2430) https://esp32.com/viewtopic.php?t=7077#p30450  
