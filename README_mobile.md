@@ -10,6 +10,8 @@ https://github.com/allonli/mobile-deep-learning/blob/master/src/math/gemm.cpp
 (origin) https://github.com/XiaoMi/mace  
 (origin) https://mace.readthedocs.io/en/latest/introduction.html  
 * (TODO) https://github.com/zhy520xp/mace-makefile-project  
+* (TODO) https://github.com/conansherry/easy_mace  
+* (TOOD) https://github.com/conansherry/convert_model  
 * (TODO) mcu version  
 
 ## MNN  
