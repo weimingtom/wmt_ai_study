@@ -9,6 +9,8 @@ https://github.com/allonli/mobile-deep-learning/blob/master/src/math/gemm.cpp
 * mace_android_demo_v6_fast.rar  
 (origin) https://github.com/XiaoMi/mace  
 (origin) https://mace.readthedocs.io/en/latest/introduction.html  
+* (TODO) https://github.com/zhy520xp/mace-makefile-project  
+* (TODO) mcu version  
 
 ## MNN  
 * mnndemo_v2_no_jni_success.rar  
