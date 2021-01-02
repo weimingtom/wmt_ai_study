@@ -1,5 +1,5 @@
-## WM8960 Audio Board, waveshare (微雪)    
-* NUCLEO-F746ZG    
+## NUCLEO-F746ZG  
+* WM8960 Audio Board, waveshare (微雪)    
 (demo) WM8960_Play_Music_NECLEO-F746ZG_v1_success.rar  
 (origin) https://www.waveshare.net/wiki/WM8960_Audio_Board  
 WM8960<->NECLEO-F746ZG  
