@@ -15,7 +15,7 @@ GND (black) <->GND    (right top 1)
 (origin, from code for SPW2430) https://forums.adafruit.com/viewtopic.php?f=8&t=140676  
 **WARNING: DON'T PUT 5V to ADMP401 VCC PIN**  
 ADMP401<->NodeMCU-32S  
-VCC<->3.3V  (left top 1) 
+VCC<->3.3V  (left top 1)  
 GND<->GND   (right top 1)  
 AUD<->GPIO4 (right bottom 7)  
 
