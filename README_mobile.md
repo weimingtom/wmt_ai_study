@@ -12,6 +12,8 @@ https://github.com/allonli/mobile-deep-learning/blob/master/src/math/gemm.cpp
 * (TODO) https://github.com/zhy520xp/mace-makefile-project  
 * (TODO) https://github.com/conansherry/easy_mace  
 * (TOOD) https://github.com/conansherry/convert_model  
+* (TODO) https://github.com/huuuuusy/Xiaomi-MACE-Notes  
+* (TODO) https://github.com/qinRight/macelibrary  
 * (TODO) mcu version  
 
 ## MNN  
