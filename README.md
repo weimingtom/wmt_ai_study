@@ -16,6 +16,8 @@ My AI study
 (origin, Arduino IDE) search baidupan, TFLite_Micro_MicroSpeech_M5Stack  
 (origin, Linux, Raspberry Pi OS Desktop 2017) search baidupan, Blink_esp32_rpd2017_v2_success.tar.gz  
 https://github.com/tensorflow/tensorflow/releases/tag/v2.0.0  
+https://github.com/tensorflow/tensorflow/tree/v2.0.0/tensorflow/lite/experimental/micro/examples/micro_speech  
+https://github.com/tensorflow/tensorflow/tree/master/tensorflow/lite/micro/examples/micro_speech  
 search baidupan, tensorflow-2.0.0.zip  
 * (TODO) Port to STM32H743  
 (TODO, NOT DONE) microspeech_stm32h743vi_v7_no_crash_with_lib.rar  
@@ -53,6 +55,7 @@ small change in CMSIS_5\CMSIS\Core\Include\core_cm4.h
 ```
 * simple_test_v3_stm32f411ce_run_success.rar  
 (STM32) with mbed-cli and NUCLEO-F411RE   
+(origin) https://github.com/ARM-software/ML-KWS-for-MCU/tree/master/Deployment  
 running output result:    
 ```
 Total time : 164061 us  
