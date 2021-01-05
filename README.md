@@ -168,8 +168,11 @@ https://github.com/atomic14/diy-alexa
 ## (TODO) MACE Micro Examples  
 * classifier_mace_v2_xubuntu_host.tar.gz  
 (demo) for x86 linux xubuntu  
-(origin) MICRO_MODEL_NAME=kws, MICRO_DATA_NAME=kws  
+(origin) MICRO_MODEL_NAME=mnsit, MICRO_DATA_NAME=mnsit  
 https://github.com/XiaoMi/mace/blob/master/micro/examples/classifier/main.cc  
 https://github.com/XiaoMi/mace/blob/master/micro/examples/classifier/data.h  
-https://github.com/XiaoMi/mace/blob/master/docs/micro-controllers/deploy.rst  
 https://github.com/XiaoMi/mace/blob/master/docs/micro-controllers/basic_usage.rst  
+see 'Use libraries directly'    
+* (TODO) MICRO_MODEL_NAME=kws, MICRO_DATA_NAME=kws  
+https://github.com/XiaoMi/mace/blob/master/docs/micro-controllers/deploy.rst  
+
