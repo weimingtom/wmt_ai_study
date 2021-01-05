@@ -175,4 +175,6 @@ https://github.com/XiaoMi/mace/blob/master/docs/micro-controllers/basic_usage.rs
 see 'Use libraries directly'    
 * (TODO) MICRO_MODEL_NAME=kws, MICRO_DATA_NAME=kws  
 https://github.com/XiaoMi/mace/blob/master/docs/micro-controllers/deploy.rst  
+* classifier_vs2013_v1.rar  
+(demo) for vs2013, windows    
 
