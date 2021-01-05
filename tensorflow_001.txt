@@ -1,0 +1,58 @@
+https://technofob.com/2019/06/14/how-to-compile-tensorflow-2-0-with-avx2-fma-instructions-on-mac/
+
+How to fix “Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA”
+ Ofir Data Engineering, Data Science, Deep Learning, Python  June 14, 2019 2 Minutes
+After installing Tensorflow using pip3 install:
+
+sudo pip3 install tensorflow
+I’ve received the following warning message:
+
+I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+Advanced Vector Extensions (AVX) are extensions to the x86 instruction set architecture for microprocessors from Intel and AMD proposed by Intel in March 2008 and first supported by Intel with the Sandy Bridge processor shipping in Q1 2011 and later on by AMD with the Bulldozer processor shipping in Q3 2011. AVX provides new features, new instructions, and a new coding scheme.
+
+AVX introduces fused multiply-accumulate (FMA) operations, which speed up linear algebra computation, namely dot-product, matrix multiply, convolution, etc. Almost every machine-learning training involves a great deal of these operations, hence will be faster on a CPU that supports AVX and FMA (up to 300%).
+
+We won’t ignore the warning message and we will compile TF from source.
+
+We will start with uninstalling the default version of  Tensorflow:
+
+sudo pip3 uninstall protobuf
+sudo pip3 uninstall tensorflow
+In a temp folder, clone Tensorflow:
+
+git clone https://github.com/tensorflow/tensorflow 
+git checkout r2.0
+Install the TensorFlow pip package dependencies:
+
+pip3 install -U --user pip six numpy wheel setuptools mock future>=0.17.1
+pip3 install -U --user keras_applications==1.0.6 --no-deps
+pip3 install -U --user keras_preprocessing==1.0.5 --no-deps
+Install Bazel, the build tool used to compile TensorFlow. In my case, after downloading bazel-0.26.0-installer-darwin-x86_64.sh:
+
+chmod +x bazel-0.26.0-installer-darwin-x86_64.sh ./bazel-0.26.0-installer-darwin-x86_64.sh --user export PATH="$PATH:$HOME/bin" bazel version
+Configure your system build by running the following at the root of your TensorFlow source tree:
+
+./configure
+The Tensorflow build options expose flags to enable building for platform-specific CPU instruction sets:
+
+
+Use bazel to make the TensorFlow package builder with CPU-only support:
+
+bazel build -c opt --copt=-mavx --copt=-mavx2 --copt=-mfma --copt=-msse4.2 //tensorflow/tools/pip_package:build_pip_package
+The bazel build command creates an executable named build_pip_package—this is the program that builds the pip package. Run the executable as shown below to build a .whl package in the /tmp/tensorflow_pkg directory.
+
+To build from a release branch:
+
+./bazel-bin/tensorflow/tools/pip_package/build_pip_package /tmp/tensorflow_pkg
+Output wheel file is in: /tmp/tensorflow_pkg
+
+You can download the file from here, and try to install it directly
+
+pip3 install /tmp/tensorflow_pkg/tensorflow-2.0.0b1-cp37-cp37m-macosx_10_14_x86_64.whl 
+cd out of that directory, and now running this should not produce any warning:
+
+python3 -c "import tensorflow as tf;print(tf.reduce_sum(tf.random.normal([1000, 1000])))"
+Enjoy!
+
+Share this:
+
