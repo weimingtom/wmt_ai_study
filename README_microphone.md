@@ -35,3 +35,8 @@ AR<->NC (not connect)
 * Music Shield, VS1053B, waveshare (微雪)  
 (demo) ???  
 (origin) https://www.waveshare.net/wiki/Music_Shield  
+
+## ESP32-Audio-kit, AI-Thinker (安信可)    
+* (origin) https://docs.ai-thinker.com/esp32-audio-kit  
+(origin) https://github.com/RealCorebb/ESP32-A1s-Audio-Kit  
+(origin) https://github.com/Ai-Thinker-Open/ESP32-A1S-AudioKit  
