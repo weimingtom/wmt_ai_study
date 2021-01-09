@@ -178,3 +178,6 @@ https://github.com/XiaoMi/mace/blob/master/docs/micro-controllers/deploy.rst
 * classifier_vs2013_v1.rar  
 (demo) for vs2013, windows    
 
+## (TODO) hyperconnect/TC-ResNet  
+https://github.com/hyperconnect/TC-ResNet  
+https://github.com/hyperconnect/TC-ResNet/blob/master/tflite_tools/run_benchmark.sh  
