@@ -53,6 +53,7 @@ https://paddle-lite.readthedocs.io/zh/latest/demo_guides/android_app_demo.html
 * tenginelitedemo_v3_success_ssd.rar  
 (origin) https://github.com/OAID/Tengine  
 (model) search baidupan, Tengine-models/赏金任务模型/mobilenet_ssd.tmfile  
+use LOCAL_WHOLE_STATIC_LIBRARIES   
 
 ## TensorFlow Lite (TFLite)  
 * tflitedemo_v1_success.rar  
