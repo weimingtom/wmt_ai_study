@@ -10,3 +10,12 @@
 
 ## 嵌入式stm32f429上成功跑通主流Linux 4.13  
 * https://blog.csdn.net/farsight1/article/details/79377337  
+
+## linux-0.11-lab  
+https://gitee.com/tinylab/linux-0.11-lab  
+
+## 从零使用qemu模拟器搭建arm执行环境  
+https://www.cnblogs.com/mfmdaoyou/p/6934098.html
+
+## picore, 树莓派操作系统系统镜像    
+http://distro.ibiblio.org/tinycorelinux/ports.html  
