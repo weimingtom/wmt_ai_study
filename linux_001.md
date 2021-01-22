@@ -19,3 +19,8 @@ https://www.cnblogs.com/mfmdaoyou/p/6934098.html
 
 ## picore, 树莓派操作系统系统镜像    
 http://distro.ibiblio.org/tinycorelinux/ports.html  
+
+## piCore (Tiny Core) Linux on Raspberry Pi  
+search 印象笔记  
+https://iotbyhvm.ooo/picore-tiny-core-linux-on-raspberry-pi/  
+如何扩充树莓派分区  
