@@ -41,3 +41,6 @@ TFT屏幕与音频输入输出（6）网络和多媒体问题：音视频编解�
 实践
 （7）人工智能问题：在qemu中模拟运行人工智能deep learning  
 算法
+
+## OpenWrt-Rpi  
+https://github.com/SuLingGG/OpenWrt-Rpi  
