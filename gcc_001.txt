@@ -1,0 +1,65 @@
+http://blog.sina.com.cn/s/blog_69b81dd10100z4f4.html  
+
+求问 gcc的标记 -MMD -MP -MF"xx.d" -MT"xx.d" 都是什么意思 (2012-06-05 05:51:41)转载▼
+标签： 的 都 杂谈	
+求问 gcc的标记 -MMD -MP -MF"xx.d" -MT"xx.d" 都是什么意思求问:
+gcc的标记 -MMD -MP -MF"xx.d" -MT"xx.d" 都是什么意思?
+有啥作用?info gcc原帖由 flw 于 2007-5-8 10:41 发表
+info gcc
+我用windows没有linux,没办法info,
+能怎么帮我info一下
+最好info出中文就好了:lol:那就上gnu的网站上搞个manual原帖由 rrrrrrrr8 于 2007-5-8 10:48 发表
+
+我用windows没有linux,没办法info,
+能怎么帮我info一下
+最好info出中文就好了:lol:
+那就 google info gcc`-MF FILE'
+When used with `-M' or `-MM', specifies a file to write the
+dependencies to.If no `-MF' switch is given the preprocessor
+sends the rules to the same place it would have sent preprocessed
+output.
+
+When used with the driver options `-MD' or `-MMD', `-MF' overrides
+the default dependency output file.
+
+`-MD'
+`-MD' is equivalent to `-M -MF FILE', except that `-E' is not
+implied.The driver determines FILE based on whether an `-o'
+option is given.If it is, the driver uses its argument but with
+a suffix of `.d', otherwise it take the basename of the input file
+and applies a `.d' suffix.
+
+If `-MD' is used in conjunction with `-E', any `-o' switch is
+understood to specify the dependency output file (but *note -MF:
+dashMF.), but if used without `-E', each `-o' is understood to
+specify a target object file.
+
+Since `-E' is not implied, `-MD' can be used to generate a
+dependency output file as a side-effect of the
+请教在哪加函数可以在找不到CF卡的时候能够使系统自动重启。
+
+compilation process.
+
+`-MMD'
+Like `-MD' except mention only user header files, not system
+header files.
+
+
+
+`-MP'
+This option instructs CPP to add a phony target for each dependency
+other than the main file, causing each to depend on nothing.These
+dummy rules work around errors `make' gives if you remove header
+files without updating the `Makefile' to match.
+
+This is typical output:
+
+test.o: test.c test.h
+
+test.h:
+
+`-MT TARGET'
+Change the target of the rule emitted by dependency generation.By
+default CPP takes the name of the main input file, including any
+path, deletes any file suf
+
