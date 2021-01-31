@@ -62,7 +62,10 @@ Total time : 164061 us
 Detected right (99%)  
 Total time : 164060 us  
 Detected right (99%)  
-```
+```  
+* NEW Keyword spotting for Microcontrollers   
+https://github.com/ARM-software/ML-examples  
+https://github.com/ARM-software/ML-examples/tree/master/tflu-kws-cortex-m  
 
 ## Speech-Recognition Python work  
 * https://github.com/weimingtom/Speech-Recognition_mod  
