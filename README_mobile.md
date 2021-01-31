@@ -65,3 +65,15 @@ use LOCAL_WHOLE_STATIC_LIBRARIES
 (origin) https://github.com/pytorch/android-demo-app/tree/master/NativeApp  
 (origin) https://pytorch.org/tutorials/recipes/android_native_app_with_custom_op.html  
 (origin) https://pytorch.org/mobile/android/#api-docs  
+
+## ARMNN (for Android), ML-examples armnn-mobilenet-quant     
+* (origin) https://github.com/ARM-software/armnn  
+https://review.mlplatform.org/admin/repos/ml/armnn  
+git clone "https://review.mlplatform.org/ml/armnn"  
+* Arm NN Quantised Mobilenet  
+https://github.com/ARM-software/ML-examples/blob/master/armnn-mobilenet-quant/README.md  
+ML-examples  
+https://github.com/ARM-software/ML-examples  
+* Arm NN MNIST  
+https://developer.arm.com/technologies/machine-learning-on-arm/developer-material/how-to-guides/  
+https://github.com/ARM-software/ML-examples/blob/master/armnn-mnist/README.md   
