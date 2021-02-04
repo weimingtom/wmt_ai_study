@@ -17,7 +17,7 @@ https://github.com/allonli/mobile-deep-learning/blob/master/src/math/gemm.cpp
 * (TODO) mcu version  
 * 英文文档  
 https://blog.csdn.net/asonle/article/details/80869518  
-https://mace.readthedocs.io/en/latest/index.html
+https://mace.readthedocs.io/en/latest/index.html  
 https://buildmedia.readthedocs.org/media/pdf/mace/latest/mace.pdf  
 
 ## MNN  
