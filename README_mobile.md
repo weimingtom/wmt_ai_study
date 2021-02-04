@@ -58,6 +58,9 @@ https://paddle-lite.readthedocs.io/zh/latest/demo_guides/android_app_demo.html
 (origin) https://github.com/OAID/Tengine  
 (model) search baidupan, Tengine-models/赏金任务模型/mobilenet_ssd.tmfile  
 use LOCAL_WHOLE_STATIC_LIBRARIES   
+* 官网资料下载  
+http://www.tengine.org.cn/info.php?class_id=105105  
+http://www.eaidk.com/info.php?class_id=102&bz=1  
 
 ## TensorFlow Lite (TFLite)  
 * tflitedemo_v1_success.rar  
