@@ -15,6 +15,10 @@ https://github.com/allonli/mobile-deep-learning/blob/master/src/math/gemm.cpp
 * (TODO) https://github.com/huuuuusy/Xiaomi-MACE-Notes  
 * (TODO) https://github.com/qinRight/macelibrary  
 * (TODO) mcu version  
+* 英文文档  
+https://blog.csdn.net/asonle/article/details/80869518  
+https://mace.readthedocs.io/en/latest/index.html
+https://buildmedia.readthedocs.org/media/pdf/mace/latest/mace.pdf  
 
 ## MNN  
 * mnndemo_v2_no_jni_success.rar  
