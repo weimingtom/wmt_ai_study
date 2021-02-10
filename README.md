@@ -184,3 +184,6 @@ https://github.com/XiaoMi/mace/blob/master/docs/micro-controllers/deploy.rst
 ## (TODO) hyperconnect/TC-ResNet  
 https://github.com/hyperconnect/TC-ResNet  
 https://github.com/hyperconnect/TC-ResNet/blob/master/tflite_tools/run_benchmark.sh  
+
+## (TODO) kws_game  
+https://github.com/chrisworld/kws_game  
