@@ -185,5 +185,8 @@ https://github.com/XiaoMi/mace/blob/master/docs/micro-controllers/deploy.rst
 https://github.com/hyperconnect/TC-ResNet  
 https://github.com/hyperconnect/TC-ResNet/blob/master/tflite_tools/run_benchmark.sh  
 
-## (TODO) kws_game  
+## (TODO) pytorch speech command tutorial  
+https://github.com/pytorch/tutorials/blob/master/intermediate_source/speech_command_recognition_with_torchaudio.py  
+https://pytorch.org/tutorials/intermediate/speech_command_recognition_with_torchaudio.html  
+(TODO) kws_game  
 https://github.com/chrisworld/kws_game  
