@@ -200,3 +200,5 @@ https://github.com/ShawnHymel/tflite-speech-recognition
 https://www.sejuku.net/blog/47178  
 TensorFlow Lite Python  
 https://tensorflow.google.cn/lite/guide/python  
+How to Run TensorFlow Lite Models on Raspberry Pi  
+https://blog.paperspace.com/tensorflow-lite-raspberry-pi/  
