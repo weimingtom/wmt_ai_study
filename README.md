@@ -191,10 +191,12 @@ https://pytorch.org/tutorials/intermediate/speech_command_recognition_with_torch
 (TODO) kws_game  
 https://github.com/chrisworld/kws_game  
 
-## (TODO) rpi tflite python  
+## (TODO) tflite python  
 TensorFlow Lite Tutorial Part 3: Speech Recognition on Raspberry Pi  
 https://www.digikey.com/en/maker/projects/tensorflow-lite-tutorial-part-3-speech-recognition-on-raspberry-pi/8a2dc7d8a9a947b4a953d37d3b271c71  
 TensorFlow Lite Speech Recognition Demo  
 https://github.com/ShawnHymel/tflite-speech-recognition  
 【TensorFlow】Raspberry Piへのインストール方法3選  
 https://www.sejuku.net/blog/47178  
+TensorFlow Lite Python  
+https://tensorflow.google.cn/lite/guide/python  
