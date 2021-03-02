@@ -47,3 +47,6 @@ https://github.com/weimingtom/ffmpeg-wrapper-hls
 
 ## search baidupan, easydarwin  
 * easydarwin_rtsp测试服务器_surface平板.rar  
+
+## librtsp  
+https://github.com/cijliu/librtsp  
