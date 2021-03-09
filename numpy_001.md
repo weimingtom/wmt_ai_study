@@ -5,7 +5,7 @@ https://docs.conda.io/en/latest/miniconda.html
 ## Thonny 3.3.5 (for Windows) (without numpy)      
 https://thonny.org  
 thonny-3.3.5.exe  
-Scripts\pip.bat install numpy==1.14.6 matplotlib==2.2.3  
+Scripts\pip.bat install numpy==1.14.6 matplotlib==2.2.3 pandas==0.23.4  
 
 ## 【安富莱——DSP教程】第28章 ST官方汇编FFT库应用  
 https://bbs.elecfans.com/jishu_496212_1_1.html  
