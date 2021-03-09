@@ -85,12 +85,13 @@ https://github.com/ARM-software/ML-examples
 https://developer.arm.com/technologies/machine-learning-on-arm/developer-material/how-to-guides/  
 https://github.com/ARM-software/ML-examples/blob/master/armnn-mnist/README.md   
 
-## PocketFlow  
-https://github.com/Tencent/PocketFlow  
-
 ## QNNPACK  
+https://github.com/pytorch/QNNPACK  
+https://github.com/pytorch/pytorch/tree/master/aten/src/ATen/native/quantized/cpu/qnnpack  
 
-## Prestissimo  
+## Prestissimo, 绝影    
+https://github.com/in66-dev/In-Prestissimo  
 
 ## FeatherCNN  
+https://github.com/Tencent/FeatherCNN  
 
