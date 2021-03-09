@@ -5,4 +5,4 @@ https://docs.conda.io/en/latest/miniconda.html
 ## Thonny 3.3.5 (for Windows) (without numpy)      
 https://thonny.org  
 thonny-3.3.5.exe  
-Scripts\pip.bat install numpy==1.14.6  
+Scripts\pip.bat install numpy==1.14.6 matplotlib==2.2.3  
