@@ -85,7 +85,8 @@ https://github.com/ARM-software/ML-examples
 https://developer.arm.com/technologies/machine-learning-on-arm/developer-material/how-to-guides/  
 https://github.com/ARM-software/ML-examples/blob/master/armnn-mnist/README.md   
 
-## https://github.com/Tencent/PocketFlow  
+## PocketFlow  
+https://github.com/Tencent/PocketFlow  
 
 ## QNNPACK  
 
