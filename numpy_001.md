@@ -42,7 +42,7 @@ import matplotlib.pyplot as plt
 Fs = 1000
 N = 1024
 n = np.r_[0 : N]
-t = np.r_[0 : 1 : 1 / Fs]
+t = np.r_[0 : 1 : 1. / Fs]
 f = n * Fs / N
 x = 1024 + 1024 * np.sin(2 * np.pi * 50 * t) + 512 * np.sin(2 * np.pi * 20 * t)
 y = np.fft.fft(x, N)
