@@ -50,3 +50,6 @@ Mag = np.abs(y) * 2 / N
 plt.plot(f, Mag)
 plt.show()
 ```
+
+## 【Python笔记】如何编译不依赖lapack和atlas库的NumPy包  
+https://blog.csdn.net/slvher/article/details/44833107  
