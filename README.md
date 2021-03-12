@@ -136,7 +136,7 @@ https://github.com/UT2UH/ML-KWS-for-ESP32/tree/master/Source/XMSIS/NN
 * origin  
 https://github.com/PacktPublishing/Python-Machine-Learning-Cookbook/blob/master/Chapter07/speech_recognizer.py   
 * python 2.7 win32 wheel     
-search baidupan, Chapter07_win32  
+(**IMP**) search baidupan, Chapter07_win32  
 * GMM  
 https://github.com/paperrune/GMM/blob/master/main.cpp  
 * libMFCC - C library for computing Mel-Frequency Cepstral Coefficients  
