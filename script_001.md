@@ -38,3 +38,7 @@ Kconfig就包含在Linux的早期源代码中，例如linux-2.6.35，
 那里有kconfig宏语言的解释器源代码，只是可能移植性不太好  
 https://github.com/torvalds/linux/tree/v2.6.35/scripts/kconfig  
 https://www.kernel.org/doc/html/latest/kbuild/kconfig-language.html  
+
+## PL/0  
+https://github.com/shiyi001/PL0Compiler  
+search baidpan, PL0.rar    
