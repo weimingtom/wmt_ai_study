@@ -208,3 +208,4 @@ https://github.com/henriwoodcock/pico-wake-word
 https://www.adafruit.com/product/1063  
 MAX4466 (like MAX9814???)  
 search baidupan, pico-wake-word-main.zip  
+tensorflow 2.4.1, 2021-03-31  
