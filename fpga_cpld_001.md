@@ -31,3 +31,6 @@ https://www.amazon.co.jp/CPU自作入門-HDLによる論理設計・基板製作
 
 ## 自己动手写CPU  
 https://github.com/Z-Y00/Examples-in-book-write-your-own-cpu  
+
+## OpenTendo, RP2A03  
+https://github.com/Redherring32/OpenTendo  
