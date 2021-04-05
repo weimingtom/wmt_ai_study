@@ -1,0 +1,68 @@
+https://blog.csdn.net/Henjay724/article/details/114847975
+
+痞子衡嵌入式：盘点国内RISC-V内核MCU厂商（2020年发布产品）
+
+痞子衡 2021-02-28 21:01:00  31  收藏
+文章标签： 芯片 算法 内核 物联网 java
+版权
+　　大家好，我是痞子衡，是正经搞技术的痞子。今天痞子衡给大家介绍的是国内RISC-V内核MCU厂商(2020)。
+
+　　虽然RISC-V风潮已经吹了好几年，但2019年才是其真正进入主流市场的元年，最近国内大量芯片公司崛起，其中有很多公司想在RISC-V新赛道有一番作为，毕竟ARM内核早已是红海，而RISC-V尚处于蓝海。今天痞子衡就为大家盘点一下发布过RISC-V MCU产品(不一定已量产)的厂商：
+
+注1：本文主要收录那些2020年度发布RISC-V MCU的厂商。
+注2：本文会持续更新，欢迎大家留言告诉我遗漏的厂商。
+一、沁恒微电子 CH32V103
+　　CH32V103系列是以RISC-V3A处理器为核心的32位通用微控制器，该处理器是基于RISC-V开源指令集设计。片上集成了时钟安全机制、多级电源管理、通用DMA控制器。此系列具有1路USB2.0主机/设备接口、多通道12位ADC转换模块、多通道TouchKey、多组定时器、多路IIC/USART/SPI接口等丰富的外设资源。
+
+发布时间：2020.06
+系列主页：http://special.wch.cn/zh_cn/RISCV_MCU_Index/
+产品主页：http://www.wch.cn/products/CH32V103.html
+
+
+二、泰凌微电子 TLSR9xxx
+　　泰凌微电子推出了基于 RISC-V 的全新 Telink TLSR 9 系列高性能 SoC 芯片，将主要适用于可穿戴设备和各类 IoT 应用产品。
+
+　　Telink TLSR 9 系列集成了 32 位 RISC-V MCU(晶心D25内核)，标配版本最高运行速度达 96MHz，支持 5 级流水线，计算能力达 2.59 DMIPS/ MHz，CoreMark 跑分 3.54/MHz，此外还集成了 DSP 扩展指令以及浮点运算模块，便于音频算法和 Sensor 算法的开发。
+
+发布时间：2020.08
+产品主页：https://www.telink-semi.cn/products/multiprotocol-iot/
+
+三、博流智能 BL60x/BL70x
+　　BL602 是一款 Wi-Fi + BLE 组合的芯片组，用于低功耗和高性能应用开发。无线子系统包含 2.4G 无线电，Wi-Fi 802.11b/g/n 和 BLE 基带/MAC 设计。微控制器子系统包含一个低功耗的 32 位 RISC CPU，高速缓存和存储器。电源管理单元控制低功耗模式。此外，还支持各种安全性能。
+
+　　BL702 是一款 BLE + Zigbee 组合的芯片组，用于低功耗物联网应用开发。无线子系统包含 2.4G 无线电，BLE5.0 和 802.15.4 基带/MAC 设计。微控制器子系统包含一个低功耗的 32 位 RISC CPU，高速缓存和存储器。电源管理单元控制低功耗模式。此外，还支持各种安全性能。
+
+发布时间：2020.08
+产品1主页：https://www.bouffalolab.com/bl602
+产品2主页：https://www.bouffalolab.com/bl70X
+
+
+四、乐鑫科技 ESP32-C3
+　　ESP32-C3 是一款安全稳定、低功耗、低成本的物联网芯片，搭载 RISC-V 32 位单核处理器，支持 2.4 GHz Wi-Fi 和 Bluetooth LE 5.0。为物联网产品提供行业领先的射频性能、完善的安全机制和丰富的内存资源。ESP32-C3 对 Wi-Fi 和 Bluetooth LE 5.0 的双重支持降低了设备配网难度，适用于广泛的物联网应用场景。
+
+　　ESP32-C3 搭载 RISC-V 32 位单核处理器，时钟频率高达 160 MHz。具有 22 个可编程 GPIO 管脚、内置 400 KB SRAM，支持通过 SPI、Dual SPI、Quad SPI 和 QPI 接口外接多个 flash，满足各类物联网产品功能需求。此外，ESP32-C3 的耐高温特性也使其成为照明和工控领域的理想选择。
+
+发布时间：2020.12
+产品主页：https://www.espressif.com/zh-hans/products/socs/esp32-c3
+
+五、中微半导体 ANT32RV56xx
+　　ANT32RV56xx集成RISC-V内核的32位微控制器。该系列芯片搭载芯来科技(Nuclei System Technology) N100系列超低功耗RISC-V处理器内核，集成模拟外设并简化设计，轻松应对消费电子对高算力、低功耗的要求。
+
+发布时间：2020.12
+产品主页：https://www.mcu.com.cn/production/microcontrollers-risc-v_7.html
+
+
+六、中科蓝讯 AB32VG1
+　　AB32VG1采用中科蓝讯自主RISC-V内核，提供了125MHz的运算主频(最高可超频至192MHz)，片上集成RAM 192Kbyte，Flash 1Mbyte，ADC，DAC，PWM，USB，SD， UART，IIC等资源。
+
+发布时间：2020.12
+产品主页：http://www.bluetrum.com/product/
+
+欢迎订阅
+文章会同时发布到我的 博客园主页、CSDN主页、知乎主页、微信公众号 平台上。
+
+微信搜索"痞子衡嵌入式"或者扫描下面二维码，就可以在手机上第一时间看了哦。
+————————————————
+版权声明：本文为CSDN博主「痞子衡」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/Henjay724/article/details/114847975
+
