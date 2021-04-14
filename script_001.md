@@ -34,7 +34,7 @@ https://github.com/weimingtom/wmt_yacc_study
 其实Lua的早期版本可以作为yacc和编译原理的学习教程，例如符号表的操作。  
 如果你还想参考更套路的写法，甚至可以去参考Kconfig的源代码，  
 Kconfig就包含在Linux的早期源代码中，例如linux-2.6.35，  
-搜索zconf.y，可以找到一个目录叫scripts/kconfig，  
+搜索zconf.y（**补：最新版本的Linux内核源代码中叫parser.y**），可以找到一个目录叫scripts/kconfig，  
 那里有kconfig宏语言的解释器源代码，只是可能移植性不太好  
 https://github.com/torvalds/linux/tree/v2.6.35/scripts/kconfig  
 https://www.kernel.org/doc/html/latest/kbuild/kconfig-language.html  
