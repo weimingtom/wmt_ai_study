@@ -47,3 +47,7 @@ search baidpan, PL0.rar
 
 ## miniJVM  
 https://github.com/digitalgust/miniJVM  
+avian  
+https://github.com/ReadyTalk/avian  
+JVM(j2me) / CLDC  
+see https://github.com/weimingtom/Kuuko/blob/master/README2.md  
