@@ -53,3 +53,7 @@ https://github.com/cijliu/librtsp
 
 ## srs  
 https://github.com/ossrs/srs  
+
+## rtmpdump-librtmp  
+https://gitee.com/weimingtom/rtmpdump-librtmp  
+https://github.com/kulv2012/rtmpdump-librtmp  
