@@ -185,6 +185,8 @@ https://github.com/XiaoMi/mace/blob/master/docs/micro-controllers/deploy.rst
 https://github.com/hyperconnect/TC-ResNet  
 https://github.com/hyperconnect/TC-ResNet/blob/master/tflite_tools/run_benchmark.sh  
 https://github.com/tranHieuDev23/TC-ResNet  
+https://github.com/jianvora/Continual_Learning_for_KWS    
+https://github.com/olimjon-ibragimov/TC-ResNet-TensorFlow-2  
 
 ## (TODO) pytorch speech command tutorial  
 https://github.com/pytorch/tutorials/blob/master/intermediate_source/speech_command_recognition_with_torchaudio.py  
