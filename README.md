@@ -180,6 +180,8 @@ see 'Use libraries directly'
 https://github.com/XiaoMi/mace/blob/master/docs/micro-controllers/deploy.rst  
 * classifier_vs2013_v1.rar  
 (demo) for vs2013, windows    
+* some sites  
+https://github.com/weimingtom/wmt_ai_study/blob/master/mace_001.txt  
 
 ## (TODO) hyperconnect/TC-ResNet  
 https://github.com/hyperconnect/TC-ResNet  
