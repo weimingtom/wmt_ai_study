@@ -1,0 +1,5 @@
+https://github.com/XiaoMi/mace/issues/732
+https://github.com/XiaoMi/mace/issues/541
+https://github.com/XiaoMi/mace-models/blob/master/kaldi-models/nnet3/callhome.yml
+小米移动端深度学习框架实践 AICON2018
+https://github.com/XiaoMi/mace/issues/287
