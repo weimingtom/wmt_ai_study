@@ -35,6 +35,7 @@ https://community.st.com/s/article/FAQ-DMA-is-not-working-on-STM32H7-devices
 * blink_v2_micro_speech_success.tar.gz  
 (ESP32) with esp-idf-v3.3.4, and Ai-Thinker NodeMCU-32S + INMP441  
 (origin) from boochow version, TensoFlow Lite Micro 2.0.0, single file compile    
+* (TODO) https://gitee.com/tutuwin/xr872_-audio  
 
 ## ML-KWS work  
 * mlkws_stm32f411re_v8_first_success.rar  
