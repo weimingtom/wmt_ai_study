@@ -36,6 +36,8 @@ https://community.st.com/s/article/FAQ-DMA-is-not-working-on-STM32H7-devices
 (ESP32) with esp-idf-v3.3.4, and Ai-Thinker NodeMCU-32S + INMP441  
 (origin) from boochow version, TensoFlow Lite Micro 2.0.0, single file compile    
 * (TODO) https://gitee.com/tutuwin/xr872_-audio  
+https://gitee.com/tutuwin/xr872_-audio/blob/master/audio_record.c  
+model_process  
 
 ## ML-KWS work  
 * mlkws_stm32f411re_v8_first_success.rar  
