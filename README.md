@@ -220,3 +220,7 @@ tensorflow 2.4.1, 2021-03-31
 
 ## (TODO) pytorch CRNN (???)    
 https://github.com/isadrtdinov/kws-attention  
+
+## Edge Impulse, Recognize sounds from audio  
+https://docs.edgeimpulse.com/docs/audio-classification  
+http://www.elecfans.com/d/1532483.html  
