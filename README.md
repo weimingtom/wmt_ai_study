@@ -224,3 +224,6 @@ https://github.com/isadrtdinov/kws-attention
 ## (TODO???) Edge Impulse, Recognize sounds from audio  
 https://docs.edgeimpulse.com/docs/audio-classification  
 http://www.elecfans.com/d/1532483.html  
+seeedstudio wio terminal tinyml  
+https://wiki.seeedstudio.com/Wio-Terminal-TinyML-EI-1/  
+https://wiki.seeedstudio.com/Wio-Terminal-TinyML-EI-3/  
