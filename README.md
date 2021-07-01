@@ -227,3 +227,9 @@ http://www.elecfans.com/d/1532483.html
 seeedstudio wio terminal tinyml  
 https://wiki.seeedstudio.com/Wio-Terminal-TinyML-EI-1/  
 https://wiki.seeedstudio.com/Wio-Terminal-TinyML-EI-3/  
+
+## pico-microphone, Raspberry Pi Pico  
+https://github.com/sandeepmistry/pico-microphone  
+https://github.com/raspberrypi/pico-sdk  
+https://github.com/raspberrypi/pico-examples  
+hello_analog_microphone, ADC麦克风, max4466（带直流分量, 512附近）和max9814（过滤直流，0附近, Gain接VCC最小增益）  
