@@ -1,0 +1,167 @@
+http://ukonline2000.com/?p=1207
+
+Raspi Voice HAT-AI智能音箱2-Mic麦克风语音识别阵列适用树莓派2/3/4B
+发表于2020 年 9 月 18 日由ukonline2000
+产品简介
+
+前言
+Raspi Voice HAT是专为AI和语音应用设计的Raspberry Pi双麦克风扩展板。 这意味着您可以构建一个集成Amazon Amazona语音服务，Google助手，百度AI等的功能更强大，更灵活的语音产品。
+
+该板是基于树莓派而设计的音频模块，采用WM8960低功耗立体声编解码器，通过I2C接口控制，I2S接口传输音频。 电路板两侧有两个麦克风采集声音，还提供12个APA102 RGB LED和1个板载扬声器，并提供1个用户按钮和1个I2C接口，用于扩展应用程序。
+
+此外，板载3.5mm音频插孔或JST 2.0扬声器输出均可用于音频输出，可通过外接耳机播放音乐,同时也可通过双通道喇叭接口外接喇叭播放。板子左右两边有一个高质量MEMS硅麦克风，可以立体声录音。
+
+产品特性
+供电电压：5V
+逻辑电压：3.3V
+音频编解码芯片：WM8960
+控制接口：I2C
+音频接口：I2S
+扩展接口：1x I2C，1x按键
+电源接口：1xType-C 接口（5V）
+LED接口：12个APA102可编程RGB LED，连接到SPI接口
+DAC信噪比：98dB
+ADC信噪比：94dB
+耳机驱动：40mW (16Ω@3.3V)
+扬声器驱动：1W per channel (8Ω BTL)（板载mono扬声器）
+硬件资源
+
+LP、LN分别对应左扬声器的正、负极; RP、RN分别对应右扬声器的正、负极。
+
+功能引脚	树莓派引脚（BCM）	描述
+5V	5V	电源正（5V电源输入）
+GND	GND	电源地
+SDA	P3/GPIO2	I2C数据输入
+SCL	P5/GPIO3	I2C时钟输入
+CLK	P12/GPIO18	I2S位时钟输入
+LRCLK	P35/GPIO19	I2S帧时钟输入
+DAC	P40/GPIO21	I2S串行数据输出
+ADC	P38/GPIO20	I2S串行数据输入
+BUTTON	P29/GPIO5或P31/GPIO6	自定义按键
+树莓派使用
+本产品例程只适用于树莓派官方系统（Raspbian）
+
+脚本自动安装
+请使用树莓派官方内核版本为5.4以上的官方系统（Kernel version:5.4）
+
+执行以下脚本自动安装驱动:(包含demo)
+
+git clone https://github.com/u-geek/RaspiVoiceHAT
+
+cd RaspiVoiceHAT
+
+sudo ./setup.sh
+             ┌───────┤ AOIDE RaspiVoiceHAT setup tools(5.4.51) ├────────┐
+             │ RaspiVoiceHAT Config Tool.                               │
+             │                                                          │
+             │                     1 Install Driver                     │
+             │                     2 Remove Driver                      │
+             │                     3 Demo                               │
+             │                     E Exit                               │
+             │                                                          │
+             │                                                          │
+             │                                                          │
+             │                                                          │
+             │                                                          │
+             │                                                          │
+             │                                                          │
+             │                                                          │
+             │              <Ok>                  <Exit>                │
+             │                                                          │
+             └──────────────────────────────────────────────────────────┘
+手动安装驱动
+如果你是国内用户，用官方源可能会比较慢，整个安装过程下载需要很长时间且可能会更新失败，因此可以换成阿里源：
+
+sudo nano /etc/apt/sources.list
+将官方源开头用#注释，并添加阿里源：
+
+#deb-src http://archive.raspberrypi.org/debian/ stretch main
+deb http://mirrors.aliyun.com/raspbian/raspbian/ buster main contrib non-free rpi
+deb-src http://mirrors.aliyun.com/raspbian/raspbian/ buster main contrib non-free rpi
+更新软件源：
+
+sudo apt-get update
+sudo apt-get upgrade
+检查内核版本：
+
+uname -a
+如果内核版本低于5.0（即树莓派系统是2020-05-27之前）下载如下驱动
+git clone -b rpi-4.9.y https://github.com/waveshare/WM8960-Audio-HAT.git
+如果是最新的下载如下：
+git clone https://github.com/waveshare/WM8960-Audio-HAT
+如上两条命令请不要都运行
+安装WM8960驱动：
+
+cd WM8960-Audio-HAT
+#需要等待一定的时间
+sudo ./install.sh 
+sudo reboot
+重启后运行如下命令看下驱动是否加载成功。
+
+sudo dkms status
+
+pi@raspberrypi:~ $ sudo dkms status 
+wm8960-soundcard, 1.0, 4.19.58-v7l+, armv7l: installed
+检测声卡
+检查播放：aplay -l
+pi@raspberrypi:~ $ aplay -l**** List of PLAYBACK Hardware Devices ****card 0: wm8960soundcard [wm8960-soundcard], device 0: bcm2835-i2s-wm8960-hifi wm8960-hifi-0 []  Subdevices: 1/1  Subdevice #0: subdevice #0
+检查录音：arecord -l
+pi@raspberrypi:~ $ arecord -l**** List of CAPTURE Hardware Devices ****card 0: wm8960soundcard [wm8960-soundcard], device 0: bcm2835-i2s-wm8960-hifi wm8960-hifi-0 []  Subdevices: 1/1  Subdevice #0: subdevice #0
+录音播放测试
+录播测试
+sudo arecord -f cd -Dhw:0 | aplay -Dhw:0
+程序运行后通过耳机或者喇叭会听到麦克风采集到的声音，注意喇叭不能开靠近麦克风否 则会导致共振产生啸叫。
+
+录音
+sudo arecord -D hw:0,0 -f S32_LE -r 16000 -c 2 test.wav
+test.wav是录制生成的文件名。
+
+播放
+sudo aplay -Dhw:0 test.wav
+播放刚刚录制的音频
+
+调节音量
+默认的音量是比较小的
+
+sudo alsamixer
+
+如果 WM8960 声卡没有设置为默认声卡则需要按 F6 选择声卡设备。
+
+实际上右边还有很多可以调节的选项。
+
+MPG123播放器
+aplay只支持wav的音乐，实际上MP3格式的音乐会更加多，安装：
+
+sudo apt-get install mpg123 
+sudo mpg123 music.mp3
+需要注意，这里的music.mp3需要替换成你的mp3音乐。
+
+图形化SMPLAYER
+如果是命令行系统可以跳过，如果你的是桌面系统，安装：
+
+sudo apt-get install smplayer
+
+
+
+在界面中右键选择wm8960-soundcard为默认
+
+在菜单中打开smplayer软件，打开音频文件即可播放。(smplayer也可以播放视频)
+
+
+程序控制
+我们提供了一个简单的python控制例程。
+
+安装对应的库
+sudo apt-get install libasound2-devgit 
+clone https://github.com/larsimmisch/pyalsaaudio
+cd pyalsaaudio
+sudo python setup.py build
+sudo python setup.py install
+下载例程
+wget http://www.waveshare.net/w/upload/1/19/WM8960_Audio_HAT_Code.tar.gz
+tar zxvf WM8960_Audio_HAT_Code.tar.gz
+sudo chmod 777 -R WM8960_Audio_HAT_Code
+播放
+sudo python playwav.py music.wav
+录音
+sudo python recordwav.py out.wav
