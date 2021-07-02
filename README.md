@@ -232,4 +232,27 @@ https://wiki.seeedstudio.com/Wio-Terminal-TinyML-EI-3/
 https://github.com/sandeepmistry/pico-microphone  
 https://github.com/raspberrypi/pico-sdk  
 https://github.com/raspberrypi/pico-examples  
-hello_analog_microphone, ADC麦克风, max4466（带直流分量, 512附近）和max9814（过滤直流，0附近, Gain接VCC最小增益）  
+hello_analog_microphone, ADC麦克风, using max4466（带直流分量, 512附近）和max9814（过滤直流，0附近, Gain接VCC最小增益）  
+hello_pdm_microphone, PDM麦克风, using M5stack PDM mini Unit (SPM1423HM4H-B)    
+https://docs.m5stack.com/zh_CN/unit/pdm  
+```
+    while (1) {
+         // store and clear the samples read from the callback
+        int sample_count = samples_read;
+        samples_read = 0;
+        
+        // loop through any new collected samples
+        int maxValue = 0; //or min(sample_count, 5)
+        for (int i = 0; i < sample_count; i++) {
+			int value = sample_buffer[i];
+			if (fabs(value) > fabs(maxValue)) {
+				maxValue = value;
+			}
+		}
+        //if M5stack PDM  
+        printf("%d,%d,%d\n", maxValue / 128, -256, 256);
+        //if max9814
+        //printf("%d,%d,%d\n", maxValue, -512, 512);
+        sleep_ms(50);
+    }
+```
