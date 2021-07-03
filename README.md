@@ -256,3 +256,9 @@ while (1) {
 	sleep_ms(50);
 }
 ```
+using MP34DT01 PDM MEMS Microphone<->Rpi Pico, why this ok? see below:   
+(self) 3V<-> (self) SEL  
+GND<-> GND  
+MAX9814, for 3.3V and 5V  
+MAX9813H, for 5V only  
+MAX9812L, for 3.3V only  
