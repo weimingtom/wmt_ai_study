@@ -229,11 +229,11 @@ https://wiki.seeedstudio.com/Wio-Terminal-TinyML-EI-1/
 https://wiki.seeedstudio.com/Wio-Terminal-TinyML-EI-3/  
 
 ## pico-microphone, Raspberry Pi Pico  
-https://github.com/sandeepmistry/pico-microphone  
+* https://github.com/sandeepmistry/pico-microphone  
 https://github.com/raspberrypi/pico-sdk  
 https://github.com/raspberrypi/pico-examples  
-hello_analog_microphone, ADC麦克风, using max4466（带直流分量, 512附近）和max9814（过滤直流，0附近, Gain接VCC最小增益）  
-hello_pdm_microphone, PDM麦克风, using M5stack PDM mini Unit (SPM1423HM4H-B)    
+* hello_analog_microphone, ADC麦克风, using max4466（带直流分量, 512附近）和max9814（过滤直流，0附近, Gain接VCC最小增益）  
+* hello_pdm_microphone, PDM麦克风, using M5stack PDM mini Unit (SPM1423HM4H-B)    
 https://docs.m5stack.com/zh_CN/unit/pdm  
 ```
 while (1) {
@@ -256,9 +256,10 @@ while (1) {
 	sleep_ms(50);
 }
 ```
-using MP34DT01 PDM MEMS Microphone<->Rpi Pico, why this ok? see below:   
+* hello_pdm_microphone, using MP34DT01 PDM MEMS Microphone<->Rpi Pico, why this ok? see below:   
 (self) 3V<-> (self) SEL  
 GND<-> GND  
-MAX9814, for 3.3V and 5V  
-MAX9813H, for 5V only  
-MAX9812L, for 3.3V only  
+* hello_analog_microphone, use MAX9814, for 3.3V and 5V  
+* hello_analog_microphone, use MAX9813H, for 5V only  
+* hello_analog_microphone, use MAX9812L, for 3.3V only, not good, go stable slowly  
+
