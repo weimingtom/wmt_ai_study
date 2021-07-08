@@ -1,0 +1,457 @@
+
+[深度学习进阶 - 实操笔记] 语音识别基础
+
+什么都一般的咸鱼 2020-06-06 13:42:02  509  收藏 4
+分类专栏： 深度学习 文章标签： 深度学习
+版权
+语音识别基础
+1. 深度学习在语音领域上的应用
+（1）语音识别
+（2）语音唤醒
+（3）语音命令
+（4）声纹识别
+（5）生成语音
+
+2. 音频领域基本概念
+（1）采样率：每秒采集数据的次数。
+一般是8000Hz、16000Hz…
+采样率越高，音频损失越小。根据奈奎斯特采样定理：当采样率高于最高频率2倍以上，音频数据就不会失真。因此处理数据的采样率选择，一般只要高于最高频率2倍以上就行。
+（2）采样精度：每次采样数据的位数。即保存数据的精度：一般为一字节（8位）、两字节（16位）…
+（3）通道数：存在几路音频。（左声道/右声道）
+（4）比特率：针对编码格式，表示压缩编码后每秒的音频数据量大小。（bps，bit/s）
+（5）音频格式：pcm、wav、MP3…
+（6）声波：声音数据是连续的波形。但是计算机只能处理离散的数据，因此我们需要对数据进行采样。（通过上面哪些参数进行采样）
+
+3. 语音识别
+（1）首先需要用到torchaudio库。官方文档
+① window下下载的方式：cmd
+
+conda install -c conda-forge librosa
+conda install -c groakat sox
+git clone https://github.com/pytorch/audio.git
+
+python setup.py install
+1
+2
+3
+4
+5
+② 载入数据，并绘制波形图。
+载入的波形数据为（C，L）：通道数，幅值，以及一个采样率。
+
+filename = "../_static/img/steam-train-whistle-daniel_simon-converted-from-mp3.wav"
+waveform, sample_rate = torchaudio.load(filename)
+
+print("Shape of waveform: {}".format(waveform.size()))
+print("Sample rate of waveform: {}".format(sample_rate))
+
+plt.figure()
+plt.plot(waveform.t().numpy())
+1
+2
+3
+4
+5
+6
+7
+8
+（2）音频数据处理需要解决的几个问题：
+① 音频数据长度不一： 补齐、截取、缩放…
+补齐：在短的数据后面补0。
+截取：截取长数据和短数据相等的一节。
+缩放：自适应平均池化。（数据格式：NCL）即将一组数据缩放至一个统一的尺寸。
+② 音频数据太长 （例如：1 * 50408）
+方案一：原始数据做一维卷积，到25以内的长度后，用RNN做输出层输出。（利用大卷积核和大步长）
+方案二：将音频信号从时域上转换到频域上进行处理。
+（ * 方案一理论可行，但是效果不好。模型没有先验，比较笨。）
+③ 数据长度不一，每次训练只能一条数据作为一个批次进行训练，效果不好。
+通过①的解决方案，将数据统一后，放入一个批次进行训练。
+
+（3）MFCC 梅尔频率倒谱系数
+根据上面（2）中的方案二，我们要将音频信号数据转换到频谱图上进行操作。（利用图进行训练，对神经网络而已比较简单。）
+MFCC，简单的说就是根据人耳的接收能力进行音频信号处理，最终转换为频谱图。因此，相当于给了模型一个人耳的先验。具体内容参照这个博客
+
+（4） 项目实战：
+① 数据：可以使用谷歌语音识别官方数据的speech_commands来学习。我挑选一小部分数据进行学习。
+首先将载入的音频数据（波形数据）转换为频谱图数据。然后对数据进行归一化。
+
+# 可以直接在上面链接内下载，也可以通过下面代码下载。
+import torchaudio,torch
+
+dataset = torchaudio.datasets.SPEECHCOMMANDS(r"F:\data", url='speech_commands_v0.02', folder_in_archive='SpeechCommands', download=False)
+data_loader = torch.utils.data.DataLoader(dataset, batch_size=1, shuffle=True)
+
+for x in data_loader:
+    print(x)
+1
+2
+3
+4
+5
+6
+7
+8
+#这里采样率是载入时候读入的采样率
+tf = torchaudio.transforms.MFCC(sample_rate=8000)
+
+# 转换后的频谱图并没有归一化，因此要对数据做归一化
+def normalize(tensor):
+    tensor_minusmean = tensor - tensor.mean()
+    return tensor_minusmean / tensor_minusmean.max()
+1
+2
+3
+4
+5
+6
+7
+#将数据统一长度，分批打包训练
+datas = []
+tags = []
+for data, _, tag in data_loader:
+	tag = torch.stack(tag, dim=1).float()
+	specgram = normalize(tf(data))
+	datas.append(F.adaptive_avg_pool2d(specgram, (32, 256)))
+	tags.append(tag)
+specgrams = torch.cat(datas, dim=0)
+tags = torch.cat(tags, dim=0)
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+② 神经网络：
+由于频谱图是长宽比较大，所以将长和宽拆开，分别处理。
+卷积核选用（1，3）步长选用（1，2）padding为（0，1）；即在序列上用卷积核为3，步长为2进行卷积，在特征上采用卷积核为1，步长为1进行卷积。（行为序列，列为特征）
+频谱图：132256 通过卷积后：N43232
+在进行正常的卷积：N888
+最后根据数据分类，变成想要的输出格式。（按音频的数据标签）
+（或者也可以通过接入RNN或者全连接层输出）
+
+class Net(torch.nn.Module):
+
+    def __init__(self):
+        super().__init__()
+        self.seq = torch.nn.Sequential(
+            torch.nn.Conv2d(1, 4, (1, 3), (1, 2), (0, 1)),
+            torch.nn.BatchNorm2d(4),
+            torch.nn.ReLU(),
+            torch.nn.Conv2d(4, 4, (1, 3), (1, 2), (0, 1)),
+            torch.nn.BatchNorm2d(4),
+            torch.nn.ReLU(),
+            torch.nn.Conv2d(4, 4, (1, 3), (1, 2), (0, 1)),# 4*32*32
+            torch.nn.BatchNorm2d(4),
+            torch.nn.ReLU(), 
+            torch.nn.Conv2d(4, 8, 3, 2, 1),
+            torch.nn.BatchNorm2d(8),
+            torch.nn.ReLU(),
+            torch.nn.Conv2d(8, 8, 3, 2, 1), # 8*8*8
+            torch.nn.BatchNorm2d(8),
+            torch.nn.ReLU(),
+            torch.nn.Conv2d(8, 1, (8, 1)),# 这里使用的数据一个音频序列中有8个类别值，因此将数据转换成 1*1*8 
+        )
+
+    def forward(self, x):
+        h = self.seq(x)
+        return h.reshape(-1, 8)
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+③ 损失：这里直接使用MSELoss，将预测值与标签做MSE损失。
+
+完整代码：
+
+import torch
+import torchaudio
+from torch.nn import functional as F
+
+
+def normalize(tensor):
+    tensor_minusmean = tensor - tensor.mean()
+    return tensor_minusmean / tensor_minusmean.max()
+
+
+tf = torchaudio.transforms.MFCC(sample_rate=8000)
+
+
+class Net(torch.nn.Module):
+
+    def __init__(self):
+        super().__init__()
+        self.seq = torch.nn.Sequential(
+            torch.nn.Conv2d(1, 4, (1, 3), (1, 2), (0, 1)),
+            torch.nn.BatchNorm2d(4),
+            torch.nn.ReLU(),
+            torch.nn.Conv2d(4, 4, (1, 3), (1, 2), (0, 1)),
+            torch.nn.BatchNorm2d(4),
+            torch.nn.ReLU(),
+            torch.nn.Conv2d(4, 4, (1, 3), (1, 2), (0, 1)),
+            torch.nn.BatchNorm2d(4),
+            torch.nn.ReLU(),
+            torch.nn.Conv2d(4, 8, 3, 2, 1),
+            torch.nn.BatchNorm2d(8),
+            torch.nn.ReLU(),
+            torch.nn.Conv2d(8, 8, 3, 2, 1),
+            torch.nn.BatchNorm2d(8),
+            torch.nn.ReLU(),
+            torch.nn.Conv2d(8, 1, (8, 1)),
+        )
+
+    def forward(self, x):
+        h = self.seq(x)
+        return h.reshape(-1, 8)
+
+
+if __name__ == '__main__':
+
+    data_loader = torch.utils.data.DataLoader(torchaudio.datasets.YESNO('.',download=True), batch_size=1, shuffle=True)
+
+    net = Net()
+    opt = torch.optim.Adam(net.parameters())
+
+    loss_fn = torch.nn.MSELoss()
+
+    for epoch in range(100000):
+        datas = []
+        tags = []
+        for data, _, tag in data_loader:
+            tag = torch.stack(tag, dim=1).float()
+            specgram = normalize(tf(data))
+            datas.append(F.adaptive_avg_pool2d(specgram, (32, 256)))
+            tags.append(tag)
+
+        specgrams = torch.cat(datas, dim=0)
+        tags = torch.cat(tags, dim=0)
+        y = net(specgrams)
+        loss = loss_fn(y, tags)
+
+        opt.zero_grad()
+        loss.backward()
+        opt.step()
+        print(loss)
+
+————————————————
+版权声明：本文为CSDN博主「什么都一般的咸鱼」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/weixin_41809530/article/details/106585116
+
+
+[深度学习进阶 - 实操笔记] 语音识别speech_commands数据集
+
+什么都一般的咸鱼 2020-06-10 16:58:19  1070  收藏 5
+分类专栏： 深度学习 文章标签： 自然语言处理 神经网络
+版权
+语音识别
+训练过程
+前几天简单学了下语音识别的基础知识。（语音识别基础知识）理解了深度学习如何处理语音数据，并且识别语音。所以我就尝试着用学习时候的网络（如下）跑Speech-commands数据集。从里面挑了十个语音类别。但是效果并不好。
+
+# 只用到了卷积 对频谱图进行训练
+class Net(torch.nn.Module):
+
+    def __init__(self):
+        super().__init__()
+        self.seq = torch.nn.Sequential(
+            torch.nn.Conv2d(1, 4, (1, 3), (1, 2), (0, 1)),
+            torch.nn.BatchNorm2d(4),
+            torch.nn.ReLU(),
+            torch.nn.Conv2d(4, 4, (1, 3), (1, 2), (0, 1)),
+            torch.nn.BatchNorm2d(4),
+            torch.nn.ReLU(),
+            torch.nn.Conv2d(4, 4, (1, 3), (1, 2), (0, 1)),
+            torch.nn.BatchNorm2d(4),
+            torch.nn.ReLU(),
+            torch.nn.Conv2d(4, 8, 7, 2, 1),
+            torch.nn.BatchNorm2d(8),
+            torch.nn.ReLU(),
+            torch.nn.Conv2d(8, 16, 5, 1, 0),
+            torch.nn.BatchNorm2d(16),
+            torch.nn.ReLU(),
+            torch.nn.Conv2d(8, 1, (10, 1)),#输出十个类别
+            torch.nn.ReLU(),
+        )
+
+    def forward(self, x):
+        h = self.seq(x)
+        return h.reshape(-1, 10)
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+主要存在问题：损失降得很慢而且精度不增。（之前训练了2个多小时，精度最高达到59%，损失降至1.0左右就浮动不变）
+
+于是我再训练过程中把每层网络的权重打印出来。（tensorboard）
+发现神经网络的最后一层权重越来越平缓，更新得越来越慢，因此我决定从权重下手。
+
+
+改进
+可以看到，权重在训练最后，越来越平滑。因此我尝试使用权重初始化。
+
+def weight_init(m):
+    if (isinstance(m, nn.Conv2d)):
+        nn.init.kaiming_normal_(m.weight)
+        if m.bias is not None:
+            nn.init.zeros_(m.bias)
+    elif (isinstance(m, nn.Linear)):
+        nn.init.kaiming_normal_(m.weight)
+        if m.bias is not None:
+            nn.init.zeros_(m.bias)
+1
+2
+3
+4
+5
+6
+7
+8
+9
+但是发现，在其他层上，权重的表现都较好，但是最后一层卷积层仍然存在一样的问题。而且损失仍然下降太慢，精度不增。
+
+因此，问题肯定出在最后一层。我决定直接把最后一层删去，然后增加一层RNN网络代替。（这里使用LSTM作为最会一层，在加上全连接进行输出）
+
+class Net(torch.nn.Module):
+
+    def __init__(self):
+        super().__init__()
+        self.seq = torch.nn.Sequential(
+            torch.nn.Conv2d(1, 4, (1, 3), (1, 2), (0, 1)),
+            torch.nn.BatchNorm2d(4),
+            torch.nn.ReLU(),
+            torch.nn.Conv2d(4, 4, (1, 3), (1, 2), (0, 1)),
+            torch.nn.BatchNorm2d(4),
+            torch.nn.ReLU(),
+            torch.nn.Conv2d(4, 4, (1, 3), (1, 2), (0, 1)),
+            torch.nn.BatchNorm2d(4),
+            torch.nn.ReLU(),
+            torch.nn.Conv2d(4, 8, 7, 2, 1),
+            torch.nn.BatchNorm2d(8),
+            torch.nn.ReLU(),
+            torch.nn.Conv2d(8, 16, 5, 1, 0),
+            torch.nn.BatchNorm2d(16),
+            torch.nn.ReLU(),
+            #torch.nn.Conv2d(8, 1, (10, 1)),
+            #torch.nn.ReLU(),
+
+        )
+
+        self.rnn = nn.LSTM(10 * 16, 128, 2, batch_first=True, bidirectional=False)
+        self.output_layer = nn.Linear(128, 10)
+        self.apply(weight_init)
+
+    def forward(self, x):
+        h = self.seq(x)
+        #print(h.shape)
+        _n, _c, _h, _w = h.shape
+        _x = h.permute(0, 2, 3, 1)
+        #print(_x.shape)
+        _x = _x.reshape(_n,_h,_w*_c)
+        #print(_x.shape)
+        h0 = torch.zeros(2 * 1, _n, 128).cuda()  # 初始化反馈值 num_layers * num_directions ,batch, hidden_size
+        c0 = torch.zeros(2 * 1, _n, 128).cuda()
+        hsn, (hn, cn) = self.rnn(_x, (h0, c0))
+        out = self.output_layer(hsn[:, -1, :])
+
+        return out#.reshape(-1, 10)
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+果然，修改后的效果非常明显。在十种分类上，只训练了50轮次，损失就降至非常低，而且精度基本上可以达到100%。
+
+然后训练35个分类的话，也就是全部的数据集。精度基本到90以上就增长得非常慢了。最终训练9个小时，精度达到97。
+
+————————————————
+版权声明：本文为CSDN博主「什么都一般的咸鱼」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/weixin_41809530/article/details/106669728
+
