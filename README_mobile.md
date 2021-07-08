@@ -95,3 +95,7 @@ https://github.com/in66-dev/In-Prestissimo
 ## FeatherCNN  
 https://github.com/Tencent/FeatherCNN  
 
+## DNNLibrary  
+https://github.com/JDAI-CV/DNNLibrary  
+https://github.com/daquexian/dnnlibrary-example  
+https://github.com/Oneflow-Inc/oneflow  
