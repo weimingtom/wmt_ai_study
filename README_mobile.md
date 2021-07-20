@@ -99,3 +99,6 @@ https://github.com/Tencent/FeatherCNN
 https://github.com/JDAI-CV/DNNLibrary  
 https://github.com/daquexian/dnnlibrary-example  
 https://github.com/Oneflow-Inc/oneflow  
+
+## vosk-api, kaldi android  
+https://github.com/alphacep/vosk-api  
