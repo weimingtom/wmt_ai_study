@@ -1,0 +1,51 @@
+都是短长度命令词，Tensorflow 2.x (tf.keras) CNN: gitee.com/weimingtom2000/Speech-Recognition_mod
+
+04-30 00:28
+
+
+这个是你的截图里面提到的那个项目，我还没仔细研究，也没有跑通过：pytorch CRNN: gitee.com/weimingtom2000/kws-attention
+
+
+就这两个，第一个是我魔改过，应该可以运行，第二个不确定是否有用，这两个都是基于google tensorflow的speech_commands训练集，比较大，需要自己下载，如果你研究这方面应该很清楚
+
+
+另外pytorch官方也有相关的例子：https:// pytorch.org/tutorials/intermediate/speech_command_recognition_with_torchaudio.html，那个肯定是可以运行的
+
+04-30 00:42
+
+
+如果你想要长时长的ASR，可以去看kaldi、mozilla deepspeech之类的项目，其他还有很多，例如vosk-api、SpeechBrain之类，也可以在gitee上搜索相关的关键词例如Speech-Recognition。单片机方面和Android的也有很多相关的开源推理引擎
+
+
+
+------------------
+
+
+回复@一路向北ya:怎么搜出来的呢，我是用类似反编译的方法，用记事本打开友善之臂提供的elf文件，找到里面的字符串然后去搜索github，例如搜索这个字符串No sparse/gzip/crc allowed for block device，然后就能找到make_ext4fs的源代码了
+回复一路向北ya的评论 ：make_ext4fs应该被友善自己修改了，android官方工具无法恢复镜像。sd_update的源码在哪儿？最近在修改分区，要被这两个工具搞死了。
+X
+weimingtom
+weimingtom
+2020-3-22 01:27
+回复@一路向北ya:或者weihutaisui/BCM/tree/master/HGU_BCM68580/02_src_502L04patch2/hostTools/make_ext4fs/extras_latest/extras/ext4_utils（待续）
+回复一路向北ya的评论 ：make_ext4fs应该被友善自己修改了，android官方工具无法恢复镜像。sd_update的源码在哪儿？最近在修改分区，要被这两个工具搞死了。
+X
+weimingtom
+weimingtom
+2020-3-22 01:26
+回复@一路向北ya:make_ext4fs的源码参考这里github.com/woju/make_ext4fs，不太确定，好像是可行的，建议用64位ubuntu，如果不行的话可以搜索make_ext4fs的其他结果，例如rendiix/android-prebuilt-binary-tools、arfoll/updater-hack（待续）
+
+
+-------------
+
+我发现一个语音识别领域的玄机，或者说潜规则——涉及语音识别的人或者书，通常会提及两个工具tensorflow和kaldi，行外的人会很好奇，为什么kaldi可以跟大名鼎鼎的tensorflow并列，其实仔细想想就会明白为什么，因为现在前沿的趋势就是想把语音识别放到嵌入式设备上运行，tensorflow显然不太好（虽然有tflite，这是一个方向），而kaldi却被很多人盯上了，尝试搬到手机端或者嵌入式linux上，典型的有两个地方，一个是我之前说的vosk-api，它可以运行在树莓派上（应该也可以运行在安卓上），另外一个是这篇文章：《基于kaldi训练唤醒词模型的一种方法》：
+O网页链接
+你会惊讶地发现已经有很多人开始尝试把kaldi往小内存电脑上移植了
+
+
+《从零开始学习matlab语音识别》第二十四话。用树莓派3b和最新的buster版系统ROM安装vosk-api。vosk-api相当于Python封装下的kaldi，由于kaldi只适合高级专业人士使用，而且模型不好下载，所以建议用vosk-api。它的使用方法见官方文档：《Running the example code with python》
+O网页链接
+注意运行可能会报错，需要sudo apt-get install libgfortran3安装gnu fortran的动态库。我测试过速度也是跟pocketsphinx差不多，不过可以输出更多识别信息，而且识别率还是比较好的，应该跟pocketsphinx类似，比deepspeech好一点（使用deepspeech的一个测试音频），有兴趣可以自行参考官网步骤去安装运行，Python示例代码在github上vosk-api仓库下载
+
+
+
