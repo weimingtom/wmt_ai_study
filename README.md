@@ -171,8 +171,10 @@ search baidupan, 17.speech_recognition.zip
 TensorFlow入门教程(17)语音识别(上)  
 https://blog.csdn.net/rookie_wei/article/details/84527839  
 
-## (TODO) diy-alexa  
+## (TODO) diy-alexa, voice-controlled-robot, ESP32    
 https://github.com/atomic14/diy-alexa  
+Voice-Controlled Robot With the ESP32  
+https://github.com/atomic14/voice-controlled-robot  
 
 ## (TODO) MACE Micro Examples  
 * classifier_mace_v2_xubuntu_host.tar.gz  
