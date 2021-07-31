@@ -137,6 +137,7 @@ https://github.com/UT2UH/ML-KWS-for-ESP32/tree/master/Source/XMSIS/NN
 * https://github.com/wiseman/py-webrtcvad  
 * https://github.com/mengsaisi/VAD_campare   
 * https://github.com/jjzhang166/aicontroler/blob/master/aicontroler/src/record.c  
+* https://github.com/bekencorp/bk7251_rtt_audio_sdk/blob/master/beken378/func/vad/vad_core.c  
 
 ## (TODO) Python GMM Chapter07 speech_recognizer.py  
 * origin  
