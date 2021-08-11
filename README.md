@@ -275,3 +275,9 @@ example-standalone-inferencing-master_v1.tar.gz
 * windows, vs2013  
 helloei_v3_success.rar  
 
+## 画了个V3S，慢更语音助手（LUCKY）
+https://whycan.com/t_7000.html  
+记录自制linux的过程（基于全志V3s）  
+https://blog.csdn.net/qq_46604211/article/details/116024970  
+https://github.com/dakun-create/voice-assistant-byV3S  
+
