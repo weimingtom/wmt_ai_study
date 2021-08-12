@@ -269,7 +269,7 @@ GND<-> GND
 * hello_analog_microphone, use MAX9813H, for 5V only  
 * hello_analog_microphone, use MAX9812L, for 3.3V only, not good, go stable slowly  
 
-## Edge Impulse, tensorflow 2.3    
+## (IMP, TODO) **Edge Impulse, tensorflow 2.3**    
 * linux, xubuntu200464    
 example-standalone-inferencing-master_v1.tar.gz  
 * windows, vs2013  
