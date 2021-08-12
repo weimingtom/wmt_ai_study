@@ -293,3 +293,7 @@ https://blog.csdn.net/weixin_41809530/article/details/106585116
 https://www.freesion.com/article/5523850245/  
 https://blog.csdn.net/weixin_41809530/article/details/106585116  
 https://blog.csdn.net/weixin_41809530/article/details/106669728  
+
+## (TODO) Offline Speech Recognition on Raspberry Pi 4 with Respeaker  
+https://github.com/AIWintermuteAI/DeepSpeech_RaspberryPi4_Hotword  
+https://www.hackster.io/dmitrywat/offline-speech-recognition-on-raspberry-pi-4-with-respeaker-c537e7  
