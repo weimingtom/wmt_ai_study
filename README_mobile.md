@@ -99,6 +99,8 @@ https://github.com/Tencent/FeatherCNN
 https://github.com/JDAI-CV/DNNLibrary  
 https://github.com/daquexian/dnnlibrary-example  
 https://github.com/Oneflow-Inc/oneflow  
+Android 8.1 NNAPI 评测以及可能是全球第一个的 NNAPI 库  
+https://zhuanlan.zhihu.com/p/30926958  
 
 ## vosk-api, kaldi android  
 https://github.com/alphacep/vosk-api  
