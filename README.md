@@ -289,3 +289,7 @@ https://github.com/tugstugi/pytorch-speech-commands
 
 ## (TODO) [深度学习进阶 - 实操笔记] 语音识别基础  
 https://blog.csdn.net/weixin_41809530/article/details/106585116  
+[深度学习进阶 - 实操笔记] 语音识别SPEECH_COMMANDS数据集  
+https://www.freesion.com/article/5523850245/  
+https://blog.csdn.net/weixin_41809530/article/details/106585116  
+https://blog.csdn.net/weixin_41809530/article/details/106669728  
