@@ -286,3 +286,6 @@ https://docs.nvidia.com/deeplearning/nemo/user-guide/docs/en/stable/starthere/tu
 
 ## (TODO) Speech commands recognition with PyTorch | Kaggle 10th place solution in TensorFlow Speech Recognition Challenge  
 https://github.com/tugstugi/pytorch-speech-commands  
+
+## (TODO) [深度学习进阶 - 实操笔记] 语音识别基础  
+https://blog.csdn.net/weixin_41809530/article/details/106585116  
