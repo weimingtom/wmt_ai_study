@@ -283,3 +283,6 @@ https://github.com/dakun-create/voice-assistant-byV3S
 
 ## (???) NVIDIA NeMo  
 https://docs.nvidia.com/deeplearning/nemo/user-guide/docs/en/stable/starthere/tutorials.html  
+
+## (TODO) Speech commands recognition with PyTorch | Kaggle 10th place solution in TensorFlow Speech Recognition Challenge  
+https://github.com/tugstugi/pytorch-speech-commands  
