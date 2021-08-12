@@ -281,3 +281,5 @@ https://whycan.com/t_7000.html
 https://blog.csdn.net/qq_46604211/article/details/116024970  
 https://github.com/dakun-create/voice-assistant-byV3S  
 
+## (???) NVIDIA NeMo  
+https://docs.nvidia.com/deeplearning/nemo/user-guide/docs/en/stable/starthere/tutorials.html  
