@@ -311,3 +311,6 @@ https://github.com/espressif/esp-dsp
 
 ## (IMP???) Official repository of my book: "Deep Learning with PyTorch Step-by-Step: A Beginner's Guide"  
 https://github.com/dvgodoy/PyTorchStepByStep  
+
+## digital signal processing using the arm cortex-m4 pdf  
+https://download.csdn.net/download/wawahust/9893809?utm_source=bbsseo  
