@@ -314,3 +314,6 @@ https://github.com/dvgodoy/PyTorchStepByStep
 
 ## digital signal processing using the arm cortex-m4 pdf  
 https://download.csdn.net/download/wawahust/9893809?utm_source=bbsseo  
+
+## ifttt, 触发你的智能生活：IFTTT 入门    
+https://sspai.com/post/25270  
