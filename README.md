@@ -314,8 +314,3 @@ https://github.com/dvgodoy/PyTorchStepByStep
 
 ## digital signal processing using the arm cortex-m4 pdf  
 https://download.csdn.net/download/wawahust/9893809?utm_source=bbsseo  
-
-## (TODO) STM32F37x38x SDADC （Sigma-Delta ADC）入门.pdf  
-https://download.csdn.net/download/longonly120/11441172?utm_source=iteye_new    
-Sigma-Delta ADC是一种目前使用最为普遍的高精度ADC结构，在精度达到20位以上的场合  
-http://www.elecfans.com/d/1294184.html  
