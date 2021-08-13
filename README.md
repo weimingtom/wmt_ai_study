@@ -305,3 +305,6 @@ GSL快速傅里叶变换FFT
 https://blog.csdn.net/Augusdi/article/details/9982919  
 数学计算库  
 https://blog.csdn.net/shichaog/article/details/80762367  
+
+## (IMP) esp32 dsp (with asm)  
+https://github.com/espressif/esp-dsp  
