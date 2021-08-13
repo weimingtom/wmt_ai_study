@@ -308,3 +308,6 @@ https://blog.csdn.net/shichaog/article/details/80762367
 
 ## (IMP) esp32 dsp (with asm)  
 https://github.com/espressif/esp-dsp  
+
+## (IMP???) Official repository of my book: "Deep Learning with PyTorch Step-by-Step: A Beginner's Guide"  
+https://github.com/dvgodoy/PyTorchStepByStep  
