@@ -298,22 +298,5 @@ https://blog.csdn.net/weixin_41809530/article/details/106669728
 https://github.com/AIWintermuteAI/DeepSpeech_RaspberryPi4_Hotword  
 https://www.hackster.io/dmitrywat/offline-speech-recognition-on-raspberry-pi-4-with-respeaker-c537e7  
 
-## C++科学库, gsl  
-http://www.360doc.com/content/17/1228/21/7378868_717225755.shtml  
-目前号称有三大库支持科学计算，它们是GNU的gsl，blitz++以及MTL，  
-GSL快速傅里叶变换FFT  
-https://blog.csdn.net/Augusdi/article/details/9982919  
-数学计算库  
-https://blog.csdn.net/shichaog/article/details/80762367  
-
 ## (IMP) esp32 dsp (with asm)  
 https://github.com/espressif/esp-dsp  
-
-## (IMP???) Official repository of my book: "Deep Learning with PyTorch Step-by-Step: A Beginner's Guide"  
-https://github.com/dvgodoy/PyTorchStepByStep  
-
-## digital signal processing using the arm cortex-m4 pdf  
-https://download.csdn.net/download/wawahust/9893809?utm_source=bbsseo  
-
-## ifttt, 触发你的智能生活：IFTTT 入门    
-https://sspai.com/post/25270  
