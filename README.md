@@ -9,6 +9,9 @@ My AI study
 ## Recorder code work  
 see https://github.com/weimingtom/wmt_recorder_study  
 
+## Wireless code work  
+see https://github.com/weimingtom/wmt_iot_study  
+
 ## TFLite work  
 * test_ac5_stm32f411re_vv15_benchmark.rar  
 (STM32) with STM32CubeMX, with Keil MDK5 AC5, without C++11, with NUCLEO-F411RE, 84MHz, 1000 times loop, 547 seconds  
