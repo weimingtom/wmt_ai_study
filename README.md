@@ -312,3 +312,7 @@ https://bbs.sipeed.com/thread/988
 ## (IMP, TODO) TensorFlow语音识别实战      
 search book_TensorFlow语音识别实战  
 TensorFlow语音识别实战-源代码.7z    
+
+## (TODO) 以前用树莓派3b运行deepspeech和vosk的备份  
+search work_deepspeech_vosk_raspberry_pi_upload  
+search deepspeech_readme.txt    
