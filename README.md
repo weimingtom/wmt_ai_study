@@ -308,3 +308,7 @@ https://github.com/espressif/esp-dsp
 https://blog.csdn.net/xuguoliang757/article/details/118462079  
 https://github.com/sipeed/MaixPy_scripts/blob/master/multimedia/speech_recognizer/maix_asr_2900k_0x500000.kmodel  
 https://bbs.sipeed.com/thread/988  
+
+## (IMP, TODO) TensorFlow语音识别实战      
+search book_TensorFlow语音识别实战  
+TensorFlow语音识别实战-源代码.7z    
