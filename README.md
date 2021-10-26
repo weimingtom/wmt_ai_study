@@ -304,7 +304,7 @@ https://www.hackster.io/dmitrywat/offline-speech-recognition-on-raspberry-pi-4-w
 ## (IMP) esp32 dsp (with asm)  
 https://github.com/espressif/esp-dsp  
 
-## (???) Python, sipeed MaixPy, speech_recognizer  
+## (???) Python, sipeed MaixPy, maix-asr, (speech_recognizer)    
 https://blog.csdn.net/xuguoliang757/article/details/118462079  
 https://github.com/sipeed/MaixPy_scripts/blob/master/multimedia/speech_recognizer/maix_asr_2900k_0x500000.kmodel  
 https://bbs.sipeed.com/thread/988  
