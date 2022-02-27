@@ -319,7 +319,8 @@ search deepspeech_readme.txt
 
 ## micro_speech  
 * https://github.com/eliberis/microbit-speech  
-by mbed  
+by mbed, micro:bit  
+* https://github.com/edgeimpulse/voice-activated-microbit  
+by mbed, micro:bit  
 * https://github.com/ARM-software/VHT-TFLmicrospeech  
 * https://github.com/MatthiasHertel80/VHT-TFLmicrospeech  
-* https://github.com/edgeimpulse/voice-activated-microbit  
