@@ -316,3 +316,9 @@ TensorFlow语音识别实战-源代码.7z
 ## (TODO) 以前用树莓派3b运行deepspeech和vosk的备份  
 search work_deepspeech_vosk_raspberry_pi_upload  
 search deepspeech_readme.txt    
+
+## micro_speech  
+* https://github.com/eliberis/microbit-speech  
+* https://github.com/ARM-software/VHT-TFLmicrospeech  
+* https://github.com/MatthiasHertel80/VHT-TFLmicrospeech  
+
