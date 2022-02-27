@@ -321,4 +321,4 @@ search deepspeech_readme.txt
 * https://github.com/eliberis/microbit-speech  
 * https://github.com/ARM-software/VHT-TFLmicrospeech  
 * https://github.com/MatthiasHertel80/VHT-TFLmicrospeech  
-
+* https://github.com/edgeimpulse/voice-activated-microbit  
