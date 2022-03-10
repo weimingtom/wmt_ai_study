@@ -324,3 +324,7 @@ by mbed, micro:bit
 by mbed, micro:bit  
 * https://github.com/ARM-software/VHT-TFLmicrospeech  
 * https://github.com/MatthiasHertel80/VHT-TFLmicrospeech  
+
+## Facebook flashlight and wav2letter, in C++  
+* https://github.com/flashlight/flashlight/tree/main/flashlight/app/asr  
+* https://github.com/flashlight/wav2letter  
