@@ -331,3 +331,5 @@ by mbed, micro:bit
 
 ## TensorFlow语音识别实战  
 * TensorFlow语音识别实战-源代码.7z  
+* 第十章——基于MFCC和CTC的语音汉字转换  
+
