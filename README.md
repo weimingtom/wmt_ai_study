@@ -333,3 +333,8 @@ by mbed, micro:bit
 * TensorFlow语音识别实战-源代码.7z  
 * 第十章——基于MFCC和CTC的语音汉字转换  
 
+## Swift机器学习：面向iOS的人工智能实战  
+* https://github.com/tryolabs/TLSphinx    
+* OpenEars, https://www.politepix.com/openears/tutorial/  
+
+
