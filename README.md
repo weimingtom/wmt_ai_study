@@ -334,6 +334,7 @@ by mbed, micro:bit
 * 第十章——基于MFCC和CTC的语音汉字转换  
 
 ## Swift机器学习：面向iOS的人工智能实战  
+* TLSphinx和OpenEars，它们都是cmu sphinx或pocketsphinx的ios移植版  
 * https://github.com/tryolabs/TLSphinx    
 * OpenEars, https://www.politepix.com/openears/tutorial/  
 
