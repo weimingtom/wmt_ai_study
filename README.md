@@ -338,4 +338,11 @@ by mbed, micro:bit
 * https://github.com/tryolabs/TLSphinx    
 * OpenEars, https://www.politepix.com/openears/tutorial/  
 
+## TensorFlow Model  
+* https://github.com/tensorflow/models/tree/master/research/deep_speech  
+* VGGish and YAMNet  
+* https://github.com/tensorflow/models/tree/master/research/audioset  
+
+
+
 
