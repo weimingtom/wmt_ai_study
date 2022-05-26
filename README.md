@@ -344,6 +344,7 @@ by mbed, micro:bit
 * https://github.com/tensorflow/models/tree/master/research/audioset  
 * https://github.com/SensingClues/OpenEars  
 
-
+## PaddleSpeech  
+* https://github.com/PaddlePaddle/PaddleSpeech  
 
 
