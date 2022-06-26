@@ -36,3 +36,6 @@ https://github.com/Z-Y00/Examples-in-book-write-your-own-cpu
 https://github.com/Redherring32/OpenTendo  
 
 ## mc68020  
+
+## NES on FPGA  
+http://pgate1.at-ninja.jp/NES_on_FPGA/index.html  
