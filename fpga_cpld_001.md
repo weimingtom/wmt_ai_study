@@ -43,3 +43,11 @@ http://pgate1.at-ninja.jp/NES_on_FPGA/index.html
 ## TD4 FPGA / Verilog    
 * https://github.com/shotamishima/td4fpga  
 * https://github.com/myoan/td4  
+
+## td4cpu自制入门, 创元素科技  
+知乎讨论与原理教程：  
+https://zhuanlan.zhihu.com/p/381501879  
+套件焊接视频  
+https://www.bilibili.com/video/BV1V341127cf/  
+GitHub文档：  
+https://github.com/johnsonwust/TD4-4BIT-CPU  
