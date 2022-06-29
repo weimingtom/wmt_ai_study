@@ -39,3 +39,7 @@ https://github.com/Redherring32/OpenTendo
 
 ## NES on FPGA  
 http://pgate1.at-ninja.jp/NES_on_FPGA/index.html  
+
+## TD4 FPGA / Verilog    
+* https://github.com/shotamishima/td4fpga  
+* https://github.com/myoan/td4  
