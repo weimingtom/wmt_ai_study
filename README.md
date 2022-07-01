@@ -348,3 +348,9 @@ by mbed, micro:bit
 * https://github.com/PaddlePaddle/PaddleSpeech  
 
 
+
+
+
+
+## (TODO) TODO list, keep putting here at last    
+* https://github.com/edgeimpulse/voice-activated-microbit  
