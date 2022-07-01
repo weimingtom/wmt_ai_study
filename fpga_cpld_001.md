@@ -51,3 +51,10 @@ https://zhuanlan.zhihu.com/p/381501879
 https://www.bilibili.com/video/BV1V341127cf/  
 GitHub文档：  
 https://github.com/johnsonwust/TD4-4BIT-CPU  
+
+## FreeARM7  
+https://github.com/Durant35/Cache-based-on-FreeARM7  
+兼容arm9的软核处理器设计：基于fpga(fpga上实现兼容arm9指令集处理器设计的书)  
+https://github.com/chsasank/ARM7  
+优秀的 Verilog/FPGA开源项目介绍（二十七）-小型CPU  
+https://new.qq.com/omn/20220620/20220620A01I0X00.html  
