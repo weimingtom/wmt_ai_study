@@ -59,5 +59,9 @@ https://github.com/chsasank/ARM7
 优秀的 Verilog/FPGA开源项目介绍（二十七）-小型CPU  
 https://new.qq.com/omn/20220620/20220620A01I0X00.html  
 
-## CPU设计实践教程——从数字电路到计算机组成  
-https://github.com/Ironprop-Stone/Minisys-1_CPU  
+## CPU设计实践教程——从数字电路到计算机组成, minisys-1    
+* https://github.com/Ironprop-Stone/Minisys-1_CPU  
+* search baidupan, CPU设计实践教程  
+
+## 数字逻辑与组成原理实践教程, cpu31    
+* search baidupan, 数字逻辑与组成原理实践教程  
