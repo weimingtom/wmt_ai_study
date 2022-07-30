@@ -62,6 +62,8 @@ https://new.qq.com/omn/20220620/20220620A01I0X00.html
 ## CPU设计实践教程——从数字电路到计算机组成, minisys-1    
 * https://github.com/Ironprop-Stone/Minisys-1_CPU  
 * search baidupan, CPU设计实践教程  
+* 31条MIPS指令的单周期和多周期Minisys-1 CPU  
 
 ## 数字逻辑与组成原理实践教程, cpu31    
 * search baidupan, 数字逻辑与组成原理实践教程  
+* MIPS CPU 31    
