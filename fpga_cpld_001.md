@@ -67,3 +67,7 @@ https://new.qq.com/omn/20220620/20220620A01I0X00.html
 ## 数字逻辑与组成原理实践教程, cpu31    
 * search baidupan, 数字逻辑与组成原理实践教程  
 * MIPS CPU 31    
+
+## Digilent, 数字逻辑设计  
+* https://github.com/DigilentChina/Digital_Logic_Design_Src  
+* https://space.bilibili.com/511019924  
