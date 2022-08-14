@@ -74,3 +74,5 @@ https://new.qq.com/omn/20220620/20220620A01I0X00.html
 
 ## 自己设计制作CPU与单片机  
 * PMC110  
+* PMC362  
+
