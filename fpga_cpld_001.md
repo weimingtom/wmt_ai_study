@@ -71,3 +71,6 @@ https://new.qq.com/omn/20220620/20220620A01I0X00.html
 ## Digilent, 数字逻辑设计  
 * https://github.com/DigilentChina/Digital_Logic_Design_Src  
 * https://space.bilibili.com/511019924  
+
+## 自己设计制作CPU与单片机  
+* PMC110  
