@@ -65,7 +65,7 @@ small change in CMSIS_5\CMSIS\Core\Include\core_cm4.h
 《嵌入式系统案例教程》第3章FPU，硬浮点和__FPU_PRESENT和__FPU_USED，在system_stm32f4xx.c，  
 需要全局定义__FPU_PRESENT和__FPU_USED，  
 见void SystemInit(void)函数。在stm32f429xx.h中有__FPU_PRESENT=1的宏定义，  
-或者在Keil 5的Floating Poiont Hardware中选择Use Single Precision  
+或者在Keil 5的Floating Point Hardware中选择Use Single Precision  
 会产生__FPU_USED=1的宏定义    
 stm32f429属于Cortex-M4F架构，所以有FPU  
 * simple_test_v3_stm32f411ce_run_success.rar  
