@@ -62,8 +62,10 @@ small change in CMSIS_5\CMSIS\Core\Include\core_cm4.h
 #endif
 #define __FPU_USED       1U
 ```  
-《嵌入式系统案例教程》第3章FPU，硬浮点和__FPU_PRESENT和__FPU_USED，在system_stm32f4xx.c，需要全局定义__FPU_PRESENT和__FPU_USED，  
-见void SystemInit(void)函数。在stm32f429xx.h中有__FPU_PRESENT=1的宏定义，或者在Keil 5的Floating Poiont Hardware中选择Use Single Precision  
+《嵌入式系统案例教程》第3章FPU，硬浮点和__FPU_PRESENT和__FPU_USED，在system_stm32f4xx.c，  
+需要全局定义__FPU_PRESENT和__FPU_USED，  
+见void SystemInit(void)函数。在stm32f429xx.h中有__FPU_PRESENT=1的宏定义，  
+或者在Keil 5的Floating Poiont Hardware中选择Use Single Precision  
 会产生__FPU_USED=1的宏定义    
 * simple_test_v3_stm32f411ce_run_success.rar  
 (STM32) with mbed-cli and NUCLEO-F411RE   
