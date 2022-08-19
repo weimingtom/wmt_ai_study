@@ -80,4 +80,4 @@ https://new.qq.com/omn/20220620/20220620A01I0X00.html
 * https://textbooks.elsevier.com/web/product_details.aspx?isbn=9780123944245  
 * https://booksite.elsevier.com/9780123944245/?ISBN=9780123944245  
 * DDCA_Labs_companion.zip, mipsmulti.sv (SystemVerilog)  
-* DDCA2e_HDL_03-11-2015.zip, 07-mipssingle, 07-mipsmulti (HDL and SystemVerilog)    
+* DDCA2e_HDL_03-11-2015.zip, 07-mipssingle, 07-mipsmulti (VHDL and SystemVerilog, .vhd and .sv)    
