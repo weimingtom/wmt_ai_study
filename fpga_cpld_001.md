@@ -76,7 +76,8 @@ https://new.qq.com/omn/20220620/20220620A01I0X00.html
 * PMC110  
 * PMC362  
 
-## MIPS, 数字设计和计算机体系结构 原书第2版  
+## MIPS, Digital Design and Computer Architecture  
+* 数字设计和计算机体系结构 原书第2版  
 * https://textbooks.elsevier.com/web/product_details.aspx?isbn=9780123944245  
 * https://booksite.elsevier.com/9780123944245/?ISBN=9780123944245  
 * DDCA_Labs_companion.zip, mipsmulti.sv (SystemVerilog)  
