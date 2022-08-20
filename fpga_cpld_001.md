@@ -83,6 +83,7 @@ https://new.qq.com/omn/20220620/20220620A01I0X00.html
 * DDCA_Labs_companion.zip, mipsmulti.sv (SystemVerilog)  
 * DDCA2e_HDL_03-11-2015.zip, 07-mipssingle, 07-mipsmulti (VHDL and SystemVerilog, .vhd and .sv)    
 * mipsfpga  
+* https://github.com/MIPSfpga/digital-design-lab-manual  
 
 ## MIPSfpga  
 * https://github.com/MIPSfpga/schoolMIPS  
