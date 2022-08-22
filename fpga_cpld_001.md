@@ -87,3 +87,6 @@ https://new.qq.com/omn/20220620/20220620A01I0X00.html
 
 ## MIPSfpga  
 * https://github.com/MIPSfpga/schoolMIPS  
+
+## apple2fpga, DE2  
+* http://www.cs.columbia.edu/~sedwards/apple2fpga/  
