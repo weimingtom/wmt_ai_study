@@ -45,8 +45,26 @@ https://github.com/y-meguro/Arduino/tree/master/td4_rom
 故需要一个D触发器作为溢出标记位记住上一次的求和结果是否溢出，并送给译码器指令。  
 图上所有用门电路表示的组合电路，是一个完整的指令解码器，它由取得指令的高4位（即D7-D4）和  
 溢出标记位一起作为译码器的输入，由控制四个寄存器的加载（LD）和两个数据选择器的A、B作为输出，  
-这是典型的控制总线。
-
+这是典型的控制总线。  
+* Instruction Set  
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  
+MOV A, im 0011 xxxx  
+MOV B, im 0111 xxxx  
+MOV A, B  0001 0000  
+MOV B, A  0100 0000  
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  
+ADD A, im 0000 xxxx  
+ADD B, im 0101 xxxx  
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  
+IN  A,    0010 0000  
+IN  B,    0110 0000  
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  
+OUT im    1011 xxxx  
+OUT B     1011 0000  
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  
+JMP im    1111 xxxx  
+JNC im    1110 xxxx  
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  
 
 ## CPU自制入门  
 search baidupan, CPU自制入门  
