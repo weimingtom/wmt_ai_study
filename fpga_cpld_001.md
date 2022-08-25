@@ -137,3 +137,8 @@ https://new.qq.com/omn/20220620/20220620A01I0X00.html
 * https://eater.net  
 * benblue6502  
 * http://www.benblue.cn  
+
+## 搭建你的数字积木——数字电路与逻辑设计（Verilog HDL&Vivado版）  
+* https://github.com/xupsh/Digital-Design-Lab  
+* http://www.tup.tsinghua.edu.cn/booksCenter/book_07172301.html  
+
