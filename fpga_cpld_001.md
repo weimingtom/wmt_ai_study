@@ -132,3 +132,8 @@ https://new.qq.com/omn/20220620/20220620A01I0X00.html
 
 ## apple2fpga, DE2  
 * http://www.cs.columbia.edu/~sedwards/apple2fpga/  
+
+## ben eater  
+* https://eater.net  
+* benblue6502  
+* http://www.benblue.cn  
