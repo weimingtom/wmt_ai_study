@@ -145,7 +145,7 @@ https://new.qq.com/omn/20220620/20220620A01I0X00.html
 ## XUP官方指定的入门级FPGA教学板卡-Basys3  
 * https://www.sytek.ltd/productinfo/1532427.html  
 
-## Risc-v, see digilentchina.taobao.com    
+## Risc-v, see digilentchina.taobao.com, Cmod A7-15T      
 * SiFive E310  
 https://github.com/adafruit/Feather-RISC-V-PCB  
 https://sifive.cdn.prismic.io/sifive%2Ffeb6f967-ff96-418f-9af4-a7f3b7fd1dfc_fe310-g000-ds.pdf  
