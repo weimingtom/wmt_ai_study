@@ -147,8 +147,17 @@ https://new.qq.com/omn/20220620/20220620A01I0X00.html
 
 ## Risc-v, see digilentchina.taobao.com    
 * SiFive E310  
+https://github.com/adafruit/Feather-RISC-V-PCB  
+https://sifive.cdn.prismic.io/sifive%2Ffeb6f967-ff96-418f-9af4-a7f3b7fd1dfc_fe310-g000-ds.pdf  
 * 蜂鸟 E200  
+https://github.com/SI-RISCV/e200_opensource  
+https://github.com/riscv-mcu/e203_hbirdv2  
 * LowRisc  
+https://github.com/lowRISC/lowrisc-chip  
 * OpenTitan (Google)  
+https://github.com/lowRISC/opentitan  
 * Rocket  
+https://github.com/lowRISC/rocket  
 * Arlane  
+https://github.com/lowRISC/ariane  
+
