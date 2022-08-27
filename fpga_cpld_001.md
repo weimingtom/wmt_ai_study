@@ -176,6 +176,12 @@ PYNQ.io：http://pynq.io/
 PYNQ GitHub：http://www.github.com/xilinx/pynq  
 PYNQ documentation：http://www.github.com/xilinx/pynq  
 PYNQ support forum：https://discuss.pynq.io/  
+* Linux Related:  
+Xilinx Linux Wiki：http://www.wiki.xilinx.com/  
+Xilinx Linux Technical Articles：http://www.wiki.xilinx.com/Technical+Articles  
+Zybo Linux Tutorial：http://www.instructables.com/id/Embedded-Linux-Tutorial-Zybo/?ALLSTEPS  
+* Xilinx University Program Website :  
+http://www.xilinx.com/university  
 
 ## openhwgroup, core-v  
 * https://github.com/openhwgroup/core-v-verif  
