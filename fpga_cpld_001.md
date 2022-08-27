@@ -199,3 +199,10 @@ REMS的sail RISCV开源项目：https://github.com/rems-project/sail-riscv
 
 ## vivado软核microblaze  
 * 用Verilog设计FPGA样机实例解析 Xilinx Spartan-3版  
+
+## basys3  
+* https://digilent.com/reference/programmable-logic/basys-3/start  
+* https://www.xilinx.com/products/boards-and-kits/1-54wqge.html  
+* https://www.sytek.ltd/productinfo/1532427.html  
+* https://zhuanlan.zhihu.com/p/339014148?ivk_sa=1024320u  
+* https://digilentchina.taobao.com  
