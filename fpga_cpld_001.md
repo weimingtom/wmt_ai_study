@@ -196,3 +196,6 @@ RISCV ISA指令流（instruction stream）生成器：https://github.com/openhwg
 core-v系列指令流（instruction stream）生成器：https://github.com/openhwgroup/core-v-isg  
 sail语言介绍：https://www.cl.cam.ac.uk/~pes20/sail/  
 REMS的sail RISCV开源项目：https://github.com/rems-project/sail-riscv  
+
+## vivado软核microblaze  
+* 用Verilog设计FPGA样机实例解析 Xilinx Spartan-3版  
