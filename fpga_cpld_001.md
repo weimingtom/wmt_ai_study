@@ -163,3 +163,17 @@ https://github.com/lowRISC/ariane
 
 ## 单周期mips, 搭建你的数字积木——数字电路与逻辑设计  
 * https://github.com/xupsh/Digital-Design-Lab/tree/master/Chapter_14/RISC  
+
+## openhwgroup, core-v  
+* https://github.com/openhwgroup/core-v-verif  
+* https://blog.csdn.net/qq_39815222/article/details/109235591  
+* core-v RISCV核功能验证工程：https://github.com/openhwgroup/core-v-verif  
+core-v 验证策略：https://core-v-docs-verif-strat.readthedocs.io/en/latest/#  
+core-v系列核cva6工程：https://github.com/openhwgroup/cva6  
+core-v系列核cv32e40p工程：https://github.com/openhwgroup/cv32e40p  
+LowRISCV Ibex核工程：https://github.com/lowRISC/ibex  
+core-v RISCV核相关说明文档：https://github.com/openhwgroup/core-v-docs  
+RISCV ISA指令流（instruction stream）生成器：https://github.com/openhwgroup/force-riscv  
+core-v系列指令流（instruction stream）生成器：https://github.com/openhwgroup/core-v-isg  
+sail语言介绍：https://www.cl.cam.ac.uk/~pes20/sail/  
+REMS的sail RISCV开源项目：https://github.com/rems-project/sail-riscv  
