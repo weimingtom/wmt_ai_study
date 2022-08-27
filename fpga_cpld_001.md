@@ -164,6 +164,19 @@ https://github.com/lowRISC/ariane
 ## 单周期mips, 搭建你的数字积木——数字电路与逻辑设计  
 * https://github.com/xupsh/Digital-Design-Lab/tree/master/Chapter_14/RISC  
 
+## OpenHW, XUP (Xilinx University Program)    
+* https://openhw.org  
+* Resources:  
+Xilinx GitHub：http://www.github.com/xilinx  
+xupsh GitHub：http://www.github.com/xupsh  
+Xilinx Wiki：http://forums.xilinx.com/  
+Developer Forum：http://forums.xilinx.com/  
+* PYNQ社区  
+PYNQ.io：http://pynq.io/  
+PYNQ GitHub：http://www.github.com/xilinx/pynq  
+PYNQ documentation：http://www.github.com/xilinx/pynq  
+PYNQ support forum：https://discuss.pynq.io/  
+
 ## openhwgroup, core-v  
 * https://github.com/openhwgroup/core-v-verif  
 * https://blog.csdn.net/qq_39815222/article/details/109235591  
