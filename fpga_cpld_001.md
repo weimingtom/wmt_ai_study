@@ -161,3 +161,5 @@ https://github.com/lowRISC/rocket
 * Arlane  
 https://github.com/lowRISC/ariane  
 
+## 单周期mips, 搭建你的数字积木——数字电路与逻辑设计  
+* https://github.com/xupsh/Digital-Design-Lab/tree/master/Chapter_14/RISC  
