@@ -213,3 +213,6 @@ REMS的sail RISCV开源项目：https://github.com/rems-project/sail-riscv
 ## DE2-115 book  
 * FPGA与SOPC设计教程--DE2-115实践  
 * DE2-115 实战宝典  
+
+## EP4CE10 book  
+* FPGA Verilog开发实战指南：基于Intel Cyclone IV（基础篇)  
