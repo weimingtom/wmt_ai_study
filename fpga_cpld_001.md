@@ -206,3 +206,10 @@ REMS的sail RISCV开源项目：https://github.com/rems-project/sail-riscv
 * https://www.sytek.ltd/productinfo/1532427.html  
 * https://zhuanlan.zhihu.com/p/339014148?ivk_sa=1024320u  
 * https://digilentchina.taobao.com  
+
+## DE0 book  
+* 数字电路与EDA实验  
+
+## DE2-115 book  
+* FPGA与SOPC设计教程--DE2-115实践  
+* DE2-115 实战宝典  
