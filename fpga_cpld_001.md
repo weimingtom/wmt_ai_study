@@ -223,3 +223,7 @@ REMS的sail RISCV开源项目：https://github.com/rems-project/sail-riscv
 ## 重庆大学, 单周期(single cycle) mips  
 * https://github.com/lvyufeng/step_into_mips  
 * https://www.bilibili.com/video/BV1pK4y1C7es  
+
+## 74-gate-computer  
+* https://github.com/Left-Hand/74-gate-computer  
+* https://www.bilibili.com/video/BV1v741117e1  
