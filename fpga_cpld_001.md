@@ -219,3 +219,7 @@ REMS的sail RISCV开源项目：https://github.com/rems-project/sail-riscv
 
 ## EP4CE10 book  
 * FPGA Verilog开发实战指南：基于Intel Cyclone IV（基础篇)  
+
+## 重庆大学, 单周期(single cycle) mips  
+* https://github.com/lvyufeng/step_into_mips  
+* https://www.bilibili.com/video/BV1pK4y1C7es  
