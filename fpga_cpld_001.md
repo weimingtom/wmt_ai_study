@@ -231,3 +231,7 @@ REMS的sail RISCV开源项目：https://github.com/rems-project/sail-riscv
 ## picorv32  
 * https://github.com/YosysHQ/picorv32  
 * http://www.gowinsemi.com.cn/prodshow_view.aspx?TypeId=70&Id=175&FId=t31:70:31  
+
+## 在 Picorv32 / 蜂鸟 E203 软核上运行 RT-Thread  
+* https://github.com/wuhanstudio/picorv32_tang  
+* https://github.com/wuhanstudio/hbird_e203_tang  
