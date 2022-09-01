@@ -227,3 +227,7 @@ REMS的sail RISCV开源项目：https://github.com/rems-project/sail-riscv
 ## 74-gate-computer  
 * https://github.com/Left-Hand/74-gate-computer  
 * https://www.bilibili.com/video/BV1v741117e1  
+
+## picorv32  
+* https://github.com/YosysHQ/picorv32  
+* http://www.gowinsemi.com.cn/prodshow_view.aspx?TypeId=70&Id=175&FId=t31:70:31  
