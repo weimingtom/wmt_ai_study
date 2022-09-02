@@ -239,3 +239,6 @@ REMS的sail RISCV开源项目：https://github.com/rems-project/sail-riscv
 ## mister, de10-nano   
 * https://github.com/MiSTer-devel/NES_MiSTer  
 * https://github.com/strigeus/fpganes  
+* https://github.com/MiSTer-devel/Main_MiSTer/wiki  
+* https://baijiahao.baidu.com/s?id=1696993695741175252&wfr=spider&for=pc  
+
