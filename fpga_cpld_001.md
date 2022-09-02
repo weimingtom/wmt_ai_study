@@ -242,3 +242,17 @@ REMS的sail RISCV开源项目：https://github.com/rems-project/sail-riscv
 * https://github.com/MiSTer-devel/Main_MiSTer/wiki  
 * https://baijiahao.baidu.com/s?id=1696993695741175252&wfr=spider&for=pc  
 
+## MCU200T开发板  
+开发板介绍  
+https://www.nucleisys.com/developboard.php#mcu200t  
+教学视频  
+https://www.rvmcu.com/video.html#cateid43  
+蜂鸟HBirdv2 SoC  
+https://github.com/riscv-mcu/e203_hbirdv2  
+蜂鸟HBird SDK  
+https://github.com/riscv-mcu/hbird-sdk  
+蜂鸟demo  
+https://github.com/Nuclei-Software/nuclei-board-labs/tree/master/e203_hbirdv2/common  
+https://github.com/Nuclei-Software/nuclei-board-labs/tree/master/e203_hbirdv2/mcu200t/pwm_led  
+蜂鸟社区讨论  
+https://www.rvmcu.com/community-show-id-2.html  
