@@ -3,10 +3,11 @@
 * https://github.com/search?q=package+free_6502+is&type=code  
 * https://github.com/indianabutts/nes_fpga  
 * https://github.com/fspada/nes_on_zedboard  
-* https://github.com/chenxiao07/vhdl-nes  
+* NES:  
+https://github.com/chenxiao07/vhdl-nes  
 * https://github.com/ntaormina/383_FINAL_PROJECT  
 * https://github.com/Aerlinger/EmbeddedSysFinalProject  
-* bug fix: 
+* bug fix:  
 https://github.com/drdavros/6502  
 * https://github.com/aaroncohen73/Free6502  
 * search baidupan, Free6502_v07.ZIP  
