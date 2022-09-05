@@ -3,7 +3,7 @@
 * https://github.com/search?q=package+free_6502+is&type=code  
 * https://github.com/indianabutts/nes_fpga  
 * https://github.com/fspada/nes_on_zedboard  
-* NES:  
+* DE2 NES:  
 https://github.com/chenxiao07/vhdl-nes  
 * https://github.com/ntaormina/383_FINAL_PROJECT  
 * https://github.com/Aerlinger/EmbeddedSysFinalProject  
