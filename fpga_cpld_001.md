@@ -6,10 +6,12 @@
 * https://github.com/chenxiao07/vhdl-nes  
 * https://github.com/ntaormina/383_FINAL_PROJECT  
 * https://github.com/Aerlinger/EmbeddedSysFinalProject  
-* https://github.com/drdavros/6502  
+* bug fix: 
+https://github.com/drdavros/6502  
 * https://github.com/aaroncohen73/Free6502  
 * search baidupan, Free6502_v07.ZIP  
-* http://www.pldworld.com/_hdl/4/_ip/Free6502/www/  
+* Free IP, Free6502  
+http://www.pldworld.com/_hdl/4/_ip/Free6502/www/  
 
 ## Work  
 https://github.com/weimingtom/wmt_cpld_study  
