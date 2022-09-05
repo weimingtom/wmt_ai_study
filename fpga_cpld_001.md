@@ -259,3 +259,14 @@ https://github.com/Nuclei-Software/nuclei-board-labs/tree/master/e203_hbirdv2/co
 https://github.com/Nuclei-Software/nuclei-board-labs/tree/master/e203_hbirdv2/mcu200t/pwm_led  
 蜂鸟社区讨论  
 https://www.rvmcu.com/community-show-id-2.html  
+
+## 6502, VHDL应用开发技术与工程实践  
+《VHDL应用开发技术与工程实践》一书中提及的6502代码片段（主要是2个vhd文件，我把书中中文换回去原文注释）  
+（1）8位总线控制器，锁存data_in：free6502.vhd的The input registers注释  
+（2）8位总线控制器，data_out（dout_op由微内码模块提供）：free6502.vhd的Data output logic注释  
+（3）sync输出脚：free6502.vhd的The sync output注释  
+（4）alu算术逻辑（运算）单元：free6502.vhd的The ALU itself This is purely combinatorial logic注释  
+（5）alu运算单元摘录（微内码模块）： microcode.vhd的ALU_OP_rom_arch模块  
+（6）用于波形仿真调试的内部寄存器和内部标志寄存器：free6502.vhd的core_65020_debug模块。  
+其中书中微内码microcode，现在一般称为微码或者微指令，用于CISC中把指令拆成更简单的指令。  
+6502共有56条指令（汇编指令符），13种寻址，实际有151种指令码。  
