@@ -270,3 +270,12 @@ https://www.rvmcu.com/community-show-id-2.html
 （6）用于波形仿真调试的内部寄存器和内部标志寄存器：free6502.vhd的core_65020_debug模块。  
 其中书中微内码microcode，现在一般称为微码或者微指令，用于CISC中把指令拆成更简单的指令。  
 6502共有56条指令（汇编指令符），13种寻址，实际有151种指令码。  
+
+## stepfpga  
+* 大多数MCU软核都是FPGA厂商定制的，比如Altera的Nios II、Xilinx的MicroBlaze和Lattice的MICO32/MICO8  
+* FP51-1T MCU Core: A Mustang in FPGA  
+https://www.pulserain.com/fp51  
+* https://github.com/PulseRain/Mustang  
+* https://www.stepfpga.com/doc/fpga项目_使用arduino玩转fpga  
+* https://www.stepfpga.com/doc/fpga_soft_core  
+* https://www.stepfpga.com/doc/reindeer_step  
