@@ -277,5 +277,8 @@ https://www.rvmcu.com/community-show-id-2.html
 https://www.pulserain.com/fp51  
 * https://github.com/PulseRain/Mustang  
 * https://www.stepfpga.com/doc/fpga项目_使用arduino玩转fpga  
+* https://www.stepfpga.com/doc/fpga_arduino_8051  
 * https://www.stepfpga.com/doc/fpga_soft_core  
 * https://www.stepfpga.com/doc/reindeer_step  
+* https://github.com/PulseRain/PulseRain_RISCV_MCU  
+
