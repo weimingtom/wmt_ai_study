@@ -76,6 +76,7 @@ search baidupan, CPU自制入门
 CPU自作入門-HDLによる論理設計・基板製作・プログラミング  
 https://www.amazon.co.jp/CPU自作入門-HDLによる論理設計・基板製作・プログラミング-水頭-一壽/dp/4774153389  
 https://gihyo.jp/book/2012/978-4-7741-5338-4/support#supportDownload  
+https://github.com/sabottenda/llvm-sample-target  
 
 ## 自己动手写CPU  
 https://github.com/Z-Y00/Examples-in-book-write-your-own-cpu  
