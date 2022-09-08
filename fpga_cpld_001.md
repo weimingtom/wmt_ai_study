@@ -306,3 +306,8 @@ Basys 3在硬件性能上取得了卓越的提升。
 新的Artix FPGA逻辑单元数量翻了15倍（从2,160到33,280），  
 并且从倍增器更新到了真正的DSP切片。RAM的容量也增加了超过26倍。  
 
+## RetroEmbedded/UniversalPPU  
+https://github.com/RetroEmbedded/UniversalPPU  
+
+## Redherring32/TinyTendo  
+https://github.com/Redherring32/TinyTendo  
