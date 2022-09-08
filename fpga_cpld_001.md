@@ -65,7 +65,7 @@ IN  A,    0010 0000
 IN  B,    0110 0000  
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  
 OUT im    1011 xxxx  
-OUT B     1011 0000  
+OUT B     1001 0000  
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  
 JMP im    1111 xxxx  
 JNC im    1110 xxxx  
