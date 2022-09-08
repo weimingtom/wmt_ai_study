@@ -13,6 +13,9 @@ https://github.com/drdavros/6502
 * search baidupan, Free6502_v07.ZIP  
 * Free IP, Free6502  
 http://www.pldworld.com/_hdl/4/_ip/Free6502/www/  
+* 6502 verilog model  
+https://c-scape.nl/arlet/fpga/6502/  
+https://github.com/Arlet/verilog-6502  
 
 ## Work  
 https://github.com/weimingtom/wmt_cpld_study  
