@@ -293,11 +293,11 @@ https://www.pulserain.com/fp51
 （7）可运行NES的DE1，大约20k  
 （8）可运行MIPS的DE2，不常见，大约35k，大概1000以上  
 （9）FPGA入门指南的DE10-lite，两款不常见，大约45k到50k，大概1000以上  
-basys2, XC3S100E, 2160LUs  
+（10）basys2, XC3S100E, 2160LUs  
 我发现basys2就是XC3S100E，就是我上次说的那本《CPU自制入门》  
 里面提到的那个XC3S250E同系列的。。。可惜这太弱了，  
 本来XC3S250E就很勉强，100E就更弱了，似乎没有什么收藏的必要  
-basys3  
+（11）basys3  
 https://zhuanlan.zhihu.com/p/339014148  
 https://item.taobao.com/item.htm?id=536711168514  
 从Spartan®-3E系列芯片改为Artix-7级别的芯片，  
