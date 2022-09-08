@@ -75,6 +75,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 search baidupan, CPU自制入门  
 CPU自作入門-HDLによる論理設計・基板製作・プログラミング  
 https://www.amazon.co.jp/CPU自作入門-HDLによる論理設計・基板製作・プログラミング-水頭-一壽/dp/4774153389  
+https://gihyo.jp/book/2012/978-4-7741-5338-4/support#supportDownload  
 
 ## 自己动手写CPU  
 https://github.com/Z-Y00/Examples-in-book-write-your-own-cpu  
@@ -282,3 +283,17 @@ https://www.pulserain.com/fp51
 * https://www.stepfpga.com/doc/reindeer_step  
 * https://github.com/PulseRain/PulseRain_RISCV_MCU  
 
+## FPGA开发板  
+（1）旧教科书里的EPM7128S，大约128  
+（2）微雪EPM1270, 常见，大约1k，大概100多  
+（3）VHDL应用开发技术与工程实践的EP20K10E-1（6502架构），大约2k  
+（4）CPU自制入门的XC3S250E, 不常见，大约5k，大概100多  
+（5）正点原子和野火的EP4CE10, 常见，大约10k，大概600多  
+（6）可运行NES的DE0，大约15k  
+（7）可运行NES的DE1，大约20k  
+（8）可运行MIPS的DE2，不常见，大约35k，大概1000以上  
+（9）FPGA入门指南的DE10-lite，两款不常见，大约45k到50k，大概1000以上  
+basys2, XC3S100E, 2160LUs  
+我发现basys2就是XC3S100E，就是我上次说的那本《CPU自制入门》  
+里面提到的那个XC3S250E同系列的。。。可惜这太弱了，  
+本来XC3S250E就很勉强，100E就更弱了，似乎没有什么收藏的必要  
