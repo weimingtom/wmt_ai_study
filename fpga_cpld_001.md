@@ -360,3 +360,11 @@ W65C02是通过外接协处理器或者锁存器去点灯，所以需要自己�
 cd step_fpga  
 git submodule update --init --recursive  
 * https://www.stepfpga.com/doc/play_fpga_like_arduino_step_test_app  
+* 参考资料 (stepfpga）：  
+https://www.stepfpga.com/doc/_media/step_fpga_m10_user_guide_cn.pdf  
+https://www.stepfpga.com/doc/_media/datasheet_fp8051_1t.pdf  
+https://www.stepfpga.com/doc/_media/pulserain_8_bit_mcu_trm.pdf  
+https://github.com/PulseRain/Mustang/tree/step_fpga  
+https://github.com/PulseRain/Arduino_M10_IDE/tree/step_fpga  
+https://github.com/PulseRain/M10_high_speed_config_rtl  
+https://github.com/PulseRain  
