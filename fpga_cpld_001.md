@@ -353,6 +353,7 @@ W65C02是通过外接协处理器或者锁存器去点灯，所以需要自己�
 * https://github.com/drdavros/6502  
 
 ## StepFPGA M10, Mustang, FP51-1T  
+* https://github.com/PulseRain/PulseRain_FP51_MCU  
 * https://www.pulserain.com/m10  
 * https://www.stepfpga.com/doc/fpga项目_使用arduino玩转fpga  
 * http://sdcc.sourceforge.net  
