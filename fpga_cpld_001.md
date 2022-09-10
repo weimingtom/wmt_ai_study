@@ -322,3 +322,31 @@ https://github.com/Redherring32/TinyTendo
 https://github.com/MicroCoreLabs/Projects  
 经典重现！基于Spartan-7/3 FPGA实现MOS Technology 6502克隆版   
 https://www.sohu.com/a/205787929_292853  
+
+## free6502 emu  
+* search baidupan, free6502_v4_success.rar, free6502_v4_success  
+* 如果需要模拟6502（例如运行free6502软核），需要知道一些VHDL语法（知道怎么传递ROM数据进去软核中运行代码），  
+并且了解6502芯片（例如W65C02）的针脚和6502的汇编生成ROM内容的方法。首先说6502针脚，6502无法像现代的单片机  
+那样控制针脚的电平，即GPIO，所以很多例子都是用6522或者锁存器去保存D7到D0的数据。简单来说就是，  
+6502软核没有ROM、RAM和外设GPIO，而是提供单一地址空间的16个地址脚（RAM和ROM复用）  
+和8个数据脚（ROM输入、RAM输入、RAM输出、外设或协处理器输出复用），  
+因此RAM和ROM处于相同的地址空间，ROM的起始地址我这里假设为0x1000
+* 关于6502的第二个问题是如何执行汇编后的二进制（我这里假设起始地址是0x1000）。你可能会疑惑，  
+6502如果跳到0x0地址，那岂不是运行不了？倘若6502可以执行0地址的指令，那么遇到jmp怎么办  
+（因为jmp会跳到0x1000以后的地址）。我想了很久恍然大悟，觉得这里设计得太绝妙了，  
+因为6502会由于ROM地址线的高4位缺失，导致jmp 0x1000溢出，所以jmp 0x1000和jmp 0x0是等效的，  
+所以无论是bootloader跳转还是jmp跳转，都会映射到0x0这个基地址上（12位地址值溢出）。  
+同理，当设计ROM时，只需要把汇编后的二进制写入到0x0基地址上就可以了，  
+不需要写到0x1000上（自动溢出为0）
+* 总体来说free6502有一定的研究价值，不过也有人不用这份代码，而是用verilog重新实现  
+（毕竟非常古老了），而且这份代码有一些问题：（1）有没实现的功能  
+（2）微码好像是代码生成的（3）缺乏文档说明（4）需要VHDL基础才能自己拼凑出可运行的VHDL代码  
+（虽然有一个测试代码）（5）它提供的测试代码跟W65C02的玩法不同，  
+W65C02是通过外接协处理器或者锁存器去点灯，所以需要自己手写VHDL代码去实现类似锁存器的功能  
+（保存特定内存地址的写入数据），才能模拟出点灯的效果（有些书的模拟做法则是观察内部寄存器A  
+的值而非内存的值）  
+* http://www.pldworld.com/_hdl/4/_ip/Free6502/www/opcodes.htm  
+* www.pldworld.com/_hdl/4/_ip/Free6502/www/  
+* 6502 & 6522 Minimal Computer (with Arduino MEGA) Part 2 : 4 Steps - Instructables  
+* https://www.instructables.com/6502-6522-Minimal-Computer-With-Arduino-MEGA/  
+* https://www.instructables.com/6502-Minimal-Computer-with-Arduino-MEGA/  
