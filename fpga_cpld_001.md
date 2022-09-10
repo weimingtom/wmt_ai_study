@@ -323,7 +323,7 @@ https://github.com/MicroCoreLabs/Projects
 经典重现！基于Spartan-7/3 FPGA实现MOS Technology 6502克隆版   
 https://www.sohu.com/a/205787929_292853  
 
-## free6502 EP4CE10 emu  
+## free6502 EP4CE10 emu work  
 * search baidupan, free6502_v4_success.rar, free6502_v4_success  
 * 如果需要模拟6502（例如运行free6502软核），需要知道一些VHDL语法（知道怎么传递ROM数据进去软核中运行代码），  
 并且了解6502芯片（例如W65C02）的针脚和6502的汇编生成ROM内容的方法。首先说6502针脚，6502无法像现代的单片机  
@@ -368,3 +368,7 @@ https://github.com/PulseRain/Mustang/tree/step_fpga
 https://github.com/PulseRain/Arduino_M10_IDE/tree/step_fpga  
 https://github.com/PulseRain/M10_high_speed_config_rtl  
 https://github.com/PulseRain  
+
+## TD4 EP4CE10 emu work    
+* search baidupan, td4verilog_v1.rar    
+* search baidupan, td4vhdl_v1.rar  
