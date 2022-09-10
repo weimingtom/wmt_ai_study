@@ -350,3 +350,5 @@ W65C02是通过外接协处理器或者锁存器去点灯，所以需要自己�
 * 6502 & 6522 Minimal Computer (with Arduino MEGA) Part 2 : 4 Steps - Instructables  
 * https://www.instructables.com/6502-6522-Minimal-Computer-With-Arduino-MEGA/  
 * https://www.instructables.com/6502-Minimal-Computer-with-Arduino-MEGA/  
+* https://github.com/drdavros/6502  
+
