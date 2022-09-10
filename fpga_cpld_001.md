@@ -374,3 +374,9 @@ https://github.com/PulseRain
 ## TD4 EP4CE10 emu work    
 * search baidupan, td4verilog_v1.rar    
 * search baidupan, td4vhdl_v1.rar  
+
+## 51单片机的FPGA实现, light52  
+https://github.com/jaruiz/light52  
+https://www.bilibili.com/video/BV1KJ411C7QX/  
+https://github.com/cjhonlyone/light52-ise  
+https://github.com/cjhonlyone/picorv32_Xilinx  
