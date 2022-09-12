@@ -397,3 +397,15 @@ wuxx/TD4-4BIT-CPU/software/td4as.exe。
 www.instructables.com/6502-6522-Minimal-Computer-With-Arduino-MEGA  
 和它的前篇（可以把jmp后面的常量改成标号）。  
 或者参考free6502的测试汇编  
+
+## 51单片机（8051）的汇编方法：
+（1）生成二进制的方法：用Keil C51 uvision2（或者keil 4），A51和L51，待考；  
+或者用as31和sdcc（在www.pjrc.com/tech/8051），  
+方法是as31 -l -Fbin test.asm。  
+或者sdas8051 -l test.asm（需要改成0x表示十六进制常量，但输出二进制可能不正确）。  
+asx8051似乎编译失败  
+（2）示例代码：stc-isp有IO的汇编示例（不过太长了）；  
+或者找《8051 单片机P1口实验》MOV P1；  
+或者找这个《Blinking LED using 8051》  
+用CPL P1.0取反（只支持P1的位取反，似乎不支持整个P1字节取反）：  
+www.circuitstoday.com/blinking-led-using-8051  
