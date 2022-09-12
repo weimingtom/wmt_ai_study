@@ -409,3 +409,12 @@ asx8051似乎编译失败
 或者找这个《Blinking LED using 8051》  
 用CPL P1.0取反（只支持P1的位取反，似乎不支持整个P1字节取反）：  
 www.circuitstoday.com/blinking-led-using-8051  
+
+## mips的汇编方法（准确说是mips32el）：
+（1）生成二进制的方法：用mars生成汇编二进制（参数参考schoolmips）；  
+或者用gcc工具链Codescape生成，例如：  
+mips-img-elf-as.exe -O0 -EL test.s  
+mips-img-elf-objdump -S a.out  
+mips-img-elf-objcopy -O binary -j .text a.out a.bin  
+（2）示例代码：流水灯代码待考；参考mars的例子（只有一个）；  
+参考schoolmips的例子（汇编或者用GCC生成的汇编）  
