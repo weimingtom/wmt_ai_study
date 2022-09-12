@@ -384,6 +384,6 @@ https://github.com/cjhonlyone/picorv32_Xilinx
 ## TD4的汇编方法：  
 （1）生成二进制的方法：在网页上vanya.jp.net/td4/，  
 只支持单指令汇编。另一个命令行版本：  
-wuxx/TD4-4BIT-CPU/software/td4as.exe。
+wuxx/TD4-4BIT-CPU/software/td4as.exe。  
 （2）示例代码：（TD-4GP02A）vanya.jp.net/td4/，  
 或者参考wuxx/TD4-4BIT-CPU/software/test/test_0_output.s  
