@@ -418,3 +418,8 @@ mips-img-elf-objdump -S a.out
 mips-img-elf-objcopy -O binary -j .text a.out a.bin  
 （2）示例代码：流水灯代码待考；参考mars的例子（只有一个）；  
 参考schoolmips的例子（汇编或者用GCC生成的汇编）  
+
+## mipsfpga sword  
+* mips模型机在Sword板子部署在FPGA  
+https://www.jianshu.com/p/86e0889755ca  
+* https://github.com/FlyGinger/MIPSfpga-on-SWORD  
