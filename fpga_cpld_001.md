@@ -423,3 +423,4 @@ mips-img-elf-objcopy -O binary -j .text a.out a.bin
 * mips模型机在Sword板子部署在FPGA  
 https://www.jianshu.com/p/86e0889755ca  
 * https://github.com/FlyGinger/MIPSfpga-on-SWORD  
+* http://www.sword.org.cn/courses/digital_logic  
