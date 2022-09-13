@@ -140,8 +140,9 @@ https://new.qq.com/omn/20220620/20220620A01I0X00.html
 * mipsfpga  
 * https://github.com/MIPSfpga/digital-design-lab-manual  
 
-## MIPSfpga  
+## schoolMIPS, MIPSfpga  
 * https://github.com/MIPSfpga/schoolMIPS  
+* search MIPSfpga_GSG_v2.0.0.zip  
 
 ## apple2fpga, DE2  
 * http://www.cs.columbia.edu/~sedwards/apple2fpga/  
@@ -440,3 +441,7 @@ https://www.jianshu.com/p/86e0889755ca
 ## SuperH, J-core  
 * https://j-core.org/#get_hardware  
 * https://github.com/j-core/jcore-cpu  
+
+## OpenMIPS, 自己动手写CPU  
+
+## PicoMIPS  
