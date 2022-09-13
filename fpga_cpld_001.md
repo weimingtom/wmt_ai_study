@@ -425,3 +425,12 @@ https://www.jianshu.com/p/86e0889755ca
 * https://github.com/FlyGinger/MIPSfpga-on-SWORD  
 * http://www.sword.org.cn/courses/digital_logic  
 * https://gitee.com/SWORDfpga/ComputerArchitecture/tree/master  
+
+## f32c, risc-v or mips implementation    
+* https://github.com/f32c/f32c  
+* RISC-V助力SWORD生态系统演进   
+* 近日，基于RISC-V指令集的软核CPU在SWORD4.0上顺利移植，给予用户对SWORD4.0的新体验，用户甚至可以通过Arduino IDE开发RISC-V应用。  
+在SWORD4.0上移植的是基于RISC-V指令集的F32C开源CPU。CPU通过配置既可以支持RISC-V指令集也可以支持MIPS指令集。  
+用户通过对Arduino IDE简单升级，可以使Arduino IDE支持SWORD4.0的RISC-V编译工作。图形化编程环境和大量Arduino范例都有利于用户进行应用开发。  
+* https://www.sohu.com/a/272536883_652907  
+
