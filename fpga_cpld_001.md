@@ -424,3 +424,4 @@ mips-img-elf-objcopy -O binary -j .text a.out a.bin
 https://www.jianshu.com/p/86e0889755ca  
 * https://github.com/FlyGinger/MIPSfpga-on-SWORD  
 * http://www.sword.org.cn/courses/digital_logic  
+* https://gitee.com/SWORDfpga/ComputerArchitecture/tree/master  
