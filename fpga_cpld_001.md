@@ -437,3 +437,6 @@ https://www.jianshu.com/p/86e0889755ca
 ## mrisc32  
 * https://github.com/mrisc32/mrisc32  
 
+## SuperH, J-core  
+* https://j-core.org/#get_hardware  
+* https://github.com/j-core/jcore-cpu  
