@@ -457,3 +457,5 @@ https://www.jianshu.com/p/86e0889755ca
 * The Elements of Computing Systems, Building a Modern Computer from First Principles  
 * https://www.zhihu.com/topic/20731920/hot  
 
+## (IMP, TODO) nand2tetris-fpga, CPU add uart, ili9341, sound functions  
+https://gitlab.com/x653/nand2tetris-fpga  
