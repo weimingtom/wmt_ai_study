@@ -447,6 +447,7 @@ https://www.jianshu.com/p/86e0889755ca
 ## PicoMIPS  
 
 ## nand2tetris, Building a 16-bit CPU from Scratch on FPGA (nand2tetris)  
+* https://www.nand2tetris.org  
 * 依据基本原理构建现代计算机：从与非门到俄罗斯方块（基于项目的课程）  
 * https://www.coursera.org/learn/build-a-computer  
 * https://github.com/wuhanstudio/nand2tetris-iverilog  
