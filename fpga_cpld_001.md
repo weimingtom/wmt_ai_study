@@ -445,3 +445,9 @@ https://www.jianshu.com/p/86e0889755ca
 ## OpenMIPS, 自己动手写CPU  
 
 ## PicoMIPS  
+
+## nand2tetris, 16bits CPU with FPGA  
+* https://www.coursera.org/learn/build-a-computer  
+* https://github.com/wuhanstudio/nand2tetris-iverilog  
+* 如果大家对如何在 FPGA 上造 CPU 感兴趣的话，Coursera 上有一门课 nand2tetris 挺有意思的，下面是2个链接分别是课程链接和在FPGA上的实现。  
+* https://blog.csdn.net/rtthreadiotos/article/details/119902116  
