@@ -453,3 +453,7 @@ https://www.jianshu.com/p/86e0889755ca
 * https://github.com/wuhanstudio/nand2tetris-iverilog  
 * 如果大家对如何在 FPGA 上造 CPU 感兴趣的话，Coursera 上有一门课 nand2tetris 挺有意思的，下面是2个链接分别是课程链接和在FPGA上的实现。  
 * https://blog.csdn.net/rtthreadiotos/article/details/119902116  
+* 《计算机系统要素》    
+* The Elements of Computing Systems, Building a Modern Computer from First Principles  
+* https://www.zhihu.com/topic/20731920/hot  
+
