@@ -19,6 +19,7 @@ https://github.com/Arlet/verilog-6502
 https://github.com/Arlet/verilog-65C02-microcode  
 * 6502 dasm  
 https://github.com/dasm-assembler/dasm  
+* https://github.com/JimmyFromSYSU/NES  
 
 ## Work  
 https://github.com/weimingtom/wmt_cpld_study  
