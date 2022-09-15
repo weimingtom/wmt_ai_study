@@ -20,6 +20,7 @@ https://github.com/Arlet/verilog-65C02-microcode
 * 6502 dasm  
 https://github.com/dasm-assembler/dasm  
 * https://github.com/JimmyFromSYSU/NES  
+* https://github.com/nickmooregot33/fpga_projects  
 
 ## Work  
 https://github.com/weimingtom/wmt_cpld_study  
