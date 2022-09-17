@@ -22,6 +22,7 @@ https://github.com/dasm-assembler/dasm
 * https://github.com/JimmyFromSYSU/NES  
 * https://github.com/nickmooregot33/fpga_projects  
 * https://github.com/brianbennett/fpga_nes  
+* search apple2.rar, apple2emulator.rar  
 
 ## Work  
 https://github.com/weimingtom/wmt_cpld_study  
