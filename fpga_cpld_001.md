@@ -470,3 +470,7 @@ https://gitlab.com/x653/nand2tetris-fpga
 
 ## 基于Basys2的八位CPU的设计与FPGA实现  
 https://blog.csdn.net/LionelZhao/article/details/125889882  
+
+## https://github.com/splinedrive/kianRiscV  
+
+## mega65  
