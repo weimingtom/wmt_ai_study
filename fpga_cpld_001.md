@@ -500,9 +500,8 @@ https://github.com/openrisc/or1200
 * https://github.com/study34668/MiniMIPS32  
 
 ## mips in cii (C Interfaces and Implementaions)  
+* https://github.com/drh/cii/blob/master/src/swtch.s  
 * search baidupan, cii20.zip  
 * http://code.google.com/p/cii/downloads/detail?name=cii20.zip&can=2&q=
 * https://github.com/drh/cii  
 * search baidupan, C接口库  
-
-
