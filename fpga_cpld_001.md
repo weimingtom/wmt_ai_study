@@ -488,3 +488,10 @@ http://spimsimulator.sourceforge.net/
 ## OpenRisc, Linux, or1200  
 CPU源代码分析与芯片设计及Linux移植  
 https://github.com/openrisc/or1200  
+
+## 深入理解BootLoader  
+* search baidupan, 深入理解BootLoader  
+* pcDuino Nano, 流水灯, 全志A20, Cortex-A7  
+* u-boot  
+* arm gcc asm  
+
