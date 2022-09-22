@@ -495,3 +495,6 @@ https://github.com/openrisc/or1200
 * u-boot  
 * arm gcc asm  
 
+## MiniMIPS32  
+* 计算机系统设计（上册）——基于FPGA的RISC处理器设计与实现  
+* https://github.com/study34668/MiniMIPS32  
