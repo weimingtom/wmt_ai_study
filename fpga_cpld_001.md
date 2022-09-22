@@ -498,3 +498,11 @@ https://github.com/openrisc/or1200
 ## MiniMIPS32  
 * 计算机系统设计（上册）——基于FPGA的RISC处理器设计与实现  
 * https://github.com/study34668/MiniMIPS32  
+
+## mips in cii (C Interfaces and Implementaions)  
+* search baidupan, cii20.zip  
+* http://code.google.com/p/cii/downloads/detail?name=cii20.zip&can=2&q=
+* https://github.com/drh/cii  
+* search baidupan, C接口库  
+
+
