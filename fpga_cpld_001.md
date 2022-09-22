@@ -484,3 +484,7 @@ https://github.com/ShawnZhong/JsSpim
 
 ## Spim, QtSpim  
 http://spimsimulator.sourceforge.net/  
+
+## OpenRisc, Linux, or1200  
+CPU源代码分析与芯片设计及Linux移植  
+https://github.com/openrisc/or1200  
