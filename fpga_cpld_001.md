@@ -505,3 +505,6 @@ https://github.com/openrisc/or1200
 * http://code.google.com/p/cii/downloads/detail?name=cii20.zip&can=2&q=
 * https://github.com/drh/cii  
 * search baidupan, C接口库  
+
+## xv6-mips  
+https://github.com/nullpo-head/xv6-mips  
