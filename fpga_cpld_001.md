@@ -125,7 +125,7 @@ https://new.qq.com/omn/20220620/20220620A01I0X00.html
 * https://github.com/Ironprop-Stone/Minisys-1_CPU  
 * search baidupan, CPU设计实践教程  
 * 31条MIPS指令的单周期和多周期Minisys-1 CPU  
-* search baidupan, minisys2_v2_e10_seem_success.rar  
+* search baidupan, minisys2_v3_e10_success.rar  
 
 ## 数字逻辑与组成原理实践教程, cpu31    
 * search baidupan, 数字逻辑与组成原理实践教程  
