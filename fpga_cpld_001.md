@@ -511,3 +511,7 @@ https://github.com/nullpo-head/xv6-mips
 
 ## 最短ARM汇编, 使用ARMCC    
 * search baidupan, work_arm_hello_lpc2138_v2.rar  
+
+## picomips  
+https://github.com/karthik-0398/picoMIPS  
+search csdn  
