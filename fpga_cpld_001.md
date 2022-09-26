@@ -163,6 +163,7 @@ https://new.qq.com/omn/20220620/20220620A01I0X00.html
 ## 搭建你的数字积木——数字电路与逻辑设计（Verilog HDL&Vivado版）  
 * https://github.com/xupsh/Digital-Design-Lab  
 * http://www.tup.tsinghua.edu.cn/booksCenter/book_07172301.html  
+* search baidupan, mipscpu_v2_e10_success.rar  
 
 ## XUP官方指定的入门级FPGA教学板卡-Basys3  
 * https://www.sytek.ltd/productinfo/1532427.html  
