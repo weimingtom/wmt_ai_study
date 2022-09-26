@@ -517,5 +517,9 @@ https://github.com/karthik-0398/picoMIPS
 search csdn  
 
 ## 龙芯教育 / CPU设计实战, MIPS, loongson架构    
-《CPU设计实战》实验资源  
-https://gitee.com/loongson-edu/cdp-lab  
+* 《CPU设计实战》实验资源  
+* https://gitee.com/loongson-edu/cdp-lab  
+* https://github.com/cebarobot/UCAS-CALab-mycpu_verify  
+* https://github.com/cebarobot/UCAS-CALab-mycpu_axi_verify  
+* https://github.com/cebarobot/UCAS-CALab-mycpu_sram_verify  
+
