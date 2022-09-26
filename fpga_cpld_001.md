@@ -516,6 +516,6 @@ https://github.com/nullpo-head/xv6-mips
 https://github.com/karthik-0398/picoMIPS  
 search csdn  
 
-## 龙芯教育 / CPU设计实战  
+## 龙芯教育 / CPU设计实战, MIPS, loongson架构    
 《CPU设计实战》实验资源  
 https://gitee.com/loongson-edu/cdp-lab  
