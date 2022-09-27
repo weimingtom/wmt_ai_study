@@ -524,3 +524,7 @@ search csdn
 * https://github.com/cebarobot/UCAS-CALab-mycpu_axi_verify  
 * https://github.com/cebarobot/UCAS-CALab-mycpu_sram_verify  
 
+## 8051软核处理器设计实战  
+* https://github.com/risclite/R8051  
+* https://github.com/risclite/ARM9-compatible-soft-CPU-core  
+* https://github.com/wap12358/8051  
