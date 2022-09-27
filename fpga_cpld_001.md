@@ -529,3 +529,5 @@ search csdn
 * 兼容ARM9的软核处理器设计：基于FPGA  
 * https://github.com/risclite/ARM9-compatible-soft-CPU-core  
 * https://github.com/wap12358/8051  
+* https://gitee.com/jxzsxsp/fpga8051  
+
