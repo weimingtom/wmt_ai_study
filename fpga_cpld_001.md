@@ -531,3 +531,7 @@ search csdn
 * https://github.com/wap12358/8051  
 * https://gitee.com/jxzsxsp/fpga8051  
 
+## 手把手教你在FPGA上运行一个ARM Cortex-M3软核  
+* https://zhuanlan.zhihu.com/p/489213515  
+* https://gitee.com/whik/cortex_m3_on_xc7a100t  
+* https://github.com/whik/cortex_m3_on_xc7a100t  
