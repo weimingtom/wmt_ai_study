@@ -540,3 +540,8 @@ search csdn
 ## KX9016  
 * 现代计算机组成原理  
 * https://github.com/AmnesiacGarden/KX9016  
+
+## MC8051  
+* https://www.oreganosystems.at/products/ip-cores/8051-ip-core  
+* https://blog.csdn.net/QuanSirX/article/details/105143773  
+* FPGA开发技术与应用实践  
