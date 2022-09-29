@@ -545,3 +545,8 @@ search csdn
 * https://www.oreganosystems.at/products/ip-cores/8051-ip-core  
 * https://blog.csdn.net/QuanSirX/article/details/105143773  
 * FPGA开发技术与应用实践  
+
+## OC8051  
+* https://opencores.org/projects/8051  
+* https://gitee.com/qianchenlaoyu/OpenCore-8051  
+* https://github.com/kdurant/oc8051  
