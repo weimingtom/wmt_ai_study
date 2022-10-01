@@ -550,3 +550,11 @@ search csdn
 * https://opencores.org/projects/8051  
 * https://gitee.com/qianchenlaoyu/OpenCore-8051  
 * https://github.com/kdurant/oc8051  
+
+## ghidra, mips decompile  
+* https://github.com/NationalSecurityAgency/ghidra/releases  
+
+## cygwinmipselfgcc  
+* https://sourceforge.net/projects/cygwinmipselfgcc/  
+
+## 
