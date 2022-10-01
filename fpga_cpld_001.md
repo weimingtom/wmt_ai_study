@@ -557,4 +557,14 @@ search csdn
 ## cygwinmipselfgcc  
 * https://sourceforge.net/projects/cygwinmipselfgcc/  
 
-## 
+## xv6 windows build    
+* https://github.com/mirokuuno/xv6-windows  
+* https://github.com/alessandromrc/i686-elf-tools/blob/main/i686-elf-tools.sh  
+* frippery.org/busybox/  
+* 我测试过，可以在mingw上编译运行xv6。实际上我看到gh上也有人用mingw编译运行xv6，  
+* mirokuuno/xv6-windows，不过方法可能跟我有点不一样。我的做法是用一个gh上的  
+* 已经编译好的elf交叉工具链去编译（alessandromrc/i686-elf-tools），  
+* 修改Makefile即可（类似xv6的macos编译方法）。不过其他还需要修改一些地方，  
+* 例如usertests.c中的一处指针要转换为volatile char*，mkfs.c需要替换bzero和  
+* index，Makefile需要把dd换成busybox dd，并且在msys中放置一个busybox的  
+* windows版（我用的是busybox-w32）  
