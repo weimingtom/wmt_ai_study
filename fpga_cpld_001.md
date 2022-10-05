@@ -581,3 +581,7 @@ search csdn
 《计算机组成原理实践教程——从逻辑门到CPU》的解释是，因为MARS是带有MMU部件的虚存，  
 而且不是哈佛体系。而通常用FPGA实现的MIPS软核是直接访问物理内存，  
 而且是哈佛体系，所以这两个很难兼容，需要手工改MARS的虚存地址模式，让data段从0开始计算  
+
+## MIPSsim  
+* https://www.cnblogs.com/jiangxinnju/p/10090834.html  
+* https://blog.csdn.net/capture3333/article/details/125665327  
