@@ -568,3 +568,13 @@ search csdn
 * 例如usertests.c中的一处指针要转换为volatile char*，mkfs.c需要替换bzero和  
 * index，Makefile需要把dd换成busybox dd，并且在msys中放置一个busybox的  
 * windows版（我用的是busybox-w32）  
+
+## mips logisim, cs3410.jar      
+* edu.cornell.cs3410  
+* 计算机组成原理实践教程——从逻辑门到CPU  
+* 控制器设计：MIPS单周期CPU_耳东哇的博客-CSDN博客_单周期mips  
+* https://blog.csdn.net/weixin_43930851/article/details/106750718  
+* https://gitee.com/ForthewinQ/MIPS-CPU  
+* Logisim2.7.1下载并列出电路真值表、卡诺图。 - 腾讯云开发者社区-腾讯云  
+* https://cloud.tencent.com/developer/article/2012197  
+
