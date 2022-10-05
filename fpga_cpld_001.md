@@ -569,7 +569,7 @@ search csdn
 * index，Makefile需要把dd换成busybox dd，并且在msys中放置一个busybox的  
 * windows版（我用的是busybox-w32）  
 
-## mips logisim, cs3410.jar      
+## (TODO) mips logisim, cs3410.jar      
 * edu.cornell.cs3410  
 * 计算机组成原理实践教程——从逻辑门到CPU  
 * 控制器设计：MIPS单周期CPU_耳东哇的博客-CSDN博客_单周期mips  
@@ -577,4 +577,7 @@ search csdn
 * https://gitee.com/ForthewinQ/MIPS-CPU  
 * Logisim2.7.1下载并列出电路真值表、卡诺图。 - 腾讯云开发者社区-腾讯云  
 * https://cloud.tencent.com/developer/article/2012197  
-
+* 我看到有些课本mips书也吐槽MARS的内存布局，默认不是从0开始算。  
+《计算机组成原理实践教程——从逻辑门到CPU》的解释是，因为MARS是带有MMU部件的虚存，  
+而且不是哈佛体系。而通常用FPGA实现的MIPS软核是直接访问物理内存，  
+而且是哈佛体系，所以这两个很难兼容，需要手工改MARS的虚存地址模式，让data段从0开始计算  
