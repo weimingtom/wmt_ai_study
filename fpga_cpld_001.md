@@ -93,6 +93,8 @@ https://github.com/sabottenda/llvm-sample-target
 
 ## 自己动手写CPU  
 https://github.com/Z-Y00/Examples-in-book-write-your-own-cpu  
+自己动手写处理器之第一阶段（1）——计算机的简单模型、架构、指令集  
+https://blog.csdn.net/leishangwen/article/details/37506105  
 
 ## OpenTendo, RP2A03  
 https://github.com/Redherring32/OpenTendo  
