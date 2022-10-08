@@ -587,3 +587,8 @@ search csdn
 ## MIPSsim  
 * https://www.cnblogs.com/jiangxinnju/p/10090834.html  
 * https://blog.csdn.net/capture3333/article/details/125665327  
+
+## ARM asm  
+* 《ARM嵌入式应用开发技术白金手册》  
+* ads1.2  
+* ads2.2  
