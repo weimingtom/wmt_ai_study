@@ -597,4 +597,9 @@ search csdn
 * https://github.com/Justlovesmile/WindLX-Experiment  
 * https://gitee.com/justlovesmile/WindLX-Experiment  
 * https://cloud.tencent.com/developer/article/1918333  
+* (exe files, only support windows xp) https://github.com/dlcPYY/WinDLX  
 * 计算机系统结构  
+* 计算机体系结构实验二——DLX/MIPS/RISC-V指令格式  
+* https://blog.csdn.net/weixin_51529433/article/details/125910985   
+* risc-v, venus  
+
