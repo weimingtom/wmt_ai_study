@@ -606,3 +606,5 @@ search csdn
 ## ridecore, risc-v    
 https://github.com/ridecore/ridecore  
 
+## Verilog vs VHDL: Explain by Examples  
+https://www.fpga4student.com/2017/08/verilog-vs-vhdl-explain-by-example.html  
