@@ -603,3 +603,6 @@ search csdn
 * https://blog.csdn.net/weixin_51529433/article/details/125910985   
 * risc-v, venus  
 
+## ridecore, risc-v    
+https://github.com/ridecore/ridecore  
+
