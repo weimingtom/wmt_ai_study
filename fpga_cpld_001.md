@@ -608,3 +608,8 @@ https://github.com/ridecore/ridecore
 
 ## Verilog vs VHDL: Explain by Examples  
 https://www.fpga4student.com/2017/08/verilog-vs-vhdl-explain-by-example.html  
+
+## apple1_on_anlogic  
+https://gitee.com/pan-xingyu/apple1_on_anlogic  
+https://github.com/alangarf/apple-one  
+https://www.bilibili.com/video/BV1db4y1p7jD/  
