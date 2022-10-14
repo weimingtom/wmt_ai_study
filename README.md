@@ -353,7 +353,8 @@ by mbed, micro:bit
 ## PaddleSpeech  
 * https://github.com/PaddlePaddle/PaddleSpeech  
 
-
+## TinyMaix, KWS example  
+https://github.com/sipeed/TinyMaix/tree/main/examples/kws  
 
 
 
