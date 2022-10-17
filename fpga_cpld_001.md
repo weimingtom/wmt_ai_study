@@ -613,3 +613,12 @@ https://www.fpga4student.com/2017/08/verilog-vs-vhdl-explain-by-example.html
 https://gitee.com/pan-xingyu/apple1_on_anlogic  
 https://github.com/alangarf/apple-one  
 https://www.bilibili.com/video/BV1db4y1p7jD/  
+
+## 开放式实验CPU设计  
+* search baidupan, Debugcontroller.exe, by清华大学计算机系  
+* 计算机组成原理 8位实验CPU设计与实现  
+
+## 计算机组成原理实践教程——从逻辑门到CPU  
+* https://www.icourse163.org/course/HUST-1205809816#/info  
+* 自己动手画CPU, by logisim    
+* https://gitee.com/totalcontrol/hustzc/  
