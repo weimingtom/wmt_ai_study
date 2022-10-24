@@ -622,3 +622,8 @@ https://www.bilibili.com/video/BV1db4y1p7jD/
 * https://www.icourse163.org/course/HUST-1205809816#/info  
 * 自己动手画CPU, by logisim    
 * https://gitee.com/totalcontrol/hustzc/  
+
+## CDP1802  
+* https://github.com/brouhaha/cosmac  
+* Elf-Cube：基于1802系列处理器的简单复古计算机  
+* https://download.csdn.net/download/weixin_42101641/15301374   
