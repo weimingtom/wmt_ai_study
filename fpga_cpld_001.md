@@ -637,3 +637,7 @@ https://github.com/rosco-m68k/uCLinux-rosco
 ## 68 Katy, m68k  
 * https://www.bigmessowires.com/68-katy/  
 * https://www.bigmessowires.com/2014/11/06/building-uclinux-for-a-68000-target/  
+
+## m68k vhdl  
+* https://github.com/fromGoogleCode/m68k  
+* https://github.com/apolkosnik/m68k  
