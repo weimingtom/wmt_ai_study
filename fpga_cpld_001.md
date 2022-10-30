@@ -627,3 +627,9 @@ https://www.bilibili.com/video/BV1db4y1p7jD/
 * https://github.com/brouhaha/cosmac  
 * Elf-Cube：基于1802系列处理器的简单复古计算机  
 * https://download.csdn.net/download/weixin_42101641/15301374   
+
+## rosco_m68k  
+https://github.com/rosco-m68k/rosco_m68k  
+Soldering Tutorial for beginners: Five Easy Steps  
+https://rosco-m68k.com/docs/getting-started  
+https://github.com/rosco-m68k/uCLinux-rosco  
