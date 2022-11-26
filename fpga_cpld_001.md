@@ -648,3 +648,6 @@ https://github.com/rosco-m68k/uCLinux-rosco
 ## Cortex-M0 开源  
 * https://github.com/xiesicong/Cortex_m0  
 * ARM Cortex-M0全可编程SoC原理及实现  
+
+## LPC2103  
+* https://github.com/echostreams/arm9_softcore/tree/master/lpc2104  
