@@ -652,6 +652,6 @@ https://github.com/rosco-m68k/uCLinux-rosco
 ## LPC2103  
 * https://github.com/echostreams/arm9_softcore/tree/master/lpc2104  
 
-## m68k asm, easy68  
+## m68k asm and emulator, easy68k  
 * http://www.easy68k.com  
 * https://www.bigmessowires.com/68-katy/  
