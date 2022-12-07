@@ -655,3 +655,6 @@ https://github.com/rosco-m68k/uCLinux-rosco
 ## m68k asm and emulator, easy68k  
 * http://www.easy68k.com  
 * https://www.bigmessowires.com/68-katy/  
+
+## loongnix, 龙芯   
+http://www.loongnix.cn/zh/toolchain/GNU/  
