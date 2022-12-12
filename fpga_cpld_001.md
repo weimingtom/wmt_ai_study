@@ -658,3 +658,13 @@ https://github.com/rosco-m68k/uCLinux-rosco
 
 ## loongnix, 龙芯   
 http://www.loongnix.cn/zh/toolchain/GNU/  
+
+## user mode qemu  
+* how to run with qemu-arm:  
+$ sudo apt install qemu-user  
+$ sudo apt install gcc-arm-linux-gnueabi  
+$ arm-linux-gnueabi-gcc -static hello.c  
+$ qemu-arm a.out    
+* https://elinux.org/QEMU  
+* https://blog.csdn.net/cnsword/article/details/105543469  
+* gdb, arm-linux-run  
