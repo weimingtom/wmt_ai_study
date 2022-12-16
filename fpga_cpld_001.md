@@ -671,3 +671,6 @@ $ qemu-arm a.out
 
 ## mips, 龙芯, 针对参加龙芯杯的若干建议, 可参考书籍    
 * https://github.com/Silverster98/bit_nscscc_suggestion  
+* pmon  
+* https://github.com/LoongSonOSTeamNKU/LoongsonCsprjManual/blob/master/chapter2.md  
+
