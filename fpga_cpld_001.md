@@ -668,3 +668,6 @@ $ qemu-arm a.out
 * https://elinux.org/QEMU  
 * https://blog.csdn.net/cnsword/article/details/105543469  
 * gdb, arm-linux-run  
+
+## mips, 龙芯, 针对参加龙芯杯的若干建议, 可参考书籍    
+* https://github.com/Silverster98/bit_nscscc_suggestion  
