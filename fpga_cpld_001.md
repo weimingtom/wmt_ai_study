@@ -674,3 +674,5 @@ $ qemu-arm a.out
 * pmon  
 * https://github.com/LoongSonOSTeamNKU/LoongsonCsprjManual/blob/master/chapter2.md  
 
+## NaiveMIPS  
+* https://github.com/z4yx/NaiveMIPS-HDL  
