@@ -676,3 +676,6 @@ $ qemu-arm a.out
 
 ## NaiveMIPS  
 * https://github.com/z4yx/NaiveMIPS-HDL  
+
+## labeled-RISC-V  
+* https://github.com/LvNA-system/labeled-RISC-V  
