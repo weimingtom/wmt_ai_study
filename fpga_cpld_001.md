@@ -681,3 +681,9 @@ $ qemu-arm a.out
 
 ## labeled-RISC-V  
 * https://github.com/LvNA-system/labeled-RISC-V  
+
+## xilfpga linux, mipsfpga-plus linux  
+从目前来看，似乎只有qemu是最简单的运行mips linux的方法。我查过，    
+其实确实有一段时间xilfpga（就是常说的mipsfpga，不过这个开源项目早已经噶了）  
+加入到linux源码树中，大概是在4.4到4.14之间，然后消失了（可能跑到别的地方或者被移除）。  
+另外mipsfpga-plus也有关于加载linux内核的描述，当然开发板太贵不太适合搞来试验  
