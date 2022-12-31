@@ -687,3 +687,9 @@ $ qemu-arm a.out
 其实确实有一段时间xilfpga（就是常说的mipsfpga，不过这个开源项目早已经噶了）  
 加入到linux源码树中，大概是在4.4到4.14之间，然后消失了（可能跑到别的地方或者被移除）。  
 另外mipsfpga-plus也有关于加载linux内核的描述，当然开发板太贵不太适合搞来试验  
+
+## mips 龙芯1c文档      
+* http://codescape.mips.com/components/toolchain/2017.10-07/downloads.html  
+* https://blog.csdn.net/caogos/article/details/78984158  
+* https://gitee.com/caogos/OpenLoongsonLib1c  
+* https://gitee.com/caogos/OpenLoongsonLib1c/tree/master/doc  
