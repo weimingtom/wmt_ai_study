@@ -693,3 +693,8 @@ $ qemu-arm a.out
 * https://blog.csdn.net/caogos/article/details/78984158  
 * https://gitee.com/caogos/OpenLoongsonLib1c  
 * https://gitee.com/caogos/OpenLoongsonLib1c/tree/master/doc  
+
+## risc-v xv6, fpga  
+* https://github.com/kura197/xv6-riscv  
+* https://github.com/kura197/riscv-fpga  
+* https://github.com/kura197/riscv-simulator  
