@@ -716,3 +716,6 @@ $ qemu-arm a.out
 
 ## MIPSfpga-Boot  
 * https://github.com/flsgavin/MIPSfpga-Boot  
+
+## u-boot mips  
+* https://u-boot.readthedocs.io/en/v2020.07/board/emulation/qemu-mips.html  
