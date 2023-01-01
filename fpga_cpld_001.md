@@ -707,3 +707,6 @@ $ qemu-arm a.out
 * MipsSimulatorApplet.tar.gz  
 * https://www.linux-mips.org/wiki/Emulators  
 * http://web.archive.org/web/20041014015457/http://www.tik.ee.ethz.ch/~topsy/source.shtml  
+
+## jaty68k  
+* see wmt_uclinux_study    
