@@ -702,3 +702,8 @@ $ qemu-arm a.out
 ## cemu, mips and risc-v    
 * https://github.com/cyyself/cemu  
 * https://gitee.com/loongson-edu/la32r-Linux  
+
+## mipssim  
+* MipsSimulatorApplet.tar.gz  
+* https://www.linux-mips.org/wiki/Emulators  
+* http://web.archive.org/web/20041014015457/http://www.tik.ee.ethz.ch/~topsy/source.shtml  
