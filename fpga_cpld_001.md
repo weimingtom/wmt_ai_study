@@ -721,3 +721,9 @@ $ qemu-arm a.out
 * https://u-boot.readthedocs.io/en/v2020.07/board/emulation/qemu-mips.html  
 
 ## nuttx, rt-thread mips  
+
+## gaia xv6, mips xv6  
+* https://github.com/nyuichi/xv6  
+* https://nullpo-head.github.io/emcc-gaia-simu/xv6.html  
+* https://github.com/nullpo-head/xv6-mips  
+* https://github.com/nullpo-head/emcc-gaia-simu  
