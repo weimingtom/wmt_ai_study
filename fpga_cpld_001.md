@@ -723,6 +723,7 @@ $ qemu-arm a.out
 ## nuttx, rt-thread mips  
 
 ## gaia xv6, mips xv6  
+* https://fuel.edby.coffee/posts/how-we-ported-xv6-os-to-a-home-built-cpu-with-a-home-built-c-compiler/  
 * https://github.com/nyuichi/xv6  
 * https://nullpo-head.github.io/emcc-gaia-simu/xv6.html  
 * https://github.com/nullpo-head/xv6-mips  
