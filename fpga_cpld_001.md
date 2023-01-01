@@ -710,3 +710,9 @@ $ qemu-arm a.out
 
 ## jaty68k  
 * see wmt_uclinux_study    
+
+## mips, Minisys-OS  
+* https://github.com/zyy0721/Minisys-OS  
+
+## MIPSfpga-Boot  
+* https://github.com/flsgavin/MIPSfpga-Boot  
