@@ -698,3 +698,7 @@ $ qemu-arm a.out
 * https://github.com/kura197/xv6-riscv  
 * https://github.com/kura197/riscv-fpga  
 * https://github.com/kura197/riscv-simulator  
+
+## cemu, mips and risc-v    
+* https://github.com/cyyself/cemu  
+* https://gitee.com/loongson-edu/la32r-Linux  
