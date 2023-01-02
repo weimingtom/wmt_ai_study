@@ -733,3 +733,6 @@ $ qemu-arm a.out
 * https://github.com/ForgotFun/loongson
 * https://forgotfun.org/category/loongson/  
 * https://github.com/lshw/loongson1-pmon  
+
+## (IMP) Java mips simulator, can load vmlinux-3.2.0-4-4kc-malta  
+* https://github.com/alexyz/sysmips
