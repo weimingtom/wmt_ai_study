@@ -731,4 +731,5 @@ $ qemu-arm a.out
 
 ## loongson  
 * https://github.com/ForgotFun/loongson
-* https://forgotfun.org/category/loongson/
+* https://forgotfun.org/category/loongson/  
+* https://github.com/lshw/loongson1-pmon  
