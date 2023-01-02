@@ -728,3 +728,7 @@ $ qemu-arm a.out
 * https://nullpo-head.github.io/emcc-gaia-simu/xv6.html  
 * https://github.com/nullpo-head/xv6-mips  
 * https://github.com/nullpo-head/emcc-gaia-simu  
+
+## loongson  
+* https://github.com/ForgotFun/loongson
+* https://forgotfun.org/category/loongson/
