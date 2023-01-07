@@ -755,3 +755,8 @@ $ qemu-arm a.out
 * https://github.com/MIPS/FreeRTOS/tree/mips  
 * https://www.mips.com/rtos-iot/  
 
+## 龙芯baremetal  
+* https://gitee.com/rtthread/rt-thread/tree/gitee_master/bsp/loongson/ls1cdev  
+* http://www.loongide.com/content/  
+* https://gitee.com/caogos/OpenLoongsonLib1c  
+
