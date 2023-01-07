@@ -751,3 +751,7 @@ $ qemu-arm a.out
 
 ## https://github.com/jart/blink  
 
+## FreeRTOS for MIPS  
+* https://github.com/MIPS/FreeRTOS/tree/mips  
+* https://www.mips.com/rtos-iot/  
+
