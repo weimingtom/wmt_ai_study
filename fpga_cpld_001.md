@@ -760,3 +760,5 @@ $ qemu-arm a.out
 * http://www.loongide.com/content/  
 * https://gitee.com/caogos/OpenLoongsonLib1c  
 
+## mips, mipsfpga toolchain  
+* https://github.com/zhelnio/ubuntu-hdl-tools-install  
