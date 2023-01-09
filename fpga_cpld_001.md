@@ -787,5 +787,6 @@ $ qemu-arm a.out
 * gxemul can run vmlinux-2.6.32-5-4kc-malta_mipsel  
 * MipsSimulator2_v1_Topsy-master_v1_success_use_codescape.tar  
 * gxemul-0.4.3.godson.tar.gz  
+* barebone.tar.gz  
 
 
