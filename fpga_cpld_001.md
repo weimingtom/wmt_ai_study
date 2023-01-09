@@ -770,3 +770,9 @@ $ qemu-arm a.out
 * ubuntu的gnu（似乎只支持linux），  
 * 还有buildroot版的交叉工具链（支持elf和linux）。  
 * 当然还有开发板的工具链可以用，例如从龙芯或者其他mipsel开发板的工具链那里拿来用  
+
+## mips delay slot  
+* 对比arm和mips，实际上mips有一些诟病的地方，mips似乎有一定的指令约束，叫delay slot，如果不正确的话会执行不下去。  
+* 另外mips的版本可能会比arm多，导致工具链臃肿，例如最常见的R3000和4kC，我没搞明白怎么区分（可能类似arm9和cortex的关系）。  
+* 但mips有个好处（也是坏处），它比arm要老，而且最常用于科研  
+* https://blog.csdn.net/babyfans/article/details/6336476  
