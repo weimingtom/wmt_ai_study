@@ -783,3 +783,6 @@ $ qemu-arm a.out
 * https://gitee.com/abignail/mips32-nemu  
 * https://gitee.com/caogos/qemu_gdb_mips_hello  
 * https://gitee.com/hao111xin/xv6-mips  
+* https://github.com/nongiach/arm_now  
+* gxemul can run vmlinux-2.6.32-5-4kc-malta_mipsel  
+
