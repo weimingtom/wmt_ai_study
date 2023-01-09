@@ -762,3 +762,11 @@ $ qemu-arm a.out
 
 ## mips, mipsfpga toolchain  
 * https://github.com/zhelnio/ubuntu-hdl-tools-install  
+
+## mips工具链  
+* 找到sourcery的mips工具链，可以用于后续的研究。目前手头上有这4种mips工具链，  
+* sourcery的sde（只支持elf），  
+* codescape的mti（支持elf和linux），  
+* ubuntu的gnu（似乎只支持linux），  
+* 还有buildroot版的交叉工具链（支持elf和linux）。  
+* 当然还有开发板的工具链可以用，例如从龙芯或者其他mipsel开发板的工具链那里拿来用  
