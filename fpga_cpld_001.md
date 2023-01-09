@@ -776,3 +776,10 @@ $ qemu-arm a.out
 * 另外mips的版本可能会比arm多，导致工具链臃肿，例如最常见的R3000和4kC，我没搞明白怎么区分（可能类似arm9和cortex的关系）。  
 * 但mips有个好处（也是坏处），它比arm要老，而且最常用于科研  
 * https://blog.csdn.net/babyfans/article/details/6336476  
+
+## mips  
+* https://gitee.com/trialley/loongson_MIPS_demo  
+* https://gitee.com/ingenic/mips-sde-elf  
+* https://gitee.com/abignail/mips32-nemu  
+* https://gitee.com/caogos/qemu_gdb_mips_hello  
+* https://gitee.com/hao111xin/xv6-mips  
