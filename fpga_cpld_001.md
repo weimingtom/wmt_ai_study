@@ -789,4 +789,7 @@ $ qemu-arm a.out
 * gxemul-0.4.3.godson.tar.gz  
 * barebone.tar.gz  
 
-
+## mips gcc  
+* https://github.com/sergev/LiteBSD  
+* https://github.com/sergev/LiteBSD/releases/tag/tools  
+* https://codeberg.org/zerocool32/v6pic32  
