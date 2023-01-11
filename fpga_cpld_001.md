@@ -794,3 +794,7 @@ $ qemu-arm a.out
 * https://github.com/sergev/LiteBSD/releases/tag/tools  
 * https://codeberg.org/zerocool32/v6pic32  
 * (IMP) https://github.com/sergev/LiteBSD/wiki/ELF-toolchain  
+
+## virtualmips, can load vmlinux, for adm5120, pavo (JZ4740)  
+* https://code.google.com/archive/p/virtualmips/downloads?page=1  
+* https://github.com/RetroBSD/retrobsd  
