@@ -790,6 +790,8 @@ $ qemu-arm a.out
 * barebone.tar.gz  
 * https://github.com/Lan1keA/ucore-mips-with-comment  
 * https://github.com/sth1997/MIPS32S_CPU  
+* https://github.com/z4yx/NaiveMIPS-HDL/blob/brd-NSCSCC/documentation/2016spring-OS.md  
+* cemu  
 
 ## mips gcc, litebsd    
 * https://github.com/sergev/LiteBSD  
