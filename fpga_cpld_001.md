@@ -798,6 +798,9 @@ $ qemu-arm a.out
 * https://github.com/sergev/LiteBSD/releases/tag/tools  
 * https://codeberg.org/zerocool32/v6pic32  
 * (IMP) https://github.com/sergev/LiteBSD/wiki/ELF-toolchain  
+* https://github.com/sergev/qemu/wiki  
+* QEMU simulator for PIC32  
+* https://www.microchip.com/forums/m842753.aspx  
 
 ## virtualmips, can load vmlinux, for adm5120, pavo (JZ4740)  
 * https://code.google.com/archive/p/virtualmips/downloads?page=1  
