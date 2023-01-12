@@ -788,6 +788,7 @@ $ qemu-arm a.out
 * MipsSimulator2_v1_Topsy-master_v1_success_use_codescape.tar  
 * gxemul-0.4.3.godson.tar.gz  
 * barebone.tar.gz  
+* https://github.com/Lan1keA/ucore-mips-with-comment  
 
 ## mips gcc, litebsd    
 * https://github.com/sergev/LiteBSD  
