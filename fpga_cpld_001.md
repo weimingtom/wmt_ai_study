@@ -789,6 +789,7 @@ $ qemu-arm a.out
 * gxemul-0.4.3.godson.tar.gz  
 * barebone.tar.gz  
 * https://github.com/Lan1keA/ucore-mips-with-comment  
+* https://github.com/sth1997/MIPS32S_CPU  
 
 ## mips gcc, litebsd    
 * https://github.com/sergev/LiteBSD  
