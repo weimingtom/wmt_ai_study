@@ -805,3 +805,12 @@ $ qemu-arm a.out
 ## virtualmips, can load vmlinux, for adm5120, pavo (JZ4740)  
 * https://code.google.com/archive/p/virtualmips/downloads?page=1  
 * https://github.com/RetroBSD/retrobsd  
+
+## naivemips  
+* https://oscourse-tsinghua.gitbook.io/loongsoncsprj2020-manual/ucore/os_comp  
+* https://github.com/z4yx/ucore-thumips  
+* gcc-4.3-ls232.tar.gz  
+* $ ./mipsel-softmmu/qemu-system-mipsel -machine soc_up -serial stdio -kernel ../ucore-thumips/flash.img  
+* https://github.com/z4yx/u-boot-naivemips.git  
+* mips-sde-elf-i686-pc-linux-gnu.tar.tar  
+ 
