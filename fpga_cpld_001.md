@@ -813,4 +813,7 @@ $ qemu-arm a.out
 * $ ./mipsel-softmmu/qemu-system-mipsel -machine soc_up -serial stdio -kernel ../ucore-thumips/flash.img  
 * https://github.com/z4yx/u-boot-naivemips.git  
 * mips-sde-elf-i686-pc-linux-gnu.tar.tar  
- 
+* https://github.com/xyongcn/LoongsonCsprj2017/blob/master/doc/soc_lite%E5%92%8Csoc_up%E4%BB%8B%E7%BB%8D_v0.01.pdf  
+* https://gist.github.com/mentha/bbc6044e6cc39e38bc583b06b6bf9393  
+* https://oscourse-tsinghua.gitbook.io/loongsoncsprj2020-manual/ucore/qemu  
+
