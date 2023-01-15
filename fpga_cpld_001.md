@@ -796,6 +796,7 @@ $ qemu-arm a.out
 * https://github.com/tinyclub/linux-lab  
 * https://github.com/adofsauron/linux-kernel  
 * https://gitee.com/loongsonlab/qemu  
+* https://github.com/LinHeLurking/mips_os  
 
 ## mips gcc, litebsd    
 * https://github.com/sergev/LiteBSD  
