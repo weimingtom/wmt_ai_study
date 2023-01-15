@@ -793,6 +793,7 @@ $ qemu-arm a.out
 * https://github.com/z4yx/NaiveMIPS-HDL/blob/brd-NSCSCC/documentation/2016spring-OS.md  
 * cemu  
 * https://github.com/Gon-laze/GadgetMIPS-CPU-report  
+* https://github.com/tinyclub/linux-lab  
 
 ## mips gcc, litebsd    
 * https://github.com/sergev/LiteBSD  
