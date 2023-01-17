@@ -798,6 +798,8 @@ $ qemu-arm a.out
 * https://gitee.com/loongsonlab/qemu  
 * https://github.com/LinHeLurking/mips_os  
 * https://github.com/ljkgpxs/virtualnoah  
+* https://github.com/ljkgpxs/virtualnoah/blob/master/qemu-NP/hw/mips_jz.c  
+* QEMU for JZ4740 ?????  
 
 ## mips gcc, litebsd    
 * https://github.com/sergev/LiteBSD  
