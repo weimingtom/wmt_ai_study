@@ -802,6 +802,9 @@ $ qemu-arm a.out
 * QEMU for JZ4740 ?????  
 * https://github.com/OpenNoah/virtualnoah  
 * https://github.com/newluhux/qemu-mt7628  
+* Digital Design and Computer Architecture, 2nd Edition  
+* https://textbooks.elsevier.com/web/product_details.aspx?isbn=9780123944245  
+* 《数字设计和计算机体系结构第2版》有关于mipsfpga和mips的内容  
 
 ## mips gcc, litebsd    
 * https://github.com/sergev/LiteBSD  
