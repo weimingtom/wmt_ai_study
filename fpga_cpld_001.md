@@ -805,6 +805,9 @@ $ qemu-arm a.out
 * Digital Design and Computer Architecture, 2nd Edition  
 * https://textbooks.elsevier.com/web/product_details.aspx?isbn=9780123944245  
 * 《数字设计和计算机体系结构第2版》有关于mipsfpga和mips的内容  
+* minisys-os, for m14kc, mipsfpga,  
+* https://github.com/zyy0721/Minisys-OS  
+* https://github.com/mxzel/Minisys-OS  
 
 ## mips gcc, litebsd    
 * https://github.com/sergev/LiteBSD  
