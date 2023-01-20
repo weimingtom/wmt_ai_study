@@ -808,6 +808,7 @@ $ qemu-arm a.out
 * minisys-os, for m14kc, mipsfpga,  
 * https://github.com/zyy0721/Minisys-OS  
 * https://github.com/mxzel/Minisys-OS  
+* https://github.com/kholia/mips-hacking  
 
 ## mips gcc, litebsd    
 * https://github.com/sergev/LiteBSD  
