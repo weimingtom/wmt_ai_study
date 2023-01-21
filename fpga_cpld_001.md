@@ -838,3 +838,10 @@ $ qemu-arm a.out
 * https://blog.csdn.net/Jelly_Zhou/article/details/126676735  
 * search baidupan, cutecpu  
 * https://space.bilibili.com/430527711/channel/seriesdetail?sid=526454  
+
+## 龙芯 (in mips) pmon qemu  
+* 龙芯杯无开发板如何开发和调试linux  
+* https://blog.mxdon.cool/2021/无开发板如何开发linux系统内核/  
+* https://gitee.com/loongsonlab/qemu  
+* https://blog.csdn.net/weixin_45090728/article/details/124355432  
+* see 参考文章  
