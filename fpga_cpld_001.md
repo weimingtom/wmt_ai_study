@@ -834,3 +834,7 @@ $ qemu-arm a.out
 * https://gist.github.com/mentha/bbc6044e6cc39e38bc583b06b6bf9393  
 * https://oscourse-tsinghua.gitbook.io/loongsoncsprj2020-manual/ucore/qemu  
 
+## cutecpu  
+* https://blog.csdn.net/Jelly_Zhou/article/details/126676735  
+* search baidupan, cutecpu  
+* https://space.bilibili.com/430527711/channel/seriesdetail?sid=526454  
