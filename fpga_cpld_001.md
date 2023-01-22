@@ -811,8 +811,6 @@ $ qemu-arm a.out
 * https://github.com/kholia/mips-hacking  
 * https://github.com/loongson/qemu  
 * https://github.com/RickyTino/MangoMIPS32  
-* https://github.com/sundm75/Loongson-Smartloong-V2.0  
-* https://github.com/sundm75/Loongson-Smartloong-V3.0-RTT  
 
 ## mips gcc, litebsd    
 * https://github.com/sergev/LiteBSD  
@@ -849,3 +847,9 @@ $ qemu-arm a.out
 * https://gitee.com/loongsonlab/qemu  
 * https://blog.csdn.net/weixin_45090728/article/details/124355432  
 * see 参考文章  
+
+## loongson, 龙芯  
+* https://github.com/sundm75/Loongson-Smartloong-V2.0  
+* https://github.com/sundm75/Loongson-Smartloong-V3.0-RTT  
+* https://github.com/lshw/loongson1-pmon  
+* https://github.com/lshw/loongson1-kernel3.18  
