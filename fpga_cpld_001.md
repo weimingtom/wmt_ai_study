@@ -809,6 +809,7 @@ $ qemu-arm a.out
 * https://github.com/zyy0721/Minisys-OS  
 * https://github.com/mxzel/Minisys-OS  
 * https://github.com/kholia/mips-hacking  
+* https://github.com/loongson/qemu  
 
 ## mips gcc, litebsd    
 * https://github.com/sergev/LiteBSD  
