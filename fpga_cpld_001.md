@@ -890,5 +890,10 @@ $ qemu-arm a.out
 * https://github.com/Amadeus979/lab6_learn  
 * https://github.com/gitccl/BUAA-OSLAB-2020  
 * https://github.com/SivilTaram/Jos-mips  
-* 
+* https://github.com/yiliangw/CourseProject-MipsJOS  
+* https://github.com/TaoFu-0204/BUAA-OS-2021-RISC-V  
+* https://github.com/zyy0721/Minisys-OS  
+* https://github.com/Niupple/BUAA-OS-Niupple  
+
+
 
