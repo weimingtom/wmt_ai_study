@@ -812,6 +812,8 @@ $ qemu-arm a.out
 * https://github.com/loongson/qemu  
 * https://github.com/RickyTino/MangoMIPS32  
 * https://github.com/jpcsp/jpcsp   
+* https://github.com/kontais/EFI-MIPS  
+* https://github.com/jiegec/linux-gugumips  
 
 ## mips gcc, litebsd    
 * https://github.com/sergev/LiteBSD  
@@ -854,3 +856,9 @@ $ qemu-arm a.out
 * https://github.com/sundm75/Loongson-Smartloong-V3.0-RTT  
 * https://github.com/lshw/loongson1-pmon  
 * https://github.com/lshw/loongson1-kernel3.18  
+* https://github.com/lshw/pmon_unas  
+* https://github.com/jcowgill/pmon-loongson  
+* https://github.com/BarclayII/pmon-3amatx  
+
+
+
