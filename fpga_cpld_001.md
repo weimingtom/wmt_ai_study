@@ -817,7 +817,6 @@ $ qemu-arm a.out
 * https://github.com/DaveeFTW/iplsdk  
 * https://github.com/smalltree/shenglong/blob/master/x86emu/include/io.h  
 * https://github.com/deepke/u-boot-mips  
-* https://github.com/nscscc2019ucas/nscscc2019ucas/blob/master/display/soc_up/simu/soft/func/test.lds  
 
 ## mips gcc, litebsd    
 * https://github.com/sergev/LiteBSD  
@@ -874,6 +873,11 @@ $ qemu-arm a.out
 * https://github.com/fxjfsy/pmon-loongsonclub  
 * https://github.com/tupelo-shen/my_test/blob/master/doc/linux/mips-architecture/loongson-datasheet/pmon/pmon理解1-start.S文件分析.md  
 
+## mips, nscscc  
+* https://github.com/nscscc2019ucas/nscscc2019ucas/blob/master/display/soc_up/simu/soft/func/test.lds  
+* https://github.com/lxfei7310/nontrivial-mips/tree/master/loongson/soc_run_os/simu/soft/func  
+* https://github.com/leliyliu/augmips/blob/master/nscscc2019_release_v0.01/soc_run_os_v0.01/soc_up/simu/soft/func/start.S  
+* https://github.com/imhcyx/nscscc-pmon    
 
 
 
