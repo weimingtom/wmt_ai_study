@@ -814,6 +814,7 @@ $ qemu-arm a.out
 * https://github.com/jpcsp/jpcsp   
 * https://github.com/kontais/EFI-MIPS  
 * https://github.com/jiegec/linux-gugumips  
+* https://github.com/DaveeFTW/iplsdk  
 
 ## mips gcc, litebsd    
 * https://github.com/sergev/LiteBSD  
@@ -860,6 +861,17 @@ $ qemu-arm a.out
 * https://github.com/jcowgill/pmon-loongson  
 * https://github.com/BarclayII/pmon-3amatx  
 * (buildroot?) https://github.com/KianWeng/loongson-fsu  
+* https://github.com/KianWeng/ls1b-pmon  
+* https://github.com/imhcyx/nscscc-pmon  
+* https://github.com/lshw/pmon_m5040  
+* https://github.com/huitailangyz/B0911009Y-Computer-Architecture-Lab  
+* https://github.com/loongson-gz/pmon-ls1x  
+* https://github.com/Loongbian/loongson-simple-installer  
+* https://github.com/loongson-gz/ls1b-linux-3.18  
+* https://github.com/fxjfsy/pmon-loongsonclub  
+* https://github.com/tupelo-shen/my_test/blob/master/doc/linux/mips-architecture/loongson-datasheet/pmon/pmon理解1-start.S文件分析.md  
+
+
 
 
 
