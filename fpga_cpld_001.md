@@ -894,6 +894,8 @@ $ qemu-arm a.out
 * https://github.com/TaoFu-0204/BUAA-OS-2021-RISC-V  
 * https://github.com/zyy0721/Minisys-OS  
 * https://github.com/Niupple/BUAA-OS-Niupple  
+* search mips r3000  
+* search buaa os  
 
 
 
