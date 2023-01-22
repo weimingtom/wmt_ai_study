@@ -811,6 +811,7 @@ $ qemu-arm a.out
 * https://github.com/kholia/mips-hacking  
 * https://github.com/loongson/qemu  
 * https://github.com/RickyTino/MangoMIPS32  
+* https://github.com/jpcsp/jpcsp   
 
 ## mips gcc, litebsd    
 * https://github.com/sergev/LiteBSD  
