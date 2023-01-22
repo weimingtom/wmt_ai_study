@@ -816,6 +816,8 @@ $ qemu-arm a.out
 * https://github.com/jiegec/linux-gugumips  
 * https://github.com/DaveeFTW/iplsdk  
 * https://github.com/smalltree/shenglong/blob/master/x86emu/include/io.h  
+* https://github.com/deepke/u-boot-mips  
+* https://github.com/nscscc2019ucas/nscscc2019ucas/blob/master/display/soc_up/simu/soft/func/test.lds  
 
 ## mips gcc, litebsd    
 * https://github.com/sergev/LiteBSD  
