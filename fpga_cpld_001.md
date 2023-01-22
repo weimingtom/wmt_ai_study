@@ -882,7 +882,13 @@ $ qemu-arm a.out
 * https://github.com/easter-mips/nscscc2020  
 
 ## mips r3000 os  
-* Written by Martin Mares  
+* search linker script, Written by Martin Mares  
 * https://github.com/roife/BUAA-OS  
 * https://github.com/BXYMartin/MIPS-OS  
 * https://github.com/cqd123123/operating_system  
+* https://github.com/sinoyou/BUAA_Operating_System  
+* https://github.com/Amadeus979/lab6_learn  
+* https://github.com/gitccl/BUAA-OSLAB-2020  
+* https://github.com/SivilTaram/Jos-mips  
+* 
+
