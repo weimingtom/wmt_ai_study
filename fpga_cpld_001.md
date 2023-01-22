@@ -859,6 +859,8 @@ $ qemu-arm a.out
 * https://github.com/lshw/pmon_unas  
 * https://github.com/jcowgill/pmon-loongson  
 * https://github.com/BarclayII/pmon-3amatx  
+* (buildroot?) https://github.com/KianWeng/loongson-fsu  
+
 
 
 
