@@ -881,7 +881,8 @@ $ qemu-arm a.out
 * https://github.com/imhcyx/nscscc-pmon    
 * https://github.com/easter-mips/nscscc2020  
 
-
-
-
-
+## mips r3000 os  
+* Written by Martin Mares  
+* https://github.com/roife/BUAA-OS  
+* https://github.com/BXYMartin/MIPS-OS  
+* https://github.com/cqd123123/operating_system  
