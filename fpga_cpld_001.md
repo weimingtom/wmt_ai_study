@@ -815,6 +815,7 @@ $ qemu-arm a.out
 * https://github.com/kontais/EFI-MIPS  
 * https://github.com/jiegec/linux-gugumips  
 * https://github.com/DaveeFTW/iplsdk  
+* https://github.com/smalltree/shenglong/blob/master/x86emu/include/io.h  
 
 ## mips gcc, litebsd    
 * https://github.com/sergev/LiteBSD  
