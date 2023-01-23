@@ -817,6 +817,7 @@ $ qemu-arm a.out
 * https://github.com/DaveeFTW/iplsdk  
 * https://github.com/smalltree/shenglong/blob/master/x86emu/include/io.h  
 * https://github.com/deepke/u-boot-mips  
+* https://www.linux-mips.org/wiki/Emulators  
 
 ## mips gcc, litebsd    
 * https://github.com/sergev/LiteBSD  
@@ -897,5 +898,11 @@ $ qemu-arm a.out
 * search mips r3000  
 * search buaa os  
 
+## os161, sys161, mips r2000/r3000, for mipseb, idt30xx     
+* https://github.com/ops-class/os161  
+* https://student.cs.uwaterloo.ca/~cs350/common/Install161NonCS.html  
+* https://student.cs.uwaterloo.ca/~cs350/common/Install161.html  
+* https://github.com/Uberi/uw-cs350-development-environment  
+* https://cgi.cse.unsw.edu.au/~cs3231/os161/index.php  
 
 
