@@ -898,11 +898,13 @@ $ qemu-arm a.out
 * search mips r3000  
 * search buaa os  
 
-## os161, sys161, mips r2000/r3000, for mipseb, idt30xx     
+## os161, sys161, mips r2000/r3000, for mipseb, idt30xx    
+* http://www.os161.org  
 * https://github.com/ops-class/os161  
 * https://student.cs.uwaterloo.ca/~cs350/common/Install161NonCS.html  
 * https://student.cs.uwaterloo.ca/~cs350/common/Install161.html  
 * https://github.com/Uberi/uw-cs350-development-environment  
 * https://cgi.cse.unsw.edu.au/~cs3231/os161/index.php  
+* https://cgi.cse.unsw.edu.au/~cs3231/doc/R3000.pdf  
 
 
