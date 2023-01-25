@@ -875,6 +875,8 @@ $ qemu-arm a.out
 * https://github.com/fxjfsy/pmon-loongsonclub  
 * https://github.com/tupelo-shen/my_test/blob/master/doc/linux/mips-architecture/loongson-datasheet/pmon/pmon理解1-start.S文件分析.md  
 * https://github.com/mixiaolei007/-/blob/master/applications/main.c  
+* https://github.com/loongson-community/pmon  
+* https://github.com/loongson/qemu  
 
 ## mips, nscscc  
 * https://github.com/nscscc2019ucas/nscscc2019ucas/blob/master/display/soc_up/simu/soft/func/test.lds  
