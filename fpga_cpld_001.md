@@ -819,6 +819,7 @@ $ qemu-arm a.out
 * https://github.com/deepke/u-boot-mips  
 * https://www.linux-mips.org/wiki/Emulators  
 * https://github.com/hzshang/0ctf2020-flash  
+* https://github.com/Ingenic-community/x-loader  
 
 ## mips gcc, litebsd    
 * https://github.com/sergev/LiteBSD  
