@@ -820,6 +820,7 @@ $ qemu-arm a.out
 * https://www.linux-mips.org/wiki/Emulators  
 * https://github.com/hzshang/0ctf2020-flash  
 * https://github.com/Ingenic-community/x-loader  
+* https://github.com/michaekang/skyeye-testsuite/blob/master/dyncom/hello-mips/hello-mips.c  
 
 ## mips gcc, litebsd    
 * https://github.com/sergev/LiteBSD  
@@ -878,6 +879,9 @@ $ qemu-arm a.out
 * https://github.com/mixiaolei007/-/blob/master/applications/main.c  
 * https://github.com/loongson-community/pmon  
 * https://github.com/loongson/qemu  
+* https://github.com/poorjobless/cpu_gs232  
+* https://www.douban.com/note/186223156/  
+* https://github.com/michaekang/skyeye-testsuite/tree/master/dyncom/hello_gs32eb1  
 
 ## mips, nscscc  
 * https://github.com/nscscc2019ucas/nscscc2019ucas/blob/master/display/soc_up/simu/soft/func/test.lds  
