@@ -818,6 +818,7 @@ $ qemu-arm a.out
 * https://github.com/smalltree/shenglong/blob/master/x86emu/include/io.h  
 * https://github.com/deepke/u-boot-mips  
 * https://www.linux-mips.org/wiki/Emulators  
+* https://github.com/hzshang/0ctf2020-flash  
 
 ## mips gcc, litebsd    
 * https://github.com/sergev/LiteBSD  
