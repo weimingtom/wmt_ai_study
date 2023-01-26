@@ -821,6 +821,8 @@ $ qemu-arm a.out
 * https://github.com/hzshang/0ctf2020-flash  
 * https://github.com/Ingenic-community/x-loader  
 * https://github.com/michaekang/skyeye-testsuite/blob/master/dyncom/hello-mips/hello-mips.c  
+* https://github.com/trivialmips/TrivialMIPS
+* see https://github.com/rcore-os/rCore  
 
 ## mips gcc, litebsd    
 * https://github.com/sergev/LiteBSD  
