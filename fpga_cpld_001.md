@@ -823,6 +823,8 @@ $ qemu-arm a.out
 * https://github.com/michaekang/skyeye-testsuite/blob/master/dyncom/hello-mips/hello-mips.c  
 * https://github.com/trivialmips/TrivialMIPS
 * see https://github.com/rcore-os/rCore  
+* https://github.com/grantae/mips32r1_xum  
+* https://github.com/NiklasKunkel/32-Bit-Multi-Cycle-Bare-MIPS-CPU  
 
 ## mips gcc, litebsd    
 * https://github.com/sergev/LiteBSD  
