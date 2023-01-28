@@ -920,6 +920,6 @@ $ qemu-arm a.out
 * https://cgi.cse.unsw.edu.au/~cs3231/os161/index.php  
 * https://cgi.cse.unsw.edu.au/~cs3231/doc/R3000.pdf  
 
-## ASFRV32I, iverilog    
+## ASFRV32I, iverilog, riscv64-unknown-elf-gcc      
 * https://github.com/asfdrwe/ASFRV32I  
 * https://qiita.com/asfdrwe/items/44e463cf60a99232fc22  
