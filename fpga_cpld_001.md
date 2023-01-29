@@ -924,7 +924,7 @@ $ qemu-arm a.out
 * https://github.com/asfdrwe/ASFRV32I  
 * https://qiita.com/asfdrwe/items/44e463cf60a99232fc22  
 
-## 
+## qemu launch android root system and dalvik  
 我以前说猜测可以把内核和根文件系统分开来编译，或者用别人的根文件系统。  
 这个猜测延展一下，是不是可以用qemu和自己编译的vmlinux，去加载android的根文件系统？  
 好像有人真的尝试过，似乎是可以的，不过似乎需要修改内核配置。  
