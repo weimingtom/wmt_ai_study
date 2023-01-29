@@ -923,3 +923,56 @@ $ qemu-arm a.out
 ## ASFRV32I, iverilog, riscv64-unknown-elf-gcc      
 * https://github.com/asfdrwe/ASFRV32I  
 * https://qiita.com/asfdrwe/items/44e463cf60a99232fc22  
+
+## 
+我以前说猜测可以把内核和根文件系统分开来编译，或者用别人的根文件系统。  
+这个猜测延展一下，是不是可以用qemu和自己编译的vmlinux，去加载android的根文件系统？  
+好像有人真的尝试过，似乎是可以的，不过似乎需要修改内核配置。  
+我找到两篇：《dalvik segfault on embedded linux》  
+https://stackoverflow.com/questions/16918838/dalvik-segfault-on-embedded-linux  
+和《用buildroot qemu 运行 Android 系统》    
+https://blog.csdn.net/span76/article/details/32316499  
+```
+#
+# Android
+#
+CONFIG_ANDROID=y
+CONFIG_ANDROID_BINDER_IPC=y
+CONFIG_ASHMEM=y
+CONFIG_ANDROID_LOGGER=y
+CONFIG_ANDROID_TIMED_OUTPUT=y
+# CONFIG_ANDROID_TIMED_GPIO is not set
+CONFIG_ANDROID_LOW_MEMORY_KILLER=y
+CONFIG_ANDROID_INTF_ALARM_DEV=y
+```
+```
+$ wget http://wiki.qemu-project.org/download/qemu-2.0.0.tar.bz2
+$ tar xzvf qemu-2.0.0.tar.bz2
+$ mkdir ./qemu-2.0.0/bin
+$ cd ./qemu-2.0.0/bin/
+$ ../configure --target-list=arm-softmmu
+$ make
+
+(system 模式，是模拟整个硬件了，user 模式是只模拟arm cpu, sys call 转变为对　host linux-x86的调用）
+
+准备build root, build root 自动下载需要文件编译需要的　kernel, rootfs
+$ wget http://buildroot.uclibc.org/downloads/buildroot-2014.05.tar.bz2
+$ tar xjvf buildroot-2014.05.tar.bz2
+$ cd buildroot-2014.05/
+$ make qemu_arm_vexpress_defconfig
+$ make menuconfig
+Toolchain -> C library -> eglibc
+Toolchain -> Enable C++ support
+System configuration -> Root filesystem overlay directories -> <path to your alien rootfs dir, e.g. /home/payne/qemu/rootfs_my/>
+Target packages -> Show packages that are also provided by busybox
+Target packages -> Debugging, profiling and benchmark -> gdb -> full debugger
+Target packages -> Networking applications -> dhcpcd
+Target packages -> Shell and utilities -> bash
+Filesystem images -> cpio the root filesystem
+Filesystem images -> tar the root filesystem
+$ export BR2_JLEVEL=4
+$ make linux-menuconfig
+Device Drivers -> (*) Staging drivers -> (*) Android -> (*) Android Binder IPC Driver
+File systems -> (*) FUSE (Filesystem in Userspace) support
+$ make
+```
