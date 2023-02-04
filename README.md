@@ -354,7 +354,11 @@ by mbed, micro:bit
 * https://github.com/PaddlePaddle/PaddleSpeech  
 
 ## TinyMaix, KWS example  
-https://github.com/sipeed/TinyMaix/tree/main/examples/kws  
+* https://github.com/sipeed/TinyMaix/tree/main/examples/kws  
+
+## Demonstrator project for speech recognition featuring several technologies, with tensorlow.js  
+* https://goepfert.github.io/audio_features/  
+* https://github.com/goepfert/audio_features  
 
 
 
