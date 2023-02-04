@@ -359,6 +359,8 @@ by mbed, micro:bit
 ## Demonstrator project for speech recognition featuring several technologies, with tensorflow.js  
 * https://goepfert.github.io/audio_features/  
 * https://github.com/goepfert/audio_features  
+* tfjs, TensorFlow.js  
+* https://github.com/tensorflow/tfjs  
 
 
 
