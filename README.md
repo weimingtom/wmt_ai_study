@@ -363,6 +363,9 @@ by mbed, micro:bit
 * https://github.com/tensorflow/tfjs  
 
 
+## (TODO) 基于DNN和DTW算法配合VAD截取的微语音识别框架, some sources lost, keil    
+* https://github.com/jerenhu/MiniSpeech  
+
 
 
 ## (TODO) TODO list, keep putting here at last    
