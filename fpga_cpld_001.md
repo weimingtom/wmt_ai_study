@@ -980,3 +980,6 @@ $ make
 ## ucsim  
 * https://blog.51cto.com/u_12369060/5191901  
 * 模拟mcs51, 68hc08  
+* mc68hc08  
+* Freescale MC68HC908JL3ECDWE 系统板 开发板  
+
