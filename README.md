@@ -372,6 +372,8 @@ by mbed, micro:bit
 * https://www.ryjiaoyu.com/book/details/44052  
 * https://m.ryjiaoyu.com/resource/29440  
 * ref: 神经网络与深度学习实战：Python+Keras+TensorFlow  
+* ref: LSTM, sparse_categorical_crossentropy, mfcc  
+* https://github.com/search?q=sparse_categorical_crossentropy+mfcc&type=code  
 
 ## (TODO) TODO list, keep putting here at last    
 * https://github.com/edgeimpulse/voice-activated-microbit  
