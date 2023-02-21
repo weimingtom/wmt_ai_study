@@ -362,11 +362,13 @@ by mbed, micro:bit
 * tfjs, TensorFlow.js  
 * https://github.com/tensorflow/tfjs  
 
-
 ## (TODO) 基于DNN和DTW算法配合VAD截取的微语音识别框架, some sources lost, keil    
 * https://github.com/jerenhu/MiniSpeech  
 
-
+## (TODO) LSTM + CTC (?), TensorFlow 2深度学习实战, 人民邮电出版社  
+* 57590_TensorFlow2深度学习实战_正文数据和代码.zip  
+* 第5章, 基于LSTM网络的语音识别  
+* LSTM + CTC (with TensorFlow 2.2 ?)    
 
 ## (TODO) TODO list, keep putting here at last    
 * https://github.com/edgeimpulse/voice-activated-microbit  
