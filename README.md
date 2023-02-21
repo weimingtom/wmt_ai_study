@@ -369,6 +369,8 @@ by mbed, micro:bit
 * 57590_TensorFlow2深度学习实战_正文数据和代码.zip  
 * 第5章, 基于LSTM网络的语音识别  
 * LSTM + CTC (with TensorFlow 2.2 ?)    
+* https://www.ryjiaoyu.com/book/details/44052  
+* https://m.ryjiaoyu.com/resource/29440  
 
 ## (TODO) TODO list, keep putting here at last    
 * https://github.com/edgeimpulse/voice-activated-microbit  
