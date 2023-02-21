@@ -371,6 +371,7 @@ by mbed, micro:bit
 * LSTM + CTC (with TensorFlow 2.2 ?)    
 * https://www.ryjiaoyu.com/book/details/44052  
 * https://m.ryjiaoyu.com/resource/29440  
+* ref: 神经网络与深度学习实战：Python+Keras+TensorFlow  
 
 ## (TODO) TODO list, keep putting here at last    
 * https://github.com/edgeimpulse/voice-activated-microbit  
