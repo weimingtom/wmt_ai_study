@@ -386,6 +386,8 @@ https://www.packtpub.com/free-ebook/hands-on-natural-language-processing-with-py
 https://github.com/PacktPublishing/Hands-On-Natural-Language-Processing-with-Python/blob/master/Chapter11/01_example.ipynb  
 tflearn, librosa mfcc, tflearn.lstm categorical_crossentropy  
 search baidupan, Python自然语言处理实战  
+* https://github.com/Jakobovski/free-spoken-digit-dataset  
+speech_dset  
 
 ## (TODO) TODO list, keep putting here at last    
 * https://github.com/edgeimpulse/voice-activated-microbit  
