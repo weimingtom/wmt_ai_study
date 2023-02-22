@@ -376,6 +376,7 @@ by mbed, micro:bit
 * https://github.com/search?q=sparse_categorical_crossentropy+mfcc&type=code  
 
 ## (TODO) LSTM + CTC (???), Python自然语言处理实战
+* Hands-On Natural Language Processing with Python  
 * https://www.ituring.com.cn/book/2679  
 * 《Python自然语言处理实战》链接表  
 https://www.ituring.com.cn/article/510382  
