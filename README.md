@@ -375,5 +375,16 @@ by mbed, micro:bit
 * ref: LSTM, sparse_categorical_crossentropy, mfcc  
 * https://github.com/search?q=sparse_categorical_crossentropy+mfcc&type=code  
 
+## (TODO) LSTM + CTC (???), Python自然语言处理实战
+* https://www.ituring.com.cn/book/2679  
+* 《Python自然语言处理实战》链接表  
+https://www.ituring.com.cn/article/510382  
+* Hands-On Natural Language Processing with Python  
+https://www.packtpub.com/free-ebook/hands-on-natural-language-processing-with-python/9781789139495  
+* (IMP) 第11章, 使用DeepSpeech进行语音识别  
+https://github.com/PacktPublishing/Hands-On-Natural-Language-Processing-with-Python/blob/master/Chapter11/01_example.ipynb  
+tflearn, librosa mfcc, tflearn.lstm categorical_crossentropy  
+search baidupan, Python自然语言处理实战  
+
 ## (TODO) TODO list, keep putting here at last    
 * https://github.com/edgeimpulse/voice-activated-microbit  
