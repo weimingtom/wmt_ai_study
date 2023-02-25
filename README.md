@@ -374,6 +374,7 @@ by mbed, micro:bit
 * ref: 神经网络与深度学习实战：Python+Keras+TensorFlow  
 * ref: LSTM, sparse_categorical_crossentropy, mfcc  
 * https://github.com/search?q=sparse_categorical_crossentropy+mfcc&type=code  
+* ref: (run failed, see my aistudio) https://github.com/llSourcell/tensorflow_speech_recognition_demo  
 
 ## (TODO) LSTM + CTC (???), Python自然语言处理实战
 * Hands-On Natural Language Processing with Python  
