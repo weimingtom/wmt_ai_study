@@ -376,10 +376,10 @@ by mbed, micro:bit
 * https://github.com/search?q=sparse_categorical_crossentropy+mfcc&type=code  
 * ref: (run failed, see my aistudio) 
 ```
-我试过用aistudio跑《TensorFlow 2 deep learning实战里面》那个LSTM例子代码，
+我试过用aistudio跑《TensorFlow 2深度学习实战里面》那个LSTM例子代码，
 的确是可以跑得通的（我用的是TensorFlow 2.3）。
 不过我以前还试过另一个LSTM的语音识别，结果失败了，是这个：
-《Python+TensorFlow machine learning实战》第9.2章
+《Python+TensorFlow机器学习实战》第9.2章
 （可能这里已经改好了：llSourcell/tensorflow_speech_recognition_demo）。
 有时间可以对照改一下。
 ```
