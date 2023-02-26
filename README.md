@@ -399,8 +399,11 @@ tflearn, librosa mfcc, tflearn.lstm categorical_crossentropy
 search baidupan, Python自然语言处理实战  
 * https://github.com/Jakobovski/free-spoken-digit-dataset  
 speech_dset  
-* https://github.com/llSourcell/tensorflow_speech_recognition_demo  
-* https://github.com/tflearn/tflearn/blob/master/tutorials/intro/quickstart.md  
+
+## (TODO) TFLearn LSTM, tensorflow_speech_recognition_demo, and 《Python+TensorFlow机器学习实战》第9.2章  
+* (origin) https://github.com/llSourcell/tensorflow_speech_recognition_demo  
+* mod ref to https://github.com/PacktPublishing/Hands-On-Natural-Language-Processing-with-Python/blob/master/Chapter11/01_example.ipynb  
+* see https://github.com/tflearn/tflearn/blob/master/tutorials/intro/quickstart.md  
 * search spoken_numbers_pcm.tar  
 * search tensorflow_speech_recognition_demo-master_min_v2_success.zip  
 * search tf_02.tar.gz  
