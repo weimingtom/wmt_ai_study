@@ -384,6 +384,7 @@ by mbed, micro:bit
 有时间可以对照改一下。
 ```
 * ref: https://github.com/llSourcell/tensorflow_speech_recognition_demo  
+* search tf2lstm5_v1.tar.gz  
 
 ## (TODO) LSTM + CTC (???), Python自然语言处理实战
 * Hands-On Natural Language Processing with Python  
@@ -400,6 +401,9 @@ search baidupan, Python自然语言处理实战
 speech_dset  
 * https://github.com/llSourcell/tensorflow_speech_recognition_demo  
 * https://github.com/tflearn/tflearn/blob/master/tutorials/intro/quickstart.md  
+* search spoken_numbers_pcm.tar  
+* search tensorflow_speech_recognition_demo-master_min_v2_success.zip  
+* search tf_02.tar.gz  
 
 ## (TODO) TODO list, keep putting here at last    
 * https://github.com/edgeimpulse/voice-activated-microbit  
