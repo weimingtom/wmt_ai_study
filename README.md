@@ -398,6 +398,8 @@ tflearn, librosa mfcc, tflearn.lstm categorical_crossentropy
 search baidupan, Python自然语言处理实战  
 * https://github.com/Jakobovski/free-spoken-digit-dataset  
 speech_dset  
+* https://github.com/llSourcell/tensorflow_speech_recognition_demo  
+* https://github.com/tflearn/tflearn/blob/master/tutorials/intro/quickstart.md  
 
 ## (TODO) TODO list, keep putting here at last    
 * https://github.com/edgeimpulse/voice-activated-microbit  
