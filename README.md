@@ -360,7 +360,7 @@ by mbed, micro:bit
 ## TinyMaix, KWS example  
 * https://github.com/sipeed/TinyMaix/tree/main/examples/kws  
 
-## Demonstrator project for speech recognition featuring several technologies, with tensorflow.js  
+## (TODO, IMP) Demonstrator project for speech recognition featuring several technologies, with tensorflow.js  
 * https://goepfert.github.io/audio_features/  
 * https://github.com/goepfert/audio_features  
 * tfjs, TensorFlow.js  
