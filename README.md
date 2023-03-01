@@ -408,6 +408,8 @@ speech_dset
 * search spoken_numbers_pcm.tar  
 * search tensorflow_speech_recognition_demo-master_min_v2_success.zip  
 * search tf_02.tar.gz  
+* data set from https://github.com/pannous/tensorflow-speech-recognition  
+* data set from https://github.com/pannous/caffe-speech-recognition  
 
 ## (TODO) TODO list, keep putting here at last    
 * https://github.com/edgeimpulse/voice-activated-microbit  
