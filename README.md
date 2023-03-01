@@ -368,6 +368,7 @@ by mbed, micro:bit
 
 ## (TODO) 基于DNN和DTW算法配合VAD截取的微语音识别框架, some sources lost, keil    
 * https://github.com/jerenhu/MiniSpeech  
+* (TODO, IMP) https://github.com/jerenhu/MiniSpeech/blob/master/MATLAB/dtw.m  
 
 ## (TODO) LSTM + CTC (?), TensorFlow 2深度学习实战, 人民邮电出版社  
 * 57590_TensorFlow2深度学习实战_正文数据和代码.zip  
