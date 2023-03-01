@@ -45,7 +45,9 @@ https://community.st.com/s/article/FAQ-DMA-is-not-working-on-STM32H7-devices
 https://gitee.com/tutuwin/xr872_-audio/blob/master/audio_record.c  
 model_process  
 * (TODO) https://github.com/espressif/tflite-micro-esp-examples  
-* (TODO) 
+* (TODO) https://github.com/tensorflow/tflite-micro-arduino-examples  
+* (TODO) https://github.com/tensorflow/tflite-micro  
+* (TODO) https://github.com/tensorflow/tflite-micro/tree/main/third_party/xtensa/examples/micro_speech_lstm  
 
 ## ML-KWS work  
 * mlkws_stm32f411re_v8_first_success.rar  
