@@ -400,9 +400,9 @@ search baidupan, Python自然语言处理实战
 * https://github.com/Jakobovski/free-spoken-digit-dataset  
 speech_dset  
 
-## (TODO) TFLearn LSTM, tensorflow_speech_recognition_demo, and 《Python+TensorFlow机器学习实战》第9.2章  
+## TFLearn LSTM, tensorflow_speech_recognition_demo, and 《Python+TensorFlow机器学习实战》第9.2章  
+* (my work) https://github.com/weimingtom/tensorflow_speech_recognition_demo_mod  
 * (origin) https://github.com/llSourcell/tensorflow_speech_recognition_demo  
-* (work) https://github.com/weimingtom/tensorflow_speech_recognition_demo_mod  
 * mod ref to https://github.com/PacktPublishing/Hands-On-Natural-Language-Processing-with-Python/blob/master/Chapter11/01_example.ipynb  
 * see https://github.com/tflearn/tflearn/blob/master/tutorials/intro/quickstart.md  
 * search spoken_numbers_pcm.tar  
