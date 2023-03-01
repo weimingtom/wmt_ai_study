@@ -44,6 +44,8 @@ https://community.st.com/s/article/FAQ-DMA-is-not-working-on-STM32H7-devices
 * (TODO) https://gitee.com/tutuwin/xr872_-audio  
 https://gitee.com/tutuwin/xr872_-audio/blob/master/audio_record.c  
 model_process  
+* (TODO) https://github.com/espressif/tflite-micro-esp-examples  
+* (TODO) 
 
 ## ML-KWS work  
 * mlkws_stm32f411re_v8_first_success.rar  
