@@ -415,6 +415,10 @@ speech_dset
 * search tf_02.tar.gz  
 * data set from https://github.com/pannous/tensorflow-speech-recognition  
 * data set from https://github.com/pannous/caffe-speech-recognition  
+* https://github.com/hcchengithub/tensorflow_speech_recognition_demo/blob/master/lstm-tflearn.py  
+* https://github.com/llSourcell/tensorflow_speech_recognition_demo/issues/29  
+* https://github.com/Chancing0/EZ-LSTM-Speech-Recognition-Project  
+* https://github.com/pannous/tensorflow-speech-recognition/blob/master/lstm-tflearn.py  
 
 ## (TODO) TODO list, keep putting here at last    
 * https://github.com/edgeimpulse/voice-activated-microbit  
