@@ -1,0 +1,473 @@
+https://www.passerma.com/article/54/
+https://github.com/passerma/voiceAssistant
+
+树莓派使用snowboy以及百度语音api实现语音识别助手
+2020-04-10 13:01
+树莓派
+3254
+36
+一.唤醒模块
+1. 安装所需依赖
+sudo apt-get install python3-pyaudio
+sudo apt-get install swig
+sudo apt-get install libatlas-base-dev
+2. 安装snowboy
+git clone https://gitee.com/passerma/snowboy.git
+cd snowboy/swig/Python3 && make
+3.测试是否安装成功
+ps：需注意要将
+snowboy/examples/Python3
+目录下的
+snowboydecoder.py
+文件的第 5 行代码
+from * import snowboydetect
+改为
+import snowboydetect
+然后执行
+
+cd ~
+cd snowboy/examples/Python3
+python3 demo.py resources/models/snowboy.umdl
+其中resources/models/snowboy.umdl是语音识别模型文件，这个后面可以替换成你需要的模型
+运行后会出现以下
+
+然后说出唤醒词snowboy将会出现滴的一声，同时输出INFO:snowboy:Keyword 1 detected at time: 2020-04-10 11:51:22
+说明安装环境成功
+
+4.修改唤醒词
+进入snowBoy官网，登录成功后选择Create Hotword
+
+随后进行录制声音，推荐录制好后上传录音，只支持WAV格式
+
+之后再测试一遍通过后即可下载，下载完成后将得到一个mmdl文件
+
+替换之前resources/models/snowboy.umdl文件即可完成对唤醒词的修改
+或者在运行的时候直接选择你的pmdl文件,比如我的文件是ma.pmdl,运行时输入也可
+
+cd ~
+cd snowboy/examples/Python3
+python3 demo.py resources/models/ma.pmdl
+至此，唤醒模块已经完成，接下来就是录制声音进行语音识别了
+
+二.语音识别模块
+1. 申请百度智能云账号
+随后进入控制台选择人工智能下的语音模块，然后创建一个应用，目前百度的语音识别次数免费额度只有50000次，所有大家好好珍惜
+然后点击管理应用后你将得到你的API Key和Secret Key，记录备用
+
+但是目前新建账号已经没有免费额度了，需要开通付费，不过依旧可以领取免费额度来使用
+前往管理中心的控制台选择语音识别，然后可以看到概览，里面的表格里可以领取
+
+
+2.树莓派录制声音上传百度
+这一步我将结合python的程序，直接上程序
+
+1.需要现获取到token，才能有权限，文件名为fetchToken.py
+import sys
+import json
+
+# 保证兼容python2以及python3
+IS_PY3 = sys.version_info.major == 3
+if IS_PY3:
+    from urllib.request import urlopen
+    from urllib.request import Request
+    from urllib.error import URLError
+    from urllib.parse import urlencode
+    from urllib.parse import quote_plus
+else:
+    import urllib2
+    from urllib import quote_plus
+    from urllib2 import urlopen
+    from urllib2 import Request
+    from urllib2 import URLError
+    from urllib import urlencode
+# 替换你的 API_KEY
+
+API_KEY = '***************'
+
+# 替换你的 SECRET_KEY
+SECRET_KEY = '***************'
+
+TOKEN_URL = 'http://openapi.baidu.com/oauth/2.0/token'
+
+def fetch_token():
+    params = {'grant_type': 'client_credentials',
+              'client_id': API_KEY,
+              'client_secret': SECRET_KEY}
+    post_data = urlencode(params)
+    if (IS_PY3):
+        post_data = post_data.encode('utf-8')
+    req = Request(TOKEN_URL, post_data)
+    try:
+        f = urlopen(req, timeout=5)
+        result_str = f.read()
+    except URLError as err:
+        print('token http response http code : ' + str(err.code))
+        result_str = err.read()
+    if (IS_PY3):
+        result_str = result_str.decode()
+
+    result = json.loads(result_str)
+
+    if ('access_token' in result.keys() and 'scope' in result.keys()):
+        if not 'audio_tts_post' in result['scope'].split(' '):
+            print ('please ensure has check the tts ability')
+            return ''
+        return result['access_token']
+    else:
+        print ('please overwrite the correct API_KEY and SECRET_KEY')
+        return ''
+2.主程序，文件名为snow.py
+import snowboydecoder
+import signal
+import wave
+import sys
+import json
+import requests
+import time
+import os
+import base64
+from pyaudio import PyAudio, paInt16
+import webbrowser
+from fetchToken import fetch_token
+import time
+
+IS_PY3 = sys.version_info.major == 3
+if IS_PY3:
+    from urllib.request import urlopen
+    from urllib.request import Request
+    from urllib.error import URLError
+    from urllib.parse import urlencode
+    from urllib.parse import quote_plus
+else:
+    import urllib2
+    from urllib import quote_plus
+    from urllib2 import urlopen
+    from urllib2 import Request
+    from urllib2 import URLError
+    from urllib import urlencode
+
+interrupted = False # snowboy监听唤醒结束标志
+endSnow = False # 程序结束标志
+
+framerate = 16000  # 采样率
+num_samples = 2000  # 采样点
+channels = 1  # 声道
+sampwidth = 2  # 采样宽度2bytes
+
+FILEPATH = './audio/audio.wav' # 录制完成存放音频路径
+music_exit = './audio/exit.wav' # 唤醒系统退出语音
+music_open = './audio/open.wav' # 唤醒系统打开语音
+os.close(sys.stderr.fileno()) # 去掉错误警告
+
+def signal_handler(signal, frame):
+    """
+    监听键盘结束
+    """
+    global interrupted
+    interrupted = True
+
+def interrupt_callback():
+    """
+    监听唤醒
+    """
+    global interrupted
+    return interrupted
+
+def detected():
+    """
+    唤醒成功
+    """
+    print('唤醒成功')
+    play(music_open)
+    global interrupted
+    interrupted = True
+    detector.terminate()
+
+def play(filename):
+    """
+    播放音频
+    """
+    wf = wave.open(filename, 'rb')  # 打开audio.wav
+    p = PyAudio()                   # 实例化 pyaudio
+    # 打开流
+    stream = p.open(format=p.get_format_from_width(wf.getsampwidth()),
+                    channels=wf.getnchannels(),
+                    rate=wf.getframerate(),
+                    output=True)
+    data = wf.readframes(1024)
+    while data != b'':
+        data = wf.readframes(1024)
+        stream.write(data)
+    # 释放IO
+    stream.stop_stream()
+    stream.close()
+    p.terminate()
+
+def save_wave_file(filepath, data):
+    """
+    存储文件
+    """
+    wf = wave.open(filepath, 'wb')
+    wf.setnchannels(channels)
+    wf.setsampwidth(sampwidth)
+    wf.setframerate(framerate)
+    wf.writeframes(b''.join(data))
+    wf.close()
+
+def my_record():
+    """
+    录音
+    """
+    pa = PyAudio()
+    stream = pa.open(format=paInt16, channels=channels,
+                     rate=framerate, input=True, frames_per_buffer=num_samples)
+    my_buf = []
+    # count = 0
+    t = time.time()
+    print('开始录音...')
+    while time.time() < t + 4:  # 秒
+        string_audio_data = stream.read(num_samples)
+        my_buf.append(string_audio_data)
+    print('录音结束!')
+    save_wave_file(FILEPATH, my_buf)
+    stream.close()
+
+
+def speech2text(speech_data, token, dev_pid=1537):
+    """
+    音频转文字
+    """
+    FORMAT = 'wav'
+    RATE = '16000'
+    CHANNEL = 1
+    CUID = 'baidu_workshop'
+    SPEECH = base64.b64encode(speech_data).decode('utf-8')
+    data = {
+        'format': FORMAT,
+        'rate': RATE,
+        'channel': CHANNEL,
+        'cuid': CUID,
+        'len': len(speech_data),
+        'speech': SPEECH,
+        'token': token,
+        'dev_pid': dev_pid
+    }
+    # 语音转文字接口 该接口可能每个人不一样，取决于你需要哪种语音识别功能，本文使用的是 语音识别极速版
+
+    url = 'https://vop.baidu.com/pro_api'
+    headers = {'Content-Type': 'application/json'} # 请求头
+    print('正在识别...')
+    r = requests.post(url, json=data, headers=headers)
+    Result = r.json()
+    if 'result' in Result:
+        return Result['result'][0]
+    else:
+        return Result
+
+def get_audio(file):
+    """
+    获取音频文件
+    """
+    with open(file, 'rb') as f:
+        data = f.read()
+    return data
+
+def identifyComplete(text):
+    """
+    识别成功
+    """
+    print(text)
+    maps = {
+        '打开百度': ['打开百度。', '打开百度', '打开百度，', 'baidu']
+    }
+    if (text == '再见。' or text == '拜拜。'):
+        play(music_exit) # 关闭系统播放反馈语音
+        exit()
+    if text in maps['打开百度']:
+        webbrowser.open_new_tab('https://www.baidu.com')
+        play('./audio/openbaidu.wav') # 识别到播放反馈语音
+    else:
+        play('./audio/none.wav') # 未匹配口令播放反馈语音
+    print('操作完成')
+
+if __name__ == "__main__":
+    while endSnow == False:
+        interrupted = False
+        # 实例化snowboy，第一个参数就是唤醒识别模型位置
+        detector = snowboydecoder.HotwordDetector('ma.pmdl', sensitivity=0.5)
+        print('等待唤醒')
+        # snowboy监听循环
+        detector.start(detected_callback=detected,
+                   interrupt_check=interrupt_callback,
+                   sleep_time=0.03)
+        my_record() # 唤醒成功开始录音
+        TOKEN = fetch_token() # 获取token
+        speech = get_audio(FILEPATH)
+        result = speech2text(speech, TOKEN, int(80001))
+        if type(result) == str:
+            identifyComplete(result.strip('，'))
+至此代码结束
+
+接下来需要将以下文件移入你自己的文件夹
+1.之前 snowboy/swig/Python3 目录下编译好的 _snowboydetect.so ，以及 snowboydetect.py文件
+2.然后是 snowboy/examples/Python3 目录下的 snowboydecoder.py 文件
+3.再是 snowboy/resources 整个文件夹
+4.最后就是你的两个程序文件 fetchToken.py , snow.py , 然后是唤醒模型 ma.pmdl ,
+5.再是 audio文件夹，可以没有，这个文件夹主要是语音反馈文件，就是主程序里的开启关闭成功的语音
+然后你的文件夹目录应该有以下几个文件
+
+然后cd到你的目录，运行 python3 snow.py 即可
+然后就会是以下效果
+
+代码已上传至GitHub
+
+至此，树莓派使用snowboy以及百度语音api实现语音识别助手基本完成，接下来的拓展无非是以这个为基础，实现完整的语音助手
+
+全部评论 36
+d
+dddd
+2022-12-07 20:17  回复
+谢谢楼主，按照楼主的方法已经实现了，一些模型要结合自己的实际环境做一些修改才能正常运行
+c
+clinch
+2021-08-16 16:44  回复
+博主你树莓派用的哪个麦克风来接受声音输出声音的啊
+
+passerma
+2021-08-16 21:27  回复
+我用的绿联的USB声卡，然后连耳机当麦克风的
+s
+smallfive
+2021-05-20 00:02  回复
+cd snowboy/swig/Python3 && make编译不成功，提示 /usr/bin/ld: ../..//lib/ubuntu64/libsnowboy-detect.a: error adding symbols: file in wrong format collect2: error: ld returned 1 exit status make: *** [Makefile:73: _snowboydetect.so] Error 1 是不是编译环境不一样？
+
+passerma
+2021-05-20 09:31  回复
+应该是的
+
+wlw
+2022-03-11 02:00  回复
+@passerma 我也出现了这个问题，请问如何处理呢，着急 QQ：1584545874
+
+沐心
+2021-04-20 16:14  回复
+博主，使用百度AI语音合成文章后出现 http://tsn.baidu.com/text2audio?tex=识别错误，怎么办
+
+passerma
+2021-04-20 21:45  回复
+必填的字段都填了吗
+
+沐心
+2021-04-21 14:55  回复
+嗯，填写了的，还有Snowboy训练语音模型的网站进不去了，如何训练自己的语音模型呢？
+
+passerma
+2021-04-21 20:50  回复
+@沐心 目前是没有什么好办法训练模型了
+
+feihangfei
+2021-03-27 21:47  回复
+
+为什么运行出来提示“已放弃”
+
+passerma
+2021-04-03 01:32  回复
+这个不清楚哎，感觉是python运行时候的问题，我看代码里面没有写输出已放弃的地方
+
+laaaity
+2021-05-05 15:23  回复
+语音模型不能使用了 试试换个模型
+d
+ddd
+2022-12-07 20:16  回复
+唤醒模型要改成你自己的
+
+奇迹盖茨
+2021-03-12 10:38  回复
+
+只有这个提示“Aborted”
+
+passerma
+2021-03-12 18:53  回复
+这个问题我也没遇到过，不太清楚，得具体定位
+奇
+奇迹盖茨
+2021-03-11 11:22  回复
+请问下我运行的时候提示“Aborted”
+
+passerma
+2021-03-11 21:17  回复
+啥问题，能否具体点
+
+fzm_rabbit
+2021-04-17 16:38  回复
+我也是这个问题 请问解决了吗
+
+白衣大鬼
+2020-12-30 22:29  回复
+
+请问一下，TOKEN_URL = 'http://openapi.baidu.com/oauth/2.0/token' 中的地址需要改成自己的请求地址吗？
+
+passerma
+2020-12-30 22:47  回复
+TOKEN_URL是用来请求token的，每个人都是一样的，没有token的话你那个语音识别的接口是调不通的
+
+白衣大鬼
+2020-12-30 23:32  回复
+@passerma 好的，谢谢您。如果想找更多的.wav的指令反馈语音，是需要自己录制还是有其它渠道能找到？
+
+passerma
+2020-12-30 23:36  回复
+@白衣大鬼 自己录制就好了
+
+白衣大鬼
+2020-12-30 23:39  回复
+@passerma 好的，感谢博主
+
+zzf
+2020-09-07 18:10  回复
+这个 play函数播放wav 会和mplayer冲突吗？
+
+passerma
+2020-09-07 21:56  回复
+不会，但是这个play函数播放会阻塞程序运行
+
+zzf
+2020-08-21 15:00  回复
+后面改了一下 可以了 感谢
+
+feihangfei
+2021-03-27 21:33  回复
+你后来改了什么呢？我也是跟你一样的问题，输出已放弃
+
+zzf
+2020-08-20 20:12  回复
+运行后 输出以放弃是为什么呢 除了两个key 还有要改的地方吗？
+
+passerma
+2020-08-20 21:47  回复
+？？？哪来的输出已放弃
+
+rb
+2020-07-21 16:03  回复
+请问博主，我用你的代码出现了{'err_msg': 'request pv too much', 'err_no': 3305, 'sn': '807245906741595318568'}这个错误，我是刚刚创建的帐号为什么会有这个错误呢？求帮助！！
+
+passerma
+2020-07-21 22:05  回复
+现在百度的语音识别已经不给免费额度了，得开通付费了
+
+rb
+2020-07-21 22:07  回复
+@passerma 好吧哈哈，谢谢博主！
+
+passerma
+2020-07-21 22:22  回复
+@rb 我看了下百度语音识别，现在的免费额度不再自动给了，得去管理中心的语音识别手动领取，就那个概览的表里面
+
+rb
+2020-07-21 22:29  回复
+@passerma 好的，我看见了，谢谢！！
+
+心静茹氵嫣
+2020-05-30 10:32  回复
+可以用
