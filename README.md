@@ -430,7 +430,13 @@ speech_dset
 app/include/rest.h, lib/librest.a, vop.baidu.com/pro_api    
 int send_baidu(int sta_socket);
 ```
-
+* 语音识别极速版API  
+* https://ai.baidu.com/ai-doc/SPEECH/jkhq0ohzz  
+* https://ai.baidu.com/ai-doc/  
+* (old, not used) https://ai.baidu.com/docs#/ASR-API-PRO/top  
+* https://blog.csdn.net/weixin_40973138/article/details/103106608  
+* https://ai.baidu.com/forum/topic/show/957508  
+* https://blog.csdn.net/weixin_43271060/article/details/90318840  
 
 ## (TODO) TODO list, keep putting here at last    
 * https://github.com/edgeimpulse/voice-activated-microbit  
