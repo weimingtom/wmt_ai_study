@@ -439,5 +439,8 @@ int send_baidu(int sta_socket);
 * https://ai.baidu.com/forum/topic/show/957508  
 * https://blog.csdn.net/weixin_43271060/article/details/90318840  
 
+## 基于百度语音的识别语音，转文字  
+* https://gitee.com/rx-ted/baidu-asr  
+
 ## (TODO) TODO list, keep putting here at last    
 * https://github.com/edgeimpulse/voice-activated-microbit  
