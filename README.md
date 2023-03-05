@@ -420,5 +420,9 @@ speech_dset
 * https://github.com/Chancing0/EZ-LSTM-Speech-Recognition-Project  
 * https://github.com/pannous/tensorflow-speech-recognition/blob/master/lstm-tflearn.py  
 
+## (TODO, not exists now) to find a esp8266 (or esp32) baidu asr demo, like this: (maybe someone has made it)  
+* https://github.com/MhageGH/esp32_CloudSpeech  
+* https://github.com/MhageGH/esp32_SoundRecorder  
+
 ## (TODO) TODO list, keep putting here at last    
 * https://github.com/edgeimpulse/voice-activated-microbit  
