@@ -424,6 +424,11 @@ speech_dset
 * https://github.com/achinwoo/BAIDU_ASR_ESP8266  
 * https://github.com/MhageGH/esp32_CloudSpeech  
 * https://github.com/MhageGH/esp32_SoundRecorder  
+```
+app/include/rest.h, lib/librest.a, vop.baidu.com/pro_api    
+int send_baidu(int sta_socket);
+```
+
 
 ## (TODO) TODO list, keep putting here at last    
 * https://github.com/edgeimpulse/voice-activated-microbit  
