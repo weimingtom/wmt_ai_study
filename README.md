@@ -430,7 +430,8 @@ speech_dset
 app/include/rest.h, lib/librest.a, vop.baidu.com/pro_api    
 int send_baidu(int sta_socket);
 ```
-* 语音识别极速版API  
+* 百度大脑, AI开放平台, 语音识别极速版API  
+* (IMP) https://github.com/Baidu-AIP/speech-demo  
 * https://ai.baidu.com/ai-doc/SPEECH/jkhq0ohzz  
 * https://ai.baidu.com/ai-doc/  
 * (old, not used) https://ai.baidu.com/docs#/ASR-API-PRO/top  
