@@ -45,7 +45,7 @@ https://community.st.com/s/article/FAQ-DMA-is-not-working-on-STM32H7-devices
 https://gitee.com/tutuwin/xr872_-audio/blob/master/audio_record.c  
 model_process  
 
-## TFLite micro esp32  
+## TFLite micro esp32, MSM261S4030H0R    
 * search baidupan, tflite-micro-esp-examples-master_v2_test_esp32_one_success.rar  
 * (TODO) https://github.com/espressif/tflite-micro-esp-examples  
 https://github.com/espressif/esp-nn  
