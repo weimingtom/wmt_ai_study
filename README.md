@@ -49,7 +49,7 @@ https://github.com/espressif/esp-nn
 https://github.com/dhdhxji/ESP32-LyraT-tf_command-recognition  
 * (TODO) https://github.com/tensorflow/tflite-micro-arduino-examples  
 * (TODO) https://github.com/tensorflow/tflite-micro  
-* (TODO) https://github.com/tensorflow/tflite-micro/tree/main/third_party/xtensa/examples/micro_speech_lstm  
+https://github.com/tensorflow/tflite-micro/tree/main/third_party/xtensa/examples/micro_speech_lstm  
 
 ## ML-KWS work  
 * mlkws_stm32f411re_v8_first_success.rar  
