@@ -46,6 +46,7 @@ https://gitee.com/tutuwin/xr872_-audio/blob/master/audio_record.c
 model_process  
 * (TODO) https://github.com/espressif/tflite-micro-esp-examples  
 https://github.com/espressif/esp-nn  
+https://github.com/dhdhxji/ESP32-LyraT-tf_command-recognition  
 * (TODO) https://github.com/tensorflow/tflite-micro-arduino-examples  
 * (TODO) https://github.com/tensorflow/tflite-micro  
 * (TODO) https://github.com/tensorflow/tflite-micro/tree/main/third_party/xtensa/examples/micro_speech_lstm  
