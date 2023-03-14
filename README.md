@@ -364,6 +364,7 @@ by mbed, micro:bit
 
 ## TinyMaix, KWS example  
 * https://github.com/sipeed/TinyMaix/tree/main/examples/kws  
+* Although **sipeed/Maix-Speech** is closed source, but TinyMaix is open source  
 
 ## (TODO, IMP) Demonstrator project for speech recognition featuring several technologies, with tensorflow.js  
 * https://goepfert.github.io/audio_features/  
