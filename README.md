@@ -452,6 +452,7 @@ int send_baidu(int sta_socket);
 * https://max.book118.com/html/2021/0507/6035234121003144.shtm  
 * 第十二章，语音关键词检索  
 * CSpeechRecognitionCore::DTWCal  
+* search 龙芯派开发实战_第12章语音识别  
 
 
 
