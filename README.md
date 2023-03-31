@@ -453,6 +453,10 @@ int send_baidu(int sta_socket);
 ## 基于百度语音的识别语音，转文字  
 * https://gitee.com/rx-ted/baidu-asr  
 
+## ESP32 语音唤醒+离线识别+百度在线识别  
+* https://github.com/HoGC/esp_speech_recognition  
+* search github, esp32 speech, esp8266 speech  
+
 ## (TODO) DTW, 用“芯”探核：龙芯派开发实战  
 * https://max.book118.com/html/2021/0507/6035234121003144.shtm  
 * 第十二章，语音关键词检索  
