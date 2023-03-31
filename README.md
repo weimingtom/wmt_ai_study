@@ -59,6 +59,11 @@ https://github.com/tensorflow/tflite-micro/tree/main/third_party/xtensa/examples
 ## (TODO) TFLite micro ARM, NXP MIMXRT1050-EVKB or Arm虚拟硬件(AVH)    
 * https://github.com/ARM-software/AVH-TFLmicrospeech  
 
+## TinyML: 基于TensorFlow Lite在Arduino和超低功耗微控制器上部署机器学习  
+* TinyML: Machine Learning with TensorFlow Lite on Arduino and Ultra-Low-Power Microcontrollers  
+* https://www.oreilly.com/library/view/tinyml/9781492052036/  
+* https://github.com/tensorflow/tflite-micro  
+
 ## ML-KWS work  
 * mlkws_stm32f411re_v8_first_success.rar  
 (STM32) with STM32CubeMX, Keil MDK5 AC6 and NUCLEO-F411RE   
