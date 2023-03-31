@@ -459,8 +459,12 @@ int send_baidu(int sta_socket);
 * CSpeechRecognitionCore::DTWCal  
 * search 龙芯派开发实战_第12章语音识别  
 
-
-
+## (TODO) TinyML Cookbook  
+* Chapter 4: Voice Controlling LEDs with Edge Impulse  
+* https://www.packtpub.com/product/tinyml-cookbook/9781801814973  
+* https://github.com/PacktPublishing/TinyML-Cookbook  
+* (TODO) https://github.com/PacktPublishing/TinyML-Cookbook/blob/main/Chapter04/ArduinoSketches/09_kws_raspberrypi_pico.ino  
+* (TODO) https://github.com/PacktPublishing/TinyML-Cookbook/blob/main/Chapter04/ArduinoSketches/07_kws_arduino_nano_ble33_sense.ino  
 
 ## (TODO) TODO list, keep putting here at last    
 * https://github.com/edgeimpulse/voice-activated-microbit  
