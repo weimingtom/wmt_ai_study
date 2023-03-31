@@ -54,6 +54,9 @@ https://github.com/dhdhxji/ESP32-LyraT-tf_command-recognition
 * (TODO) https://github.com/tensorflow/tflite-micro  
 https://github.com/tensorflow/tflite-micro/tree/main/third_party/xtensa/examples/micro_speech_lstm  
 
+## (TODO) TFLite micro ARM, NXP MIMXRT1050-EVKB or Arm虚拟硬件(AVH)    
+* https://github.com/ARM-software/AVH-TFLmicrospeech  
+
 ## ML-KWS work  
 * mlkws_stm32f411re_v8_first_success.rar  
 (STM32) with STM32CubeMX, Keil MDK5 AC6 and NUCLEO-F411RE   
