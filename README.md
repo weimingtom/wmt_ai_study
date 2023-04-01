@@ -6,7 +6,7 @@ My AI study
 ——曹植《白马篇》  
 ```
 
-## (TOOD) NLP  
+## (TODO) NLP  
 * 中文语料库  
 
 ## Recorder code work  
