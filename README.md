@@ -8,6 +8,14 @@ My AI study
 
 ## (TODO) NLP  
 * 中文语料库  
+* 知识图谱   
+* 知网  
+* csdn  
+* wordnet  
+* 中文语料  
+* 百度盘：搜索语料，Corpus  
+* https://github.com/SpringerNLP   
+* Deep Learning for NLP and Speech Recognition  
 
 ## Recorder code work  
 see https://github.com/weimingtom/wmt_recorder_study  
