@@ -485,6 +485,8 @@ CMUSphinx (sphinxbase+sphinxtrain+pocketsphinx+cmuclmtk), with GMM/HMM
 * Chapter 12: End-to-end Speech Recognition, with deepspeech2 pytorch  
 https://github.com/SpringerNLP/Chapter12  
 https://github.com/SeanNaren/deepspeech.pytorch  
+* Chapter 7: Recurrent Neural Networks, with LSTM  
+https://github.com/SpringerNLP/Chapter7  
 
 ## (TODO) NLP  
 * 中文语料库, 中文语料   
