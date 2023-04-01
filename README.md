@@ -6,15 +6,6 @@ My AI study
 ——曹植《白马篇》  
 ```
 
-## (TODO) NLP  
-* 中文语料库  
-* 知识图谱   
-* 知网  
-* csdn  
-* wordnet  
-* 中文语料  
-* 百度盘：搜索语料，Corpus  
-
 ## Recorder code work  
 see https://github.com/weimingtom/wmt_recorder_study  
 
@@ -490,6 +481,11 @@ int send_baidu(int sta_socket);
 * https://github.com/SpringerNLP   
 * Chapter 8: Automatic Speech Recognition, Kaldi and Sphinx  
 * https://github.com/SpringerNLP/Chapter8  
+
+## (TODO) NLP  
+* 中文语料库, 中文语料   
+* 知识图谱, 知网, csdn, wordnet   
+* search baidupan, 语料，Corpus  
 
 ## (TODO) TODO list, keep putting here at last    
 * https://github.com/edgeimpulse/voice-activated-microbit  
