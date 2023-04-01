@@ -14,8 +14,6 @@ My AI study
 * wordnet  
 * 中文语料  
 * 百度盘：搜索语料，Corpus  
-* https://github.com/SpringerNLP   
-* Deep Learning for NLP and Speech Recognition  
 
 ## Recorder code work  
 see https://github.com/weimingtom/wmt_recorder_study  
@@ -487,6 +485,11 @@ int send_baidu(int sta_socket);
 * https://github.com/PacktPublishing/TinyML-Cookbook  
 * (TODO) https://github.com/PacktPublishing/TinyML-Cookbook/blob/main/Chapter04/ArduinoSketches/09_kws_raspberrypi_pico.ino  
 * (TODO) https://github.com/PacktPublishing/TinyML-Cookbook/blob/main/Chapter04/ArduinoSketches/07_kws_arduino_nano_ble33_sense.ino  
+
+## Deep Learning for NLP and Speech Recognition  
+* https://github.com/SpringerNLP   
+* Chapter 8: Automatic Speech Recognition, Kaldi and Sphinx  
+* https://github.com/SpringerNLP/Chapter8  
 
 ## (TODO) TODO list, keep putting here at last    
 * https://github.com/edgeimpulse/voice-activated-microbit  
