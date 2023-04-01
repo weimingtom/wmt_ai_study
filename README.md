@@ -6,6 +6,9 @@ My AI study
 ——曹植《白马篇》  
 ```
 
+## (TOOD) NLP  
+* 中文语料库  
+
 ## Recorder code work  
 see https://github.com/weimingtom/wmt_recorder_study  
 
