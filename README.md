@@ -480,7 +480,8 @@ int send_baidu(int sta_socket);
 ## Deep Learning for NLP and Speech Recognition  
 * https://github.com/SpringerNLP   
 * Chapter 8: Automatic Speech Recognition, Kaldi and Sphinx  
-* https://github.com/SpringerNLP/Chapter8  
+https://github.com/SpringerNLP/Chapter8  
+CMUSphinx (sphinxbase+sphinxtrain+pocketsphinx+cmuclmtk), with GMM/HMM  
 
 ## (TODO) NLP  
 * 中文语料库, 中文语料   
