@@ -372,11 +372,12 @@ by mbed, micro:bit
 ## PaddleSpeech  
 * https://github.com/PaddlePaddle/PaddleSpeech  
 
-## TinyMaix, KWS example  
+## (TODO?) TinyMaix, KWS example  
 * https://github.com/sipeed/TinyMaix/tree/main/examples/kws  
 * Although **sipeed/Maix-Speech** is closed source, but TinyMaix is open source  
 * https://github.com/YuzukiHD/TinyMaix-RP2040/tree/master/examples/kws  
 * pc build: TinyMaix-RP2040-master_v1_ubuntu140432.tar.gz  
+* ***No training mathod for kws ???***  
 
 ## (TODO, IMP) Demonstrator project for speech recognition featuring several technologies, with tensorflow.js  
 * https://goepfert.github.io/audio_features/  
