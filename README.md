@@ -377,7 +377,9 @@ by mbed, micro:bit
 * Although **sipeed/Maix-Speech** is closed source, but TinyMaix is open source  
 * https://github.com/YuzukiHD/TinyMaix-RP2040/tree/master/examples/kws  
 * pc build: TinyMaix-RP2040-master_v1_ubuntu140432.tar.gz  
-* ***No training mathod for kws ???***  
+* ***No training method for kws ???***  
+* see https://github.com/sipeed/TinyMaix/tree/main/tools/tmdl  
+* https://github.com/Ai-Thinker-Open/aithinker_Ai-M6X_SDK  
 
 ## (TODO, IMP) Demonstrator project for speech recognition featuring several technologies, with tensorflow.js  
 * https://goepfert.github.io/audio_features/  
