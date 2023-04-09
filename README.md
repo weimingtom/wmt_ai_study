@@ -492,6 +492,9 @@ https://github.com/SeanNaren/deepspeech.pytorch
 * Chapter 7: Recurrent Neural Networks, with LSTM  
 https://github.com/SpringerNLP/Chapter7  
 
+## Voiceprint-Recognition  
+* https://github.com/SunYanCN/Voiceprint-Recognition  
+
 ## (TODO) NLP  
 * 中文语料库, 中文语料   
 * 知识图谱, 知网, csdn, wordnet   
