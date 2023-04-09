@@ -494,6 +494,9 @@ https://github.com/SpringerNLP/Chapter7
 
 ## Voiceprint-Recognition  
 * https://github.com/SunYanCN/Voiceprint-Recognition  
+* https://github.com/microsoft/nni  
+* https://github.com/majianjia/nnom  
+* https://github.com/rjagiasi/SpeakerRecognition  
 
 ## (TODO) NLP  
 * 中文语料库, 中文语料   
