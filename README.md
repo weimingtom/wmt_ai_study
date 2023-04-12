@@ -55,6 +55,7 @@ https://github.com/dhdhxji/ESP32-LyraT-tf_command-recognition
 https://github.com/tensorflow/tflite-micro/tree/main/third_party/xtensa/examples/micro_speech_lstm  
 * https://github.com/eloquentarduino/EloquentTinyML  
 * https://github.com/tanakamasayuki/Arduino_TensorFlowLite_ESP32  
+* https://github.com/edgeimpulse/tflite-micro-esp-examples/tree/master/examples/micro_speech  
 
 ## (TODO) TFLite micro ARM, NXP MIMXRT1050-EVKB or Arm虚拟硬件(AVH)    
 * https://github.com/ARM-software/AVH-TFLmicrospeech  
