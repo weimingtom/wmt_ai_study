@@ -344,9 +344,11 @@ https://bbs.sipeed.com/thread/988
 * tensorflow-gpu==2.1.0  
 
 ## (TODO) 以前用树莓派3b运行deepspeech和vosk的备份  
+* 除了Sphinx外，在树莓派上可以运行的较完整的离线语音识别引擎有deepspeech和vosk  
 search work_deepspeech_vosk_raspberry_pi_upload  
 search deepspeech_readme.txt    
-* 新的选择：openai-whisper  
+* 新的选择：openai-whisper, 我试过可以在python 3.8下运行，需要ffmpeg，
+但仅限于PC，没有在树莓派上测试，模型文件较小，但识别英文单词时间可能需要30秒以上      
 
 ## micro_speech  
 * https://github.com/eliberis/microbit-speech  
