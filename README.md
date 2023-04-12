@@ -345,6 +345,7 @@ https://bbs.sipeed.com/thread/988
 ## (TODO) 以前用树莓派3b运行deepspeech和vosk的备份  
 search work_deepspeech_vosk_raspberry_pi_upload  
 search deepspeech_readme.txt    
+* 新的选择：openai-whisper  
 
 ## micro_speech  
 * https://github.com/eliberis/microbit-speech  
