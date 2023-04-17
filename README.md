@@ -510,3 +510,4 @@ https://github.com/SpringerNLP/Chapter7
 
 ## (TODO) TODO list, keep putting here at last    
 * https://github.com/edgeimpulse/voice-activated-microbit  
+* https://github.com/ggerganov/whisper.cpp  
