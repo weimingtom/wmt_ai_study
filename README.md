@@ -503,6 +503,12 @@ https://github.com/SpringerNLP/Chapter7
 * https://github.com/majianjia/nnom  
 * https://github.com/rjagiasi/SpeakerRecognition  
 
+## sherpa-ncnn  
+* https://github.com/k2-fsa/sherpa-ncnn  
+* http://speechhome.com/blogs/kaldi/1632583916625989632  
+* RV1126  
+https://www.zhihu.com/zvideo/1615111252941922304  
+
 ## (TODO) NLP  
 * 中文语料库, 中文语料   
 * 知识图谱, 知网, csdn, wordnet   
@@ -511,9 +517,4 @@ https://github.com/SpringerNLP/Chapter7
 ## (TODO) TODO list, keep putting here at last    
 * https://github.com/edgeimpulse/voice-activated-microbit  
 * https://github.com/ggerganov/whisper.cpp  
-
-## sherpa-ncnn  
-* https://github.com/k2-fsa/sherpa-ncnn  
-* http://speechhome.com/blogs/kaldi/1632583916625989632  
-* RV1126  
-https://www.zhihu.com/zvideo/1615111252941922304  
+* https://github.com/k2-fsa/sherpa-ncnn/blob/master/android/SherpaNcnn/app/src/main/java/com/k2fsa/sherpa/ncnn/MainActivity.kt  
