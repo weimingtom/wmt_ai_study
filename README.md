@@ -511,3 +511,9 @@ https://github.com/SpringerNLP/Chapter7
 ## (TODO) TODO list, keep putting here at last    
 * https://github.com/edgeimpulse/voice-activated-microbit  
 * https://github.com/ggerganov/whisper.cpp  
+
+## sherpa-ncnn  
+* https://github.com/k2-fsa/sherpa-ncnn  
+* http://speechhome.com/blogs/kaldi/1632583916625989632  
+* RV1126  
+https://www.zhihu.com/zvideo/1615111252941922304  
