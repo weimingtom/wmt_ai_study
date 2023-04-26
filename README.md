@@ -508,6 +508,10 @@ https://github.com/SpringerNLP/Chapter7
 * http://speechhome.com/blogs/kaldi/1632583916625989632  
 * RV1126  
 https://www.zhihu.com/zvideo/1615111252941922304  
+* https://k2-fsa.github.io/sherpa/ncnn/android/build-sherpa-ncnn.html#download-pre-trained-models  
+* https://huggingface.co/PingfengLuo/icefall-asr-conv-emformer-transducer-stateless2-zh  
+* apk file see 'Files and versions' of this page :  
+https://huggingface.co/csukuangfj/sherpa-ncnn-apk  
 
 ## (TODO) NLP  
 * 中文语料库, 中文语料   
