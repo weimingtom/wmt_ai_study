@@ -350,6 +350,9 @@ search deepspeech_readme.txt
 * （可能）新的选择：openai-whisper  
 我试过可以在python 3.7下运行（openai-whisper最旧版本），需要ffmpeg，  
 但仅限于PC，没有在树莓派上测试，模型文件较小，但识别英文单词时间可能需要30秒以上      
+* 较快的whisper推理版：whisper.cpp  
+https://github.com/ggerganov/whisper.cpp  
+比较容易编译（在ubuntu和aistudio），可以tiny-en model，可以识别句子，但识别单词似乎有问题（不知道为啥），待考  
 
 ## micro_speech  
 * https://github.com/eliberis/microbit-speech  
