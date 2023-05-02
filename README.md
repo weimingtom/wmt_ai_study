@@ -468,6 +468,7 @@ int send_baidu(int sta_socket);
 * https://ai.baidu.com/forum/topic/show/957508  
 * https://blog.csdn.net/weixin_43271060/article/details/90318840  
 * https://github.com/lixy123/TTGO_T_Watch_Baidu_Rec  
+* https://github.com/lixy123/ESP32-AUDIO-REC  
 
 ## 基于百度语音的识别语音，转文字  
 * https://gitee.com/rx-ted/baidu-asr  
