@@ -11,7 +11,8 @@
 
 ## Invalid ROM Table解决办法 (nucleo??? gd32??? daplink???)  
 * https://blog.csdn.net/ninihaoyangde/article/details/126610783  
-* because stm32cubemx setup chip clock too high or too low, or setting the clock with code is too high or too low    
+* because stm32cubemx setup chip clock too high or too low, or setting the clock with code (like Stm32_Clock_Init()) is too high or too low    
+* see clock configuration  
 ```
 今天下午在调试程序的时候，下载了一个别人写的程序，忘记修改时钟频率配置，导致STM32F407芯片锁死问题。以下是我解决的办法，亲测很有效，分享给有需要的童鞋们。
 原因
