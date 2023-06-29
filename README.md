@@ -515,7 +515,10 @@ https://www.zhihu.com/zvideo/1615111252941922304
 * https://k2-fsa.github.io/sherpa/ncnn/android/build-sherpa-ncnn.html#download-pre-trained-models  
 * https://huggingface.co/PingfengLuo/icefall-asr-conv-emformer-transducer-stateless2-zh  
 * apk file see 'Files and versions' of this page :  
-https://huggingface.co/csukuangfj/sherpa-ncnn-apk  
+https://huggingface.co/csukuangfj/sherpa-ncnn-apk
+
+## ThatProject, ESP32_MICROPHONE  
+* https://github.com/0015/ThatProject/tree/master/ESP32_MICROPHONE  
 
 ## (TODO) NLP  
 * 中文语料库, 中文语料   
