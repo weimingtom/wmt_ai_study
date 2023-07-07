@@ -983,3 +983,6 @@ $ make
 * mc68hc08  
 * Freescale MC68HC908JL3ECDWE 系统板 开发板  
 
+## mini-riscv-os  
+* https://github.com/cccriscv/mini-riscv-os  
+* 《EN帶你寫個作業系統：來趟RISC-V開發輕旅行》  
