@@ -522,8 +522,8 @@ https://huggingface.co/csukuangfj/sherpa-ncnn-apk
 
 ## (TODO) Keras 2D CNN+RNN+CTC  
 * Automatic Speech Recognition using CTC  
-https://keras.io/examples/audio/ctc_asr/
-https://huggingface.co/keras-io/ctc_asr
+https://keras.io/examples/audio/ctc_asr/  
+https://huggingface.co/keras-io/ctc_asr  
 https://huggingface.co/spaces/keras-io/ctc_asr  
 
 ## (TODO) NLP  
