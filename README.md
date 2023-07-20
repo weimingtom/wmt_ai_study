@@ -520,6 +520,12 @@ https://huggingface.co/csukuangfj/sherpa-ncnn-apk
 ## ThatProject, ESP32_MICROPHONE  
 * https://github.com/0015/ThatProject/tree/master/ESP32_MICROPHONE  
 
+## (TODO) Keras 2D CNN+RNN+CTC  
+* Automatic Speech Recognition using CTC  
+https://keras.io/examples/audio/ctc_asr/
+https://huggingface.co/keras-io/ctc_asr
+https://huggingface.co/spaces/keras-io/ctc_asr  
+
 ## (TODO) NLP  
 * 中文语料库, 中文语料   
 * 知识图谱, 知网, csdn, wordnet   
