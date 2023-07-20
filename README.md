@@ -524,7 +524,8 @@ https://huggingface.co/csukuangfj/sherpa-ncnn-apk
 * Automatic Speech Recognition using CTC  
 https://keras.io/examples/audio/ctc_asr/  
 https://huggingface.co/keras-io/ctc_asr  
-https://huggingface.co/spaces/keras-io/ctc_asr  
+https://huggingface.co/spaces/keras-io/ctc_asr
+https://github.com/keras-team/keras-io/blob/master/examples/audio/ctc_asr.py  
 
 ## (TODO) NLP  
 * 中文语料库, 中文语料   
