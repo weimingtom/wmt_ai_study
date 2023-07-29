@@ -23,7 +23,8 @@ see https://github.com/weimingtom/wmt_iot_study
 (origin, Linux, Raspberry Pi OS Desktop 2017) search baidupan, Blink_esp32_rpd2017_v2_success.tar.gz  
 https://github.com/tensorflow/tensorflow/releases/tag/v2.0.0  
 https://github.com/tensorflow/tensorflow/tree/v2.0.0/tensorflow/lite/experimental/micro/examples/micro_speech  
-https://github.com/tensorflow/tensorflow/tree/master/tensorflow/lite/micro/examples/micro_speech  
+(dead) https://github.com/tensorflow/tensorflow/tree/master/tensorflow/lite/micro/examples/micro_speech
+(migrate to) https://github.com/tensorflow/tflite-micro/tree/main/tensorflow/lite/micro/examples/micro_speech  
 search baidupan, tensorflow-2.0.0.zip  
 * (TODO) Port to STM32H743  
 (TODO, NOT DONE) microspeech_stm32h743vi_v7_no_crash_with_lib.rar  
