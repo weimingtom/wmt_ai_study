@@ -528,6 +528,10 @@ https://huggingface.co/keras-io/ctc_asr
 https://huggingface.co/spaces/keras-io/ctc_asr  
 https://github.com/keras-team/keras-io/blob/master/examples/audio/ctc_asr.py  
 
+## KWS-SoC——基于Wujian100的音频流关键词检测SoC拓展开发笔记之二  
+* https://github.com/IA-C-Lab-Fudan/KWS-SoC
+* https://zhuanlan.zhihu.com/p/158614684  
+
 ## (TODO) NLP  
 * 中文语料库, 中文语料   
 * 知识图谱, 知网, csdn, wordnet   
