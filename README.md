@@ -101,7 +101,8 @@ Detected right (99%)
 ```  
 * NEW Keyword spotting for Microcontrollers   
 https://github.com/ARM-software/ML-examples  
-https://github.com/ARM-software/ML-examples/tree/master/tflu-kws-cortex-m  
+(deprecated) https://github.com/ARM-software/ML-examples/tree/master/tflu-kws-cortex-m  
+(old backup) https://github.com/weimingtom/ML-examples/tree/master/tflu-kws-cortex-m  
 
 ## Speech-Recognition Python work  
 * https://github.com/weimingtom/Speech-Recognition_mod  
