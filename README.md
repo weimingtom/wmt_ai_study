@@ -533,6 +533,13 @@ https://github.com/keras-team/keras-io/blob/master/examples/audio/ctc_asr.py
 * https://github.com/IA-C-Lab-Fudan/KWS-SoC
 * https://zhuanlan.zhihu.com/p/158614684  
 
+## IoT for Beginners - A Curriculum, Recognize speech with an IoT device  
+* 深入浅出 IoT: 完整项目通关实战  
+* https://github.com/microsoft/IoT-For-Beginners/blob/main/6-consumer/lessons/1-speech-recognition/README.md#/seeed-projects/IoT-For-Beginners/blob/main/6-consumer/lessons/1-speech-recognition/pi-audio.md    
+* https://gitee.com/seeed-projects/IoT-For-Beginners/blob/main/6-consumer/lessons/1-speech-recognition/README.md#/seeed-projects/IoT-For-Beginners/blob/main/6-consumer/lessons/1-speech-recognition/pi-audio.md  
+* https://tinkergen.cn/book_iot  
+* https://zhuanlan.zhihu.com/p/650779093  
+
 ## (TODO) NLP  
 * 中文语料库, 中文语料   
 * 知识图谱, 知网, csdn, wordnet   
