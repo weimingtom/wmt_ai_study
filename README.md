@@ -540,6 +540,10 @@ https://github.com/keras-team/keras-io/blob/master/examples/audio/ctc_asr.py
 * https://tinkergen.cn/book_iot  
 * https://zhuanlan.zhihu.com/p/650779093  
 
+## PyTorch2.0深度学习从零开始学, pytorch    
+* 第14章, 创建你自己的小精灵—基于MFCC的语音唤醒实战  
+* PyTorch2.0深度学习从零开始学-源码.rar  
+
 ## (TODO) NLP  
 * 中文语料库, 中文语料   
 * 知识图谱, 知网, csdn, wordnet   
