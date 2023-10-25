@@ -47,7 +47,10 @@ https://gitee.com/tutuwin/xr872_-audio/blob/master/audio_record.c
 model_process
 * 在GD32F450上运行tflite的micro speech demo  
 https://github.com/newffnow/gd32f450-run-tflite-micro-speech-demo  
-https://www.bilibili.com/video/BV1dq4y1t74i  
+https://www.bilibili.com/video/BV1dq4y1t74i
+https://github.com/newffnow/gd32f450-run-tflite-micro-speech-demo/blob/main/GD32F4xx_Firmware_Library_V2.1.3/Utilities/Third_Party/tensorflow_keil/tensorflow/lite/micro/examples/micro_speech/main.cc
+https://github.com/newffnow/gd32f450-run-tflite-micro-speech-demo/blob/main/GD32F4xx_Firmware_Library_V2.1.3/Utilities/Third_Party/tensorflow_keil/tensorflow/lite/micro/examples/micro_speech/audio_provider_mock.cc  
+https://github.com/newffnow/gd32f450-run-tflite-micro-speech-demo/blob/main/GD32F4xx_Firmware_Library_V2.1.3/Template/Keil_project/Project.uvprojx
 
 ## TFLite micro esp32, MSM261S4030H0R    
 * search baidupan, tflite-micro-esp-examples-master_v2_test_esp32_one_success.rar  
