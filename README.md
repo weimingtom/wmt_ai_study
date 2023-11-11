@@ -379,8 +379,10 @@ whisper 2830-3980-0043.wav --language en --model tiny.en
 大概占用CPU全部100%，
 占用内存150MB（增加到450MB，桌面环境下），耗时大概10秒（我之前用aistudio测试是3秒）
 相当于whisper pytorch版的速度。至于树莓派4b运行whisper pytorch的速度如何，暂时还没测试。
-另外我发现树莓派4b似乎没办法运行nestopia模拟器（一个nes模拟器），原因不明，
-不知道是不是VNC的问题，以后想办法解决
+
+尝试用树莓派4b 4gb运行whisper pytorch版，结果失败了，装倒是可以很容易装上去
+（指定-i参数镜像加速），但运行会有错误，不会搞，等以后研究pytorch再说吧，
+对我而言暂时没有多大的需要，除非我能看懂pytorch和懂得如何在树莓派上调试 ​​​
 ```
 
 ## micro_speech  
