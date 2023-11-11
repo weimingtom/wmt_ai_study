@@ -365,7 +365,7 @@ search deepspeech_readme.txt
 * 较快的whisper推理版：whisper.cpp  
 https://github.com/ggerganov/whisper.cpp  
 比较容易编译（在ubuntu和aistudio），可以tiny-en model，可以识别句子，但识别单词似乎有问题（不知道为啥），待考  
-* whisper command line   
+* whisper and whisper.cpp command line   
 ```
 有没有人试一下树莓派4b上跑whisper.cpp的速度如何？我试过（以前）在aistudio上用openai-whisper（20230117）
 和whisper.cpp上运行语句识别，前者是10秒左右，后者是3秒左右。后者之所以快还因为模型文件格式变了（使用ggml）。
