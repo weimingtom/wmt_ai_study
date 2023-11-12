@@ -384,6 +384,25 @@ whisper 2830-3980-0043.wav --language en --model tiny.en
 （指定-i参数镜像加速），但运行会有错误，不会搞，等以后研究pytorch再说吧，
 对我而言暂时没有多大的需要，除非我能看懂pytorch和懂得如何在树莓派上调试 ​​​
 ```
+* whisper python, audio-0.6.0.tar.gz, Makefile    
+```
+	pip install openai-whisper==20230117
+	whisper yes.2a6d6pep.wav --language en --model tiny.en
+	(cd audio; whisper 2830-3980-0043.wav --language en --model tiny.en)
+	(cd audio; whisper 4507-16021-0012.wav --language en --model tiny.en)
+	(cd audio; whisper 8455-210777-0068.wav --language en --model tiny.en)
+```
+* whisper.cpp, build.sh  
+```
+./main -m models/ggml-tiny.bin -f samples/jfk.wav 
+./main -m models/ggml-tiny.bin -f samples/audio/2830-3980-0043.wav
+./main -m models/ggml-tiny.bin -f samples/audio/4507-16021-0012.wav
+./main -m models/ggml-tiny.bin -f samples/audio/8455-210777-0068.wav
+rm -rf samples/output.wav
+ffmpeg -i samples/yes.2a6d6pep.wav -ar 16000 -ac 1 -c:a pcm_s16le samples/output.wav
+./main -m models/ggml-tiny.bin -f samples/output.wav
+```
+
 
 ## micro_speech  
 * https://github.com/eliberis/microbit-speech  
