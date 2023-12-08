@@ -600,6 +600,16 @@ https://github.com/keras-team/keras-io/blob/master/examples/audio/ctc_asr.py
 ## (TODO) Whisper.cpp for Android    
 * https://github.com/ggerganov/whisper.cpp/tree/master/examples/whisper.android   
 
+## (TODO???) gd32f450-run-tflite-micro-speech-demo  
+* why D:\work_gd32_tflite\GD32F4xx_Firmware_Library_V2.1.3  
+* good  
+* but this not good ??? : D:\work_gd32_tflite\gd32f450-run-tflite-micro-speech-demo-main\GD32F4xx_Firmware_Library_V2.1.3  
+* path too long????   
+* ==  
+* search_baidupan_gd32_tflite_speech_maybe_009.txt  
+* https://www.bilibili.com/video/BV1dq4y1t74i/?spm_id_from=333.788&vd_source=8aac237d3ed1fe24370f8df03ab1993d  
+* https://github.com/newffnow/gd32f450-run-tflite-micro-speech-demo/tree/main/GD32F4xx_Firmware_Library_V2.1.3/Examples  
+
 ## (TODO) TODO list, keep putting here at last    
 * https://github.com/edgeimpulse/voice-activated-microbit  
 * https://github.com/ggerganov/whisper.cpp  
