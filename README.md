@@ -597,6 +597,9 @@ https://github.com/keras-team/keras-io/blob/master/examples/audio/ctc_asr.py
 * 知识图谱, 知网, csdn, wordnet   
 * search baidupan, 语料，Corpus  
 
+## (TODO) Whisper.cpp for Android    
+* https://github.com/ggerganov/whisper.cpp/tree/master/examples/whisper.android   
+
 ## (TODO) TODO list, keep putting here at last    
 * https://github.com/edgeimpulse/voice-activated-microbit  
 * https://github.com/ggerganov/whisper.cpp  
