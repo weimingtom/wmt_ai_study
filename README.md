@@ -640,6 +640,13 @@ pip install torch==1.13.1
 ## (TODO) Whisper TFlite (for android)  
 * TODO. How and why this works well ?  
 
+## whisper.cpp for android (yeyupiaoling/Whisper-Finetune), fastest speed on Android is 4 seconds per one Engish sentence (64bit Android fastest is 4 seconds, 32bit Android fastest is 12 seconds)      
+* mod from https://gitee.com/yeyupiaoling/Whisper-Finetune  
+* or https://github.com/yeyupiaoling/Whisper-Finetune  
+* whisper.cpp版研究。好了，目前最好的记录是一句英文的语音识别需要4秒（如果是32位安卓手机则为12秒），我这次用的代码是yeyupiaoling/Whisper-Finetune的安卓版代码，替换英文版的模型文件，然后在Application.mk指定APP_OPTIM := release（作者说的一定要打包成发布版，可以通过这种方式加速）。如果不指定这个，就会达到100多秒。那就是说：（1）必须指定APP_OPTIM（参考Whisper-Finetune）（2）必须使用最新版NDK（3）必须保证代码没修改过，使用指定正确的C和C++宏定义（我之前编译的版本用的宏定义和Whisper-Finetune里面的不同）  
+* search baidupan, Whisper-Finetune-master_v2.apk  
+* search baidupan, Whisper-Finetune-master_v2_very_good_redmi12c_4sec_redmi9a_12sec.7z  
+
 ## (TODO) TODO list, keep putting here at last    
 * https://github.com/edgeimpulse/voice-activated-microbit  
 * https://github.com/ggerganov/whisper.cpp  
