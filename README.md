@@ -652,16 +652,17 @@ pip install torch==1.13.1
 https://gitee.com/yeyupiaoling/Whisper-Finetune/tree/master/AndroidDemo  
 search whisper.apk  
 
-## whisper.cpp for android arm64, 5 seconds (tested on Redmi 12C)    
+## whisper.cpp for android arm64 (whisper.android.java in ggerganov/whisper.cpp/examples), 5 seconds (tested on Redmi 12C)    
+* https://github.com/ggerganov/whisper.cpp/tree/master/examples/whisper.android.java  
 * 快到5秒可以运行到，但编译成arm64，而且用最新NDK编译不是r10  
 * search whisper.android.java_simple_v1_success_redmi12c_5sec.7z  
 * search whisper.cpp-1.0.4_see_whisper_android-master.zip  
 * search whisper.cpp_old_version.7z  
 * 我比较过，那个运行正确且速度较快（在20秒内转换一个英语句子）的whisper.cpp安卓版，是来源于1.0.4版本附近，相当于最早的发布版（有很少的修改，但代码和1.0.4几乎一样。这个项目火起来是在2023年4月左右，大概是版本1.3左右），这么看来如果有耐心的话可以从1.0.4版一直测试到1.5.0版，找到合适自己的版本编译成安卓版测试速度，就可以知道whisper.cpp安卓版最快可以在多少秒内语音识别出一个英语句子了，粗略估计可以在10秒内，最快可以到达5秒，如果手机是稍微高档一点（比红米好，主频在2.0GHz以上）或者支持显示加速，估计可以达到树莓派4b的水平，可以在3秒左右识别出英语句子，当然这目前只是我臆想猜测的，我还没有实际测试过（我手头上配置最好的设备时华为平板，可以找时间测试）  
 * search whisper.android.java_simple_v2_success_redmi12c_5sec_redmi9a_16sec.rar  
-* 1) whisper 1.0.4 android：  
+* <1> whisper 1.0.4 android：  
 https://github.com/Digipom/WhisperCppAndroidDemo    
-* 2) whisper tflite：  
+* <2> whisper tflite：  
 https://github.com/vilassn/whisper_android  
 
 ## (TODO) TODO list, keep putting here at last    
