@@ -664,6 +664,13 @@ search whisper.apk
 https://github.com/Digipom/WhisperCppAndroidDemo    
 * <2> whisper tflite：  
 https://github.com/vilassn/whisper_android  
+* 安卓whisper.cpp.android.java上传网盘的编译文件名  
+whisper.android.java_v3_2830wav_use_146630ms.7z  
+https://developer.android.google.cn/ndk/guides/cpu-arm-neon?hl=zh-cn#ndk-build_1  
+LOCAL_ARM_NEON := true  
+https://developer.android.google.cn/ndk/guides/cpp-support?hl=zh-cn  
+APP_STL 变量指定 c++_shared、c++_static、none 或 system。例如：  
+https://www.itxm.cn/post/edafbg2b5.html  
 
 ## (TODO) TODO list, keep putting here at last    
 * https://github.com/edgeimpulse/voice-activated-microbit  
