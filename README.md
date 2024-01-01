@@ -616,7 +616,9 @@ https://github.com/keras-team/keras-io/blob/master/examples/audio/ctc_asr.py
 * TODO, running on x86_64 and arm (aistudio and rpi), currently failed    
 
 ## whisper (python version, pytorch version, openai-whisper) installed by pip of raspberry pi 4b  
-* 树莓派4b安装whisper（don't sudo pip install）  
+* 树莓派4b安装whisper（don't sudo pip install）
+Newest version of openai-whisper is ok, no need to install old version 20230117.  
+After installing, need to pip uninstall torch and reinstall old version torch==1.13.1, see below.     
 ```
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple openai-whisper==20230117  
 pip install typing-extensions==4.3.0
