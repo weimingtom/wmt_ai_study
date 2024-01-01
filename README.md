@@ -632,10 +632,13 @@ pip install torch==1.13.1
 测试方法是：whisper 2830-3980-0043.wav --language en --model tiny.en  
 耗时大概是13秒  
 
+## fquirin/speech-recognition-experiments, Whisper TFlite    
+* https://github.com/fquirin/speech-recognition-experiments  
+* 各种新兴语音识别引擎在树莓派上的性能准确率对比  
+* 我记错了，实际上应该是aistudio的whisper.cpp略快于aarch安卓版whisper.cpp，aarch安卓版whisper.cpp快于树莓派4b版的whisper.cpp，而树莓派4b版的whisper.cpp快于armeabi-v7a安卓版的whisper.cpp，分别是3秒<4秒<10秒<12秒 。另外机器的性能越好，速度越快，例如平板的安卓会比手机的安卓跑whisper.cpp的速度更快  
+
 ## (TODO) Whisper TFlite (for android)  
 * TODO. How and why this works well ?  
-* https://github.com/fquirin/speech-recognition-experiments
-* 我记错了，实际上应该是aistudio的whisper.cpp略快于aarch安卓版whisper.cpp，aarch安卓版whisper.cpp快于树莓派4b版的whisper.cpp，而树莓派4b版的whisper.cpp快于armeabi-v7a安卓版的whisper.cpp，分别是3秒<4秒<10秒<12秒 。另外机器的性能越好，速度越快，例如平板的安卓会比手机的安卓跑whisper.cpp的速度更快  
 
 ## (TODO) TODO list, keep putting here at last    
 * https://github.com/edgeimpulse/voice-activated-microbit  
