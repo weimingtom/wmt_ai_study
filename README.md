@@ -615,6 +615,23 @@ https://github.com/keras-team/keras-io/blob/master/examples/audio/ctc_asr.py
 * https://www.wasp.co.jp/blog/291  
 * TODO, running on x86_64 and arm (aistudio and rpi), currently failed    
 
+## whisper on pip of raspberry pi 4b  
+* 【RaspberryPi】Whisperで音声認識させてみた  
+https://chmod774.com/whisper-raspberrypi/  
+```
+pip list | grep torch
+pip uninstall torch==2.0.0
+pip install torch==1.13.1
+```
+* 转，《【RaspberryPi】Whisperで音声認識させてみた》  
+我测试过这篇文章的方法，可以成功用树莓派4b的6位os运行起whisper pytorch版。方法是重新安装pytorch降级到pytorch 1，如果用pytorch 2会报错：  
+```
+pip uninstall torch==2.1.0  
+pip install torch==1.13.1  
+```
+测试方法是：whisper 2830-3980-0043.wav --language en --model tiny.en  
+耗时大概是13秒  
+
 ## (TODO) TODO list, keep putting here at last    
 * https://github.com/edgeimpulse/voice-activated-microbit  
 * https://github.com/ggerganov/whisper.cpp  
