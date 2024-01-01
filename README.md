@@ -615,7 +615,29 @@ https://github.com/keras-team/keras-io/blob/master/examples/audio/ctc_asr.py
 * https://www.wasp.co.jp/blog/291  
 * TODO, running on x86_64 and arm (aistudio and rpi), currently failed    
 
-## whisper on pip of raspberry pi 4b  
+## whisper (python version, pytorch version, openai-whisper) installed by pip of raspberry pi 4b  
+* 树莓派4b安装whisper（don't sudo pip install）  
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple openai-whisper==20230117  
+pip install typing-extensions==4.3.0
+/home/pi/.local/bin/whisper --help
+pi@raspberrypi:~/whisper.cpp_aistudio/audio $ /home/pi/.local/bin/whisper 4507-16021-0012.wav --language en --model tiny.en
+
+cp tiny.en.pt ./.cache/whisper/tiny.en.pt
+
+gedit /home/pi/.local/lib/python3.9/site-packages/whisper/decoding.py
+```
+* running failed, to solve this problem, see below, pip uninstall torch==2.0.0  
+```
+vi /opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/whisper/decoding.py
+line 468
+        print(tokenizer.sot, self.initial_tokens, "test")
+        if self.initial_tokens.count(tokenizer.sot) > 0:
+        self.sot_index: int = self.initial_tokens.index(tokenizer.sot)
+        else:
+            self.initial_tokens = (tokenizer.sot,)
+            self.sot_index: int = 1
+```
+
 * 【RaspberryPi】Whisperで音声認識させてみた  
 https://chmod774.com/whisper-raspberrypi/  
 ```
