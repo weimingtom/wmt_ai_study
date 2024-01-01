@@ -610,6 +610,11 @@ https://github.com/keras-team/keras-io/blob/master/examples/audio/ctc_asr.py
 * https://www.bilibili.com/video/BV1dq4y1t74i/?spm_id_from=333.788&vd_source=8aac237d3ed1fe24370f8df03ab1993d  
 * https://github.com/newffnow/gd32f450-run-tflite-micro-speech-demo/tree/main/GD32F4xx_Firmware_Library_V2.1.3/Examples  
 
+## (TODO) SYSTRAN/faster-whisper  
+* https://github.com/SYSTRAN/faster-whisper  
+* https://www.wasp.co.jp/blog/291  
+* TODO, running on x86_64 and arm (aistudio and rpi), currently failed    
+
 ## (TODO) TODO list, keep putting here at last    
 * https://github.com/edgeimpulse/voice-activated-microbit  
 * https://github.com/ggerganov/whisper.cpp  
