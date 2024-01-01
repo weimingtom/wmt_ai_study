@@ -637,8 +637,10 @@ pip install torch==1.13.1
 * 各种新兴语音识别引擎在树莓派上的性能准确率对比  
 * 我记错了，实际上应该是aistudio的whisper.cpp略快于aarch安卓版whisper.cpp，aarch安卓版whisper.cpp快于树莓派4b版的whisper.cpp，而树莓派4b版的whisper.cpp快于armeabi-v7a安卓版的whisper.cpp，分别是3秒<4秒<10秒<12秒 。另外机器的性能越好，速度越快，例如平板的安卓会比手机的安卓跑whisper.cpp的速度更快  
 
-## (TODO) Whisper TFlite (for android)  
-* TODO. How and why this works well ?  
+## (TODO, TODO) Whisper TFlite (for android)  
+* TODO. How and why this works well ?
+* see https://github.com/vilassn/whisper_android
+* see below  
 
 ## whisper.cpp for android (yeyupiaoling/Whisper-Finetune), fastest speed on Android is 4 seconds per one Engish sentence (64bit Android fastest is 4 seconds, 32bit Android fastest is 12 seconds)      
 * mod from https://gitee.com/yeyupiaoling/Whisper-Finetune  
@@ -646,6 +648,21 @@ pip install torch==1.13.1
 * whisper.cpp版研究。好了，目前最好的记录是一句英文的语音识别需要4秒（如果是32位安卓手机则为12秒），我这次用的代码是yeyupiaoling/Whisper-Finetune的安卓版代码，替换英文版的模型文件，然后在Application.mk指定APP_OPTIM := release（作者说的一定要打包成发布版，可以通过这种方式加速）。如果不指定这个，就会达到100多秒。那就是说：（1）必须指定APP_OPTIM（参考Whisper-Finetune）（2）必须使用最新版NDK（3）必须保证代码没修改过，使用指定正确的C和C++宏定义（我之前编译的版本用的宏定义和Whisper-Finetune里面的不同）  
 * search baidupan, Whisper-Finetune-master_v2.apk  
 * search baidupan, Whisper-Finetune-master_v2_very_good_redmi12c_4sec_redmi9a_12sec.7z  
+* Whisper-Finetune  
+https://gitee.com/yeyupiaoling/Whisper-Finetune/tree/master/AndroidDemo  
+search whisper.apk  
+
+## whisper.cpp for android arm64, 5 seconds (tested on Redmi 12C)    
+* 快到5秒可以运行到，但编译成arm64，而且用最新NDK编译不是r10  
+* search whisper.android.java_simple_v1_success_redmi12c_5sec.7z  
+* search whisper.cpp-1.0.4_see_whisper_android-master.zip  
+* search whisper.cpp_old_version.7z  
+* 我比较过，那个运行正确且速度较快（在20秒内转换一个英语句子）的whisper.cpp安卓版，是来源于1.0.4版本附近，相当于最早的发布版（有很少的修改，但代码和1.0.4几乎一样。这个项目火起来是在2023年4月左右，大概是版本1.3左右），这么看来如果有耐心的话可以从1.0.4版一直测试到1.5.0版，找到合适自己的版本编译成安卓版测试速度，就可以知道whisper.cpp安卓版最快可以在多少秒内语音识别出一个英语句子了，粗略估计可以在10秒内，最快可以到达5秒，如果手机是稍微高档一点（比红米好，主频在2.0GHz以上）或者支持显示加速，估计可以达到树莓派4b的水平，可以在3秒左右识别出英语句子，当然这目前只是我臆想猜测的，我还没有实际测试过（我手头上配置最好的设备时华为平板，可以找时间测试）  
+* search whisper.android.java_simple_v2_success_redmi12c_5sec_redmi9a_16sec.rar  
+* 1) whisper 1.0.4 android：  
+https://github.com/Digipom/WhisperCppAndroidDemo    
+* 2) whisper tflite：  
+https://github.com/vilassn/whisper_android  
 
 ## (TODO) TODO list, keep putting here at last    
 * https://github.com/edgeimpulse/voice-activated-microbit  
