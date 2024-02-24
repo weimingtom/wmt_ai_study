@@ -661,6 +661,7 @@ pip install torch==1.13.1
 * https://github.com/fquirin/speech-recognition-experiments  
 * 各种新兴语音识别引擎在树莓派上的性能准确率对比  
 * 我记错了，实际上应该是aistudio的whisper.cpp略快于aarch安卓版whisper.cpp，aarch安卓版whisper.cpp快于树莓派4b版的whisper.cpp，而树莓派4b版的whisper.cpp快于armeabi-v7a安卓版的whisper.cpp，分别是3秒<4秒<10秒<12秒 。另外机器的性能越好，速度越快，例如平板的安卓会比手机的安卓跑whisper.cpp的速度更快  
+* gh上有人评测了各种新兴语音识别引擎在树莓派4和香橙派5上的运行速度对比（RTF是实时率，没什么用），fquirin/speech-recognition-experiments，这里我注释一下，其一树莓派4上跑whisper python似乎有问题（补注：已解决，卸载torch 2重新安装1.13.1版），可能这个是作者自己编译运行的。其二我测试whisper.cpp在树莓派4b上是10秒左右，我以前记错了，我以为是3秒（3秒应该是aistudio的速度）  
 
 ## (TODO, TODO) Whisper TFlite (for android)  
 * TODO. How and why this works well ?
