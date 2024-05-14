@@ -69,6 +69,11 @@ https://github.com/tensorflow/tflite-micro/tree/main/third_party/xtensa/examples
 ## (TODO) TFLite micro ARM, NXP MIMXRT1050-EVKB or Arm虚拟硬件(AVH)    
 * https://github.com/ARM-software/AVH-TFLmicrospeech  
 
+## (TODO) ArduCAM/pico-tflmicro, Pico4ML    
+* https://github.com/AustenBrooks/wake-word-detection  
+* https://github.com/ArduCAM/pico-tflmicro
+* https://github.com/raspberrypi/pico-tflmicro  
+
 ## TinyML: 基于TensorFlow Lite在Arduino和超低功耗微控制器上部署机器学习  
 * TinyML: Machine Learning with TensorFlow Lite on Arduino and Ultra-Low-Power Microcontrollers  
 * https://www.oreilly.com/library/view/tinyml/9781492052036/  
