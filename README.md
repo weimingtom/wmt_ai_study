@@ -703,6 +703,29 @@ https://developer.android.google.cn/ndk/guides/cpp-support?hl=zh-cn
 APP_STL 变量指定 c++_shared、c++_static、none 或 system。例如：  
 https://www.itxm.cn/post/edafbg2b5.html  
 
+## mozilla/Deepspeech test audio wav files  
+* 2830-3980-0043.wav
+* https://github.com/mozilla/DeepSpeech/releases/tag/v0.9.3
+* https://github.com/mozilla/DeepSpeech/releases/download/v0.9.3/audio-0.9.3.tar.gz
+* or you can use other wav files in https://github.com/mozilla/DeepSpeech
+* or you can use other wav files with  
+```
+Format                         : Wave
+Overall bit rate mode          : Constant
+Overall bit rate               : 256 kb/s
+
+Audio
+Format                         : PCM
+Format settings, Endianness    : Little
+Format settings, Sign          : Signed
+Codec ID                       : 1
+Bit rate mode                  : Constant
+Bit rate                       : 256 kb/s
+Channel(s)                     : 1 channel
+Sampling rate                  : 16.0 kHz
+Bit depth                      : 16 bits
+```
+
 ## (TODO) TODO list, keep putting here at last    
 * https://github.com/edgeimpulse/voice-activated-microbit  
 * https://github.com/ggerganov/whisper.cpp  
