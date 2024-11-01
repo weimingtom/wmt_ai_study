@@ -21,6 +21,7 @@ see https://github.com/weimingtom/wmt_iot_study
 (origin) https://github.com/boochow/TFLite_Micro_MicroSpeech_M5Stack  
 (origin, Arduino IDE) search baidupan, TFLite_Micro_MicroSpeech_M5Stack  
 (origin, Linux, Raspberry Pi OS Desktop 2017) search baidupan, Blink_esp32_rpd2017_v2_success.tar.gz  
+(origin, Linux, like Blink_esp32_rpd2017_v2_success) Blink_esp32_ubuntu140432_v3_success.tar.gz  
 https://github.com/tensorflow/tensorflow/releases/tag/v2.0.0  
 https://github.com/tensorflow/tensorflow/tree/v2.0.0/tensorflow/lite/experimental/micro/examples/micro_speech  
 (dead) https://github.com/tensorflow/tensorflow/tree/master/tensorflow/lite/micro/examples/micro_speech  
