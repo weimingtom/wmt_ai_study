@@ -53,6 +53,8 @@ https://github.com/newffnow/gd32f450-run-tflite-micro-speech-demo/blob/main/GD32
 https://github.com/newffnow/gd32f450-run-tflite-micro-speech-demo/blob/main/GD32F4xx_Firmware_Library_V2.1.3/Template/Keil_project/Project.uvprojx  
 search baidupan, work_gd32_tflite  
 search baidupan, gd32_tflite_speech  
+see below, successfully done, see gd32f450-run-tflite-micro-speech-demo  
+search micro_speech_v3_O3_success_liangshan_mdk5_ac6.7z  
 
 ## TFLite micro esp32, MSM261S4030H0R    
 * search baidupan, tflite-micro-esp-examples-master_v2_test_esp32_one_success.rar  
@@ -605,7 +607,7 @@ https://github.com/keras-team/keras-io/blob/master/examples/audio/ctc_asr.py
 ## (TODO) Whisper.cpp for Android    
 * https://github.com/ggerganov/whisper.cpp/tree/master/examples/whisper.android   
 
-## (TODO???) gd32f450-run-tflite-micro-speech-demo  
+## gd32f450-run-tflite-micro-speech-demo  
 * why D:\work_gd32_tflite\GD32F4xx_Firmware_Library_V2.1.3  
 * good  
 * but this not good ??? : D:\work_gd32_tflite\gd32f450-run-tflite-micro-speech-demo-main\GD32F4xx_Firmware_Library_V2.1.3  
@@ -614,6 +616,27 @@ https://github.com/keras-team/keras-io/blob/master/examples/audio/ctc_asr.py
 * search_baidupan_gd32_tflite_speech_maybe_009.txt  
 * https://www.bilibili.com/video/BV1dq4y1t74i/?spm_id_from=333.788&vd_source=8aac237d3ed1fe24370f8df03ab1993d  
 * https://github.com/newffnow/gd32f450-run-tflite-micro-speech-demo/tree/main/GD32F4xx_Firmware_Library_V2.1.3/Examples  
+* ==
+* final done, search micro_speech_v3_O3_success_liangshan_mdk5_ac6.7z  
+```
+跑通梁山派gd32的tflite micro, micro speech
+https://github.com/newffnow/gd32f450-run-tflite-micro-speech-demo
+search, micro_speech_v3_O3_success_liangshan_mdk5_ac6.7z
+我跑通了newffnow/gd32f450-run-tflite-micro-speech-demo，
+对应这个《[009]检测给定音频是否包含“yes”和“no”——
+单片机运行tensorflow lite的micro speech例程》，非传感器，纯数据处理。
+我用梁山派测试，串口需要单独用工具接UART4的两个脚，计算速度还是比较快的。
+以后有机会再尝试用传感器测试。编译这个需要改很多地方，例如：
+（1）只能用-O2,-O3,-Ofast编译，其他可能会编译错误
+（2）可能需要改static inline，但不一定有效，见问题1
+（3）用MDK5的AC6编译，AC5不行
+调试串口
+https://lckfb.com/project/detail/lckfb_lspi?param=drawing
+梁山派<->USB-TTL
+left left 7, PD2=UART4_RX<->TXD(orange)
+left right 7, PC12=UART4_TX<->RXD(yellow)
+right left bottom 1, GND=GND<->GND(black)
+```
 
 ## (TODO) SYSTRAN/faster-whisper  
 * https://github.com/SYSTRAN/faster-whisper  
