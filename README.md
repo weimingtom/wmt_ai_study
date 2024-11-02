@@ -60,7 +60,8 @@ search micro_speech_v3_O3_success_liangshan_mdk5_ac6.7z
 (origin) https://github.com/KeilChris/TensorFlow_MIMXRT1064-EVK_Microspeech  
 (origin) KeilChris_TensorFlow_MIMXRT1064-EVK_Microspeech-master.zip  
 (test run on Linux) sai_ubuntu140432_umips_v1_success.tar.gz  
-https://www.nxp.com/design/design-center/development-boards-and-designs/i-mx-evaluation-and-development-boards/i-mx-rt1020-evaluation-kit:MIMXRT1020-EVK  
+https://www.nxp.com/design/design-center/development-boards-and-designs/i-mx-evaluation-and-development-boards/i-mx-rt1020-evaluation-kit:MIMXRT1020-EVK    
+EVK-MIMXRT1020-sai_v6_failed_只能运行半个setup.7z  
 
 ## TFLite micro esp32, MSM261S4030H0R    
 * search baidupan, tflite-micro-esp-examples-master_v2_test_esp32_one_success.rar  
