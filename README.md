@@ -63,6 +63,7 @@ search micro_speech_v3_O3_success_liangshan_mdk5_ac6.7z
 https://www.nxp.com/design/design-center/development-boards-and-designs/i-mx-evaluation-and-development-boards/i-mx-rt1020-evaluation-kit:MIMXRT1020-EVK    
 EVK-MIMXRT1020-sai_v6_failed_只能运行半个setup.7z  
 EVK-MIMXRT1020-sai_v8研究不下去.rar, 卡在一个逻辑问题上, a verctor (for model) size == 0 in MicroAllocator::GetSubGraphFromModel    
+EVK-MIMXRT1020-sai_v12_failed_output_log_need_malloc.rar  
 
 ## TFLite micro esp32, MSM261S4030H0R    
 * search baidupan, tflite-micro-esp-examples-master_v2_test_esp32_one_success.rar  
