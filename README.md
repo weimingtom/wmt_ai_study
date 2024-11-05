@@ -68,6 +68,12 @@ EVK-MIMXRT1020-sai_v13_done.rar
 ```
 1000 loop about 13sec  
 Program Size: Code=134412 RO-data=135500 RW-data=572 ZI-data=181192
+
+我测试过如果要用RT1020-EVK跑通无麦克风硬件输入的tflm 2.4 micro_speech例子，
+大概需要flash是263k，
+SRAM是177k，1000循环大概13秒（我估算的，可能不准确）
+我是用MDK5的AC6编译器O3优化和打开LTO开关（相当于开着LLVM优化？），
+所以可能用RT1010-EVK不够内存跑通这份代码（不确定，纯猜测）
 ```
 
 ## TFLite micro esp32, MSM261S4030H0R    
