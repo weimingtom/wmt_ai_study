@@ -56,7 +56,7 @@ search baidupan, work_gd32_tflite
 search baidupan, gd32_tflite_speech  
 see below, successfully done, see gd32f450-run-tflite-micro-speech-demo  
 search micro_speech_v3_O3_success_liangshan_mdk5_ac6.7z  
-* (1000 loop emulate input done) NXP RT1020 EVK (MIMXRT1020-EVK)      
+* (1000 loop emulate input done, about 13 seconds) NXP RT1020 EVK (MIMXRT1020-EVK)      
 (origin, tflite-micro 2.4.0) https://github.com/KeilChris/TensorFlow_MIMXRT1064-EVK_Microspeech  
 (origin) KeilChris_TensorFlow_MIMXRT1064-EVK_Microspeech-master.zip  
 (test run on Linux) sai_ubuntu140432_umips_v1_success.tar.gz  
@@ -64,8 +64,11 @@ https://www.nxp.com/design/design-center/development-boards-and-designs/i-mx-eva
 EVK-MIMXRT1020-sai_v6_failed_只能运行半个setup.7z  
 EVK-MIMXRT1020-sai_v8研究不下去.rar, 卡在一个逻辑问题上, a verctor (for model) size == 0 in MicroAllocator::GetSubGraphFromModel    
 EVK-MIMXRT1020-sai_v12_failed_output_log_need_malloc.rar
-EVK-MIMXRT1020-sai_v13_done.rar  
-
+EVK-MIMXRT1020-sai_v13_done.rar
+```
+1000 loop about 13sec  
+Program Size: Code=134412 RO-data=135500 RW-data=572 ZI-data=181192
+```
 
 ## TFLite micro esp32, MSM261S4030H0R    
 * search baidupan, tflite-micro-esp-examples-master_v2_test_esp32_one_success.rar  
