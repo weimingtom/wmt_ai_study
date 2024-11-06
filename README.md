@@ -56,7 +56,8 @@ search baidupan, work_gd32_tflite
 search baidupan, gd32_tflite_speech  
 see below, successfully done, see gd32f450-run-tflite-micro-speech-demo  
 search micro_speech_v3_O3_success_liangshan_mdk5_ac6.7z  
-* (1000 loop no microphone done) NXP RT1020 EVK (MIMXRT1020-EVK)      
+* (1000 loop no microphone done) NXP RT1020 EVK (MIMXRT1020-EVK)  
+https://github.com/weimingtom/rt1020-evk-playground  
 (origin, tflite-micro 2.4.0) https://github.com/KeilChris/TensorFlow_MIMXRT1064-EVK_Microspeech  
 (origin) KeilChris_TensorFlow_MIMXRT1064-EVK_Microspeech-master.zip  
 (test run on Linux) sai_ubuntu140432_umips_v1_success.tar.gz  
