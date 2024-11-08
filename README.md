@@ -76,6 +76,29 @@ SRAM是177k，1000循环大概13秒（我估算的，可能不准确）
 我是用MDK5的AC6编译器O3优化和打开LTO开关（相当于开着LLVM优化？），
 所以可能用RT1010-EVK不够内存跑通这份代码（不确定，纯猜测）
 ```
+* (1000 loop no microphone done) NUCLEO-H743ZI2  
+h743_inmp441_v2_run_tflm_no_mic_success.rar  
+```
+1000 loop about 13sec  
+Program Size: Code=97232 RO-data=95436 RW-data=36 ZI-data=38660
+
+串口不用接，默认被连接到st-link的虚拟串口上
+usart3, TX, PD8(not need), USART3_TX
+usart3, RX, PD9(not need), USART3_RX
+
+INMP441
+SCK,WS,LR
+[===]xxxxxxRRRRR
+SD,VDD,GND
+
+INMP441<->STM32F446
+SCK(left top 1)<->SAI1_SCK_B, PF8 (left 4 bottom 4)
+SD(right top 1)<->SAI1_SD_B, PE3 (left 4 bottom 5)
+WS(left top 2)<->SAI1_FS_B, PF9 (left 4 bottom 2)
+VDD(right top 2)<->3.3(left 3 top 4)
+L/R(left top 3)<->GND
+GND(right top 3)<->GND(left 3 top 7)
+```
 
 ## TFLite micro esp32, MSM261S4030H0R    
 * search baidupan, tflite-micro-esp-examples-master_v2_test_esp32_one_success.rar  
