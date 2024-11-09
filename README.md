@@ -105,6 +105,9 @@ using artinchip_20240203_luban-lite-master.zip
 * (TODO) How to use cmsis-nn with tflm ???  
 see https://github.com/QingChuanWS/TensorflowLiteMicro/blob/scons/tensorflow/lite/micro/SConscript  
 see https://github.com/QingChuanWS/TensorflowLiteMicro/tree/scons/tensorflow/lite/micro/kernels/cmsis-nn  
+(TODO, IMP) and read the doc  
+https://github.com/QingChuanWS/TensorflowLiteMicro/blob/scons/docs/api.md  
+https://github.com/QingChuanWS/TensorflowLiteMicro/blob/scons/docs/user-guide.md   
 
 ## TFLite micro esp32, MSM261S4030H0R    
 * search baidupan, tflite-micro-esp-examples-master_v2_test_esp32_one_success.rar  
