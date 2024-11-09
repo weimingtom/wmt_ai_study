@@ -99,6 +99,9 @@ VDD(right top 2)<->3.3(left 3 top 4)
 L/R(left top 3)<->GND
 GND(right top 3)<->GND(left 3 top 7)
 ```
+* (failed) d133cbs, with luban-lite/rt-thread      
+helloworld_v2_failed.7z  
+using artinchip_20240203_luban-lite-master.zip  
 
 ## TFLite micro esp32, MSM261S4030H0R    
 * search baidupan, tflite-micro-esp-examples-master_v2_test_esp32_one_success.rar  
