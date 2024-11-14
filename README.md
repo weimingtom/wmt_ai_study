@@ -77,6 +77,7 @@ SRAM是177k，1000循环大概13秒（我估算的，可能不准确）
 所以可能用RT1010-EVK不够内存跑通这份代码（不确定，纯猜测）
 ```
 * (1000 loop no microphone done) NUCLEO-H743ZI2  
+https://github.com/weimingtom/nucleo-h743zi2_playground  
 h743_inmp441_v2_run_tflm_no_mic_success.rar  
 ```
 1000 loop about 13sec  
