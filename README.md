@@ -99,12 +99,21 @@ VDD(right top 2)<->3.3(left 3 top 4)
 L/R(left top 3)<->GND
 GND(right top 3)<->GND(left 3 top 7)
 ```
-* (done) d133cbs, with luban-lite/rt-thread      
+* (done, 1000 loops 27 seconds) d133cbs, with luban-lite/rt-thread      
 https://github.com/weimingtom/d133cbs_playground  
 see helloworld_v8_final_success.7z  
 (x) helloworld_v2_failed.7z  
 using artinchip_20240203_luban-lite-master.zip  
 (TODO) but some other codes not run well, see helloworld_v3.1_no_recog_output.7z  
+```
+终于，我把artinchip的d133cbs跑通了tflm 2.4.0 micro_speech了，一度想放弃，
+后来发现可以通过注释INIT_APP_EXPORT(lvgl_thread_init);来节省内存使用，
+这样就能跑起来（运行的时候屏幕会显示彩色格子而非LVGL表盘），
+比较过和h743的输出结果相同，1000次循环时间大概是27秒，
+相当于stm32h743的2倍（13秒），不过也难怪，
+因为这是同时运行了rt-thread的其他线程，可能实际还能更快，
+相关代码我有空会开源到gh上
+```
 * (TODO) How to use cmsis-nn with tflm ???  
 see https://github.com/QingChuanWS/TensorflowLiteMicro/blob/scons/tensorflow/lite/micro/SConscript  
 see https://github.com/QingChuanWS/TensorflowLiteMicro/tree/scons/tensorflow/lite/micro/kernels/cmsis-nn  
