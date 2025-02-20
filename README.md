@@ -820,3 +820,4 @@ Bit depth                      : 16 bits
 * https://github.com/ggerganov/whisper.cpp  
 * https://github.com/k2-fsa/sherpa-ncnn/blob/master/android/SherpaNcnn/app/src/main/java/com/k2fsa/sherpa/ncnn/MainActivity.kt
 * https://github.com/houaohui/ChatGPT-Assistant  
+* https://github.com/kendryte/K230_training_scripts  
