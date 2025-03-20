@@ -815,6 +815,12 @@ Sampling rate                  : 16.0 kHz
 Bit depth                      : 16 bits
 ```
 
+## 小智 AI 聊天机器人（XiaoZhi AI Chatbot）, Xiaozhi by websocket  
+* https://github.com/78/xiaozhi-esp32  
+* https://github.com/xinnan-tech/xiaozhi-esp32-server  
+* https://github.com/TOM88812/xiaozhi-android-client  
+* https://github.com/Huang-junsen/py-xiaozhi  
+
 ## (TODO) TODO list, keep putting here at last    
 * https://github.com/edgeimpulse/voice-activated-microbit  
 * https://github.com/ggerganov/whisper.cpp  
