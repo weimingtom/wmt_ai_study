@@ -668,7 +668,8 @@ https://github.com/keras-team/keras-io/blob/master/examples/audio/ctc_asr.py
 ## (TODO) NLP  
 * 中文语料库, 中文语料   
 * 知识图谱, 知网, csdn, wordnet   
-* search baidupan, 语料，Corpus  
+* search baidupan, 语料，Corpus
+* cncorpus, (dead) http://www.cncorpus.org/Resources.aspx
 
 ## (TODO) Whisper.cpp for Android    
 * https://github.com/ggerganov/whisper.cpp/tree/master/examples/whisper.android   
