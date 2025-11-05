@@ -822,6 +822,7 @@ Bit depth                      : 16 bits
 * https://github.com/TOM88812/xiaozhi-android-client  
 * https://github.com/Huang-junsen/py-xiaozhi  
 * https://github.com/100askTeam/xiaozhi-linux  
+* https://github.com/joey-zhou/xiaozhi-esp32-server-java  
 
 ## (TODO) TODO list, keep putting here at last    
 * https://github.com/edgeimpulse/voice-activated-microbit  
