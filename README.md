@@ -824,6 +824,9 @@ Bit depth                      : 16 bits
 * https://github.com/100askTeam/xiaozhi-linux  
 * https://github.com/joey-zhou/xiaozhi-esp32-server-java  
 
+## whisper-base  
+* https://huggingface.co/openai/whisper-base  
+
 ## (TODO) TODO list, keep putting here at last    
 * https://github.com/edgeimpulse/voice-activated-microbit  
 * https://github.com/ggerganov/whisper.cpp  
