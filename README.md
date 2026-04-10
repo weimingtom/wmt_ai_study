@@ -827,6 +827,33 @@ Bit depth                      : 16 bits
 ## whisper-base  
 * https://huggingface.co/openai/whisper-base  
 
+## Sherpa-ONNX Kroko ASR English model for Android  
+* https://github.com/kroko-ai/kroko-onnx
+* https://github.com/k2-fsa/sherpa-onnx
+* https://github.com/k2-fsa/sherpa-onnx/releases/tag/v1.12.33
+* https://github.com/k2-fsa/sherpa-onnx/releases/download/v1.12.33/sherpa-onnx-v1.12.33-android.tar.bz2
+* https://github.com/k2-fsa/sherpa-onnx/archive/refs/tags/v1.12.33.zip
+* https://github.com/k2-fsa/sherpa-onnx/tree/v1.12.33/sherpa-onnx/kotlin-api
+* https://github.com/k2-fsa/sherpa-onnx/blob/v1.12.33/android/SherpaOnnx/app/src/main/java/com/k2fsa/sherpa/onnx/MainActivity.kt
+Change type to 21: val type = 21  
+```
+    private fun initModel() {
+        // Please change getModelConfig() to add new models
+        // See https://k2-fsa.github.io/sherpa/onnx/pretrained_models/index.html
+        // for a list of available models
+        val type = 0
+        var ruleFsts : String?
+        ruleFsts = null
+```
+* https://github.com/k2-fsa/sherpa-onnx/blob/v1.12.33/sherpa-onnx/kotlin-api/OnlineRecognizer.kt
+```
+        21 -> {
+            val modelDir = "sherpa-onnx-streaming-zipformer-en-kroko-2025-08-06"
+```
+* https://github.com/k2-fsa/sherpa-onnx/tree/v1.12.33#links-for-pre-built-android-apks
+* https://k2-fsa.github.io/sherpa/onnx/android/apk.html
+* https://huggingface.co/csukuangfj2/sherpa-onnx-apk/resolve/main/asr/1.12.33/sherpa-onnx-1.12.33-arm64-v8a-asr-en-zipformer_kroko_asr.apk
+
 ## (TODO) TODO list, keep putting here at last    
 * https://github.com/edgeimpulse/voice-activated-microbit  
 * https://github.com/ggerganov/whisper.cpp  
