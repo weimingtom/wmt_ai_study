@@ -854,6 +854,9 @@ Change type to 21: val type = 21
 * https://k2-fsa.github.io/sherpa/onnx/android/apk.html
 * https://huggingface.co/csukuangfj2/sherpa-onnx-apk/resolve/main/asr/1.12.33/sherpa-onnx-1.12.33-arm64-v8a-asr-en-zipformer_kroko_asr.apk
 
+## android-vad  
+* https://github.com/gkonovalov/android-vad
+
 ## (TODO) TODO list, keep putting here at last    
 * https://github.com/edgeimpulse/voice-activated-microbit  
 * https://github.com/ggerganov/whisper.cpp  
