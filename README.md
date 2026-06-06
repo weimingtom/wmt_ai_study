@@ -857,7 +857,7 @@ Change type to 21: val type = 21
 ## android-vad  
 * https://github.com/gkonovalov/android-vad
 
-## (Useless? To calculate current volume, for visual volume showing?) RMS(均方根能量, 衡量信号平均功率，常用于‌音量归一化‌(如将音频RMS统一至-23 dBFS)，与预加重无直接数学关联), 录音算法, not tested, see xunfei(iflytek) SparkChain Android SDK
+## (Useless? To calculate current volume, for visual volume showing?) RMS(Root Mean Square, 均方根能量, 衡量信号平均功率，常用于‌音量归一化‌(如将音频RMS统一至-23 dBFS)，与预加重无直接数学关联), 录音算法, not tested, see xunfei(iflytek) SparkChain Android SDK
 * https://github.com/Arcueid0221/Chinese_game/blob/main/SparkChain_Android_SDK_2.0.1_rc1/app/src/main/java/com/example/sparkchaindemo/utils/AudioRecorderManager.java
 ```
     /**
