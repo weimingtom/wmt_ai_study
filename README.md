@@ -857,6 +857,89 @@ Change type to 21: val type = 21
 ## android-vad  
 * https://github.com/gkonovalov/android-vad
 
+## RMS(均方根能量, 衡量信号平均功率，常用于‌音量归一化‌(如将音频RMS统一至-23 dBFS)，与预加重无直接数学关联), 预加重(Pre-emphasis)(?)录音算法, not tested, see xunfei(iflytek) SparkChain Android SDK
+* https://github.com/Arcueid0221/Chinese_game/blob/main/SparkChain_Android_SDK_2.0.1_rc1/app/src/main/java/com/example/sparkchaindemo/utils/AudioRecorderManager.java
+```
+    /**
+     * 录音线程
+     */
+    Runnable recordRunnable = new Runnable() {
+        @Override
+        public void run() {
+            try {
+                if (mRecorder != null) {
+                    android.os.Process.setThreadPriority(android.os.Process.THREAD_PRIORITY_URGENT_AUDIO);
+                    int bytesRecord;
+                    //int bufferSize = 320;
+                    byte[] tempBuffer = new byte[bufferSize];
+                    if (mRecorder.getState() != AudioRecord.STATE_INITIALIZED) {
+                        stopRecord();
+                        return;
+                    }
+                    mRecorder.startRecording();
+                    //writeToFileHead();
+                    while (isStart.get()) {
+                        synchronized (this){
+                            if (null != mRecorder) {
+                                bytesRecord = mRecorder.read(tempBuffer, 0, bufferSize);
+                                if (bytesRecord == AudioRecord.ERROR_INVALID_OPERATION || bytesRecord == AudioRecord.ERROR_BAD_VALUE) {
+                                    continue;
+                                }
+                                if (bytesRecord != 0 && bytesRecord != -1 && isStart.get()) {
+                                    //在此可以对录制音频的数据进行二次处理 比如变声，压缩，降噪，增益等操作
+                                    // 使用RMS方法计算音量
+                                    double sumSquares = 0.0;
+                                    int sampleCount = bytesRecord / 2;  // 每个样本16位(2字节)
+
+                                    for (int i = 0; i < bytesRecord; i += 2) {
+                                        // 将两个字节转换为一个16位短整型
+                                        short sample = (short) ((tempBuffer[i] & 0xFF) |
+                                                ((tempBuffer[i + 1] & 0xFF) << 8));
+                                        // 计算平方和
+                                        sumSquares += (double)sample * sample;
+                                    }
+
+                                    // 计算RMS (均方根)
+                                    double rms = Math.sqrt(sumSquares / sampleCount);
+
+                                    // 转换为分贝值 (防止除以0)
+                                    double db = -120.0; // 默认极低值
+                                    if (rms > 1e-10) {  // 避免log(0)
+                                        db = 20 * Math.log10(rms / 32767.0);
+                                    }
+
+                                    // 映射到0-9音量等级
+                                    int volume = 0;
+                                    if (db > -60) {
+                                        // 更符合人耳感知的映射：-60dB(0级)到-20dB(9级)
+                                        volume = (int) Math.min(9, Math.max(0, (db + 60) * 9 / 40.0));
+                                    }
+                                    callback.onAudioVolume(db,volume);
+                                    //我们这里直接将pcm音频原数据写入文件 这里可以直接发送至服务器 对方采用AudioTrack进行播放原数据
+                                    callback.onAudioData(tempBuffer,bytesRecord);
+                                } else {
+                                    break;
+                                }
+                            }
+                        }
+                    }
+                }
+
+            } catch (Exception e) {
+                Log.w(TAG,"录音异常:"+e.toString());
+                e.printStackTrace();
+            }finally {
+                if (mRecorder != null) {
+                    mRecorder.stop();
+                    mRecorder.release();
+                    mRecorder = null;
+                }
+            }
+        }
+
+    };
+```
+
 ## (TODO) TODO list, keep putting here at last    
 * https://github.com/edgeimpulse/voice-activated-microbit  
 * https://github.com/ggerganov/whisper.cpp  
