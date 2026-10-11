@@ -940,9 +940,12 @@ Change type to 21: val type = 21
     };
 ```
 
+## asr_rpi3b_hello  
+* https://github.com/weimingtom/asr_rpi3b_hello
+  * 
 ## (TODO) TODO list, keep putting here at last    
 * https://github.com/edgeimpulse/voice-activated-microbit  
 * https://github.com/ggerganov/whisper.cpp  
 * https://github.com/k2-fsa/sherpa-ncnn/blob/master/android/SherpaNcnn/app/src/main/java/com/k2fsa/sherpa/ncnn/MainActivity.kt
 * https://github.com/houaohui/ChatGPT-Assistant  
-* https://github.com/kendryte/K230_training_scripts  
+* https://github.com/kendryte/K230_training_scripts
