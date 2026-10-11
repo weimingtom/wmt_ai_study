@@ -940,9 +940,10 @@ Change type to 21: val type = 21
     };
 ```
 
-## asr_rpi3b_hello  
+## asr_rpi3b_hello, Raspberry Pi 3B    
 * https://github.com/weimingtom/asr_rpi3b_hello
-  * 
+* https://github.com/SeeedDocument/MIC_HATv1.0_for_raspberrypi/blob/master/src/baidu_STT.zip  
+
 ## (TODO) TODO list, keep putting here at last    
 * https://github.com/edgeimpulse/voice-activated-microbit  
 * https://github.com/ggerganov/whisper.cpp  
